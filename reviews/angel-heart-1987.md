@@ -1,16 +1,27 @@
 ---
 imdb_id: tt0092563
 slug: angel-heart-1987
-grade: B+
-date: 2004-01-11
+grade: C+
+date: 2026-01-01
+synopsis: Bodies pile up as a low-rent private investigator's search for a missing crooner leads him into a shadowy occult world.
 ---
 
-A mysterious figure hires a 1950s private investigator to find a missing man.
+For three-quarters of its running time, _Angel Heart_ is a first-rate neo-noir with occult trappings. The atmosphere is thick enough to choke on. The mystery deepens with each murder. You lean forward in your seat.
 
-_Angel Heart_ is one of those rare movies that actually surprises you with how good it is. Sure, when you see Robert De Niro in the cast the movie's credibility is instantly bumped up a notch, but here he's barely a supporting actor and the movie is _still_ excellent.
+Then the ending arrives and you wonder if it was meant as a joke.
 
-The script by director Alan Parker is unusually clever, and never tries to cater to the lowest common denominator. The dialogue has a ring of authenticity, and the plotting is near perfect.
+The setup is straightforward. The year is 1955. Mickey Rourke plays Harry Angel, a low-rent private eye hired by the mysterious Louis Cyphre to find a missing crooner.  The trail leads to New Orleans. Bodies start piling up. Harry fears he's being framed.
 
-As a director, Parker manages to effectively build tension and atmosphere throughout the movie, and does an excellent job of creating a period film that never feels like a period film. His only misstep is the inclusion of some weak special effects in the finale. They're unnecessary and _Angel Heart_ would be stronger without them.
+Director Alan Parker shoots in actual diners, dive bars, and juke joints populated with extras who look like they live there. Every building shows its age. Every location breathes. As Harry descends deeper into occult mystery, Rourke's face tells the story without words. His clean shave becomes stubble. His slicked hair turns greasy and wild. His eyes grow haunted. The investigation unfolds with genuine dread.
 
-De Niro, as expected, shines in his limited screen time, but _Angel Heart_ is Mickey Rourke's movie and he carries it easily. Watching this movie it's amazing he didn't go on to become a bigger star. Lisa Bonet does a fine job with her supporting role, although she really doesn't have much to do except look pretty and somewhat coy.
+But about that ending.
+
+I've seen _Angel Heart_ three times now, maybe four. Each time I forget the big twist. Not because it's forgettable, but because it makes no sense. The film runs out of steam and wraps everything up with an exposition dump delivered at top volume. What had been quiet and atmospheric suddenly becomes talky and hysterical. Rourke runs around wide-eyed, shouting. Someone's eyes glow—twice. The second time made me laugh out loud.
+
+From the start, Robert De Niro's scenery-chewing turn as Cyphre plays like it's from a different movie--one approaching black comedy. It's not a bad performance. The tonal clash even works for the character. But it proves the first hint the film doesn't know where it's going. 
+
+What a shame. Parker knows how to create atmosphere. He understands noir. He can build dread with the best of them. But somewhere along the way, he lost faith in his own trap. 
+
+What should feel inevitable instead feels illogical. To compensate, Parker resorts to shouting and special effects, pushing the finale into camp and rendering what should have been a punch to the gut more like a slap in the face.
+
+Disappointing. The first ninety minutes deserved better.
