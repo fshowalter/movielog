@@ -199,14 +199,13 @@ def _parse_genres(page_data: UntypedJson) -> list[str]:
 
 
 def _parse_principal_cast(page_data: UntypedJson) -> list[str]:
-    principal_credits = get_nested_value(
-        page_data, ["props", "pageProps", "aboveTheFoldData", "castPageTitle", "edges"], []
+    principal_cast = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "castV2"], []
     )
 
-    return [
-        get_nested_value(credit, ["node", "name", "nameText", "text"])
-        for credit in principal_credits
-    ]
+    principal_credits = get_nested_value(principal_cast[0], ["credits"], [])
+
+    return [get_nested_value(credit, ["name", "nameText", "text"]) for credit in principal_credits]
 
 
 def _parse_countries(page_data: UntypedJson) -> list[str]:

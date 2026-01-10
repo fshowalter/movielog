@@ -1,12 +1,12 @@
 ---
-sequence: 2
-date: 2020-09-19
+sequence: 1
 imdbId: tt0050280
+date: 2026-01-08
 slug: the-curse-of-frankenstein-1957
+medium: 4k UHD Blu-ray
 venue: null
 venueNotes: null
-medium: Blu-ray
-mediumNotes: Lionsgate Films, 2012
+mediumNotes: Hammer Films, 2025
 ---
 
 Academy ratio
