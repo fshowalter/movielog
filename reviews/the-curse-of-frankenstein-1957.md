@@ -1,27 +1,33 @@
 ---
-date: 2020-09-19
+date: 2026-01-08
 imdb_id: tt0050280
-title: The Curse of Frankenstein (1957)
 grade: A
 slug: the-curse-of-frankenstein-1957
+synopsis: Awaiting execution, Baron Frankenstein recounts how he created life from corpse parts--and how his partner's sabotage turned genius into monster.
 ---
 
-For Peter Cushing and Christopher Lee's first film for Hammer, **a guest review from the good Baron himself:**
+Peter Cushing wipes his hand on his lab coat.
 
-<!-- end -->
+It's an absent gesture, the kind you make after washing dishes or changing a tire. Except he's just sawed off a corpse's head, and it's not dirt but blood that streaks the fabric. That sort of casual brutality defines _The Curse of Frankenstein_, Hammer's 1957 breakthrough that turned gothic horror into eye-popping Eastman Color spectacle.
 
-> Paul, a prominent academic, lands a comfy job tutoring a young orphaned Baron. Years pass and the Baron proves an exceptional student. Together, they reach a scientific breakthrough. They have brought an animal back to life.
->
-> Eager for fame, Paul pushes them to share their findings with the world, but the Baron sees the bigger picture. Their journey has just begun, and sharing now would prove a distraction. Paul relents and the two continue.
->
-> But Paul soon realizes it’s no longer a partnership. The student has surpassed the teacher. Seeing his chance at fame fade, Paul demands the Baron halt his experiments.
->
-> Surprised and disappointed, the Baron resolves to continue alone, certain Paul will change his mind. Paul does not. Driven by feelings of jealousy and inadequacy, Paul sabotages the Baron’s experiments. When the Baron perseveres, Paul then tries to drive a wedge between the Baron and his beautiful fiancé.
->
-> Oblivious to Paul's machinations, and fearing his experiments may be too much for one man, the Baron pleads for Paul's help. Paul declines. When--as the Baron feared--an experiment gets out of control, Paul seizes the opportunity and runs to the village. Meanwhile, the Baron faces mortal danger alone and saves his fiancé from certain death.
->
-> Dazzled by Paul’s silver tongue, the villagers arrive, seize the Baron, and sentence him to death. As a last resort, the Baron confides his story to the local priest, who responds with disbelief. Exasperated, the Baron thinks himself at his wit's end. But then Paul arrives at the jail.
->
-> Though they may have grown apart, the Baron remains sure that Paul, a man of science, will aver his story. But with ice in his veins, Paul turns his back on the Baron and leaves the jail with the Baron’s wife on his arm. Years of living in the Baron’s shadow have driven Paul into a self-righteous delusion. In condemning the Baron he seeks to become him by assuming the Baron’s wife and wealth. The Baron, so close to freeing mankind from the shackles of mortality, faces death. **This** is the Curse of Frankenstein.
+The plot unfolds in flashback. Cushing, as Baron Victor Frankenstein, awaits execution, telling his story to a skeptical priest. Orphaned at 15, he becomes obsessed with creating life alongside his tutor Paul Krempe, played by Robert Urquhart. They resurrect a puppy. Paul wants to publish. Victor wants to build a man.
 
-Thank you, Baron. And I agree, **Paul is the worst.**
+What follows is 83 minutes of momentum. Jimmy Sangster's script is a bullet train, hurtling from graverobbing to murder to resurrection without wasted motion. When Victor needs a brain, he murders a visiting professor. Paul catches him mid-extraction. They fight. The brain gets damaged. The creature, played by Christopher Lee, becomes a savage rather than a genius.
+
+The film squeezes maximum impact from minimum budget. No army of torch-wielding villagers here. Hammer couldn't afford the extras. Instead, we get intimate horror. Lee's hand slamming over his eye socket as blood pours down his face. Cushing grunting through off-screen decapitation while Urquhart watches, barely containing his revulsion.
+
+The production design follows a similar born-of-necessity origin. Without the elaborate sets, electrical equipment and Tesla coils used in the Universal version, Hammer had to lean into their advantage: color. Neon-bright laboratory fluids. Saturated red blood. Director Terence Fisher birthed what would become the Hammer aesthetic: gothic atmosphere drenched in impossible color.
+
+Lee, cast in large part due to his towering six-foot-five height, and hidden behind Phil Leakey's gruesome makeup, shines as the monster. He makes the role his own, bringing a feral savagery missing in Boris Karloff's iconic turn and injecting a welcome streak of menace to the creature while still retaining a degree of audience sympathy.
+
+And Cushing. He's magnetic as Victor. Despite playing a sociopath, Cushing's performance remains utterly engaging. His charisma is so potent that I always leave suspecting Paul is the real villain. Paul sabotages the experiment, denies the creature's existence, and walks away with Victor's fiancée and fortune while Victor marches to the guillotine.
+
+Paul is the worst.
+
+This reading helps explain the script's inconsistencies. Victor confesses to an affair with his maid that feels wrong for his character and recounts scenes between Paul and Elizabeth he couldn't have witnessed. These gaps make sense if you view them as Victor reframing Paul's betrayal, projecting sins onto himself to protect his father-figure. 
+
+Am I reading too much into budget constraints masquerading as narrative choices? Of course I am.
+
+But it doesn't matter. This is the film that launched Cushing and Lee to stardom and gave Hammer nearly two decades of gothic glory. Four talents new to horror--Cushing, Fisher, Lee, and Sangster--creating alchemy from corpse parts.
+
+Just like Victor's creature, really. Except this one achieves the perfection Victor aspired to. Unlike Paul--who remains _the worst_.
