@@ -30,7 +30,7 @@ def mock_manage_collections(mocker: MockerFixture) -> MagicMock:
 
 @pytest.fixture(autouse=True)
 def mock_export_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.exports_api.export_data")
+    return mocker.patch("movielog.cli.main.export_data.prompt")
 
 
 def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:

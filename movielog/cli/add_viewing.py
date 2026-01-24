@@ -9,7 +9,14 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog.cli import ask, ask_medium_or_venue, ask_review, radio_list, select_title
+from movielog.cli import (
+    ask,
+    ask_for_token,
+    ask_medium_or_venue,
+    ask_review,
+    radio_list,
+    select_title,
+)
 from movielog.repository import api as repository_api
 
 Option = tuple[str | None, AnyFormattedText]
@@ -93,9 +100,15 @@ def persist_viewing(state: State) -> State:
 def ask_for_title(state: State) -> State:
     state.title = None
 
-    title = select_title.prompt()
+    token = ask_for_token.prompt()
 
-    if not title:
+    if not token:
+        state.stage = "end"
+        return state
+
+    title = select_title.prompt(token)
+
+    if not token:
         state.stage = "end"
         return state
 

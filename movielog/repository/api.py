@@ -145,8 +145,8 @@ def _hydrate_collection(
     )
 
 
-def validate_data() -> None:
-    title_data_validator.validate()
+def validate_data(token: str) -> None:
+    title_data_validator.validate(token)
     cast_and_crew_validator.validate()
     imdb_ratings_data_validator.validate()
 

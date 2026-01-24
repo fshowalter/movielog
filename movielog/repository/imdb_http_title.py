@@ -226,11 +226,13 @@ def _parse_runtime_minutes(page_data: UntypedJson) -> int:
     return floor(runtime_seconds / 60)
 
 
-def get_title_page(imdb_id: str) -> TitlePage:
+def get_title_page(token: str, imdb_id: str) -> TitlePage:
     session = requests.Session()
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
 
     session.mount("https://", HTTPAdapter(max_retries=retries))
+
+    session.cookies["aws-waf-token"] = token
 
     page = session.get(
         f"https://www.imdb.com/title/{imdb_id}/reference",

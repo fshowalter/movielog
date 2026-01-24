@@ -11,14 +11,14 @@ SearchResult = title_searcher.SearchResult
 Option = tuple[SearchResult | None, AnyFormattedText]
 
 
-def prompt(prompt_text: str = "IMDb ID: ") -> SearchResult | None:
+def prompt(token: str, prompt_text: str = "IMDb ID: ") -> SearchResult | None:
     while True:
         query = ask.prompt(prompt_text)
 
         if query is None:
             return None
 
-        search_results = title_searcher.search(query)
+        search_results = title_searcher.search(token, query)
         options = build_options(search_results)
 
         selected_title = radio_list.prompt(
