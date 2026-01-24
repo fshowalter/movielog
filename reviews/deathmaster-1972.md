@@ -10,7 +10,7 @@ A coffin washes ashore in the California sun. The surfer who opens it gets stran
 
 You haven't.
 
-Robert Quarry returns to familiar territory after the superior _Count Yorga_ films, this time playing Khorda (get it? rhymes with "Yorga"), a vampire posing as a hippie guru. 
+Robert Quarry returns to familiar territory after the superior <span data-imdb-id="tt0066952">_Count Yorga_</span> films, this time playing Khorda (get it? rhymes with "Yorga"), a vampire posing as a hippie guru. 
 
 Yes, you read that correctly. The 47-year-old Quarry, sporting a wig that belongs in a community theater production, is supposed to be the spiritual leader of a house full of flower children. 
 
@@ -26,7 +26,7 @@ Beyond Quarry, the performances range from merely stilted (Bobby "Monster Mash" 
 
 Quarry's casting and the similar plot beats make the film feel like an unofficial _Yorga_ sequel. Except the drop off in quality is so precipitous, you'd be hard-pressed to believe it was the same studio. Besides the weaker supporting cast and sloppy scripting, even the special effects pale. Compare this film's dead-dog scene to _Yorga_'s infamous cat sequence. 
 
-Indeed, the effects--or lack thereof--betray the film's overall sense of cheapness. This is a mostly bloodless affair, even more restrained than Hammer's _Dracula_ from 14 years earlier. Not due to moral qualms, but rather tight purse strings.
+Indeed, the effects--or lack thereof--betray the film's overall sense of cheapness. This is a mostly bloodless affair, even more restrained than Hammer's <span data-imdb-id="tt0051554">_Dracula_</span> from 14 years earlier. Not due to moral qualms, but rather tight purse strings.
 
 The finale sums it up. Khorda leads a Satanic ceremony with Pico's girl as sacrifice, everyone chanting Gregorian-style--except they're chanting in English, which transforms the scene into unintentional parody. Then Pico defeats Khorda by throwing leeches in his face. Yes, leeches. Somehow this blinds and disorients the vampire. Why does Khorda keep a bowl of leeches in his tomb? Director Ray Danton lingers so long on Quarry's overwrought death throes you're laughing too hard to care.
 
