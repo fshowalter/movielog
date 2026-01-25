@@ -31,7 +31,7 @@ def mock_search_person(mocker: MockerFixture) -> MockerFixture:
 def test_calls_add_performer(
     mock_input: MockInput, mock_add_person_to_watchlist: MagicMock
 ) -> None:
-    mock_input(["nm0000078", Enter, Down, Enter, "y", Enter])
+    mock_input(["a-test-aws-token", Enter, "nm0000078", Enter, Down, Enter, "y", Enter])
     add_performer.prompt()
 
     mock_add_person_to_watchlist.assert_called_once_with(
@@ -44,6 +44,8 @@ def test_can_confirm_selection(
 ) -> None:
     mock_input(
         [
+            "a-test-aws-token",
+            Enter,
             "nm0000078",
             Enter,
             Down,

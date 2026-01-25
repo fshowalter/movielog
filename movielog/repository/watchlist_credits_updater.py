@@ -4,6 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from movielog.repository import (
+    imdb_http,
     imdb_http_director,
     imdb_http_performer,
     imdb_http_writer,
@@ -58,6 +59,7 @@ def _add_title_page_to_watchlist_person_titles(
 
 
 def _get_title_credits_from_name_pages_for_credit_kind(
+    session: imdb_http.Session,
     watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> set[TitleCredit]:
@@ -68,12 +70,12 @@ def _get_title_credits_from_name_pages_for_credit_kind(
     }
 
     if isinstance(watchlist_person["imdbId"], str):
-        person = method_map[kind](watchlist_person["imdbId"])
+        person = method_map[kind](session, watchlist_person["imdbId"])
         return set(person.credits)
 
     filmographies: list[set[TitleCredit]] = []
     for imdb_id in watchlist_person["imdbId"]:
-        person = method_map[kind](imdb_id)
+        person = method_map[kind](session, imdb_id)
         filmographies.append(set(person.credits))
 
     return set.intersection(*filmographies)
@@ -115,11 +117,12 @@ def _filter_existing_titles_for_watchlist_person(
 
 
 def _update_watchlist_person_titles_for_credit_kind(
+    session: imdb_http.Session,
     watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> None:
     title_credits = _get_title_credits_from_name_pages_for_credit_kind(
-        watchlist_person=watchlist_person, kind=kind
+        session=session, watchlist_person=watchlist_person, kind=kind
     )
 
     _remove_watchlist_person_titles_not_in_given_title_credits(
@@ -166,7 +169,8 @@ def _get_progress_file_path(kind: json_watchlist_people.Kind) -> Path:
     return progress_file_path
 
 
-def update_watchlist_credits() -> None:
+def update_watchlist_credits(token: str) -> None:
+    session = imdb_http.create_session(token=token)
     progress_files: list[Path] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
@@ -196,7 +200,7 @@ def update_watchlist_credits() -> None:
                 updated_watchlist_person = deepcopy(watchlist_person)
 
                 _update_watchlist_person_titles_for_credit_kind(
-                    updated_watchlist_person, WatchlistKindToCreditKind[kind]
+                    session, updated_watchlist_person, WatchlistKindToCreditKind[kind]
                 )
 
                 if updated_watchlist_person != watchlist_person:

@@ -4,11 +4,9 @@ from typing import Any, Literal, get_args
 
 import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
-from requests.adapters import HTTPAdapter, Retry
 
+from movielog.repository import imdb_http
 from movielog.utils.get_nested_value import get_nested_value
-
-TIMEOUT = 30
 
 CreditKind = Literal["director", "writer", "performer"]
 
@@ -133,22 +131,6 @@ def edge_is_valid_title(edge: UntypedJson) -> bool:
     )
 
 
-def session_get(session: requests.Session, url: str, *, json: bool = False) -> requests.Response:
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",  # noqa: E501
-        "Accept-Language": "en-US,en;q=0.5",
-    }
-
-    if json:
-        headers["content-type"] = "application/json"
-
-    return session.get(
-        url,
-        headers=headers,
-        timeout=TIMEOUT,
-    )
-
-
 def call_graphql(
     session: requests.Session, operation: str, variables: UntypedJson, extensions: UntypedJson
 ) -> UntypedJson:
@@ -158,7 +140,7 @@ def call_graphql(
 
     url = f"https://caching.graphql.imdb.com/?operationName={operation}&variables={query_variables}&extensions={query_extensions}"
 
-    response = session_get(url=url, session=session, json=True)
+    response = imdb_http.session_get(url=url, session=session, json=True)
 
     response_data = json.loads(response.text)
 
@@ -167,21 +149,8 @@ def call_graphql(
     return response_data
 
 
-def create_session() -> requests.Session:
-    session = requests.Session()
-
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-
-    session.mount("https://", HTTPAdapter(max_retries=retries))
-
-    return session
-
-
 def _get_person_data(session: requests.Session, imdb_id: str) -> UntypedJson:
-    if not session:
-        session = create_session()
-
-    page = session_get(session=session, url=f"https://www.imdb.com/name/{imdb_id}/")
+    page = imdb_http.session_get(session=session, url=f"https://www.imdb.com/name/{imdb_id}/")
 
     soup = BeautifulSoup(
         page.text, "html.parser", parse_only=SoupStrainer("script", id="__NEXT_DATA__")
@@ -210,9 +179,7 @@ def _parse_known_for_titles(page_data: UntypedJson) -> list[str]:
     ]
 
 
-def get_person_page(imdb_id: str) -> PersonPage:
-    session = create_session()
-
+def get_person_page(session: requests.Session, imdb_id: str) -> PersonPage:
     page_data = _get_person_data(session, imdb_id)
 
     return PersonPage(

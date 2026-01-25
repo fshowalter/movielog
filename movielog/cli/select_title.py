@@ -5,13 +5,18 @@ from typing import cast
 from prompt_toolkit.formatted_text import HTML, AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 
-from movielog.cli import ask, radio_list, title_searcher
+from movielog.cli import ask, ask_for_token, radio_list, title_searcher
 
 SearchResult = title_searcher.SearchResult
 Option = tuple[SearchResult | None, AnyFormattedText]
 
 
-def prompt(token: str, prompt_text: str = "IMDb ID: ") -> SearchResult | None:
+def prompt(prompt_text: str = "IMDb ID: ") -> SearchResult | None:
+    token = ask_for_token.prompt()
+
+    if not token:
+        return None
+
     while True:
         query = ask.prompt(prompt_text)
 

@@ -3,7 +3,7 @@ from __future__ import annotations
 import html
 from collections.abc import Sequence
 
-from movielog.cli import ask_for_token, radio_list, select_title
+from movielog.cli import radio_list, select_title
 from movielog.repository import api as repository_api
 
 Collection = repository_api.Collection
@@ -16,12 +16,7 @@ def prompt() -> None:
     if not collection:
         return
 
-    token = ask_for_token.prompt()
-
-    if not token:
-        return
-
-    title = select_title.prompt(token, prompt_text=select_movie_prompt_text(collection))
+    title = select_title.prompt(prompt_text=select_movie_prompt_text(collection))
     if title:
         repository_api.add_title_to_collection(
             collection=collection,

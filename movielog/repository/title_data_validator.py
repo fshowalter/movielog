@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import cast
 
 from movielog.repository import (
+    imdb_http,
     json_collections,
     json_titles,
     json_watchlist_people,
@@ -95,7 +96,7 @@ def get_review_ids() -> set[str]:
     return {review.yaml["imdb_id"] for review in markdown_reviews.read_all()}
 
 
-def add_new_titles(token: str, new_title_ids: set[str]) -> None:
+def add_new_titles(session: imdb_http.Session, new_title_ids: set[str]) -> None:
     watchlist_performer_ids = {
         performer["imdbId"]
         for performer in json_watchlist_people.read_all("performers")
@@ -127,7 +128,7 @@ def add_new_titles(token: str, new_title_ids: set[str]) -> None:
             writers=[],
         )
 
-        title_data_updater.update_title(token, new_title, watchlist_performer_ids)
+        title_data_updater.update_title(session, new_title, watchlist_performer_ids)
 
 
 def removed_files_marked_for_removal(files_marked_for_removal: list[Path]) -> None:
@@ -146,6 +147,7 @@ def rename_files_marked_for_rename(files_marked_for_rename: list[tuple[Path, Pat
 
 
 def validate(token: str) -> None:
+    session = imdb_http.create_session(token=token)
     title_ids_to_process = _get_valid_title_ids()
     files_to_remove = []
     files_to_rename = []
@@ -200,4 +202,4 @@ def validate(token: str) -> None:
 
     rename_files_marked_for_rename(files_to_rename)
 
-    add_new_titles(token, title_ids_to_process)
+    add_new_titles(session, title_ids_to_process)

@@ -27,7 +27,7 @@ def mock_search_person(mocker: MockerFixture) -> MockerFixture:
 
 
 def test_calls_add_writer(mock_input: MockInput, mock_add_person_to_watchlist: MagicMock) -> None:
-    mock_input(["nm0102824", Enter, Down, Enter, "y", Enter])
+    mock_input(["a-test-aws-token", Enter, "nm0102824", Enter, Down, Enter, "y", Enter])
     add_writer.prompt()
 
     mock_add_person_to_watchlist.assert_called_once_with(

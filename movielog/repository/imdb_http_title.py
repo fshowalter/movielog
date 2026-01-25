@@ -3,10 +3,9 @@ from dataclasses import dataclass, field
 from math import floor
 from typing import Any, Literal, get_args
 
-import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
-from requests.adapters import HTTPAdapter, Retry
 
+from movielog.repository import imdb_http
 from movielog.utils.get_nested_value import get_nested_value
 
 type UntypedJson = dict[Any, Any]
@@ -226,21 +225,10 @@ def _parse_runtime_minutes(page_data: UntypedJson) -> int:
     return floor(runtime_seconds / 60)
 
 
-def get_title_page(token: str, imdb_id: str) -> TitlePage:
-    session = requests.Session()
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-
-    session.mount("https://", HTTPAdapter(max_retries=retries))
-
-    session.cookies["aws-waf-token"] = token
-
-    page = session.get(
-        f"https://www.imdb.com/title/{imdb_id}/reference",
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",  # noqa: E501
-            "Accept-Language": "en-US,en;q=0.5",
-        },
-        timeout=TIMEOUT,
+def get_title_page(session: imdb_http.Session, imdb_id: str) -> TitlePage:
+    page = imdb_http.session_get(
+        session=session,
+        url=f"https://www.imdb.com/title/{imdb_id}/reference",
     )
 
     soup = BeautifulSoup(
