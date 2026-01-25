@@ -12,8 +12,8 @@ class SearchResult:
     principal_cast_names: list[str]
 
 
-def search(title_id: str) -> list[SearchResult]:
-    title_page = repository_api.get_title_page(title_id)
+def search(token: str, title_id: str) -> list[SearchResult]:
+    title_page = repository_api.get_title_page(token, title_id)
 
     return [
         SearchResult(

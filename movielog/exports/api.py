@@ -78,10 +78,10 @@ def _build_watchlist_titles(
     return watchlist_title_index
 
 
-def export_data() -> None:
+def export_data(token: str) -> None:
     logger.log("Initializing...")
 
-    repository_api.validate_data()
+    repository_api.validate_data(token)
 
     reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.imdb_id)
 

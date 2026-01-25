@@ -15,17 +15,17 @@ def mock_update_datasets(mocker: MockerFixture) -> MagicMock:
 
 @pytest.fixture(autouse=True)
 def mock_update_title_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.repository_api.update_title_data")
+    return mocker.patch("movielog.cli.imdb.update_title_data.prompt")
 
 
 @pytest.fixture(autouse=True)
 def mock_update_watchlist_credits(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.repository_api.update_watchlist_credits")
+    return mocker.patch("movielog.cli.imdb.update_watchlist_credits.prompt")
 
 
 @pytest.fixture(autouse=True)
 def mock_validate_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.repository_api.validate_data")
+    return mocker.patch("movielog.cli.imdb.validate_data.prompt")
 
 
 def test_calls_update_datasets(mock_input: MockInput, mock_update_datasets: MagicMock) -> None:

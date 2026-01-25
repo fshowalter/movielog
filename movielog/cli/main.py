@@ -1,11 +1,11 @@
 from movielog.cli import (
     add_viewing,
+    export_data,
     imdb,
     manage_collections,
     manage_watchlist,
     radio_list,
 )
-from movielog.exports import api as exports_api
 from movielog.utils.logging import logger
 
 
@@ -16,7 +16,7 @@ def prompt() -> None:
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (manage_collections.prompt, "<cyan>Manage Collections</cyan>"),
         (imdb.prompt, "<cyan>IMDb</cyan>"),
-        (exports_api.export_data, "<cyan>Export Data</cyan>"),
+        (export_data.prompt, "<cyan>Export Data</cyan>"),
     ]
 
     option_function = radio_list.prompt(

@@ -4,14 +4,11 @@ from movielog.repository.imdb_http_person import (
     ImdbPerson,
     UntypedJson,
     call_graphql,
-    create_session,
     edge_is_valid_title,
     get_credits,
     title_credit_for_edge,
 )
 from movielog.utils.get_nested_value import get_nested_value
-
-TIMEOUT = 30
 
 WRITER_CREDIT_CATEGORY = (
     "amzn1.imdb.concept.name_credit_category.c84ecaff-add5-4f2e-81db-102a41881fe3"
@@ -80,9 +77,7 @@ def _build_writer(
     return writer
 
 
-def get_writer(imdb_id: str) -> ImdbPerson:
-    session = create_session()
-
+def get_writer(session: requests.Session, imdb_id: str) -> ImdbPerson:
     credit_groupings = get_credits(session=session, imdb_id=imdb_id)
 
     return _build_writer(imdb_id=imdb_id, session=session, credit_groupings=credit_groupings)

@@ -10,8 +10,8 @@ class SearchResult:
     known_for_titles: list[str]
 
 
-def search_by_name(imdb_id: str) -> list[SearchResult]:
-    person_page = repository_api.get_person_page(imdb_id)
+def search_by_name(token: str, imdb_id: str) -> list[SearchResult]:
+    person_page = repository_api.get_person_page(token, imdb_id)
 
     return [
         SearchResult(

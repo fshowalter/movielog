@@ -4,7 +4,6 @@ from movielog.repository.imdb_http_person import (
     ImdbPerson,
     UntypedJson,
     call_graphql,
-    create_session,
     edge_is_valid_title,
     get_credits,
     title_credit_for_edge,
@@ -78,9 +77,7 @@ def _build_director(
     return director
 
 
-def get_director(imdb_id: str) -> ImdbPerson:
-    session = create_session()
-
+def get_director(session: requests.Session, imdb_id: str) -> ImdbPerson:
     credit_groupings = get_credits(session=session, imdb_id=imdb_id)
 
     return _build_director(imdb_id=imdb_id, session=session, credit_groupings=credit_groupings)

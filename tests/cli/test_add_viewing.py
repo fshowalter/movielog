@@ -43,6 +43,10 @@ def mock_search_title(mocker: MockerFixture) -> MockerFixture:
     )
 
 
+def enter_token() -> list[str]:
+    return enter_text("a-test-aws-token")
+
+
 def enter_title(title: str) -> list[str]:
     return enter_text(title)
 
@@ -107,6 +111,7 @@ def test_calls_add_viewing_and_create_or_update_review(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -145,6 +150,7 @@ def test_can_confirm_title(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0051554"),
             *select_title_search_result("n"),
             *enter_title("tt0053221"),
@@ -196,6 +202,7 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             Escape,
@@ -216,6 +223,7 @@ def test_guards_against_bad_dates(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-32"),
@@ -254,6 +262,7 @@ def test_can_confirm_date(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-13", confirm="n"),
@@ -288,6 +297,7 @@ def test_can_confirm_date(
 def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -316,6 +326,7 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
 def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -341,6 +352,7 @@ def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMoc
 def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -372,6 +384,7 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
 ) -> None:
     mock_input(
         [
+            *enter_token(),
             *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
