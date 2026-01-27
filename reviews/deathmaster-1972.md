@@ -20,7 +20,7 @@ And fall apart it does. The script is a disjointed mess, seemingly assembled fro
 
 Then there's the sunlight problem. Quarry's coffin washes ashore in broad daylight. Wouldn't opening it vaporize him instantly? The script mumbles something about "neophyte vampires" wearing protective charms, yet Khorda himself fears the dawn bell. So which is it? Fatal or not?
 
-Worse still, the characters seem to suffer from collective amnesia. Pico witnesses a vampire attack, then immediately asks his girlfriend "What's going on?" as if nothing happened. They keep asking questions even after deciding to storm Khorda's lair. Then again, given how the script feels scribbled scene-by-scene with zero regard for continuity, perhaps these questions were meant for the director.
+Worse still, the characters seem to suffer from collective amnesia. Pico witnesses a vampire attack, then immediately asks his girlfriend "What's going on?" as if nothing happened. They keep asking questions even after deciding to storm Khorda's lair. Then again, given how the script feels scribbled scene-by-scene, perhaps these questions were meant for the director.
 
 Beyond Quarry, the performances range from merely stilted (Bobby "Monster Mash" Pickett as a hippie) to embarrassingly amateurish. William Jordan's biker delivers lines that would sound wooden in a first-day table read. When actors stop trying because they know they're in a turkey, it shows.
 
