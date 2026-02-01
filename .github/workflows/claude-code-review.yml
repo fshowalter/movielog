@@ -48,6 +48,12 @@ jobs:
 
             Be constructive and helpful in your feedback.
 
+          # Use sticky comments to make Claude reuse the same comment on subsequent pushes to the same PR
+          use_sticky_comment: true
+
+          # Enable progress tracking for better visibility
+          track_progress: true
+
           # Optional: Customize Claude's behavior using CLI-style arguments
           # claude_args: |
           #   --model claude-opus-4-5-20251101
