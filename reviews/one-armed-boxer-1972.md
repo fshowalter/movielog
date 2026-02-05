@@ -10,13 +10,13 @@ Jimmy Wang Yu gets his arm lopped off and goes bonkers. That's the movie. And wh
 
 The plot is standard revenge stuff. A crooked martial arts school imports a cadre of specialist fighters--judo masters, Thai boxers, a Tibetan monk who inflates like a balloon--to massacre a rival school. 
 
-Wang Yu (who writes, directs, and stars) survives the slaughter but loses his right arm. A medicine man nurses him back to health. Wang Yu drinks a mysterious elixir that turns his remaining arm into an indestructible sledgehammer. He returns for payback.
+Wang Yu (who writes, directs, and stars) survives the slaughter but loses his right arm. A medicine man nurses him back to health. Wang Yu uses a mysterious brew to turn his remaining arm into an indestructible sledgehammer. He returns for payback.
 
 You've seen this before. What you haven't seen is the execution.
 
 The early fights are competent but forgettable. Then the foreign fighters arrive and the film achieves liftoff. Each has a distinct style. The Thai boxers deliver vicious knees and elbows. The Taekwondo expert unleashes powerful kicks. The Judo master throws opponents through walls. The karate master—who sports unexplained fangs—severs limbs with single blows. And the Indian yoga expert, played in regrettable blackface, runs around on his hands in dizzying circles.
 
-They massacre Wang Yu's school in a sequence that's genuinely memorable. Wang Yu crawls away with a bloody stump. The medicine man and his daughter find him. Then comes the elixir, which requires Wang Yu to kill the nerves in his good arm first. Cue a montage, delivered in Sam Raimi-style Dutch angles, of Wang Yu punching coal pits and smashing his arm with a boulder.
+They massacre Wang Yu's school in a sequence that's genuinely memorable. Wang Yu crawls away with a bloody stump. The medicine man and his daughter find him. Then comes the brew, which requires Wang Yu to kill the nerves in his good arm first. Cue a montage, delivered in Sam Raimi-style Dutch angles, of Wang Yu punching coal pits and smashing his arm with a boulder.
 
 The finale cranks the bonkers to escape velocity. Set in a canyon, Wang Yu dispatches the specialists one by one. When he faces the yoga master, who assumes his signature handstand, Wang Yu does a one-armed handstand. The yoga master runs at him on his hands. Wang Yu pops up on two fingers and runs back. A henchman gives his boss a look that says, "We're in trouble."
 
