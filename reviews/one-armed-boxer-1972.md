@@ -1,19 +1,31 @@
 ---
-date: 2022-09-01
+date: 2026-02-04
 imdb_id: tt0067009
-title: One-Armed Boxer (1972)
 grade: B+
 slug: one-armed-boxer-1972
+synopsis: After losing his arm when his school is massacred, kung-fu student Jimmy Wang Yu transforms his remaining arm into an indestructible instrument of vengeance.
 ---
 
-A crooked martial arts school recruits a cadre of specialist fighters to massacre a rival school. Jimmy Wang Yu plays the titular boxer, who escapes the massacre but not before losing his right arm. After convalescing, Wang Yu takes a mysterious elixir that grants his remaining arm superhuman strength. He then sets out for revenge.
+Jimmy Wang Yu gets his arm lopped off and goes bonkers. That's the movie. And what a movie it is.
 
-<!-- end -->
+The plot is standard revenge stuff. A crooked martial arts school imports a cadre of specialist fighters--judo masters, Thai boxers, a Tibetan monk who inflates like a balloon--to massacre a rival school. 
 
-Despite the well-worn plot, the execution surprises. The early battles prove competent if unremarkable save some outdoor locales. But things veer toward bonkers when the foreign specialist fighters arrive. Each employs a distinct style. The judo master executes joint locks and throws. The Thai boxers pummel their opponents with vicious knees and elbows. The Taekwondo expert delivers powerful chops and kicks. The Tibetan monks inflate their bodies to form a protective armor. The Indian yoga expert--played by a Chinese actor in blackface--dizzies his opponent by running around in handstand circles. And the dreaded karate master—who sports a set of tusk-like fangs the film never explains—severs limbs with a single blow.
+Wang Yu (who writes, directs, and stars) survives the slaughter but loses his right arm. A medicine man nurses him back to health. Wang Yu drinks a mysterious elixir that turns his remaining arm into an indestructible sledgehammer. He returns for payback.
 
-These fighters slaughter Wang Yu's school in a memorable sequence, leaving lone survivor Wang Yu crawling away with a bloody stump in place of his severed right arm. A medicine man and his attractive daughter find Wang Yu and nurse him back to health. The bonkers cranks up another notch with the miracle elixir, which requires Wang Yu to kill the nerves in his good arm before ingestion. Cue a montage delivered in Sam Raimiesque Dutch zooms of Wang Yu punching fiery coal pits and smashing his remaining arm with a levered boulder.
+You've seen this before. What you haven't seen is the execution.
 
-Soon Wang Yu returns to exact revenge with his new super arm. The film achieves bonkers escape velocity with the finale. Set in a canyon with the rival school boss and henchman watching from on high, Wang Yu disposes of the specialists one by one. When he faces the Indian yoga expert, who assumes his signature handstand position, Wang Yu assumes a one-armed handstand. The yoga master runs at Wang Yu on his hands. Wang Yu, still in a one-armed-handstand, pops up on two fingers and runs at the yoga master. The rival school henchman gives his boss a look that says, “We're in trouble.”
+The early fights are competent but forgettable. Then the foreign fighters arrive and the film achieves liftoff. Each has a distinct style. The Thai boxers deliver vicious knees and elbows. The Taekwondo expert unleashes powerful kicks. The Judo master throws opponents through walls. The karate master—who sports unexplained fangs—severs limbs with single blows. And the Indian yoga expert, played in regrettable blackface, runs around on his hands in dizzying circles.
 
-Yet, despite this insanity, the revenge-based narrative stakes still resonate, priming the final showdown between Wang Yu and the fanged karate master with anticipation. Like the rest of the film, it doesn't disappoint.
+They massacre Wang Yu's school in a sequence that's genuinely memorable. Wang Yu crawls away with a bloody stump. The medicine man and his daughter find him. Then comes the elixir, which requires Wang Yu to kill the nerves in his good arm first. Cue a montage, delivered in Sam Raimi-style Dutch angles, of Wang Yu punching coal pits and smashing his arm with a boulder.
+
+The finale cranks the bonkers to escape velocity. Set in a canyon, Wang Yu dispatches the specialists one by one. When he faces the yoga master, who assumes his signature handstand, Wang Yu does a one-armed handstand. The yoga master runs at him on his hands. Wang Yu pops up on two fingers and runs back. A henchman gives his boss a look that says, "We're in trouble."
+
+This is glorious nonsense. Yet the revenge narrative still works. The final showdown with the fanged karate master delivers real anticipation. And it doesn't disappoint. 
+
+But Wang Yu the star outshines Wang Yu the writer-director. The big school battle where he loses his arm suffers from a pacing hiccup. Ideally, he'd lose it at the climax, perhaps protecting his master. Instead, it happens mid-fight, with other students and the master still to go. We know from the title where this is headed. The rest becomes a foregone conclusion we must wait through.
+
+Wang Yu's other hiccup comes with the fights. At their best, they're quick and brutal. A Thai fighter breaks an opponent's arm with his knee like snapping a branch. Cringe-inducing. But too often, we catch the fighters moving before their opponents instead of with them, betraying the choreography. Some of this comes down to camera placement. Wang Yu favors wider, non-traditional angles that may have aggravated the problem.
+
+But these are quibbles. _One-Armed Boxer_ commits fully to its lunacy while maintaining genuine stakes. That's harder than it looks. Wang Yu runs at a man on two fingers. The film runs on pure adrenaline and audacity.
+
+It's a blast.
