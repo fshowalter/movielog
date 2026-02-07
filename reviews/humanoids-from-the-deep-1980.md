@@ -22,7 +22,7 @@ At eighty minutes, the film barrels forward and simply stops rather than conclud
 
 Some complaints: The continuity wobbles. A bikini-clad woman frolics in surf with her boyfriend while others bundle up in sweaters. Pick a season. And the "science gone wrong" explanation feels obligatory when Lovecraftian ambiguity would've served better. Let the horror remain inexplicable.
 
-But judge this film by exploitation standards and it shines. The small-town atmosphere recalls Stephen King. The location photography adds texture. Someone noticed a fisherman using a coffee cup as a beer can cozy--that's the kind of detail that matters.
+But judge this film by exploitation standards and it shines. The small-town atmosphere recalls Stephen King. The location photography adds texture. Vic Morrow uses a coffee cup as a beer can cozy--that's the kind of detail that matters.
 
 **Warning:** this contains graphic rape sequences, animal violence, and mutilated dog corpses. Delicate viewers should skip it. Everyone else will find a nasty, energetic monster movie that respects its audience enough to create a believable world before unleashing rubber-suited hell.
 
