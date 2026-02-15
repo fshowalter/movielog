@@ -2,7 +2,7 @@ from collections import defaultdict
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
 from types import MappingProxyType
-from typing import TypedDict, TypeVar
+from typing import TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
@@ -75,10 +75,7 @@ class JsonYearStats(JsonStats):
     newTitleCount: int
 
 
-ListType = TypeVar("ListType")
-
-
-def _build_json_distributions(
+def _build_json_distributions[ListType](
     distribution_items: Iterable[ListType], key: Callable[[ListType], str]
 ) -> list[JsonDistribution]:
     distribution = list_tools.group_list_by_key(distribution_items, key)

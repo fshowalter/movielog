@@ -1,6 +1,6 @@
 from collections import defaultdict
 from collections.abc import Callable
-from typing import Literal, TypedDict, TypeVar
+from typing import Literal, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.json_reviewed_title import JsonReviewedTitle
@@ -85,13 +85,10 @@ def _build_json_more_title(
     )
 
 
-_ListType = TypeVar("_ListType")
-
-
-def _slice_list(
-    source_list: list[_ListType],
-    matcher: Callable[[_ListType], bool],
-) -> list[_ListType]:
+def _slice_list[ListType](
+    source_list: list[ListType],
+    matcher: Callable[[ListType], bool],
+) -> list[ListType]:
     """Get a 5-item window around the first matching item, with wraparound.
 
     Returns 2 items before, the matched item, and 2 items after.
