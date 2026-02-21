@@ -8,7 +8,7 @@ synopsis: Jason Voorhees gets a gritty makeover and hunts photogenic twenty-some
 
 Here's what you need to know about this 2009 remake: if Jason weren't wearing his hockey mask, you'd forget it by morning. As is, you'll forget it by the next afternoon.
 
-The film cobbles together elements from the original trilogy, opening with a brisk recap of <span data-imdb-id="tt0080761">_Part 1_</span>--Jason's mother loses her head on June 13, 1980. Flash forward to 2009. Jason stalks two groups of kids: first, some twenty-somethings hunting for weed, then a second batch visiting a rich kid's lakeside cabin. Bodies pile up. Credits roll.
+The opening is efficient, at least. We get the Cliff's Notes version of  <span data-imdb-id="tt0080761">the original</span>: Jason's mom goes on a killing spree at Camp Crystal Lake in 1980, blaming counselors for her son's drowning. She loses her head. Literally. Then we jump to 2009, where Jason--now fully grown and very much alive--stalks two groups of kids. First, some twenty-somethings hunting for weed in the woods. Then, a different batch visiting a rich kid's lakeside cabin. Bodies pile up. Credits roll.
 
 Strip away the iconography and what's left? Not much. This doesn't feel like a _Friday the 13th_ movie. It feels like someone's idea of what a _Friday the 13th_ movie should be in the age of <span data-imdb-id="tt0387564">_Saw_</span>.
 
