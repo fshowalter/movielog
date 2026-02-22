@@ -1,20 +1,28 @@
 ---
-date: 2008-10-24
+date: 2026-02-16
 imdb_id: tt0057071
-grade: C+
+grade: D+
 slug: 4-for-texas-1963
+synopsis: Frank Sinatra and Dean Martin fight over a chunk of stolen money and a riverboat casino in 1870s Galveston.
 ---
 
-Two men (Frank Sinatra and Dean Martin) fight over a chunk of stolen money and a riverboat casino in 1870s Galveston.
+The opening gets your hopes up. Frank Sinatra and Dean Martin are aboard a stagecoach, fleeing a gang of bandits led by Charles Bronson. The location photography is crisp, the stunt work lively, the editing sharp. Martin's voiceover tells us Bronson is the bad guy and he and Sinatra are the good guys. 
 
-4 for Texas, despite its numerical title, isn't really a Rat Pack film like <span data-imdb-id="tt0054135">_Ocean's Eleven_</span>, <span data-imdb-id="tt0056470">_Sergeants 3_</span> or <span data-imdb-id="tt0058529">_Robin and the 7 Hoods_</span>, as only Frank Sinatra and Dean Martin are present.
+That's not quite right. Both men were planning to rob the stage themselves. The money was supposed to go to Sinatra and his crooked banker partner, Victor Buono. Instead, Martin walks away with it. Now everybody's mad at everybody else. It's a perfectly good setup for a western comedy. 
 
-Though it often gets a bad rep, the film's not the disaster many make it out to be. While it's not a laugh riot, Sinatra, and especially Martin are strong enough to carry the two hour running time. Further, it's the only western where Sinatra works, unlike the aforementioned _Sergeants 3_, or the train wreck that was <span data-imdb-id="tt0065642">_Dirty Dingus Magee_</span>, mostly because this film isn't a really a western at all, but more of a loose costume-comedy.
+Then the film moves to the Warner backlot and dies.
 
-The film opens with Martin telling us in voiceover that Charles Bronson is the bad guy, while he and Sinatra are the good guys. While this may seem unnecessary at first, it becomes clear later that Sinatra and Martin are really "good bad-guys," which only adds to the fun. Indeed, it's this license for Sinatra and Martin to be less than squeaky clean that makes the film work, particularly for Sinatra.
+To understand _4 for Texas_, you first need to understand what it isn't. Despite the title, this isn't <span data-imdb-id="tt0054135">_Ocean's Eleven_</span> or even <span data-imdb-id="tt0056470">_Sergeants 3_</span>. The "4" refers to Frank, Dean, Ursula Andress, and Anita Ekberg. No Sammy. No Peter. Just two guys who should be having more fun than they are.
 
-That said, though he's second billed, Dean Martin steals this movie. It's reported that Sinatra's distaste for rehearsals and multiple takes frustrated writer/director Robert Aldrich, which may explain why Martin gets more screen time, or maybe Aldrich just knew a good thing when he saw it. Either way, Martin's easy charm and wry humor fit the part perfectly, and he's a joy to watch.
+In his Sinatra biography _The Chairman_, James Kaplan documents how Frank tormented director Robert Aldrich by giving minimum effort to the production. Aldrich--already uneasy with comedy--clashed constantly with his star. The result is visible onscreen. 
 
-Further, he's helped by a great supporting cast. There's Ursula Andress and Anita Ekberg as Martin and Sinatra's respective love interests, the aforementioned Charles Bronson as the chief heavy, Mike Mazurki as Sinatra's bodyguard, and Victor Buono as the smarmy villain. And to top it off there are cameos from Jack Elam and The Three Stooges.
+Sinatra's line readings land flat. His scenes feel like obligations. He and Martin share one good moment together before the finale--a restaurant scene where Martin, with his customary ease, declines an offer to join Sinatra's table saying "I drink much better standing," to which Sinatra replies, "Lead on. I'll follow." It's a flash of their off-screen camraderie and a glimpse of the better movie that might have been. Otherwise they're ships passing in different soundstages.
 
-Granted, the film is at least half an hour too long, but with a cast like this, it's an easy half hour to bear.
+Martin, for his part, does his level best. Aldrich later called him a true professional, and you believe it. Martin manufactures charm from thin air, scene after scene, working against a script that gives him almost nothing. Andress surprises alongside him—relaxed, warm, and more alive than you might expect. Ekberg, on the other hand, seems stranded. Most of her scenes are with Sinatra, who had already mentally left the picture. She had nothing to work with, and it shows.
+
+This is a film that seems stuck in a comedic stone age. Men are renovating Andress's riverboat. A painter brushes a door up and down. Someone opens the door. White paint ends up on a face.  This gag was old when vaudeville was young. The film treats it as revelation. Later the film grinds to a halt for a segment with the prominently credited "special guest star" Three Stooges. This is the Curly Joe era Stooges and Moe's beard isn't even glued on right. 
+
+Bronson, for what it's worth, is quietly effective. Jack Elam appears early as Bronson's right-hand man, and you think he'll matter. Then Bronson shoots him. It's actually an efficient way to establish Bronson's menace. One of the film's few clever instincts. 
+
+My advice: watch the opening sequence. Enjoy the stagecoach chase, the standoff, Martin's easy grin as he walks off with the money. Then stop. There are better Sinatra pictures. Better Martin pictures. Better pictures with both men together. Watch one of those instead.
+
