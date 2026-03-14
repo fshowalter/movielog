@@ -336,12 +336,6 @@ def _build_most_watched_titles(
     )[:12]
 
 
-def _build_grade_distribution(
-    reviews: Iterable[repository_api.Review],
-) -> list[_JsonDistribution]:
-    return _build_json_distributions(reviews, lambda review: review.grade)
-
-
 def _build_venue_distribution(
     viewings: list[repository_api.Viewing],
 ) -> list[_JsonDistribution]:
