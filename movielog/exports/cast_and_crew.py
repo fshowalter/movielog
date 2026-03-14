@@ -3,18 +3,26 @@ from typing import Literal, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.json_collection import JsonCollection
-from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
-from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
 CreditType = Literal["director", "performer", "writer"]
 
 
-class JsonCastAndCrewTitle(JsonMaybeReviewedTitle, JsonWatchlistFields):
-    creditedAs: list[CreditType]  # noqa: N815
+class JsonCastAndCrewTitle(TypedDict):
+    creditedAs: list[CreditType]
+    genres: list[str]
+    imdbId: str
+    releaseDate: str
+    releaseYear: str
+    reviewSlug: str | None
+    sortTitle: str
+    title: str
+    watchlistDirectorNames: list[str]
+    watchlistPerformerNames: list[str]
+    watchlistWriterNames: list[str]
+    watchlistCollectionNames: list[str]
 
 
 CreditedTitles = dict[str, set[CreditType]]
@@ -97,20 +105,13 @@ def build_json_title(
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
     return JsonCastAndCrewTitle(
-        # JsonTitle fields
         imdbId=title.imdb_id,
         title=title.title,
         sortTitle=title.sort_title,
         releaseYear=title.release_year,
         releaseDate=title.release_date,
         genres=title.genres,
-        # JsonMaybeReviewedTitle fields
-        slug=review.slug if review else None,
-        grade=review.grade if review else None,
-        gradeValue=review.grade_value if review else None,
-        reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=calculate_review_sequence(title_id, review, repository_data),
-        # JsonCastAndCrewTitle specific fields
+        reviewSlug=review.slug if review else None,
         creditedAs=sorted(credited_as),
         watchlistDirectorNames=[
             name for name in repository_data.watchlist_titles[title_id]["directors"] if not review

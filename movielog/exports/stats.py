@@ -1,3 +1,4 @@
+import datetime
 from collections import defaultdict
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
@@ -5,10 +6,7 @@ from types import MappingProxyType
 from typing import TypedDict
 
 from movielog.exports import exporter
-from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
-from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence, calculate_viewing_sequence
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
@@ -30,65 +28,84 @@ STAN_LEE_RULE = frozenset(
 EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 
 
-class JsonMostWatchedPerson(TypedDict):
+class _JsonMostWatchedPersonViewing(TypedDict):
+    date: datetime.date
+    medium: str | None
+    venue: str | None
+    releaseYear: str
+    title: str
+    reviewSlug: str | None
+
+
+class _JsonMostWatchedPerson(TypedDict):
     name: str
     count: int
     slug: str | None
-    viewings: list[JsonViewedTitle]
+    viewings: list[_JsonMostWatchedPersonViewing]
 
 
-class JsonMostWatchedTitle(JsonMaybeReviewedTitle):
+class _JsonMostWatchedTitle(TypedDict):
+    imdbId: str
+    releaseYear: str
+    reviewSlug: str | None
+    title: str
     count: int
 
 
-class JsonDistribution(TypedDict):
+class _JsonDistribution(TypedDict):
     name: str
     count: int
 
 
-class JsonGradeDistribution(JsonDistribution):
+class _JsonGradeDistribution(_JsonDistribution):
     sortValue: int
 
 
-class JsonStats(TypedDict):
-    """Base statistics fields common to all time periods."""
-
+class _JsonAllTimeStats(TypedDict):
+    watchlistTitlesReviewedCount: int
+    gradeDistribution: list[_JsonGradeDistribution]
+    statsYears: list[str]
     viewingCount: int
     titleCount: int
-    decadeDistribution: list[JsonDistribution]
-    mediaDistribution: list[JsonDistribution]
-    mostWatchedTitles: list[JsonMostWatchedTitle]
-    mostWatchedDirectors: list[JsonMostWatchedPerson]
-    mostWatchedWriters: list[JsonMostWatchedPerson]
-    mostWatchedPerformers: list[JsonMostWatchedPerson]
-    venueDistribution: list[JsonDistribution]
+    decadeDistribution: list[_JsonDistribution]
+    mediaDistribution: list[_JsonDistribution]
+    mostWatchedTitles: list[_JsonMostWatchedTitle]
+    mostWatchedDirectors: list[_JsonMostWatchedPerson]
+    mostWatchedWriters: list[_JsonMostWatchedPerson]
+    mostWatchedPerformers: list[_JsonMostWatchedPerson]
+    venueDistribution: list[_JsonDistribution]
     reviewCount: int
 
 
-class JsonAllTimeStats(JsonStats):
-    watchlistTitlesReviewedCount: int
-    gradeDistribution: list[JsonGradeDistribution]
-
-
-class JsonYearStats(JsonStats):
+class _JsonYearStats(TypedDict):
     year: str
     newTitleCount: int
+    viewingCount: int
+    titleCount: int
+    decadeDistribution: list[_JsonDistribution]
+    mediaDistribution: list[_JsonDistribution]
+    mostWatchedTitles: list[_JsonMostWatchedTitle]
+    mostWatchedDirectors: list[_JsonMostWatchedPerson]
+    mostWatchedWriters: list[_JsonMostWatchedPerson]
+    mostWatchedPerformers: list[_JsonMostWatchedPerson]
+    venueDistribution: list[_JsonDistribution]
+    reviewCount: int
 
 
 def _build_json_distributions[ListType](
     distribution_items: Iterable[ListType], key: Callable[[ListType], str]
-) -> list[JsonDistribution]:
+) -> list[_JsonDistribution]:
     distribution = list_tools.group_list_by_key(distribution_items, key)
 
     return [
-        JsonDistribution(name=key, count=len(distribution_values))
+        _JsonDistribution(name=key, count=len(distribution_values))
         for key, distribution_values in distribution.items()
     ]
 
 
 def _build_json_grade_distributions(
     reviews: Iterable[repository_api.Review],
-) -> list[JsonGradeDistribution]:
+) -> list[_JsonGradeDistribution]:
     distribution = defaultdict(list)
 
     for review in reviews:
@@ -96,7 +113,7 @@ def _build_json_grade_distributions(
 
     return sorted(
         [
-            JsonGradeDistribution(name=grade, count=len(reviews), sortValue=grade_value)
+            _JsonGradeDistribution(name=grade, count=len(reviews), sortValue=grade_value)
             for (grade, grade_value), reviews in distribution.items()
         ],
         key=lambda distribution: distribution["sortValue"],
@@ -105,16 +122,16 @@ def _build_json_grade_distributions(
 
 
 @dataclass
-class MostWatchedPersonGroup:
+class _MostWatchedPersonGroup:
     name: str = ""
     viewings: list[repository_api.Viewing] = field(default_factory=list)
 
 
-NameImdbId = frozenset[str]
+_NameImdbId = frozenset[str]
 
 
 def _remove_viewing_for_credit_team_members(
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup],
     viewing: repository_api.Viewing,
     team_ids: frozenset[str],
 ) -> None:
@@ -128,7 +145,7 @@ def _remove_viewing_for_credit_team_members(
 
 
 def _apply_credit_teams_for_viewing(
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup],
     viewing: repository_api.Viewing,
     credit_names: list[repository_api.CreditName],
 ) -> None:
@@ -146,8 +163,10 @@ def _apply_credit_teams_for_viewing(
 def _build_most_watched_performers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
-) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+) -> list[_JsonMostWatchedPerson]:
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup] = defaultdict(
+        _MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
         performers = repository_data.titles[viewing.imdb_id].performers
@@ -173,8 +192,10 @@ def _build_most_watched_performers(
 def _build_most_watched_writers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
-) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+) -> list[_JsonMostWatchedPerson]:
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup] = defaultdict(
+        _MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
@@ -199,29 +220,15 @@ def _build_most_watched_writers(
 
 def _build_json_most_watched_person_viewing(
     viewing: repository_api.Viewing, repository_data: RepositoryData
-) -> JsonViewedTitle:
+) -> _JsonMostWatchedPersonViewing:
     title = repository_data.titles[viewing.imdb_id]
     review = repository_data.reviews.get(title.imdb_id, None)
 
-    return JsonViewedTitle(
-        # JsonTitle fields
-        imdbId=title.imdb_id,
+    return _JsonMostWatchedPersonViewing(
         title=title.title,
-        sortTitle=title.sort_title,
         releaseYear=title.release_year,
-        releaseDate=title.release_date,
-        genres=title.genres,
-        # JsonMaybeReviewedTitle fields
-        slug=review.slug if review else None,
-        grade=review.grade if review else None,
-        gradeValue=review.grade_value if review else None,
-        reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
-        # JsonViewedTitle fields
-        viewingDate=viewing.date.isoformat(),
-        viewingSequence=calculate_viewing_sequence(
-            viewing.imdb_id, viewing.date, viewing.sequence, repository_data
-        ),
+        reviewSlug=review.slug if review else None,
+        date=viewing.date,
         medium=viewing.medium,
         venue=viewing.venue,
     )
@@ -230,8 +237,10 @@ def _build_json_most_watched_person_viewing(
 def _build_most_watched_directors(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
-) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+) -> list[_JsonMostWatchedPerson]:
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup] = defaultdict(
+        _MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
         for director in repository_data.titles[viewing.imdb_id].directors:
@@ -252,9 +261,9 @@ def _build_most_watched_directors(
 
 
 def _build_most_watched_person_list(
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
+    viewings_by_name: dict[_NameImdbId, _MostWatchedPersonGroup],
     repository_data: RepositoryData,
-) -> list[JsonMostWatchedPerson]:
+) -> list[_JsonMostWatchedPerson]:
     most_watched_person_list = []
 
     for indexed_imdb_id, most_watched_person_group in viewings_by_name.items():
@@ -264,7 +273,7 @@ def _build_most_watched_person_list(
         cast_and_crew_member = repository_data.cast_and_crew.get(indexed_imdb_id)
 
         most_watched_person_list.append(
-            JsonMostWatchedPerson(
+            _JsonMostWatchedPerson(
                 name=most_watched_person_group.name,
                 count=len(most_watched_person_group.viewings),
                 slug=cast_and_crew_member.slug if cast_and_crew_member else None,
@@ -287,33 +296,23 @@ def _build_most_watched_person_list(
 
 def _build_most_watched_title(
     imdb_id: str, count: int, repository_data: RepositoryData
-) -> JsonMostWatchedTitle:
+) -> _JsonMostWatchedTitle:
     title = repository_data.titles[imdb_id]
 
     review = repository_data.reviews.get(imdb_id, None)
 
-    return JsonMostWatchedTitle(
-        # JsonTitle fields
+    return _JsonMostWatchedTitle(
         imdbId=title.imdb_id,
         title=title.title,
         releaseYear=title.release_year,
-        sortTitle=title.sort_title,
-        releaseDate=title.release_date,
-        genres=title.genres,
-        # JsonMaybeReviewedTitle fields
-        slug=review.slug if review else None,
-        grade=review.grade if review else None,
-        gradeValue=review.grade_value if review else None,
-        reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
-        # JsonMostWatchedTitle specific field
+        reviewSlug=review.slug if review else None,
         count=count,
     )
 
 
 def _build_most_watched_titles(
     viewings: list[repository_api.Viewing], repository_data: RepositoryData
-) -> list[JsonMostWatchedTitle]:
+) -> list[_JsonMostWatchedTitle]:
     viewings_by_title = list_tools.group_list_by_key(viewings, key=lambda viewing: viewing.imdb_id)
 
     most_watched_titles = []
@@ -339,13 +338,13 @@ def _build_most_watched_titles(
 
 def _build_grade_distribution(
     reviews: Iterable[repository_api.Review],
-) -> list[JsonDistribution]:
+) -> list[_JsonDistribution]:
     return _build_json_distributions(reviews, lambda review: review.grade)
 
 
 def _build_venue_distribution(
     viewings: list[repository_api.Viewing],
-) -> list[JsonDistribution]:
+) -> list[_JsonDistribution]:
     return _build_json_distributions(
         [viewing for viewing in viewings if viewing.venue],
         lambda viewing: str(viewing.venue),
@@ -354,7 +353,7 @@ def _build_venue_distribution(
 
 def _build_media_distribution(
     viewings: list[repository_api.Viewing],
-) -> list[JsonDistribution]:
+) -> list[_JsonDistribution]:
     return _build_json_distributions(
         [viewing for viewing in viewings if viewing.medium],
         lambda viewing: str(viewing.medium),
@@ -363,7 +362,7 @@ def _build_media_distribution(
 
 def _build_decade_distribution(
     titles: list[repository_api.Title],
-) -> list[JsonDistribution]:
+) -> list[_JsonDistribution]:
     return sorted(
         _build_json_distributions(titles, lambda title: f"{title.release_year[:3]}0s"),
         key=lambda distribution: distribution["name"],
@@ -374,7 +373,7 @@ def _build_json_year_stats(
     year: str,
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
-) -> JsonYearStats:
+) -> _JsonYearStats:
     titles = [repository_data.titles[viewing.imdb_id] for viewing in viewings]
 
     unique_title_ids = {title.imdb_id for title in titles}
@@ -382,7 +381,7 @@ def _build_json_year_stats(
         title.imdb_id for title in repository_data.reviews.values() if str(title.date.year) == year
     }
 
-    return JsonYearStats(
+    return _JsonYearStats(
         year=year,
         newTitleCount=_new_title_count(
             year=year,
@@ -421,7 +420,9 @@ def _build_json_year_stats(
     )
 
 
-def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeStats:
+def _build_all_time_json_stats(
+    all_stats_years: list[str], repository_data: RepositoryData
+) -> _JsonAllTimeStats:
     watchlist_title_ids = _extract_watchlist_title_ids(repository_data=repository_data)
 
     titles = [repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings]
@@ -430,8 +431,9 @@ def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSt
 
     review_ids_from_watchlist = repository_data.reviews.keys() & watchlist_title_ids
 
-    return JsonAllTimeStats(
+    return _JsonAllTimeStats(
         viewingCount=len(repository_data.viewings),
+        statsYears=all_stats_years,
         titleCount=len(unique_title_ids),
         reviewCount=len(repository_data.reviews),
         watchlistTitlesReviewedCount=len(review_ids_from_watchlist),
@@ -491,14 +493,18 @@ def _new_title_count(
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "stats")
 
-    all_time_stats = _build_all_time_json_stats(repository_data=repository_data)
-
-    exporter.serialize_dict(all_time_stats, "all-time-stats")
-
     viewings_by_year = list_tools.group_list_by_key(
         repository_data.viewings,
         lambda viewing: str(viewing.date.year),
     )
+
+    all_stats_years = [year for year in viewings_by_year if year > "2011"]
+
+    all_time_stats = _build_all_time_json_stats(
+        all_stats_years=all_stats_years, repository_data=repository_data
+    )
+
+    exporter.serialize_dict(all_time_stats, "all-time-stats")
 
     year_stats = []
 
