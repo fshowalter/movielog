@@ -1,12 +1,21 @@
+from typing import TypedDict
+
 from movielog.exports import exporter
-from movielog.exports.json_title import JsonTitle
-from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
 from movielog.utils.logging import logger
 
 
-class JsonWatchlistTitle(JsonTitle, JsonWatchlistFields):
-    viewed: bool
+class _JsonWatchlistTitle(TypedDict):
+    imdbId: str
+    title: str
+    sortTitle: str
+    releaseYear: str
+    releaseDate: str
+    genres: list[str]
+    watchlistDirectorNames: list[str]
+    watchlistPerformerNames: list[str]
+    watchlistWriterNames: list[str]
+    watchlistCollectionNames: list[str]
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -14,13 +23,11 @@ def export(repository_data: RepositoryData) -> None:
 
     watchlist_titles = []
 
-    viewing_imdb_ids = {viewing.imdb_id for viewing in repository_data.viewings}
-
     for watchlist_title_id in repository_data.watchlist_titles:
         title = repository_data.titles[watchlist_title_id]
 
         watchlist_titles.append(
-            JsonWatchlistTitle(
+            _JsonWatchlistTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
                 releaseYear=title.release_year,
@@ -35,7 +42,6 @@ def export(repository_data: RepositoryData) -> None:
                 watchlistCollectionNames=repository_data.watchlist_titles[title.imdb_id][
                     "collections"
                 ],
-                viewed=title.imdb_id in viewing_imdb_ids,
             )
         )
 
