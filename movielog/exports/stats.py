@@ -282,7 +282,7 @@ def _build_most_watched_person_list(
                         viewing=viewing,
                         repository_data=repository_data,
                     )
-                    for index, viewing in enumerate(most_watched_person_group.viewings)
+                    for viewing in most_watched_person_group.viewings
                 ],
             )
         )
