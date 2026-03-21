@@ -39,6 +39,27 @@ def serialize_dicts[T](dicts: Iterable[T], file_name: str) -> None:
     )
 
 
+def serialize_dicts_to_file[T](
+    dicts: Iterable[T], file_name: str, folder_name: str | None = None
+) -> None:
+    folder_path = Path(EXPORT_FOLDER_NAME)
+
+    if folder_name:
+        folder_path = folder_path / folder_name
+
+    folder_path.mkdir(parents=True, exist_ok=True)
+
+    json_file_name = folder_path / f"{file_name}.json"
+    with Path.open(json_file_name, "w") as output_file:
+        output_file.write(json.dumps(dicts, default=str, indent=2))
+
+    logger.log(
+        "Wrote {} ({}).",
+        json_file_name,
+        pretty_file_size(json_file_name.stat().st_size),
+    )
+
+
 def serialize_dicts_to_folder[T](
     dicts: Iterable[T],
     folder_name: str,

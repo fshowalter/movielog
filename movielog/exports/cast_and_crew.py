@@ -85,7 +85,7 @@ def _check_title_for_names(
             name_value["credited_titles"][title.imdb_id].add("performer")
 
 
-def add_watchlist_credits(
+def _add_watchlist_credits(
     cast_and_crew_by_imdb_id: _CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
@@ -239,7 +239,7 @@ def _build_cast_and_crew(
 ) -> list[_JsonCastAndCrewMember]:
     cast_and_crew_by_imdb_id = _intialize_cast_and_crew_by_imdb_id(repository_data)
 
-    add_watchlist_credits(cast_and_crew_by_imdb_id, repository_data)
+    _add_watchlist_credits(cast_and_crew_by_imdb_id, repository_data)
     _add_review_credits(cast_and_crew_by_imdb_id, repository_data)
     _populate_title_data(cast_and_crew_by_imdb_id, repository_data)
     _populate_counts(cast_and_crew_by_imdb_id, repository_data)

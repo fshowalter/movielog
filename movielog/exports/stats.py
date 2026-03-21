@@ -11,21 +11,21 @@ from movielog.repository import api as repository_api
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
-CREDIT_TEAMS = MappingProxyType(
+_CREDIT_TEAMS = MappingProxyType(
     {
         frozenset(("nm0751577", "nm0751648")): "The Russo Brothers",
         frozenset(("nm0001053", "nm0001054")): "The Coen Brothers",
     }
 )
 
-STAN_LEE_RULE = frozenset(
+_STAN_LEE_RULE = frozenset(
     (
         "nm0498278",  # Stan Lee
         "nm1349117",  # Duke the horse
     )
 )
 
-EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
+_EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 
 
 class _JsonMostWatchedPersonViewing(TypedDict):
@@ -149,7 +149,7 @@ def _apply_credit_teams_for_viewing(
     viewing: repository_api.Viewing,
     credit_names: list[repository_api.CreditName],
 ) -> None:
-    for team_ids, team_name in CREDIT_TEAMS.items():
+    for team_ids, team_name in _CREDIT_TEAMS.items():
         credit_name_ids = {name.imdb_id for name in credit_names}
 
         if team_ids & credit_name_ids:
@@ -171,7 +171,7 @@ def _build_most_watched_performers(
     for viewing in viewings:
         performers = repository_data.titles[viewing.imdb_id].performers
         for performer in performers:
-            if performer.imdb_id in STAN_LEE_RULE:
+            if performer.imdb_id in _STAN_LEE_RULE:
                 continue
             key = frozenset((performer.imdb_id,))
             viewings_by_name[key].name = performer.name
@@ -199,7 +199,7 @@ def _build_most_watched_writers(
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
-            if writer.imdb_id in EXCLUSIONS:
+            if writer.imdb_id in _EXCLUSIONS:
                 continue
             key = frozenset((writer.imdb_id,))
             viewings_by_name[key].name = writer.name
