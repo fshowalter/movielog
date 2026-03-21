@@ -22,18 +22,16 @@ class RepositoryData:
     collections: list[repository_api.Collection]
     imdb_ratings: repository_api.ImdbRatings
     cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]
-    review_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
+    review_sequence_map: dict[str, str] = field(default_factory=dict, init=False)
     viewing_sequence_map: dict[tuple[str, date, int], int] = field(default_factory=dict, init=False)
 
     def __post_init__(self) -> None:
         self.viewing_sequence_map = self._build_viewing_sequence_map()
-        self.review_sequence_map = self._build_review_sequence_map(self.viewing_sequence_map)
+        self.review_sequence_map = self._build_review_sequence_map()
 
-    def _build_review_sequence_map(
-        self, viewing_sequence_map: dict[tuple[str, date, int], int]
-    ) -> dict[str, int]:
+    def _build_review_sequence_map(self) -> dict[str, str]:
         """Build a map of title IMDb IDs to review sequence numbers."""
-        sequence_map: dict[str, int] = {}
+        sequence_map: dict[str, str] = {}
 
         for imdb_id, review in self.reviews.items():
             # Find the most recent viewing for this title
@@ -45,9 +43,9 @@ class RepositoryData:
 
             if viewings:
                 latest_viewing = viewings[0]
-                sequence_map[imdb_id] = viewing_sequence_map[
-                    latest_viewing.imdb_id, latest_viewing.date, latest_viewing.sequence
-                ]
+                sequence_map[imdb_id] = (
+                    f"{latest_viewing.date.isoformat()}-{latest_viewing.sequence:02}"
+                )
 
         return sequence_map
 
