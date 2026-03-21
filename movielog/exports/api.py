@@ -10,7 +10,7 @@ from movielog.exports import (
     stats,
     underrated,
     underseen,
-    viewings,
+    viewing_log,
     watchlist_progress,
     watchlist_titles,
 )
@@ -111,7 +111,7 @@ def export_data(token: str) -> None:
         cast_and_crew=cast_and_crew_by_imdb_id,
     )
 
-    viewings.export(repository_data)
+    viewing_log.export(repository_data)
     reviewed_titles.export(repository_data)
     underrated.export(repository_data)
     overrated.export(repository_data)
