@@ -1,7 +1,5 @@
 from movielog.exports import exporter
-from movielog.exports.json_reviewed_title import JsonReviewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence
 from movielog.utils.logging import logger
 
 
@@ -23,27 +21,9 @@ def export(repository_data: RepositoryData) -> None:
         if not review.grade_value or review.grade_value < 12:
             continue
 
-        underseen_gems.append(
-            JsonReviewedTitle(
-                imdbId=title.imdb_id,
-                title=title.title,
-                sortTitle=title.sort_title,
-                releaseYear=title.release_year,
-                slug=review.slug,
-                grade=review.grade,
-                gradeValue=review.grade_value,
-                genres=title.genres,
-                releaseDate=title.release_date,
-                reviewDate=review.date.isoformat(),
-                reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
-            )
-        )
+        underseen_gems.append(review.slug)
 
-    exporter.serialize_dicts(
-        sorted(
-            underseen_gems,
-            key=lambda gem: "{}{}".format(gem["releaseYear"], gem["imdbId"]),
-            reverse=True,
-        ),
+    exporter.serialize_dict(
+        {"titles": sorted(underseen_gems)},
         "underseen",
     )
