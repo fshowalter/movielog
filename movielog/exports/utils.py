@@ -12,7 +12,7 @@ def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review,
     repository_data: RepositoryData,
-) -> int: ...
+) -> str: ...
 
 
 @overload
@@ -20,14 +20,14 @@ def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review | None,
     repository_data: RepositoryData,
-) -> int | None: ...
+) -> str | None: ...
 
 
 def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review | None,
     repository_data: RepositoryData,
-) -> int | None:
+) -> str | None:
     """Get the review sequence number for a title.
 
     Returns None if there's no review, otherwise returns the integer

@@ -1,38 +1,45 @@
+from typing import TypedDict
+
 from movielog.exports import exporter
-from movielog.exports.json_collection import JsonCollection
-from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
 
-class JsonCollectionDetails(JsonCollection):
-    """A collection with its titles."""
+class _JsonCollectionTitle(TypedDict):
+    imdbId: str
+    title: str
+    sortTitle: str
+    releaseYear: str
+    releaseDate: str
+    genres: list[str]
+    reviewSlug: str | None
 
-    titles: list[JsonMaybeReviewedTitle]
+
+class _JsonCollection(TypedDict):
+    name: str
+    slug: str
+    reviewCount: int
+    description: str
+    titles: list[_JsonCollectionTitle]
 
 
-def build_collection_titles(
+def _build_collection_titles(
     collection: repository_api.Collection, repository_data: RepositoryData
-) -> list[JsonMaybeReviewedTitle]:
+) -> list[_JsonCollectionTitle]:
     titles = []
     for title_id in collection.title_ids:
         title = repository_data.titles[title_id]
         review = repository_data.reviews.get(title_id, None)
         titles.append(
-            JsonMaybeReviewedTitle(
+            _JsonCollectionTitle(
                 imdbId=title_id,
                 title=title.title,
                 sortTitle=title.sort_title,
                 releaseYear=title.release_year,
                 releaseDate=title.release_date,
                 genres=title.genres,
-                slug=review.slug if review else None,
-                grade=review.grade if review else None,
-                gradeValue=review.grade_value if review else None,
-                reviewDate=review.date.isoformat() if review else None,
-                reviewSequence=calculate_review_sequence(title_id, review, repository_data),
+                reviewSlug=review.slug if review else None,
             )
         )
 
@@ -52,12 +59,11 @@ def export(repository_data: RepositoryData) -> None:
         ]
 
         json_collections.append(
-            JsonCollectionDetails(
+            _JsonCollection(
                 name=collection.name,
                 slug=collection.slug,
-                titleCount=len(collection.title_ids),
                 reviewCount=len(reviewed_titles),
-                titles=build_collection_titles(collection, repository_data),
+                titles=_build_collection_titles(collection, repository_data),
                 description=collection.description,
             )
         )
