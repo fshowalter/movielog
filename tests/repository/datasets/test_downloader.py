@@ -2,26 +2,25 @@ from pathlib import Path
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.repository.datasets import downloader
 
 
 @pytest.fixture(autouse=True)
-def subprocess_mock(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.repository.datasets.downloader.subprocess.check_output")
+def subprocess_mock(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.repository.datasets.downloader.subprocess.check_output", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def request_mock(mocker: MockerFixture) -> MagicMock:
-    url_open_mock = mocker.patch("movielog.repository.datasets.downloader.request.urlopen")
-
+def request_mock(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    url_open_mock = MagicMock()
     magic_method_mock = url_open_mock.return_value.__enter__
-
     magic_method_mock.return_value.info.return_value = {
         "Last-Modified": "Sat, 04 Apr 2020 12:00:00 GMT"
     }
-
+    monkeypatch.setattr("movielog.repository.datasets.downloader.request.urlopen", url_open_mock)
     return url_open_mock
 
 

@@ -1,7 +1,6 @@
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.cli import imdb
 from tests.cli.conftest import MockInput
@@ -9,23 +8,31 @@ from tests.cli.keys import Down, Enter, Escape
 
 
 @pytest.fixture(autouse=True)
-def mock_update_datasets(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.repository_api.update_datasets")
+def mock_update_datasets(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.imdb.repository_api.update_datasets", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_update_title_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.update_title_data.prompt")
+def mock_update_title_data(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.imdb.update_title_data.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_update_watchlist_credits(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.update_watchlist_credits.prompt")
+def mock_update_watchlist_credits(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.imdb.update_watchlist_credits.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_validate_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.validate_data.prompt")
+def mock_validate_data(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.imdb.validate_data.prompt", mock)
+    return mock
 
 
 def test_calls_update_datasets(mock_input: MockInput, mock_update_datasets: MagicMock) -> None:

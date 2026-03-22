@@ -1,8 +1,6 @@
 from collections.abc import Sequence
 
-import pytest
 from prompt_toolkit.formatted_text import AnyFormattedText
-from pytest_mock import MockerFixture
 
 from movielog.cli import radio_list
 from tests.cli.conftest import MockInput
@@ -11,8 +9,7 @@ from tests.cli.keys import Down, End, Enter, Home, Up
 Options = Sequence[tuple[int, AnyFormattedText]]
 
 
-@pytest.fixture
-def options(mocker: MockerFixture) -> Options:
+def options() -> Options:
     return [
         (1, "option 1"),
         (2, "option 2"),
@@ -21,19 +18,19 @@ def options(mocker: MockerFixture) -> Options:
     ]
 
 
-def test_can_use_down_to_wrap_to_top(mock_input: MockInput, options: Options) -> None:
+def test_can_use_down_to_wrap_to_top(mock_input: MockInput) -> None:
     mock_input([Up, Down, Enter])
 
-    assert radio_list.prompt("Test", options) == 1
+    assert radio_list.prompt("Test", options()) == 1
 
 
-def test_can_use_end_to_jump_to_bottom(mock_input: MockInput, options: Options) -> None:
+def test_can_use_end_to_jump_to_bottom(mock_input: MockInput) -> None:
     mock_input([End, Enter])
 
-    assert radio_list.prompt("Test", options) == 4
+    assert radio_list.prompt("Test", options()) == 4
 
 
-def test_can_use_home_to_jump_to_top(mock_input: MockInput, options: Options) -> None:
+def test_can_use_home_to_jump_to_top(mock_input: MockInput) -> None:
     mock_input([End, Home, Enter])
 
-    assert radio_list.prompt("Test", options) == 1
+    assert radio_list.prompt("Test", options()) == 1

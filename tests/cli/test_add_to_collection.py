@@ -1,12 +1,12 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.cli import add_to_collection
-from movielog.repository.api import Collection
 from movielog.repository.imdb_http_title import TitlePage
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Escape
@@ -30,9 +30,8 @@ def select_title_search_result(confirm: ConfirmType) -> list[str]:
 
 
 @pytest.fixture(autouse=True)
-def mock_search_title(mocker: MockerFixture) -> MockerFixture:
-    return mocker.patch(
-        "movielog.cli.title_searcher.repository_api.get_title_page",
+def mock_search_title(monkeypatch: pytest.MonkeyPatch) -> None:
+    mock = MagicMock(
         return_value=TitlePage(
             imdb_id="tt0087298",
             title="Friday the 13th: The Final Chapter",
@@ -45,39 +44,32 @@ def mock_search_title(mocker: MockerFixture) -> MockerFixture:
             countries=["USA"],
             runtime_minutes=91,
             credits={},
-        ),
+        )
     )
+    monkeypatch.setattr("movielog.cli.title_searcher.repository_api.get_title_page", mock)
 
 
 @pytest.fixture(autouse=True)
-def mock_add_title_to_collection(
-    mocker: MockerFixture,
-) -> tuple[Collection, MagicMock]:
-    collection = Collection(
-        name="Friday the 13th",
-        slug="friday-the-13th",
-        title_ids={"tt0080761", "tt0082418", "tt0083972"},
-        description="The Friday the 13th franchise.",
-    )
-
-    mocker.patch(
-        "movielog.cli.add_to_collection.repository_api.collections",
-        return_value=[collection],
-    )
-
-    return (
-        collection,
-        mocker.patch(
-            "movielog.cli.add_to_collection.repository_api.add_title_to_collection",
-            return_value=[collection],
-        ),
+def seed_collection(tmp_path: Path) -> None:
+    collections_dir = tmp_path / "collections"
+    collections_dir.mkdir(parents=True, exist_ok=True)
+    (collections_dir / "friday-the-13th.json").write_text(
+        json.dumps(
+            {
+                "name": "Friday the 13th",
+                "slug": "friday-the-13th",
+                "titles": [
+                    {"imdbId": "tt0080761", "title": "Friday the 13th (1980)"},
+                    {"imdbId": "tt0082418", "title": "Friday the 13th Part 2 (1981)"},
+                    {"imdbId": "tt0083972", "title": "Friday the 13th Part III (1982)"},
+                ],
+                "description": "The Friday the 13th franchise.",
+            }
+        )
     )
 
 
-def test_calls_add_title_to_collection(
-    mock_input: MockInput,
-    mock_add_title_to_collection: tuple[Collection, MagicMock],
-) -> None:
+def test_calls_add_title_to_collection(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(
         [
             *select_collection(),
@@ -90,18 +82,16 @@ def test_calls_add_title_to_collection(
     )
     add_to_collection.prompt()
 
-    collection, mock = mock_add_title_to_collection
-
-    mock.assert_called_once_with(
-        collection=collection,
-        imdb_id="tt0087298",
-        full_title="Friday the 13th: The Final Chapter (1984)",
-    )
+    data = json.loads((tmp_path / "collections" / "friday-the-13th.json").read_text())
+    assert len(data["titles"]) == 4
+    assert {"imdbId": "tt0087298", "title": "Friday the 13th: The Final Chapter (1984)"} in data[
+        "titles"
+    ]
 
 
 def test_does_not_call_add_title_to_collection_if_no_selection(
     mock_input: MockInput,
-    mock_add_title_to_collection: tuple[Collection, MagicMock],
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -116,6 +106,5 @@ def test_does_not_call_add_title_to_collection_if_no_selection(
     )
     add_to_collection.prompt()
 
-    _collection, mock = mock_add_title_to_collection
-
-    mock.assert_not_called()
+    data = json.loads((tmp_path / "collections" / "friday-the-13th.json").read_text())
+    assert len(data["titles"]) == 3

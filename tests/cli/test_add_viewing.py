@@ -1,9 +1,10 @@
-from datetime import date
+from __future__ import annotations
+
+from pathlib import Path
 from typing import Literal
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.cli import add_viewing
 from movielog.cli.ask_medium_or_venue import ReturnResult as MediumOrVenueReturnResult
@@ -14,19 +15,8 @@ from tests.cli.prompt_utils import ConfirmType, enter_text, select_option
 
 
 @pytest.fixture(autouse=True)
-def mock_add_viewing(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.add_viewing.repository_api.create_viewing")
-
-
-@pytest.fixture(autouse=True)
-def mock_create_or_update_review(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.add_viewing.repository_api.create_or_update_review")
-
-
-@pytest.fixture(autouse=True)
-def mock_search_title(mocker: MockerFixture) -> MockerFixture:
-    return mocker.patch(
-        "movielog.cli.title_searcher.repository_api.get_title_page",
+def mock_search_title(monkeypatch: pytest.MonkeyPatch) -> None:
+    mock = MagicMock(
         return_value=TitlePage(
             imdb_id="tt0053221",
             title="Rio Bravo",
@@ -39,8 +29,9 @@ def mock_search_title(mocker: MockerFixture) -> MockerFixture:
             countries=["USA"],
             runtime_minutes=141,
             credits={},
-        ),
+        )
     )
+    monkeypatch.setattr("movielog.cli.title_searcher.repository_api.get_title_page", mock)
 
 
 def enter_token() -> list[str]:
@@ -106,8 +97,7 @@ def enter_viewing_date(date: str, confirm: Literal[ConfirmType] | None = None) -
 
 def test_calls_add_viewing_and_create_or_update_review(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -126,27 +116,25 @@ def test_calls_add_viewing_and_create_or_update_review(
 
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium="TCM HD",
-        medium_notes="Warner Bros., 2012",
-        venue=None,
-        date=date(2012, 3, 12),
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    viewing_content = viewing_file.read_text()
+    assert "imdbId: tt0053221" in viewing_content
+    assert "medium: TCM HD" in viewing_content
+    assert "mediumNotes: Warner Bros., 2012" in viewing_content
+    assert "venue: null" in viewing_content
 
-    mock_create_or_update_review.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        grade="A+",
-        date=date(2012, 3, 12),
-    )
+    review_file = tmp_path / "rio-bravo-1959.md"
+    assert review_file.exists()
+    review_content = review_file.read_text()
+    assert "imdb_id: tt0053221" in review_content
+    assert "grade: A+" in review_content
+    assert "date: 2012-03-12" in review_content
 
 
 def test_can_confirm_title(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -166,39 +154,25 @@ def test_can_confirm_title(
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium="TCM HD",
-        medium_notes="Warner Bros., 2017",
-        venue=None,
-        date=date(2012, 3, 12),
-    )
-
-    mock_create_or_update_review.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        grade="A+",
-        date=date(2012, 3, 12),
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    assert "mediumNotes: Warner Bros., 2017" in viewing_file.read_text()
 
 
 def test_does_not_call_add_viewing_or_create_or_update_review_if_no_title(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input([Escape])
     add_viewing.prompt()
 
-    mock_add_viewing.assert_not_called()
-    mock_create_or_update_review.assert_not_called()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))
 
 
 def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -212,14 +186,13 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_not_called()
-    mock_create_or_update_review.assert_not_called()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))
 
 
 def test_guards_against_bad_dates(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -238,27 +211,14 @@ def test_guards_against_bad_dates(
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium="TCM HD",
-        medium_notes="Warner Bros., 2012",
-        venue=None,
-        date=date(2012, 3, 12),
-    )
-
-    mock_create_or_update_review.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        grade="A+",
-        date=date(2012, 3, 12),
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    assert "imdbId: tt0053221" in viewing_file.read_text()
 
 
 def test_can_confirm_date(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -277,24 +237,12 @@ def test_can_confirm_date(
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium="TCM HD",
-        medium_notes="Warner Bros., 2012",
-        venue=None,
-        date=date(2012, 3, 12),
-    )
-
-    mock_create_or_update_review.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        grade="A+",
-        date=date(2012, 3, 12),
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    assert "imdbId: tt0053221" in viewing_file.read_text()
 
 
-def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+def test_can_add_new_medium(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(
         [
             *enter_token(),
@@ -313,17 +261,14 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium="4k UHD Blu-ray",
-        medium_notes="Warner Bros., 2023",
-        venue=None,
-        date=date(2012, 3, 12),
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    viewing_content = viewing_file.read_text()
+    assert "medium: 4k UHD Blu-ray" in viewing_content
+    assert "mediumNotes: Warner Bros., 2023" in viewing_content
 
 
-def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+def test_can_create_with_venue(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(
         [
             *enter_token(),
@@ -339,17 +284,14 @@ def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMoc
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium=None,
-        venue="AMC Tysons Corner 16",
-        date=date(2012, 3, 12),
-        medium_notes=None,
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    viewing_content = viewing_file.read_text()
+    assert "venue: AMC Tysons Corner 16" in viewing_content
+    assert "medium: null" in viewing_content
 
 
-def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+def test_can_add_new_venue(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(
         [
             *enter_token(),
@@ -367,20 +309,14 @@ def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        full_title="Rio Bravo (1959)",
-        medium=None,
-        venue="Alamo Drafthouse",
-        date=date(2012, 3, 12),
-        medium_notes=None,
-    )
+    viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
+    assert viewing_file.exists()
+    assert "venue: Alamo Drafthouse" in viewing_file.read_text()
 
 
 def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
     mock_input: MockInput,
-    mock_add_viewing: MagicMock,
-    mock_create_or_update_review: MagicMock,
+    tmp_path: Path,
 ) -> None:
     mock_input(
         [
@@ -398,5 +334,5 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
     )
     add_viewing.prompt()
 
-    mock_add_viewing.assert_not_called()
-    mock_create_or_update_review.assert_not_called()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))

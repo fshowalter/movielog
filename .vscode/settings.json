@@ -3,7 +3,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
@@ -13,5 +12,4 @@
   "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "flake8.enabled": false
 }

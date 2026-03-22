@@ -7,7 +7,6 @@ from shutil import copyfile
 import pytest
 from prompt_toolkit.application.current import create_app_session
 from prompt_toolkit.input import create_pipe_input
-from pytest_mock import MockerFixture
 
 MockInput = Callable[[Sequence[str]], None]
 
@@ -23,7 +22,7 @@ def mock_input() -> Generator[MockInput]:
 
 
 @pytest.fixture(autouse=True)
-def copy_viewings_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
+def copy_viewings_testdata(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     dirname = Path(__file__).parent
     Path(tmp_path / "viewings").mkdir(parents=True)
 
@@ -31,14 +30,14 @@ def copy_viewings_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
         target_path = tmp_path / "viewings" / Path(file_path).name
         copyfile(file_path, target_path)
 
-    mocker.patch(
+    monkeypatch.setattr(
         "movielog.repository.markdown_viewings.FOLDER_NAME",
         tmp_path / "viewings",
     )
 
 
 @pytest.fixture(autouse=True)
-def copy_titles_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
+def copy_titles_testdata(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     dirname = Path(__file__).parent
     Path(tmp_path / "titles").mkdir(parents=True)
 
@@ -46,7 +45,7 @@ def copy_titles_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
         target_path = tmp_path / "titles" / Path(file_path).name
         copyfile(file_path, target_path)
 
-    mocker.patch(
+    monkeypatch.setattr(
         "movielog.repository.json_titles.FOLDER_NAME",
         tmp_path / "titles",
     )

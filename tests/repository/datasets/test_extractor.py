@@ -1,41 +1,29 @@
+import gzip
 from pathlib import Path
-from typing import Any
-from unittest.mock import MagicMock
 
 import pytest
 
 from movielog.repository.datasets import extractor
 
 
-@pytest.fixture(autouse=True)
-def test_file(gzip_file: MagicMock) -> Any:
-    return gzip_file(Path(__file__).parent / "extractor_test_data.tsv")
+@pytest.fixture
+def test_file(tmp_path: Path) -> Path:
+    content = (
+        "tconst\taverageRating\tnumVotes\n"
+        "tt0053221\t8.0\t100000\n"
+        "tt0031387\tincomplete_row\n"
+        "tt0089175\t7.2\t85000"
+    )
+    gz_path = tmp_path / "test.tsv.gz"
+    with gzip.open(gz_path, "wt", encoding="utf-8") as f:
+        f.write(content)
+    return gz_path
 
 
 def test_extractor_skips_incomplete_rows(test_file: Path) -> None:
     expected = [
-        [
-            "tt0053221",
-            "movie",
-            "Rio Bravo",
-            "Rio Bravo",
-            "0",
-            "1959",
-            None,
-            "141",
-            "Action,Drama,Western",
-        ],
-        [
-            "tt0089175",
-            "movie",
-            "Fright Night",
-            "Fright Night",
-            "0",
-            "1985",
-            None,
-            "106",
-            "Horror,Thriller",
-        ],
+        ["tt0053221", "8.0", "100000"],
+        ["tt0089175", "7.2", "85000"],
     ]
 
     assert list(extractor.extract(test_file)) == expected

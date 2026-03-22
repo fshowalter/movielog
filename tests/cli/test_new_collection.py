@@ -1,36 +1,33 @@
-from unittest.mock import MagicMock
+from __future__ import annotations
 
-import pytest
-from pytest_mock import MockerFixture
+import json
+from pathlib import Path
 
 from movielog.cli import new_collection
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Enter, Escape
 
 
-@pytest.fixture(autouse=True)
-def mock_new_collection(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.new_collection.repository_api.new_collection")
-
-
-def test_calls_add_collection(mock_input: MockInput, mock_new_collection: MagicMock) -> None:
+def test_calls_add_collection(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(["Halloween", Enter, "y", "A horror movie franchise", Enter])
     new_collection.prompt()
 
-    mock_new_collection.assert_called_once_with("Halloween", "A horror movie franchise")
+    data = json.loads((tmp_path / "collections" / "halloween.json").read_text())
+    assert data["name"] == "Halloween"
+    assert data["slug"] == "halloween"
+    assert data["description"] == "A horror movie franchise"
+    assert data["titles"] == []
 
 
-def test_does_not_call_add_viewing_if_no_movie(
-    mock_input: MockInput, mock_new_collection: MagicMock
-) -> None:
+def test_does_not_call_add_viewing_if_no_movie(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([Escape])
     new_collection.prompt()
 
-    mock_new_collection.assert_not_called()
+    assert not (tmp_path / "collections").exists()
 
 
-def test_can_confirm_collection_name(mock_input: MockInput, mock_new_collection: MagicMock) -> None:
+def test_can_confirm_collection_name(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input(["Halloween", Enter, "n"])
     new_collection.prompt()
 
-    mock_new_collection.assert_not_called()
+    assert not (tmp_path / "collections").exists()

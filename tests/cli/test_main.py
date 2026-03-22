@@ -1,7 +1,6 @@
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.cli import main
 from tests.cli.conftest import MockInput
@@ -9,28 +8,38 @@ from tests.cli.keys import Down, Enter, Escape, Up
 
 
 @pytest.fixture(autouse=True)
-def mock_add_viewing(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.add_viewing.prompt")
+def mock_add_viewing(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.main.add_viewing.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.imdb.prompt")
+def mock_imdb(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.main.imdb.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_manage_watchlist(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.manage_watchlist.prompt")
+def mock_manage_watchlist(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.main.manage_watchlist.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_manage_collections(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.manage_collections.prompt")
+def mock_manage_collections(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.main.manage_collections.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_export_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.export_data.prompt")
+def mock_export_data(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.main.export_data.prompt", mock)
+    return mock
 
 
 def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
