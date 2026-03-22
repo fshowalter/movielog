@@ -1,5 +1,4 @@
-from dataclasses import dataclass, field
-from datetime import date
+from dataclasses import dataclass
 from typing import Literal
 
 from movielog.repository import api as repository_api
@@ -22,44 +21,3 @@ class RepositoryData:
     collections: list[repository_api.Collection]
     imdb_ratings: repository_api.ImdbRatings
     cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]
-    review_sequence_map: dict[str, str] = field(default_factory=dict, init=False)
-    viewing_sequence_map: dict[tuple[str, date, int], int] = field(default_factory=dict, init=False)
-
-    def __post_init__(self) -> None:
-        self.viewing_sequence_map = self._build_viewing_sequence_map()
-        self.review_sequence_map = self._build_review_sequence_map()
-
-    def _build_review_sequence_map(self) -> dict[str, str]:
-        """Build a map of title IMDb IDs to review sequence numbers."""
-        sequence_map: dict[str, str] = {}
-
-        for imdb_id, review in self.reviews.items():
-            # Find the most recent viewing for this title
-            viewings = sorted(
-                [v for v in self.viewings if v.imdb_id == imdb_id and v.date == review.date],
-                key=lambda v: f"{v.date.isoformat()}-{v.sequence}",
-                reverse=True,
-            )
-
-            if viewings:
-                latest_viewing = viewings[0]
-                sequence_map[imdb_id] = (
-                    f"{latest_viewing.date.isoformat()}-{latest_viewing.sequence:02}"
-                )
-
-        return sequence_map
-
-    def _build_viewing_sequence_map(self) -> dict[tuple[str, date, int], int]:
-        """Build a map of (imdb_id, viewing.sequence) tuples to viewing sequence numbers."""
-        sequence_map: dict[tuple[str, date, int], int] = {}
-
-        # Sort viewings by date and sequence for stable ordering
-        sorted_viewings = sorted(
-            self.viewings,
-            key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
-        )
-
-        for index, viewing in enumerate(sorted_viewings, start=1):
-            sequence_map[(viewing.imdb_id, viewing.date, viewing.sequence)] = index
-
-        return sequence_map
