@@ -7,7 +7,6 @@ from typing import Any
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.repository import markdown_viewings
 from movielog.repository.datasets import downloader
@@ -32,62 +31,77 @@ original_viewings_dir = markdown_viewings.FOLDER_NAME
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_http_get_title(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.repository.imdb_http_title.get_title_page")
+def mock_imdb_http_get_title(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.repository.imdb_http_title.get_title_page", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_http_get_director(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.repository.imdb_http_director.get_director")
+def mock_imdb_http_get_director(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.repository.imdb_http_director.get_director", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_http_get_performer(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.repository.imdb_http_performer.get_performer")
+def mock_imdb_http_get_performer(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.repository.imdb_http_performer.get_performer", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_http_get_writer(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.repository.imdb_http_writer.get_writer")
+def mock_imdb_http_get_writer(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.repository.imdb_http_writer.get_writer", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_download_dir(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch(
+def mock_download_dir(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(
         "movielog.repository.datasets.downloader.DOWNLOAD_DIR",
         tmp_path / original_download_dir,
     )
 
 
 @pytest.fixture(autouse=True)
-def mock_exports_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path / "export")
+def mock_exports_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path / "export")
 
 
 @pytest.fixture(autouse=True)
-def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch("movielog.repository.markdown_reviews.FOLDER_NAME", tmp_path)
+def mock_reviews_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr("movielog.repository.markdown_reviews.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
-def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch(
+def mock_viewings_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(
         "movielog.repository.markdown_viewings.FOLDER_NAME",
         tmp_path / original_viewings_dir,
     )
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_serializer_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch(
+def mock_watchlist_serializer_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(
         "movielog.repository.watchlist_serializer.FOLDER_NAME",
-        Path(tmp_path) / "directors",
+        tmp_path / "watchlist",
     )
 
 
 @pytest.fixture(autouse=True)
-def mock_titles_data_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch("movielog.repository.json_titles.FOLDER_NAME", tmp_path)
+def mock_titles_data_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr("movielog.repository.json_titles.FOLDER_NAME", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def mock_collections_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(
+        "movielog.repository.json_collections.FOLDER_NAME", tmp_path / "collections"
+    )
 
 
 def dict_factory(cursor: sqlite3.Cursor, row: tuple[Any, ...]) -> dict[str, Any]:

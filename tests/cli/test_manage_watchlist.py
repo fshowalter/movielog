@@ -1,7 +1,6 @@
 from unittest.mock import MagicMock
 
 import pytest
-from pytest_mock import MockerFixture
 
 from movielog.cli import manage_watchlist
 from tests.cli.conftest import MockInput
@@ -9,28 +8,38 @@ from tests.cli.keys import Down, Enter, Escape, Up
 
 
 @pytest.fixture(autouse=True)
-def mock_add_director(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.manage_watchlist.add_director.prompt")
+def mock_add_director(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.manage_watchlist.add_director.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_add_performer(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.manage_watchlist.add_performer.prompt")
+def mock_add_performer(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.manage_watchlist.add_performer.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_add_writer(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.manage_watchlist.add_writer.prompt")
+def mock_add_writer(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.manage_watchlist.add_writer.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_add_to_collection(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.manage_watchlist.add_to_collection.prompt")
+def mock_add_to_collection(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.manage_watchlist.add_to_collection.prompt", mock)
+    return mock
 
 
 @pytest.fixture(autouse=True)
-def mock_new_collection(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.manage_watchlist.new_collection.prompt")
+def mock_new_collection(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
+    mock = MagicMock()
+    monkeypatch.setattr("movielog.cli.manage_watchlist.new_collection.prompt", mock)
+    return mock
 
 
 def test_calls_add_director(mock_input: MockInput, mock_add_director: MagicMock) -> None:
