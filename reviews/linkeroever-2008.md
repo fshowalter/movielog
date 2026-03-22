@@ -3,7 +3,7 @@ date: 2021-01-18
 imdb_id: tt0940723
 title: Left Bank (2008)
 grade: C+
-slug: left-bank-2008
+slug: linkeroever-2008
 ---
 
 _Left Bank_ proffers an interesting story about Marie, a promising track star who suffers an unexpected health setback. She moves into her new boyfriend's Left Bank apartment to recover. Finding herself with an abundance of free time, Marie investigates the former tenant's unexplained disappearance.
