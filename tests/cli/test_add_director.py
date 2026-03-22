@@ -38,4 +38,4 @@ def test_does_not_call_add_director_if_no_selection(mock_input: MockInput, tmp_p
     mock_input([Escape, Enter])
     add_director.prompt()
 
-    assert not (tmp_path / "watchlist" / "directors" / "howard-hawks.json").exists()
+    assert not (tmp_path / "watchlist" / "directors").exists()

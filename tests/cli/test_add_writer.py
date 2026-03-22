@@ -38,4 +38,4 @@ def test_does_not_call_add_writer_if_no_selection(mock_input: MockInput, tmp_pat
     mock_input([Escape, Enter])
     add_writer.prompt()
 
-    assert not (tmp_path / "watchlist" / "writers" / "leigh-brackett.json").exists()
+    assert not (tmp_path / "watchlist" / "writers").exists()

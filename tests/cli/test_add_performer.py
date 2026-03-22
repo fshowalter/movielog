@@ -62,4 +62,4 @@ def test_does_not_call_add_performer_if_no_selection(mock_input: MockInput, tmp_
     mock_input([Escape, Enter])
     add_performer.prompt()
 
-    assert not (tmp_path / "watchlist" / "performers" / "john-wayne.json").exists()
+    assert not (tmp_path / "watchlist" / "performers").exists()

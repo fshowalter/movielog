@@ -166,8 +166,8 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_title(
     mock_input([Escape])
     add_viewing.prompt()
 
-    assert not (tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md").exists()
-    assert not (tmp_path / "rio-bravo-1959.md").exists()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))
 
 
 def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
@@ -186,8 +186,8 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
     )
     add_viewing.prompt()
 
-    assert not (tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md").exists()
-    assert not (tmp_path / "rio-bravo-1959.md").exists()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))
 
 
 def test_guards_against_bad_dates(
@@ -334,5 +334,5 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
     )
     add_viewing.prompt()
 
-    assert not (tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md").exists()
-    assert not (tmp_path / "rio-bravo-1959.md").exists()
+    assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
+    assert not list(tmp_path.glob("*.md"))
