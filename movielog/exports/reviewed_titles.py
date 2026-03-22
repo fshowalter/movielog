@@ -4,7 +4,6 @@ from typing import Literal, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -187,6 +186,16 @@ def _build_json_reviewed_title(
 
     original_title = None if title.original_title == title.title else title.original_title
 
+    most_recent_viewing = sorted(
+        [
+            viewing
+            for viewing in repository_data.viewings
+            if viewing.imdb_id == review.imdb_id and viewing.date == review.date
+        ],
+        key=lambda viewing: viewing.sequence,
+        reverse=True,
+    )[0]
+
     return _JsonReviewedTitle(
         imdbId=title.imdb_id,
         title=title.title,
@@ -200,7 +209,7 @@ def _build_json_reviewed_title(
         countries=title.countries,
         originalTitle=original_title,
         runtimeMinutes=title.runtime_minutes,
-        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
+        reviewSequence=f"{review.date.isoformat()}-{most_recent_viewing.sequence:02}",
         directorNames=[director.name for director in title.directors],
         writerNames=list(dict.fromkeys(writer.name for writer in title.writers)),
         principalCastNames=[
