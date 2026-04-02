@@ -8,6 +8,7 @@ import yaml
 
 from movielog.repository import slugifier
 from movielog.utils import list_tools, path_tools
+from movielog.utils.full_viewing_sequence import full_viewing_sequence
 from movielog.utils.logging import logger
 
 FOLDER_NAME = "viewings"
@@ -57,8 +58,9 @@ def create(
 
 
 def _generate_file_path(markdown_viewing: MarkdownViewing) -> Path:
-    file_name = "{}-{:02d}-{}".format(
-        markdown_viewing["date"], markdown_viewing["sequence"], markdown_viewing["slug"]
+    file_name = "{}-{}".format(
+        full_viewing_sequence(markdown_viewing["date"], markdown_viewing["sequence"]),
+        markdown_viewing["slug"],
     )
 
     file_path = Path(FOLDER_NAME) / f"{file_name}.md"
