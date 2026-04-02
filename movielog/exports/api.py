@@ -96,7 +96,7 @@ def export_data(token: str) -> None:
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(),
-            key=lambda viewing: f"{viewing.date}{viewing.sequence}",
+            key=lambda viewing: viewing.sequence,
         ),
         titles=titles,
         reviews=reviews,
