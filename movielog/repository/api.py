@@ -24,6 +24,7 @@ from movielog.repository import (
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
+from movielog.utils.full_viewing_sequence import full_viewing_sequence
 
 WatchlistPersonKind = json_watchlist_people.Kind
 
@@ -71,7 +72,7 @@ class Title:
 @dataclass
 class Viewing:
     imdb_id: str
-    sequence: int
+    sequence: str
     date: datetime.date
     medium: str | None
     venue: str | None
@@ -250,7 +251,7 @@ def _hydrate_markdown_viewing(
 ) -> Viewing:
     return Viewing(
         imdb_id=markdown_viewing["imdbId"],
-        sequence=markdown_viewing["sequence"],
+        sequence=full_viewing_sequence(markdown_viewing["date"], markdown_viewing["sequence"]),
         medium=markdown_viewing["medium"],
         venue=markdown_viewing["venue"],
         date=markdown_viewing["date"],

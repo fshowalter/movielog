@@ -35,7 +35,7 @@ def build_json_viewing(
         genres=title.genres,
         reviewSlug=review.slug if review else None,
         date=viewing.date,
-        sequence=f"{viewing.date.isoformat()}-{viewing.sequence:02}",
+        sequence=viewing.sequence,
         medium=viewing.medium,
         venue=viewing.venue,
     )

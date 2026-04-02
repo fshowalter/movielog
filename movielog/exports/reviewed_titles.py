@@ -43,6 +43,7 @@ class _JsonReviewedTitle(TypedDict):
     moreCastAndCrew: list[_JsonMoreCastAndCrewMember]
     moreReviews: list[str]
     moreCollections: list[_JsonMoreCollection]
+    viewings: list[str]
 
 
 _TitleIdsByNameId = dict[frozenset[str], set[str]]
@@ -186,12 +187,12 @@ def _build_json_reviewed_title(
 
     original_title = None if title.original_title == title.title else title.original_title
 
+    viewings = [
+        viewing for viewing in repository_data.viewings if viewing.imdb_id == review.imdb_id
+    ]
+
     most_recent_viewing = sorted(
-        [
-            viewing
-            for viewing in repository_data.viewings
-            if viewing.imdb_id == review.imdb_id and viewing.date == review.date
-        ],
+        [viewing for viewing in viewings if viewing.date == review.date],
         key=lambda viewing: viewing.sequence,
         reverse=True,
     )[0]
@@ -209,7 +210,7 @@ def _build_json_reviewed_title(
         countries=title.countries,
         originalTitle=original_title,
         runtimeMinutes=title.runtime_minutes,
-        reviewSequence=f"{review.date.isoformat()}-{most_recent_viewing.sequence:02}",
+        reviewSequence=most_recent_viewing.sequence,
         directorNames=[director.name for director in title.directors],
         writerNames=list(dict.fromkeys(writer.name for writer in title.writers)),
         principalCastNames=[
@@ -224,6 +225,7 @@ def _build_json_reviewed_title(
             repository_data=repository_data,
         ),
         moreReviews=_build_json_more_reviews(review=review, repository_data=repository_data),
+        viewings=[viewing.sequence for viewing in viewings],
     )
 
 
