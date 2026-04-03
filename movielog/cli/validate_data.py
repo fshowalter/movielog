@@ -5,5 +5,5 @@ from movielog.repository import api as repository_api
 def prompt() -> None:
     token = ask_for_token.prompt()
 
-    if token:
+    if token is not None:
         repository_api.validate_data(token)
