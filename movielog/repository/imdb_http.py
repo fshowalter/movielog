@@ -13,7 +13,8 @@ def create_session(token: str) -> requests.Session:
 
     session.mount("https://", HTTPAdapter(max_retries=retries))
 
-    session.cookies["aws-waf-token"] = token
+    if token:
+        session.cookies["aws-waf-token"] = token
 
     return session
 

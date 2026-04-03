@@ -14,7 +14,7 @@ Option = tuple[SearchResult | None, AnyFormattedText]
 def prompt(prompt_text: str = "IMDb ID: ") -> SearchResult | None:
     token = ask_for_token.prompt()
 
-    if not token:
+    if token is None:
         return None
 
     while True:
