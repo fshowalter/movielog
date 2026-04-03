@@ -105,7 +105,7 @@ def mock_collections_folder_name(monkeypatch: pytest.MonkeyPatch, tmp_path: Path
 
 
 @pytest.fixture(autouse=True)
-def mock_needs_token(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+def mock_needs_token(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr("movielog.cli.ask_for_token.NEEDS_TOKEN", True)
 
 
