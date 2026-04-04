@@ -8,7 +8,6 @@ from typing import TypedDict, cast
 from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
-from movielog.utils.sort_name import generate_sort_name
 
 FOLDER_NAME = "cast-and-crew"
 
@@ -24,6 +23,57 @@ def create(imdb_id: str | list[str], name: str, slug: str) -> JsonCastAndCrewMem
     return JsonCastAndCrewMember(
         imdbId=imdb_id, name=name, slug=slug, sortName=generate_sort_name(name)
     )
+
+
+# AIDEV-NOTE: Particles that begin compound surnames (e.g. "De Palma", "Van Buren").
+# When one of these appears after the first given name, it and everything after
+# it is treated as the last name: "Brian De Palma" → "De Palma, Brian".
+SURNAME_PARTICLES = {
+    "de",
+    "van",
+    "von",
+    "di",
+    "du",
+    "del",
+    "della",
+    "des",
+    "den",
+    "der",
+    "le",
+    "la",
+    "los",
+    "las",
+    "el",
+    "al",
+    "ten",
+    "ter",
+}
+
+
+def generate_sort_name(name: str) -> str:
+    split_name = name.split()
+
+    if len(split_name) <= 1:
+        return name
+
+    # Find the first particle after the initial given name; that starts the last name.
+    particle_index = next(
+        (
+            i
+            for i in range(1, len(split_name))
+            if split_name[i].lower() in SURNAME_PARTICLES
+        ),
+        None,
+    )
+
+    if particle_index is not None:
+        last_name = " ".join(split_name[particle_index:])
+        other_names = split_name[:particle_index]
+    else:
+        last_name = split_name[-1]
+        other_names = split_name[:-1]
+
+    return "{}, {}".format(last_name, " ".join(other_names))
 
 
 def generate_name_slug(name: str) -> str:

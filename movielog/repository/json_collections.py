@@ -6,7 +6,6 @@ from typing import TypedDict, cast
 from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
-from movielog.utils.sort_name import generate_sort_name
 
 FOLDER_NAME = "collections"
 
@@ -22,6 +21,18 @@ class JsonCollection(TypedDict):
     sortName: str
     titles: list[JsonCollectionTitle]
     description: str
+
+
+ARTICLES = {"a", "an", "the"}
+
+
+def generate_sort_name(name: str) -> str:
+    split_name = name.split()
+
+    if len(split_name) > 1 and split_name[0].lower() in ARTICLES:
+        return "{}, {}".format(" ".join(split_name[1:]), split_name[0])
+
+    return name
 
 
 def create(name: str, description: str) -> JsonCollection:
