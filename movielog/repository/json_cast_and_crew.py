@@ -16,6 +16,7 @@ class JsonCastAndCrewMember(TypedDict):
     imdbId: str | list[str]
     name: str
     slug: str
+    sortName: str
 
 
 def generate_name_slug(name: str) -> str:

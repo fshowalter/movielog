@@ -18,8 +18,17 @@ class JsonCollectionTitle(TypedDict):
 class JsonCollection(TypedDict):
     name: str
     slug: str
+    sortName: str
     titles: list[JsonCollectionTitle]
     description: str
+
+
+def _generate_sort_name(name: str) -> str:
+    split_name = name.split()
+    last_name = split_name[-1]
+    other_names = split_name[:-1]
+
+    return "{}, {}".format(last_name, " ".join(other_names))
 
 
 def create(name: str, description: str) -> JsonCollection:
@@ -33,8 +42,10 @@ def create(name: str, description: str) -> JsonCollection:
     if existing_collection:
         raise ValueError(f'Collection with slug "{new_collection_slug}" already exists.')
 
+    sort_name = _generate_sort_name(name)
+
     json_collection = JsonCollection(
-        name=name, slug=new_collection_slug, titles=[], description=description
+        name=name, sortName=sort_name, slug=new_collection_slug, titles=[], description=description
     )
     serialize(json_collection)
     return json_collection

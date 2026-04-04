@@ -30,6 +30,7 @@ _CreditedTitles = dict[str, set[_CreditType]]
 class _CastAndCrewMember(TypedDict):
     slug: str
     name: str
+    sortName: str
     titles: list[_JsonCastAndCrewTitle]
     review_count: int
     total_count: int
@@ -39,6 +40,7 @@ class _CastAndCrewMember(TypedDict):
 class _JsonCastAndCrewMember(TypedDict):
     name: str
     slug: str
+    sortName: str
     reviewCount: int
     description: str
     titles: list[_JsonCastAndCrewTitle]
@@ -57,6 +59,7 @@ def _intialize_cast_and_crew_by_imdb_id(
         cast_and_crew_by_imdb_id[member.imdb_id] = _CastAndCrewMember(
             name=member.name,
             slug=member.slug,
+            sortName=member.sort_name,
             titles=[],
             review_count=0,
             total_count=0,
@@ -221,6 +224,7 @@ def _transform_to_final(
     return _JsonCastAndCrewMember(
         name=cast_and_crew_member["name"],
         slug=cast_and_crew_member["slug"],
+        sortName=cast_and_crew_member["sortName"],
         reviewCount=cast_and_crew_member["review_count"],
         titles=cast_and_crew_member["titles"],
         description=_build_description(

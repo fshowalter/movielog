@@ -128,12 +128,14 @@ class WatchlistEntity:
 class CastAndCrewMember:
     imdb_id: frozenset[str]
     name: str
+    sort_name: str
     slug: str
 
 
 @dataclass
 class Collection:
     name: str
+    sort_name: str
     slug: str
     title_ids: set[str]
     description: str
@@ -150,6 +152,7 @@ def _hydrate_collection(
     return Collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
+        sort_name=json_collection["sortName"],
         title_ids={title["imdbId"] for title in json_collection["titles"]},
         description=json_collection["description"],
     )
@@ -194,6 +197,7 @@ def _hydrate_cast_and_crew_member(
         imdb_id=imdb_id,
         name=json_cast_and_crew_member["name"],
         slug=json_cast_and_crew_member["slug"],
+        sort_name=json_cast_and_crew_member["sortName"],
     )
 
 
