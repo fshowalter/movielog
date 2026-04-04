@@ -8,6 +8,7 @@ from typing import TypedDict, cast
 from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
+from movielog.utils.sort_name import generate_sort_name
 
 FOLDER_NAME = "cast-and-crew"
 
@@ -17,6 +18,12 @@ class JsonCastAndCrewMember(TypedDict):
     name: str
     slug: str
     sortName: str
+
+
+def create(imdb_id: str | list[str], name: str, slug: str) -> JsonCastAndCrewMember:
+    return JsonCastAndCrewMember(
+        imdbId=imdb_id, name=name, slug=slug, sortName=generate_sort_name(name)
+    )
 
 
 def generate_name_slug(name: str) -> str:

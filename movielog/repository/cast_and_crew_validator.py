@@ -52,8 +52,8 @@ def _add_new_cast_and_crew(
             watchlist_person["name"],
         )
 
-        new_member = json_cast_and_crew.JsonCastAndCrewMember(
-            imdbId=watchlist_person["imdbId"],
+        new_member = json_cast_and_crew.create(
+            imdb_id=watchlist_person["imdbId"],
             name=watchlist_person["name"],
             slug=watchlist_person["slug"],
         )

@@ -6,6 +6,7 @@ from typing import TypedDict, cast
 from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
+from movielog.utils.sort_name import generate_sort_name
 
 FOLDER_NAME = "collections"
 
@@ -23,14 +24,6 @@ class JsonCollection(TypedDict):
     description: str
 
 
-def _generate_sort_name(name: str) -> str:
-    split_name = name.split()
-    last_name = split_name[-1]
-    other_names = split_name[:-1]
-
-    return "{}, {}".format(last_name, " ".join(other_names))
-
-
 def create(name: str, description: str) -> JsonCollection:
     new_collection_slug = _generate_collection_slug(name)
 
@@ -42,7 +35,7 @@ def create(name: str, description: str) -> JsonCollection:
     if existing_collection:
         raise ValueError(f'Collection with slug "{new_collection_slug}" already exists.')
 
-    sort_name = _generate_sort_name(name)
+    sort_name = generate_sort_name(name)
 
     json_collection = JsonCollection(
         name=name, sortName=sort_name, slug=new_collection_slug, titles=[], description=description

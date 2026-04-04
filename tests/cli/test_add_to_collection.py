@@ -57,6 +57,7 @@ def seed_collection(tmp_path: Path) -> None:
         json.dumps(
             {
                 "name": "Friday the 13th",
+                "sortName": "Friday the 13th",
                 "slug": "friday-the-13th",
                 "titles": [
                     {"imdbId": "tt0080761", "title": "Friday the 13th (1980)"},
