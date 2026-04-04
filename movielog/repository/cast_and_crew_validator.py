@@ -41,6 +41,24 @@ def _validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
     )
 
 
+def _validate_sort_name(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
+    correct_sort_name = json_cast_and_crew.generate_sort_name(json_name["name"])
+
+    existing_sort_name = json_name["sortName"]
+
+    if existing_sort_name == correct_sort_name:
+        return
+
+    logger.log(
+        "Name {} [{}]: sortName is {} but should be {}. {}",
+        json_name["name"],
+        json_name["imdbId"],
+        existing_sort_name,
+        correct_sort_name,
+        "REVIEW",
+    )
+
+
 def _add_new_cast_and_crew(
     watchlist_people: list[JsonWatchlistPerson],
 ) -> None:
@@ -52,8 +70,8 @@ def _add_new_cast_and_crew(
             watchlist_person["name"],
         )
 
-        new_member = json_cast_and_crew.JsonCastAndCrewMember(
-            imdbId=watchlist_person["imdbId"],
+        new_member = json_cast_and_crew.create(
+            imdb_id=watchlist_person["imdbId"],
             name=watchlist_person["name"],
             slug=watchlist_person["slug"],
         )
@@ -78,6 +96,7 @@ def validate() -> None:
             updated_name = deepcopy(json_name)
 
             _validate_slug(updated_name)
+            _validate_sort_name(updated_name)
 
             correct_file_path = json_cast_and_crew.generate_file_path(updated_name)
 

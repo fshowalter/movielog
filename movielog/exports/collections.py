@@ -19,6 +19,7 @@ class _JsonCollectionTitle(TypedDict):
 class _JsonCollection(TypedDict):
     name: str
     slug: str
+    sortName: str
     reviewCount: int
     description: str
     titles: list[_JsonCollectionTitle]
@@ -62,6 +63,7 @@ def export(repository_data: RepositoryData) -> None:
             _JsonCollection(
                 name=collection.name,
                 slug=collection.slug,
+                sortName=collection.sort_name,
                 reviewCount=len(reviewed_titles),
                 titles=_build_collection_titles(collection, repository_data),
                 description=collection.description,
