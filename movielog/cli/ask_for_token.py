@@ -1,6 +1,6 @@
 from movielog.cli import ask
 
-NEEDS_TOKEN = False
+NEEDS_TOKEN = True
 
 
 def prompt() -> str | None:

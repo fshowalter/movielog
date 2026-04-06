@@ -1,8 +1,8 @@
 ---
-date: 2012-01-12
+date: 2026-04-05
 imdb_id: tt0037549
 title: The Body Snatcher (1945)
-grade: D+
+grade: C-
 slug: the-body-snatcher-1945
 ---
 
