@@ -16,7 +16,7 @@ The rest of the cast is not so fortunate.
 
 Russell Wade plays Fettes, the audience surrogate. He speaks his "wee"s and "aye"s in a flat American accent that doesn't even try for Scottish. Perhaps that's for the best, as he delivers every line--anguished, curious, horrified--with identical vacancy. The corpses Karloff delivers have more charisma.
 
-Then there's Bela Lugosi. Second billing. Eleven years earlier, in _The Black Cat_, he towered over Karloff. Here he's hunched, diminished, submerged--literally, in one scene, in a tub of water. This was their final pairing. It's a forgettable part and a sad goodbye.
+Then there's Bela Lugosi. Second billing. Eleven years earlier, in <span data-imdb-id="tt0024894">_The Black Cat_</span>, he towered over Karloff. Here he's hunched, diminished, submerged--literally, in one scene, in a tub of water. This was their final pairing. It's a forgettable part and a sad goodbye.
 
 Director Robert Wise and producer Val Lewton deliver the signature Lewton atmosphere. Shadowy streets, fire-lit pubs, damp basements--they conjure genuine dread on a thin budget.  The atmosphere is exactly right for the film this should have been.
 
