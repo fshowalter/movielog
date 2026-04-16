@@ -11,7 +11,7 @@ dependencies = [
   "pycountry==26.2.16",
   "python-slugify==8.0.4",
   "pyyaml==6.0.3",
-  "requests==2.33.0",
+  "requests==2.33.1",
 ]
 
 [tool.uv]
