@@ -24,4 +24,4 @@ The film was shot in 1987. Empire Pictures folded before it could be released. I
 
 The target audience is specific: anyone who grew up on _Transformers_, _Voltron_, _Robotech_. Anyone who remembers when the Wall was still standing and the Cold War was a permanent condition of existence. For those people, watching a giant American robot fight a giant Soviet robot will feel like recovering a lost memory. For everyone else, the seams will show.
 
-But you already know which camp you're in. The idea either does something for you, or it doesn't. I can't help you with that part.
+But you already know which camp you're in. The idea either does something for you or it doesn't. I can't help you with that part.
