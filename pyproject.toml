@@ -24,7 +24,7 @@ movielog = "movielog.cli.main:prompt"
 [dependency-groups]
 dev = [
   "mypy==1.19.1",
-  "pytest==9.0.2",
+  "pytest==9.0.3",
   "ruff==0.15.7",
   "types-beautifulsoup4==4.12.0.20250516",
   "types-python-slugify==8.0.2.20240310",
