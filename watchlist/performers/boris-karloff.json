@@ -3,7 +3,6 @@
   "slug": "boris-karloff",
   "imdbId": "nm0000472",
   "titles": [
-    
     {
       "imdbId": "tt0019684",
       "title": "Behind That Curtain (1929)",
@@ -13,16 +12,14 @@
         }
       ]
     },
-   
+
     {
       "imdbId": "tt0020534",
       "title": "The Unholy Night (1929)",
       "credits": [
         {
           "text": "Abdul Mohammed Bey - the Hindu Lawyer",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -32,9 +29,7 @@
       "credits": [
         {
           "text": "Monsieur Gaston",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -134,9 +129,7 @@
       "credits": [
         {
           "text": "Fedor's Father",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -155,9 +148,7 @@
       "credits": [
         {
           "text": "Sport Williams",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -176,9 +167,7 @@
       "credits": [
         {
           "text": "The Voice",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -188,9 +177,7 @@
       "credits": [
         {
           "text": "Drunken Orderly",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -209,9 +196,7 @@
       "credits": [
         {
           "text": "Sheik Ali Ben Joseph",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -293,9 +278,7 @@
       "credits": [
         {
           "text": "Man Approaching Ticket Counter",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ]
     },
@@ -314,9 +297,7 @@
       "credits": [
         {
           "text": "Hjalmar Poelzig",
-          "attributes": [
-            "as Karloff"
-          ]
+          "attributes": ["as Karloff"]
         }
       ]
     },
@@ -326,9 +307,7 @@
       "credits": [
         {
           "text": "The Phantom",
-          "attributes": [
-            "as Karloff"
-          ]
+          "attributes": ["as Karloff"]
         }
       ]
     },
@@ -365,9 +344,7 @@
       "credits": [
         {
           "text": "The Monster",
-          "attributes": [
-            "as Karloff"
-          ]
+          "attributes": ["as Karloff"]
         }
       ]
     },
@@ -377,9 +354,7 @@
       "credits": [
         {
           "text": "Edmond Bateman",
-          "attributes": [
-            "as Karloff"
-          ]
+          "attributes": ["as Karloff"]
         }
       ]
     },
@@ -398,9 +373,7 @@
       "credits": [
         {
           "text": "Dr. Janos Rukh",
-          "attributes": [
-            "as Karloff"
-          ]
+          "attributes": ["as Karloff"]
         }
       ]
     },
@@ -716,9 +689,7 @@
       "credits": [
         {
           "text": "Narrator",
-          "attributes": [
-            "voice: English version"
-          ]
+          "attributes": ["voice: English version"]
         }
       ]
     },
@@ -737,15 +708,6 @@
       "credits": [
         {
           "text": "Dr. Meissen"
-        }
-      ]
-    },
-    {
-      "imdbId": "tt0044505",
-      "title": "Colonel March Investigates (1953)",
-      "credits": [
-        {
-          "text": "Colonel March"
         }
       ]
     },
@@ -828,9 +790,7 @@
       "credits": [
         {
           "text": "Narrator",
-          "attributes": [
-            "voice: English version"
-          ]
+          "attributes": ["voice: English version"]
         }
       ]
     },
@@ -844,7 +804,7 @@
         }
       ]
     },
-    
+
     {
       "imdbId": "tt0330743",
       "title": "The Paradine Case (1962)",
@@ -898,9 +858,7 @@
       "credits": [
         {
           "text": "Gorca",
-          "attributes": [
-            "segment \"I Wurdalak\""
-          ]
+          "attributes": ["segment \"I Wurdalak\""]
         }
       ]
     },
@@ -928,9 +886,7 @@
       "credits": [
         {
           "text": "The Rat",
-          "attributes": [
-            "voice"
-          ]
+          "attributes": ["voice"]
         }
       ]
     },
@@ -958,9 +914,7 @@
       "credits": [
         {
           "text": "Baron Boris von Frankenstein",
-          "attributes": [
-            "voice"
-          ]
+          "attributes": ["voice"]
         }
       ]
     },
@@ -1037,7 +991,8 @@
       ]
     }
   ],
-  "excludedTitles": [{
+  "excludedTitles": [
+    {
       "imdbId": "tt0018084",
       "title": "Let It Rain (1927)",
       "credits": [
@@ -1133,9 +1088,7 @@
       "credits": [
         {
           "text": "Cafe Proprietor",
-          "attributes": [
-            "uncredited"
-          ]
+          "attributes": ["uncredited"]
         }
       ],
       "reason": "silent"
@@ -1175,7 +1128,7 @@
       "title": "Anne Against the World (1929)",
       "reason": "silent"
     },
-     {
+    {
       "imdbId": "tt0019817",
       "title": "The Devil's Chaplain (1929)",
       "credits": [
@@ -1229,6 +1182,16 @@
       "imdbId": "tt3711568",
       "title": "Upgreen - And at 'Em (1960)",
       "reason": "no IMDb votes"
+    },
+    {
+      "imdbId": "tt0044505",
+      "title": "Colonel March Investigates (1953)",
+      "credits": [
+        {
+          "text": "Colonel March"
+        }
+      ],
+      "reason": "3 episodes of TV Series edited together"
     }
   ]
 }

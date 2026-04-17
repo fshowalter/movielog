@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001102",
-      "name": "Joe Dante"
+      "name": "Joe Dante",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -25,7 +26,7 @@
       "imdbId": "nm0001924",
       "name": "Hoyt Axton",
       "roles": [
-        "Randall Peltzer"
+        "Rand Peltzer"
       ]
     },
     {
@@ -147,7 +148,7 @@
       "imdbId": "nm0001662",
       "name": "Judge Reinhold",
       "roles": [
-        "Gerald Hopkins"
+        "Gerald"
       ]
     },
     {
@@ -215,17 +216,17 @@
       ]
     },
     {
-      "imdbId": "nm0430604",
-      "name": "Jackie Joseph",
-      "roles": [
-        "Sheila Futterman"
-      ]
-    },
-    {
       "imdbId": "nm0052186",
       "name": "Jonathan Banks",
       "roles": [
         "Deputy Brent"
+      ]
+    },
+    {
+      "imdbId": "nm0430604",
+      "name": "Jackie Joseph",
+      "roles": [
+        "Mrs. Futterman"
       ]
     },
     {
@@ -239,7 +240,7 @@
       "imdbId": "nm0572100",
       "name": "James MacKrell",
       "roles": [
-        "Lew Landers (WDHB-TV reporter)"
+        "Lew Landers"
       ],
       "notes": "(as Jim McKrell)"
     },
