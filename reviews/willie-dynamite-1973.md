@@ -2,7 +2,7 @@
 date: 2009-03-11
 imdb_id: tt0072409
 grade: D
-slug: willie-dynamite-1974
+slug: willie-dynamite-1973
 ---
 
 A high-stepping New York pimp (Roscoe Orman) sees his world crumble around him.

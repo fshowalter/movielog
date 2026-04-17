@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0230032",
-      "name": "Pete Docter"
+      "name": "Pete Docter",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0798899",
@@ -433,6 +434,16 @@
   ],
   "writers": [
     {
+      "imdbId": "nm0004056",
+      "name": "Andrew Stanton",
+      "notes": "screenplay by &"
+    },
+    {
+      "imdbId": "nm0314870",
+      "name": "Daniel Gerson",
+      "notes": "screenplay by"
+    },
+    {
       "imdbId": "nm0230032",
       "name": "Pete Docter",
       "notes": "original story by &"
@@ -451,16 +462,6 @@
       "imdbId": "nm0250995",
       "name": "Ralph Eggleston",
       "notes": "original story by"
-    },
-    {
-      "imdbId": "nm0004056",
-      "name": "Andrew Stanton",
-      "notes": "screenplay by &"
-    },
-    {
-      "imdbId": "nm0314870",
-      "name": "Daniel Gerson",
-      "notes": "screenplay by"
     }
   ],
   "releaseDateCountry": "United States"

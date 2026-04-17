@@ -6,7 +6,7 @@
   "year": "1971",
   "slug": "here-comes-peter-cottontail-1971",
   "releaseDate": "1971-04-04",
-  "runtimeMinutes": 60,
+  "runtimeMinutes": 51,
   "countries": [
     "United States",
     "Japan"
@@ -22,11 +22,13 @@
   "directors": [
     {
       "imdbId": "nm0060072",
-      "name": "Jules Bass"
+      "name": "Jules Bass",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0710230",
-      "name": "Arthur Rankin Jr."
+      "name": "Arthur Rankin Jr.",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -100,6 +102,11 @@
   ],
   "writers": [
     {
+      "imdbId": "nm0612239",
+      "name": "Romeo Muller",
+      "notes": "teleplay by"
+    },
+    {
       "imdbId": "nm10490965",
       "name": "Priscilla Friedrich",
       "notes": "teleplay based on the book \"The Easter Bunny That Overslept\" by &"
@@ -108,16 +115,6 @@
       "imdbId": "nm10490966",
       "name": "Otto Friedrich",
       "notes": "teleplay based on the book \"The Easter Bunny That Overslept\" by"
-    },
-    {
-      "imdbId": "nm1600848",
-      "name": "Thornton W. Burgess",
-      "notes": "story and"
-    },
-    {
-      "imdbId": "nm0612239",
-      "name": "Romeo Muller",
-      "notes": "story"
     }
   ],
   "releaseDateCountry": "United States"

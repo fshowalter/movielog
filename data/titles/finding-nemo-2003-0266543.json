@@ -23,7 +23,8 @@
   "directors": [
     {
       "imdbId": "nm0004056",
-      "name": "Andrew Stanton"
+      "name": "Andrew Stanton",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0881279",
@@ -230,11 +231,6 @@
     {
       "imdbId": "nm0004056",
       "name": "Andrew Stanton",
-      "notes": "original story by"
-    },
-    {
-      "imdbId": "nm0004056",
-      "name": "Andrew Stanton",
       "notes": "screenplay by &"
     },
     {
@@ -246,6 +242,11 @@
       "imdbId": "nm0721675",
       "name": "David Reynolds",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0004056",
+      "name": "Andrew Stanton",
+      "notes": "original story by"
     }
   ],
   "releaseDateCountry": "United States"

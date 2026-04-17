@@ -1,6 +1,6 @@
 ---
 imdb_id: tt6019206
-slug: kill-bill-the-whole-bloody-affair-2006
+slug: kill-bill-the-whole-bloody-affair-2004
 grade: B+
 date: 2025-12-18
 synopsis: "An elite assassin carves a bloody path of revenge through her former squad to her ultimate target: her ex-lover and boss, Bill."
@@ -18,9 +18,9 @@ The changes matter. The full-color Crazy 88 battle erupts in geysers of crimson.
 
 What surprised me this time around: Uma Thurman. Strip away the yellow tracksuit iconography and the fetishized violence, and you find an actress doing real work. Watch her face when she realizes her baby is gone. Watch the cold fury she channels in every sword swing. Tarantino shoots her like a goddess, yes, but she earns every frame. This might be the best leading performance in any Tarantino film, and the spectacle has been hiding it in plain sight.
 
-The problem remains David Carradine. He handles Tarantino's dialogue with flair--only Samuel L. Jackson does it better--and he's believable as a killer. But as the charismatic mastermind who commands the Deadly Viper Assassination Squad? That's a stretch. The role was written for Warren Beatty, who talked with Tarantino for a year before walking away, unable to connect with the grindhouse influences or commit to the physical training. Beatty suggested Carradine as a replacement, and Tarantino took the out. 
+The problem remains David Carradine. He handles Tarantino's dialogue with flair--only Samuel L. Jackson does it better--and he's believable as a killer. But as the charismatic mastermind who commands the Deadly Viper Assassination Squad? That's a stretch. The role was written for Warren Beatty, who talked with Tarantino for a year before walking away, unable to connect with the grindhouse influences or commit to the physical training. Beatty suggested Carradine as a replacement, and Tarantino took the out.
 
-But you can still feel Beatty's ghost. The flute-playing is pure Carradine, but the romance with Thurman? The pimp-like  authority over his stable of assassins? That's Beatty's role. Carradine's good, but I can't shake the feeling that Beatty--in some scenes--would have been even better.
+But you can still feel Beatty's ghost. The flute-playing is pure Carradine, but the romance with Thurman? The pimp-like authority over his stable of assassins? That's Beatty's role. Carradine's good, but I can't shake the feeling that Beatty--in some scenes--would have been even better.
 
 Still, this is Tarantino working at the height of his genre-mashing powers. It's excessive, referential, soaked in arterial spray, and absolutely committed to its exploitation roots. _The Whole Bloody Affair_ is indeed the whole bloody affair, no longer chopped in half and left to bleed out between releases.
 
