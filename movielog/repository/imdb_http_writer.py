@@ -54,7 +54,7 @@ def _build_writer(
 
         query_extensions = {
             "persistedQuery": {
-                "sha256Hash": "096f555fe586eed2dde6c19293bd623a102b64cc2abc9f1ab6ef0a12b1cd36ec",
+                "sha256Hash": "e498be2cfdef7b2902c565d1bcf9156285b2941c0ff68e7625141560dd09f3a1",
                 "version": 1,
             }
         }
