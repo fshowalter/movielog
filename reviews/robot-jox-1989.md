@@ -12,7 +12,7 @@ The setup borrows loosely from Homer. We open with Achilles, the Market's champi
 
 I went in expecting very little. I came out surprised.
 
-The film feels like a well-made episode of 1980s science-fiction television. Think _Buck Rogers_,  or the original _Battlestar Galactica_. That is not an insult. Those shows had a certain confidence about their own limitations. _Robot Jox_ has that same confidence. Its animatronic robots, in their best moments, actually look like robots: heavy, battered, slow in the way that something enormous would be slow. The stop-motion sequences look like cartoons. You roll with it.
+The film feels like a well-made episode of 1980s science-fiction television. Think _Buck Rogers_, or the original _Battlestar Galactica_. That is not an insult. Those shows had a certain confidence about their own limitations. _Robot Jox_ has that same confidence. Its animatronic robots, in their best moments, actually look like robots: heavy, battered, slow in the way that something enormous would be slow. The stop-motion sequences look like cartoons. You roll with it.
 
 Stuart Gordon directed <span data-imdb-id="tt0089885">_Re-Animator_</span> and <span data-imdb-id="tt0091083">_From Beyond_</span>. He knows how to build a world from the ground up. Here the world has hover cars and mandatory breathing masks and people stacked into concrete megastructures on a scorched earth. It's a shabby, lived-in future--the kind that convinces because it's not fancy or overproduced. The atmosphere is doing real work. It makes the robots all the more extraordinary.
 
