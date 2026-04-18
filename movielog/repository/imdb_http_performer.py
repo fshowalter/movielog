@@ -16,12 +16,19 @@ PEFORMER_CREDIT_CATEGORY = (
 
 
 def _edge_title_role_attributes_are_valid(edge: UntypedJson) -> bool:
-    attributes: list[UntypedJson] = get_nested_value(edge, ["node", "attributes"]) or []
+    credited_roles: list[UntypedJson] = (
+        get_nested_value(edge, ["node", "creditedRoles", "edges"]) or []
+    )
+    attributes: list[UntypedJson] = [
+        attribute
+        for roleEdge in credited_roles
+        for attribute in get_nested_value(roleEdge, ["node", "attributes"]) or []
+    ]
 
     return (
         len(
-            {"scenes deleted"}.intersection(
-                {attribute.get("text", "").lower() for attribute in attributes}
+            {"scenes deleted", "voice", "voice: English version"}.intersection(
+                {attribute.get("text", "").lower() for attribute in attributes if attribute}
             )
         )
         == 0
@@ -70,7 +77,7 @@ def _build_performer(
 
         query_extensions = {
             "persistedQuery": {
-                "sha256Hash": "096f555fe586eed2dde6c19293bd623a102b64cc2abc9f1ab6ef0a12b1cd36ec",
+                "sha256Hash": "e498be2cfdef7b2902c565d1bcf9156285b2941c0ff68e7625141560dd09f3a1",
                 "version": 1,
             }
         }
