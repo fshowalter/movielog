@@ -170,11 +170,6 @@
       "title": "The Gingerbread Man (1998)"
     },
     {
-      "imdbId": "tt4791860",
-      "title": "Killer App (1998)",
-      "titleType": "TV Movie"
-    },
-    {
       "imdbId": "tt0126250",
       "title": "Cookie's Fortune (1999)"
     },
@@ -195,5 +190,12 @@
       "title": "A Prairie Home Companion (2006)"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt4791860",
+      "title": "Killer App (1998)",
+      "titleType": "TV Movie",
+      "reason": "not a movie?"
+    }
+  ]
 }
