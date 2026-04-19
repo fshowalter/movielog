@@ -92,7 +92,10 @@ def _update_json_title_with_title_page_data(
     )
     json_title["runtimeMinutes"] = title_page.runtime_minutes
 
-    json_title["releaseDate"] = title_page.release_date
+    if title_page.release_date.startswith(
+        str(title_page.year)
+    ) and not title_page.release_date.endswith("??-??"):
+        json_title["releaseDate"] = title_page.release_date
     json_title["releaseDateCountry"] = title_page.release_date_country
     json_title["countries"] = title_page.countries
     json_title["genres"] = title_page.genres
@@ -215,4 +218,5 @@ def update_title(
     _update_json_title_with_title_page_data(session, updated_json_title, watchlist_performer_ids)
 
     if updated_json_title != json_title:
+        json_titles.serialize(updated_json_title)
         json_titles.serialize(updated_json_title)
