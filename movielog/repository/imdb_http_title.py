@@ -16,14 +16,6 @@ CreditKind = Literal["director", "writer", "performer"]
 
 CREDIT_KINDS = get_args(CreditKind)
 
-UNKNOWN_RELEASE_DATES = {
-    "tt0273255": "1990-??-??",  # Hansel e Gretel
-    "tt0150855": "1991-??-??",  # Hauntedween
-    "tt0063183": "1968-??-??",  # Killer Darts
-    "tt2087757": "1985-??-??",  # Faust
-    "tt0097859": "1989-??-??",  # Il Mefistofele
-}
-
 
 @dataclass
 class NameCredit:
@@ -154,29 +146,34 @@ def _parse_release_date(imdb_id: str, page_data: UntypedJson) -> str:
         None,
     )
 
-    if production_status_history_release_date:
+    title_year = str(_parse_year(page_data))
+
+    if production_status_history_release_date and production_status_history_release_date.startswith(
+        title_year
+    ):
         return production_status_history_release_date
 
     release_date = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "releaseDate"], None
     )
 
-    if not release_date and imdb_id in UNKNOWN_RELEASE_DATES:
-        return UNKNOWN_RELEASE_DATES[imdb_id]
+    if release_date:
+        day = get_nested_value(release_date, ["day"], None)
 
-    day = get_nested_value(release_date, ["day"], None)
+        day = f"{day:02}" if isinstance(day, int) else "??"
 
-    day = f"{day:02}" if isinstance(day, int) else "??"
+        month = get_nested_value(release_date, ["month"], None)
 
-    month = get_nested_value(release_date, ["month"], None)
+        month = f"{month:02}" if isinstance(month, int) else "??"
 
-    month = f"{month:02}" if isinstance(month, int) else "??"
+        year = get_nested_value(release_date, ["year"], None)
 
-    year = get_nested_value(release_date, ["year"], None)
+        assert isinstance(year, int)
 
-    assert isinstance(year, int)
+        if str(year) == title_year:
+            return f"{year}-{month}-{day}"
 
-    return f"{year}-{month}-{day}"
+    return f"{title_year}-??-??"
 
 
 def _parse_year(page_data: UntypedJson) -> int:

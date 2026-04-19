@@ -22,6 +22,18 @@ ValidTitles = {
     "tt0094762": "Blood Delirium",
 }
 
+UNKNOWN_RELEASE_DATES = {
+    "tt0415167",  # Mortuary
+    "tt0063097",  # House of Evil
+    "tt0273255",  # Hansel e Gretel
+    "tt0150855",  # Hauntedween
+    "tt0063183",  # Killer Darts
+    "tt2087757",  # Faust
+    "tt0097859",  # Il Mefistofele
+    "tt1964972",  # Olympus Force: The Key
+    "tt0062690",  # The Awakening of the Beast
+}
+
 
 def _get_valid_title_ids() -> set[str]:
     title_ids = [
@@ -58,6 +70,32 @@ def validate_sort_title(json_title: json_titles.JsonTitle) -> None:
         existing_sort_title,
         json_title["sortTitle"],
     )
+
+
+def validate_release_date(json_title: json_titles.JsonTitle) -> None:
+    title_year = json_title["year"]
+
+    release_date = json_title["releaseDate"]
+
+    if not release_date.startswith(title_year):
+        logger.log(
+            "{} ({}) [{}]: releaseDate is {} but year is {}.",
+            json_title["title"],
+            json_title["year"],
+            json_title["imdbId"],
+            json_title["releaseDate"],
+            json_title["year"],
+        )
+
+    if release_date.endswith("??-??") and json_title["imdbId"] not in UNKNOWN_RELEASE_DATES:
+        logger.log(
+            "{} ({}) [{}]: releaseDate is {}. Correct JSON or exclude in title_data_validator.py",
+            json_title["title"],
+            json_title["year"],
+            json_title["imdbId"],
+            json_title["releaseDate"],
+            json_title["year"],
+        )
 
 
 def validate_slug(json_title: json_titles.JsonTitle, review_ids: set[str]) -> None:
@@ -173,6 +211,7 @@ def validate(token: str) -> None:
 
             validate_slug(updated_title, review_ids)
             validate_sort_title(updated_title)
+            validate_release_date(updated_title)
 
             correct_file_path = json_titles.generate_file_path(updated_title)
 
