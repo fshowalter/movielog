@@ -163,10 +163,6 @@
       ]
     },
     {
-      "imdbId": "tt35667905",
-      "title": "Suddenly in Color (1954)"
-    },
-    {
       "imdbId": "tt0048140",
       "title": "Guys and Dolls (1955)",
       "credits": [
@@ -560,5 +556,11 @@
       ]
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt35667905",
+      "title": "Suddenly in Color (1954)",
+      "reason": "Colorized version of Suddenly (1954)"
+    }
+  ]
 }
