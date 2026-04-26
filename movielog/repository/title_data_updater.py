@@ -219,4 +219,3 @@ def update_title(
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
-        json_titles.serialize(updated_json_title)
