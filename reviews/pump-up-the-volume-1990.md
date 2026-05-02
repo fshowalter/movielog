@@ -6,7 +6,7 @@ date: 2026-05-01
 synopsis: A shy teen moonlights as a popular pirate radio DJ, alarming the local high school's corrupt administration.
 ---
 
-There is a moment near the end of _Pump Up the Volume_ when Christian Slater removes his sunglasses and looks out over a crowd of kids who have gathered because of him, because of what he said into a cheap microphone in his basement. The camera shifts to slow motion, then to his point of view, then back again as a grin spreads across his face. His two selves have finally merged. It is an audacious piece of filmmaking, and it works because writer-director Allan Moyle has been saving his visual fireworks for exactly this moment.
+There is a moment near the end of _Pump Up the Volume_ when Christian Slater removes his glasses and looks out over a crowd of kids who have gathered because of him, because of what he said into a cheap microphone in his basement. The camera shifts to slow motion, then to his point of view, then back again as a grin spreads across his face. His two selves have finally merged. It is an audacious piece of filmmaking, and it works because writer-director Allan Moyle has been saving his visual fireworks for exactly this moment.
 
 Slater plays Mark Hunter, a teenager dragged from the East Coast to one of those Arizona suburbs that look like they were designed by someone who hates surprises. He is paralyzed by shyness. He cannot speak to his classmates. But every night he fires up a shortwave transmitter and becomes Hard Harry, a profane, funny, reckless pirate DJ who says everything his daytime self cannot. The kids start listening. Then they start caring. Then things get complicated.
 
