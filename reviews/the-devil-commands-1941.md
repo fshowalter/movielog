@@ -1,18 +1,25 @@
 ---
-date: 2007-12-27
+date: 2026-05-02
 imdb_id: tt0033530
-grade: D+
+grade: D
 slug: the-devil-commands-1941
+synopsis: Tragedies pile up when scientist Boris Karloff becomes obsessed with the idea of communicating with his dead wife.
 ---
 
-A scientist (Boris Karloff) becomes obsessed with the idea of communicating with his dead wife.
+The devil does not appear in _The Devil Commands_. Neither do his commands. This is worth mentioning because the title is the most dramatic thing about the picture.
 
-_The Devil Commands_ is a solid, if forgettable, mad-scientist flick that could have been something special.
+Boris Karloff plays a university scientist whose wife dies, leaving him convinced he can contact her through science. It is a premise with some juice. Early on, Karloff confronts a phony medium and dismantles her act trick by trick, and for a moment you think the film might have something to say about the border between science and the supernatural. Then it forgets it brought up the question.
 
-Director Edward Dmytryk (who would direct <span data-imdb-id="">_Murder, My Sweet_</span> just three years later) does a wonderful job creating atmosphere--for the most part. The decision to use what appear to be modified diving helmets as props is regrettable, as the result is laughable and drags down what are otherwise some solid production values.
 
-Still, Karloff is great in the lead, and the script has potential. The first half of the film works very well, leading up to a great scene where Karloff’s character debunks a phony medium.
+Instead, director Edward Dmytryk reaches for the mad scientist playbook: long shadows, crackling electricity, a gothic laboratory, an angry mob with clubs. He reaches, but comes up short. The shadows are there, but the sets behind them are bare. The electricity crackles exactly once. The mob could fit in a drawing room. And then there are the helmets. Karloff's experimental apparatus involves what appear to be modified diving helmets strapped onto his subjects. The resulting bulbous-head effect elicits guffaws instead of chills.
 
-Then the film seems to run out of steam, as the traditional mad scientist formula takes over, replete with a nosey sheriff and an angry mob of townspeople. Dmytryk and Karloff do what they can, but compared to the first half, this feels like a letdown. Fortunately, the 65-minute running time means it’s all over pretty quick.
 
-On a side note, the title has virtually nothing to do with the film, as there are no references at all to the devil, or his commands.
+The real problem is that the film is a cop-out. Karloff is supposed to be descending into dangerous obsession, but the movie won't let him get dangerous. His most ghoulish act--grave robbing--we only hear about long after the fact. The "horrors" amount to a string of accidents, one caused by a nosy sheriff who guilts the housekeeper into snooping where she shouldn't. Karloff isn't mad. He isn't evil. He's a workaholic with poor safety protocols.
+
+At one point the film leaps forward two years. To its credit, Karloff sells the passage of time. His hair has gone shaggy, his mustache has grown wild, and his eyes carry the weight of seven hundred sleepless nights. It is a fine piece of physical acting. But after two years, he has made no progress, and neither has the story. Then, in the final five minutes, the film tries to cram a full act of plot into the space of a commercial break before the whole thing literally collapses on itself.
+
+At sixty-five minutes, the film feels long. From the opening frames, a voiceover narration by Karloff's daughter hangs over the picture like a spoiler. She tells us what is going to happen, then we watch it happen less interestingly than she described it. Whatever tension the finale might have generated, her narration has already bled dry.
+
+In the end, _The Devil Commands_ wants to be science fiction, gothic horror, and criminal melodrama, but commits to none of them. It succeeds as a cautionary tale--but not the one it intended.
+
+Still, it has Karloff. Karloff is good. He is always good. He finds the grief in this man and plays it with a quiet dignity the material doesn't deserve. If only the film had given him something to do.
