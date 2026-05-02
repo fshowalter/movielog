@@ -9,7 +9,7 @@ synopsis: Skirt-chasing dandy Cary Grant pursues a foreign beauty unaware she's 
 
 Cary Grant plays a skirt-chasing Parisian dandy named Julian De Lussac, which should be your first warning. He's just back from Chile, broke except for an option on a nitrate mine he can't afford to exercise. On his way home he spots a beauty in a Mercedes and gives chase, not realizing she and her husband plan to swindle him out of the concession. Meanwhile, telephone operator Frances Drake has been eavesdropping on his calls and has fallen for him. She knows about the plot. She tries to warn him. He won't listen. The title tells you that much.
 
-The central problem is Grant himself--or rather, his casting. His character is written as a schemer who rigs up elaborate contraptions to keep women trapped in his apartment, including a machine hidden behind a curtain that simulates a thunderstorm. Melvyn Douglas could sell this. Douglas had the weasel's charm, the slight air of a man who might actually need tricks. Grant doesn't. Grant just has to smile. 
+The central problem is Grant himself--or rather, his casting. His character is written as a schemer who rigs up elaborate contraptions to keep women trapped in his apartment, including a machine hidden behind a curtain that simulates a thunderstorm. Melvyn Douglas could sell this. Douglas had the weasel's charm, the slight air of a man who might actually need tricks. Grant doesn't need tricks. Grant just has to smile. 
 
 Then there's the love triangle that isn't one. Rosita Moreno is supposed to be so irresistible that Grant overlooks Drake entirely. When you look like Cary Grant, the woman you're chasing needs to generate equivalent heat. Moreno is pleasant. Pleasant doesn't cut it.
 
