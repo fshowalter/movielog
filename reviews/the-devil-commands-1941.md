@@ -3,7 +3,7 @@ date: 2026-05-02
 imdb_id: tt0033530
 grade: D
 slug: the-devil-commands-1941
-synopsis: Tragedies pile up when scientist Boris Karloff becomes obsessed with the idea of communicating with his dead wife.
+synopsis: Tragedies pile up when scientist Boris Karloff becomes obsessed with communicating with his dead wife.
 ---
 
 The devil does not appear in _The Devil Commands_. Neither do his commands. This is worth mentioning because the title is the most dramatic thing about the picture.
