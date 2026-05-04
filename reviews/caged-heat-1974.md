@@ -14,9 +14,9 @@ He delivers the goods. There is a great deal of nudity, staged with more craft t
 
 His visual style recalls early De Palma: realism as a baseline, formal flourishes where the budget allows. Wide shots dominate, giving the picture an almost documentary flatness, but he pulls in tight when it counts. An attempted lobotomy sequence earns its close-ups.
 
-His casting, though, is uneven. Tapping Barbara Steele for the warden is genius. Those eyes could cut glass. Her British accent and glacial composure make her the best thing in the picture, and her dream sequence, a burlesque number staged in a psychedelic bathroom, is a must-see for horror fans who already love her. 
+His casting, though, is uneven. Tapping Barbara Steele for the sexually-repressed warden is genius. Those eyes could cut glass. Her British accent and glacial composure make her the best thing in the picture, and her dream sequence, a burlesque number staged in a psychedelic bathroom, is a must-see for horror fans who already love her. 
 
-Roberta Collins also registers as a kleptomaniac with real screen presence. You sense she had more range than the genre ever asked of her. In a kinder industry, she might have followed Pam Grier out of exploitation and into real stardom.
+Roberta Collins also registers as a kleptomaniac inmate. She's got real screen presence and you sense she had more range than the genre ever asked of her. In a kinder industry, she might have followed Pam Grier out of exploitation and into real stardom.
 
 Top-billed Juanita Brown is less fortunate. She has the physicality for her role, but too often her delivery feels phoned-in. When she warns Collins that she'll "spill a can of kick-ass all over her butt," it sounds like she's reading it for the first time--and from a cue card. It's a problem the movie can't quite shake.
 
