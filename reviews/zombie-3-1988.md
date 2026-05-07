@@ -7,15 +7,15 @@ synopsis: After experimental US Army bio-weapon turns much of a Filipino town in
 
 ---
 
-The corpse shambles on. Lucio Fulci's _Zombie 3_ lurches onto screens like one of its own undead--patched together, falling apart, and possessing just enough life to occasionally surprise you.
+The corpse shambles on. Lucio Fulci's _Zombie 3_ plays like one of its own undead--patched together, falling apart, and possessing just enough life to occasionally surprise you.
 
-Here's the story behind the disaster: Lucio Fulci, the Italian horror maestro, started shooting this Philippines-set mess but abandoned ship after six weeks, leaving seventy minutes of footage. The producers panicked. They chopped his cut to fifty minutes and hired Bruno Mattei to shoot forty more--without the original cast.[^1]
+Some background: Fulci, the Italian horror maestro, started shooting this Philippines-set mess but abandoned ship after six weeks, leaving seventy minutes of footage. The producers panicked. They chopped his cut to fifty minutes and hired Bruno Mattei to shoot forty more--without the original cast.[^1]
 
-Death One is the McGuffin. It's a bio-weapon that escapes containment and turns a town into a zombie buffet. Tourists flee. Soldiers shoot. Scientists scramble. Standard issue chaos, executed with the production values of a Cannon Films fever dream.
+The film starts with a bio-weapon McGiffin named Death One that escapes containment and turns a town into zombies. Tourists flee. Soldiers shoot. Scientists scramble. Standard issue chaos, executed with the production values of a Cannon Films fever dream.
 
 Because that's what this feels like: <span data-imdb-id="tt0088708">_American Ninja_</span> with zombies. Same Filipino locations. Same bloodless machine gun battles where extras just fall down. The opening sequence doesn't even have muzzle flashes--those guns might have been broomsticks. But here's where it gets interesting: these zombies behave like ninjas. They burst through walls. Drop from ceilings. Rise from grass mounds like they're lying in ambush. It's absurd, but it keeps things moving.
 
-The script wallows in creative bankruptcy. People snatch at broken glass--how convenient for infection.  A vacationing couple stops to move dead birds off the highway. A woman cracks her shin getting out of a car like she fell from a building. Another loses her legs to a magic spring and comes up chomping. A zombie head rockets from a refrigerator--the one scene Fulci praised. It's all magnificently stupid.
+The script wallows in creative bankruptcy. People snatch at broken glass--how convenient for infection.  A vacationing couple stops to move dead birds off the highway. A woman cracks her shin getting out of a car like she fell from a building. Another loses her legs in a magic wellspring and comes up chomping. A zombie head rockets from a refrigerator--the one scene Fulci praised. It's all magnificently stupid.
 
 Everywhere you look: shortcuts and gaffes. Buildings without air conditioning leave actors perpetually drenched. A general holds a phone receiver to his neck instead of his mouth. Two characters get thrown through windows--one living, one undead--both hilarious.
 
@@ -25,6 +25,5 @@ And yet, buried in this mess are genuine Fulci moments. There's a machete-wieldi
 
 But such moments are too few and far between. _Zombie 3_ shambles between incompetence and inspiration. Mostly the former. But those few Fulci moments hint at what could have been. And I loved that two of the main characters are named Kenny and Roger. If that's intentional, somebody knew exactly what kind of movie they were making.
 
-The rest is ninja zombies and rubber planks.
 
 [^1]: Troy Howarth, _Splintered Visions: Lucio Fulci and His Films_ (Baltimore: Midnight Marquee Press, 2015), 302.
