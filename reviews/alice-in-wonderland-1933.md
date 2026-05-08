@@ -1,31 +1,27 @@
 ---
 imdb_id: tt0023753
-title: Alice in Wonderland (1933)
 slug: alice-in-wonderland-1933
-grade: F
-date: 2024-08-24
+grade: F+
+date: 2026-05-06
+synopsis: A young girl steps through her mirror into a world of talking chess pieces, sobbing turtles, mad queens, and clumsy knights.
 ---
 
-This tone-deaf Paramount spectacle combines elements from Lewis Carroll's _Through the Looking-Glass_ and _Alice's Adventures in Wonderland_.
+Paramount's 1933 _Alice in Wonderland_ is a curiosity in the worst sense. It combines Lewis Carroll's two Alice books into one picture and manages to capture the spirit of neither.
 
-<!-- end -->
+Charlotte Henry plays Alice, a girl in Victorian England. One winter's day she steps through her mirror into a world of talking chess pieces, then floats down a rabbit hole into Wonderland. Things happen. None of them matter.
 
-We follow Alice, a young girl in Victorian England. One winter’s day, she steps through her mirror into a fantastical world of talking clocks and anthropomorphic chess pieces. Wandering outside, she floats down a rabbit hole into Wonderland, where she meets the Mad Hatter, the Queen of Hearts, Humpty Dumpty, and assorted other characters.
+The studio conscripted all the big names on its roster--Cary Grant, W. C. Fields, Gary Cooper, Jack Oakie, Edna May Oliver--then buried them under full-face masks and padded costumes meant to evoke John Tenniel's original illustrations. The resemblance is there, but Tenniel's magnificent creatures have become clunky costumes. Seams show. Joints don't match. Movement looks obstructed and painful. According to Scott Eyman, Grant wasn't even in the suit.[^1] He just dubbed the Mock Turtle's lines.
 
-I watched this movie because it features an early performance by Cary Grant. Indeed, Paramount stacked this movie with almost every star in its stable. W. C. Fields, Jack Oakie, Edna May Oliver, and Gary Cooper all appear, though most--Grant included--are hidden behind full-masked costumes. According to Scott Eyman in _Cary Grant: A Brilliant Disguise_, Grant wasn’t even in the suit. He just dubbed the lines. Had I known this going in, I would have skipped it and saved myself the seventy-six minutes.
+The optical effects fare better. Objects vanish and reappear. Alice grows and shrinks. None of it rivals what Willis O'Brien achieved in <span data-imdb-id="tt0024216">_King Kong_</span> that same year, but it doesn't humiliate itself. The film's one genuine bright spot is entirely practical: for the scene where Alice drinks a potion that makes her a giant, the crew rebuilt the set at a smaller scale around her. No trick photography. Just carpentry and common sense. It works better than anything else in the picture.
 
-These costumes and masks, according to John Douglas Eames in _The Paramount Story_, were intended to resemble John Tenniel’s wood-engraved illustrations from the original Lewis Carroll books.
+But camera tricks cannot substitute for a story, and this film has none. Alice drifts from one encounter to the next with no purpose, no urgency, no stakes. The result is a series of disconnected skits. Fields mugs agreeably as Humpty Dumpty. Cooper's White Knight is painful. Most fall somewhere in between, in that dead zone where you're not entertained but not offended enough to leave.
 
-They do indeed bear a resemblance, but at the level of an amateur theater production, not a major studio motion picture. Visible seams, obstructed movement, and mismatched joints abound, as though the costumer had only days to prepare.
+Henry, nineteen at the time and unknown, never convinces as a child. She recites her lines with a flat American accent and hits her marks. I don't blame her. Grant and Cooper, stars with actual talent, do no better.[^2] Director Norman McLeod seems deaf to everything that makes Carroll's writing sing: the wordplay, the menace, the dream-logic. He treats Wonderland as a backdrop for vaudeville acts.
 
-Surprising, given the optical effects are passable. Objects appear and disappear. Alice grows and shrinks. While these in-camera illusions never approach the bar set by <span data-imdb-id="tt0024216">_King Kong_</span> (released the same year), they don’t embarrass like the costumes.
+The picture died at the box office. Some studio executives concluded that fantasy simply couldn't work on screen. But six years later, MGM made <span data-imdb-id="tt0032138">_The Wizard of Oz_</span>, which did everything this movie didn't. The script offered genuine narrative and emotional stakes. Judy Garland delivered a real performance. The costumes let their stars act. The songs gave the story a heartbeat. 
 
-The best effect—and indeed the film’s lone bright spot—is all practical. When Alice encounters the “Drink Me” potion that grows her to a giant, the production rebuilt the entire set at a smaller scale, making Alice look gigantic in relation. An early example of practical effects besting in-camera optical.
+One suspects Paramount believed the spectacle alone would suffice. If that sounds familiar, it should. To anyone who thinks the triumph of effects over storytelling is a modern disease, this film is the cure for that illusion. Hollywood has always been willing to mistake technology for entertainment.
 
-As with the costumes, the script embarrasses. Devoid of any narrative or emotional stakes, Alice wanders around Wonderland with no purpose or urgency. This reduces the film to a series of disjointed skit-like encounters. At best they’re passable like Fields’ Humpty Dumpty. At worst they’re cringe-worthy, such as Cooper’s White Knight. Joseph Mankiewicz would later script <span data-imdb-id="tt0025464">_Manhattan Melodrama_</span> and <span data-imdb-id="tt0042192">_All About Eve_</span>, so we’ll chalk this up as a learning experience.
+[^1]: Scott Eyman, _Cary Grant: A Brilliant Disguise_ (Simon & Schuster, New York, 2020), 85, Kindle.
 
-As Alice, then-unknown nineteen-year-old Charlotte Henry never convinces as a Victorian child, just a teen able to pass for a younger girl and recite the dialogue. I don’t fault her, given the likes of Grant and Cooper turn in similar stiff performances. This falls on director Norman McLeod, who seems tone-deaf to Carroll’s work.
-
-All this leads one to suspect Paramount believed the whiz-bang camera tricks were enough to win over audiences. To those lamenting that modern movies have devolved into CGI spectacles devoid of story and talent, take solace. This film proves it’s nothing new.
-
-Its dismal box office led some studio execs to conclude such fantasy films weren’t possible. But six years later, MGM would adapt <span data-imdb-id="tt0032138">_The Wizard of Oz_</span>, with Judy Garland delivering an actual performance backed by memorable special effects and iconic costumes that allowed its stars to deliver complete performances. And fifty-three years later, Jim Henson and Terry Gilliam would deliver <span data-imdb-id="tt0091369">_Labyrinth_</span>, which took a Carrollesque story, upped the narrative and emotional stakes, and utilized magnificent animatronic puppets for its creatures. Depending on your preference for classic or modern films, either option proves a drastic improvement over this disappointment.
+[^2]: If you're going to Americanize Alice, why not go all the way and Americanize Cooper's White Knight too and make him a cowboy? 
