@@ -14,7 +14,7 @@ There is a scene where Ash's hand becomes possessed. His solution is to chainsaw
 
 More characters eventually arrive. Raimi keeps the geography tight. One cabin, a cellar, some woods. The new characters don't distract from Campbell so much as give him people to bounce off of. His Ash begins to arc from victim into something like a heroic buffoon, a man too stupid or too stubborn to die. 
 
-If the film has a weakness, it's that it doesn't push Campbell's comic persona far enough. _Army of Darkness_ would recycle much of this film's material but give Ash better one-liners and an ego the size of his Oldsmobile. But that film couldn't exist without this one bridging the gap, transforming Ash from a generic college kid into a chainsaw-armed cartoon.
+If the film has a weakness, it's that it doesn't push Campbell's comic persona far enough. <span data-imdb-id="tt0106308">_Army of Darkness_</span> would recycle much of this film's material but give Ash better one-liners and an ego the size of his Oldsmobile. But that film couldn't exist without this one bridging the gap, transforming Ash from a generic college kid into a chainsaw-armed cartoon.
 
 I saw _Army of Darkness_ first, and it remains my favorite, though I understand the argument for this one. The confined setting creates real atmosphere, the gags are fresh, and there's an energy here that pure comedy can't replicate. This is slapstick with actual stakes, comedy where the blood sprays in gallons but you're laughing too hard to look away. 
 
