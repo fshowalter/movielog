@@ -6,6 +6,6 @@ slug: lightning-fists-of-shaolin-1984
 medium: Blu-ray
 venue: null
 venueNotes: null
-mediumNotes: _Shaw Brothers Classics, Vol. Four_, Shout Factory, 2023
+mediumNotes: '_Shaw Brothers Classics: Volume Four_, Shout Factory, 2023'
 ---
 
