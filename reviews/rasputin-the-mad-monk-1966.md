@@ -1,19 +1,21 @@
 ---
-date: 2015-01-17
+date: 2026-05-18
 imdb_id: tt0059635
-title: "Rasputin: The Mad Monk (1966)"
 grade: D+
 slug: rasputin-the-mad-monk-1966
+synopsis: Christopher Lee plays the notorious holy man who worms his way into the Tsarina's court before being cut down by assassins.
 ---
 
-_Rasputin: The Mad Monk_ opens with Rasputin, played by Christopher Lee, arriving at an inn and demanding wine. When he's told the innkeeper is unavailable due to his ill wife, an annoyed Rasputin marches upstairs. He storms into the bedroom, and proceeds to _will_ the disease out of the frail woman, drawing it into his now red-hot hands.
+Christopher Lee storms into a sickroom, lays hands on a fevered woman, and wills the disease right out of her. His palms radiate heat. Downstairs, the celebration begins. He drinks, he dances, he takes the innkeeper's daughter to the barn. When her young suitor objects, Rasputin chops the boy's hand off. "He won't trouble us anymore," he says, and turns back toward the girl. The whole village runs him out of town.
 
-Dancing and merriment follow. Rasputin gets good and drunk and takes the innkeeper's daughter out to the barn. This doesn't sit well with her young suitor who brawls with Rasputin. Rasputin chops the young lad's hand off saying, "He won't trouble us anymore," then makes to get back with the daughter. But the wounded suitor brings the rest of the village, who chase Rasputin out of town.
+It is a terrific opening. It tells you everything about Rasputin in ten minutes: the power, the appetite, the cruelty, the casual monstrousness of a man who heals a woman and mutilates a boy in the same evening. If only the ensuing film knew what to do with him.
 
-It’s a great introduction. If only the rest of the film lived up to it.
+Instead, we follow the holy man to Saint Petersburg, where he hypnotizes a lady-in-waiting--Barbara Shelley, reliably good--and worms his way into the Tsarina's court. There is a nice touch when Rasputin, having just seduced Shelley's character, tells her to leave some money on the bed. The court conspires against him. There is poison. There is grappling. Then it's over.
 
-As the story unfolds, Rasputin travels to Saint Petersburg. There he insinuates himself into the Tsarina's court by hypnotizing one of her ladies-in-waiting. Barbara Shelley plays the lady in question. There's a good bit where Rasputin, having just hypnotized Shelley's character into sleeping with him, tells her to leave some money on the dresser. As Rasputin's influence grows, members of the court begin to conspire against him. There's an overly elaborate plot involving poison, some grappling, then it's all over.
+This is a Hammer production that doesn't know what kind of Hammer production it wants to be. It waffles between biographical drama and exploitation horror. Rasputin wanders through Russia by way of Victorian London, surrounded by characters in western suits. One fellow wears a Cossack hat, presumably so we remember which country we're in. Director Don Sharp gets a single scene right--Rasputin taunting a would-be assassin from the shadows, practically daring the man to act. It could have come from one of Lee's Dracula pictures. Nothing else in the film matches it.
 
-Despite a terrific performance by Lee, and Hammer's solid production values[^1], the film underwhelms. It treats the character of Rasputin as a one-dimensional monster. This wouldn’t be so bad, but the talky script vacillates between biographical drama and horror without committing to either. The result? Rasputin spends too much time drinking and dancing and not enough time chopping off hands.
+Still, Lee is excellent. He is always excellent. He gives Rasputin a rock star swagger the film around him simply cannot match. But the script gives him no arc. We never understand what Rasputin wants beyond the next drink, the next dance, and the next woman. His assassins barely register as characters. He's the enigmatic villain in a story with no hero. As a result, we're left strangely detached from a story that should be lurid and gripping. 
 
-[^1]: Granted, they spliced in a ballroom shot from <span data-imdb-id="tt0048947">_Anastasia_</span>.
+That they had to splice in shots from 1956's <span data-imdb-id="tt0048947">_Anastasia_</span> should have told Hammer they had no business trying for historical drama. There's a decent exploitation picture here though, albeit one with less dancing and more hand chopping.
+
+

@@ -6,6 +6,6 @@ slug: rasputin-the-mad-monk-1966
 venue: null
 venueNotes: null
 medium: DVD
-mediumNotes: null
+mediumNotes: '_The Devil Rides Out / Rasputin: The Mad Monk_, Starz / Anchor Bay, 2004'
 ---
 
