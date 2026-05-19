@@ -10,7 +10,7 @@ There is a moment in _Red Spirit Lake_ where the ghost of a dead woman--or maybe
 
 The story is simple enough. Marilyn inherits a remote lakeside property from her aunt. The aunt was a witch. The lake is a place of power. A wealthy industrialist murdered the aunt to seize that power and now has designs on Marilyn. Various people arrive at the property. Bad things happen to them. One is cooked alive in a sauna. Another castrates himself. Compared to the man on the table, they got off easy.
 
-This is a shot-on-video production, and it wears that fact openly. The first scene nearly lost me: flat lighting, wooden dialogue, and gratuitous sexual violence deployed with all the subtlety of a fire alarm. But with a runtime of only sixty-five minutes, I stayed.
+This is a shot-on-video production, and it wears that fact openly. The first scene nearly lost me: flat lighting, wooden dialogue, and gratuitous sexual violence deployed with all the subtlety of a fire alarm. But with a runtime of only sixty-nine minutes, I stayed.
 
 I'm glad I did. Not because the film finds its footing--it never quite does--but because it keeps stumbling in interesting directions. The lighting remains inconsistent, as it does in so many of these productions, where the filmmakers seem unaware that a single dark corner can transform a room. Yet there are flashes of real effort here. Color filters appear. Actual night exteriors show up, moody and grainy. Someone was trying.
 
