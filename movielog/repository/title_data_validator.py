@@ -32,6 +32,7 @@ UNKNOWN_RELEASE_DATES = {
     "tt0097859",  # Il Mefistofele
     "tt1964972",  # Olympus Force: The Key
     "tt0062690",  # The Awakening of the Beast
+    "tt0127226",  # Red Spirit Lake
 }
 
 
