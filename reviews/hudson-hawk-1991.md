@@ -3,7 +3,7 @@ imdb_id: tt0102070
 slug: hudson-hawk-1991
 grade: B+
 date: 2026-04-09
-synopsis: Cat burglar Bruce Willis finds himself embroiled in a plot involving the Vatican, the CIA, and a pair of eccentric billionaires pursuing a machine made by Leonardo da Vinci that turns lead into gold.
+synopsis: Cat burglar Bruce Willis finds himself embroiled in a plot involving the Vatican, the CIA, and a pair of eccentric billionaires pursuing a Leonardo da Vinci machine that turns lead into gold.
 ---
 
 Bruce Willis plays a cat burglar nicknamed Hudson Hawk, freshly paroled and immediately strong-armed into stealing a Renaissance sculpture from an auction house. This is merely the appetizer. Before long, the CIA has shanghaied him to Rome to lift something from the Vatican. All of this is in service of a pair of eccentric billionaires who want to reassemble a Leonardo da Vinci machine that turns lead into gold. 
