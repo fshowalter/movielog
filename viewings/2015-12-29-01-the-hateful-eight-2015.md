@@ -6,6 +6,7 @@ slug: the-hateful-eight-2015
 venue: AFI Silver
 venueNotes: null
 medium: 70mm
-mediumNotes: Roadshow Version
+mediumNotes: null
 ---
 
+Roadshow version.
