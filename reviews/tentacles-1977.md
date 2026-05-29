@@ -3,7 +3,7 @@ imdb_id: tt0076809
 slug: tentacles-1977
 grade: D
 date: 2025-06-28
-synopsis: Reporter John Huston traces a spate of mysterious deaths along the coast of a small California town to a giant octopus.
+synopsis: Reporter John Huston traces a spate of mysterious deaths to a giant octopus.
 ---
 
 _Tentacles_ arrives as another entry in the post-<span data-imdb-id="tt0073195">_Jaws_</span> creature feature sweepstakes, and for two acts, it makes a case for itself. This Italian-American co-production puts John Huston in the role of a reporter investigating mysterious deaths off the California coast, while Bo Hopkins plays the marine expert who fingers the eight-armed killer.
@@ -16,7 +16,7 @@ The underwater photography avoids the cheap studio tank look. When the octopus a
 
 But Shelley Winters proves problematic as Huston's sister. She's entitled and helpless, and spends much of the film in an inexplicably oversized sombrero. Her character never faces danger. Waste of Winters. 
 
-The film's Italian roots show through extensive off-screen dialogue, designed for easy dubbing. Technical goofs pile up—swimmers keep sneakers on underwater, characters juggle walkie-talkies while sailing—but you forgive them because the suspense holds.
+The film's Italian roots show through extensive off-screen dialogue, designed for easy dubbing. Technical goofs pile up--swimmers keep sneakers on underwater, characters juggle walkie-talkies while sailing--but you forgive them because the suspense holds.
 
 Until it doesn't.
 
