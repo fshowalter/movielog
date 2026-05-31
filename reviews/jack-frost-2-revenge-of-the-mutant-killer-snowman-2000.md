@@ -8,7 +8,7 @@ synopsis: A mutant killer snowman terrorizes people on a tropical resort.
 
 The original <span data-imdb-id="tt0116671">_Jack Frost_</span> was a fun little splatter picture that knew exactly what it was: a movie about a killer snowman terrorizing a small town at Christmas. It had real snow, real locations, and a sense of fun that carried it past its budget. _Jack Frost 2: Revenge of the Mutant Killer Snowman_ has none of these things. 
 
-The plot this time around sees sheriff Sam Tiler, still rattled from the prior film, decamp to a Bahamas resort for his deputy's wedding. Jack, reanimated by a lab accident, psychically senses Sam and follows him to the tropics. This time he can spawn little killer snowballs--tribbles with teeth. It is not as fun as it sounds.
+The plot sees Sheriff Sam Tiler, still rattled from the prior film, decamp to a Bahamas resort for his deputy's wedding. Jack, reanimated by a lab accident, psychically senses Sam and follows him to the tropics. This time he can spawn little killer snowballs--tribbles with teeth. It is not as fun as it sounds.
 
 Writer-director Michael Cooney returns, but abandons everything that made the prior film work. He sets the action at a tropical resort he couldn't afford to build, in weather he couldn't control. Rain plagued the shoot, forcing the crew under a sixty-foot tent. Cooney responded by shooting everything in tight close-ups. You can feel him hiding the edges of the frame.
 
