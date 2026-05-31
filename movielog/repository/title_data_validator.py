@@ -22,6 +22,10 @@ ValidTitles = {
     "tt0094762": "Blood Delirium",
 }
 
+ValidSlugs = {
+    "dracula-1931-spanish",  # Dracula (spanish version)
+}
+
 UNKNOWN_RELEASE_DATES = {
     "tt0415167",  # Mortuary
     "tt0063097",  # House of Evil
@@ -105,6 +109,9 @@ def validate_slug(json_title: json_titles.JsonTitle, review_ids: set[str]) -> No
     existing_slug = json_title["slug"]
 
     if existing_slug == correct_slug:
+        return
+
+    if existing_slug in ValidSlugs:
         return
 
     if json_title["imdbId"] in review_ids:
