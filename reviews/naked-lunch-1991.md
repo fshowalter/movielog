@@ -3,7 +3,7 @@ imdb_id: tt0102511
 slug: naked-lunch-1991
 grade: B-
 date: 2026-01-24
-synopsis: After accidentally killing his wife, an exterminator flees to Interzone, a hallucinatory North African city where he writes reports on his insect typewriter and traces the source of a mysterious narcotic.
+synopsis: After accidentally killing his wife, an exterminator flees to a hallucinatory city where he writes reports on his insect typewriter and traces the source of a mysterious narcotic.
 ---
 
 David Cronenberg's _Naked Lunch_ isn't really an adaptation of William S. Burroughs's 1959 novel. It's a fever dream that stitches together that book, other Burroughs stories, and the writer's own tragic life into something that probably won't make much sense unless you've done your homework.
