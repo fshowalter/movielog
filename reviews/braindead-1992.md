@@ -3,7 +3,7 @@ imdb_id: tt0103873
 slug: braindead-1992
 grade: B
 date: 2026-05-07
-synopsis: In 1957 New Zealand, a shy young man struggles to juggle a burgeoning romance, his domineering mother, and a zombie outbreak.
+synopsis: In 1957 New Zealand, a shy young man struggles to juggle a burgeoning romance, his domineering mother, and a basement full of zombies.
 ---
 
 Wellington, New Zealand, 1957. A shy young man named Lionel lives under the thumb of his mother. He meets a girl. Things are looking up. Then mum gets bitten by a rat-monkey at the zoo and turns into a zombie.
