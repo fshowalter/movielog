@@ -21,8 +21,8 @@ def create_session(token: str) -> requests.Session:
 
 def session_get(session: requests.Session, url: str, *, json: bool = False) -> requests.Response:
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",  # noqa: E501
-        "Accept-Language": "en-US,en;q=0.5",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0",  # noqa: E501
+        "Accept-Language": "en-US,en;q=0.9",
     }
 
     if json:
