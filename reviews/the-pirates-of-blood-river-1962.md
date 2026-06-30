@@ -3,7 +3,7 @@ date: 2026-04-06
 grade: C+
 imdb_id: tt0056350
 slug: the-pirates-of-blood-river-1962
-synopsis: Searching for a storied treasure, a pirate gang led by Christopher Lee invades a secluded Huguenot colony. 
+synopsis: Searching for a storied treasure, Christopher Lee's pirate gang invades a secluded Huguenot colony. 
 ---
 
 There are no ships in _The Pirates of Blood River_. No ocean, no buried treasure, no plank to walk. Hammer Films couldn't afford any of that. What they had was Christopher Lee, and it turns out that's enough.

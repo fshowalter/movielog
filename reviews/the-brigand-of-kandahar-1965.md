@@ -3,7 +3,7 @@ imdb_id: tt0058991
 slug: the-brigand-of-kandahar-1965
 grade: D-
 date: 2025-01-10
-synopsis: After being jailed on racially motivated charges, British Indian Army officer Ronald Lewis escapes and joins a brigand group led by Oliver Reed but struggles with their savagery.
+synopsis: After being jailed on racially motivated charges, a British Indian Army officer escapes and joins Oliver Reed's brigands but struggles with their savagery.
 ---
 
 Despite a game performance from Oliver Reed, _The Brigand of Kandahar_ is a wildly uneven and ultimately disappointing adventure film from Hammer Film Productions.
