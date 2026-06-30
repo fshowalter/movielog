@@ -10,7 +10,7 @@ There is a moment in _Hysteria_ where the film cuts to the victim's point of vie
 
 Robert Webber plays Chris Smith, an amnesiac pieced back together after a car accident by a kindly psychiatrist and installed in a swanky London penthouse. Who is paying for all this? Chris doesn't know. He doesn't know much. He hears voices. He sees things. Every clue he follows leads somewhere ugly. 
 
-If you've seen Hammer's _The Full Treatment_ from 1960, you've seen this before, because writer-producer Jimmy Sangster has essentially restaged that film's plot--car accident, amnesia, psychiatrist, crumbling sanity--on a tighter budget with more twists. More twists do not always mean more fun.
+If you've seen Hammer's <span data-imdb-id="tt0054901">_The Full Treatment_</span> from 1960, you've seen this before, because writer-producer Jimmy Sangster has essentially restaged that film's plot--car accident, amnesia, psychiatrist, crumbling sanity--on a tighter budget with more twists. More twists do not always mean more fun.
 
 At his best, Webber evokes a discount William Holden. Holden built a career convincing audiences to forgive his characters everything. Webber doesn't have that trick fully mastered, but you tolerate him, which, for this material, is enough. He convinces as a guy who could have gone far if effort weren't a foreign concept, and he wears the confusion of amnesia well. You believe he doesn't know who he is. You also believe he wasn't trying very hard to find out before the accident, either.
 
