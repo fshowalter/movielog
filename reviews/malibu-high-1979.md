@@ -22,7 +22,7 @@ This is its central problem and its cult appeal. The bones of a genuine deadpan 
 
 The trouble starts with the pacing. _Malibu High_ commits the one sin no exploitation picture can survive: it bores you. The editing plods. Scenes either drag on too long or include needless interstitial shots, as though the film is checking its watch and realizing it still has forty minutes to fill. Great low-budget filmmakers either mask their poverty or weaponize it. This one films a classroom set where curtains hang on blank walls to suggest windows, then parks the camera in a wide shot that makes absolutely sure you notice.
 
-There is exactly one memorable image: the principal dying, framed through Kim's legs as she stands over him. It should have been a sharp punctuation mark. Instead the shot holds and holds until the punctuation becomes the entire paragraph. 
+There is exactly one memorable image: the principal dying, framed through Kim's legs as she stands over him forming the 'A' of her desire. It should have been a sharp punctuation mark. Instead the shot holds and holds until the punctuation becomes the entire paragraph. 
 
 Still, the film had potential. Alex Mann plays Tony, Kim's first pimp, as a garden-variety sleazeball. Garth Howard plays Lance, the upgrade, as something more unsettling--a kind of Charlie dispatching his lone Angel on killing assignments, all business and quiet authority. The contrast between the two men is the most interesting thing the film does on purpose.
 
