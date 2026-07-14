@@ -1,9 +1,9 @@
 ---
 imdb_id: tt0070636
-title: Satanic Pandemonium (1975)
 slug: satanic-pandemonium-1975
 grade: D+
 date: 2026-07-10
+synopsis: A nun at a rural convent unravels after encountering Satan.
 ---
 
 _Satanic Pandemonium_ is a Mexican production that opens on Sister María tending sheep outside her rural convent, where she stumbles upon a nude shepherd played by Enrique Rocha. He is Satan, naturally, and offers her a bite of his apple. She flees. But something has been unlocked, and the rest of the film watches it spill out.
