@@ -191,11 +191,10 @@ def _build_json_reviewed_title(
         viewing for viewing in repository_data.viewings if viewing.imdb_id == review.imdb_id
     ]
 
-    most_recent_viewing = sorted(
+    most_recent_viewing = max(
         [viewing for viewing in viewings if viewing.date == review.date],
         key=lambda viewing: viewing.sequence,
-        reverse=True,
-    )[0]
+    )
 
     return _JsonReviewedTitle(
         imdbId=title.imdb_id,

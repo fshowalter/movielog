@@ -54,33 +54,29 @@ def seed_collection(tmp_path: Path) -> None:
     collections_dir = tmp_path / "collections"
     collections_dir.mkdir(parents=True, exist_ok=True)
     (collections_dir / "friday-the-13th.json").write_text(
-        json.dumps(
-            {
-                "name": "Friday the 13th",
-                "sortName": "Friday the 13th",
-                "slug": "friday-the-13th",
-                "titles": [
-                    {"imdbId": "tt0080761", "title": "Friday the 13th (1980)"},
-                    {"imdbId": "tt0082418", "title": "Friday the 13th Part 2 (1981)"},
-                    {"imdbId": "tt0083972", "title": "Friday the 13th Part III (1982)"},
-                ],
-                "description": "The Friday the 13th franchise.",
-            }
-        )
+        json.dumps({
+            "name": "Friday the 13th",
+            "sortName": "Friday the 13th",
+            "slug": "friday-the-13th",
+            "titles": [
+                {"imdbId": "tt0080761", "title": "Friday the 13th (1980)"},
+                {"imdbId": "tt0082418", "title": "Friday the 13th Part 2 (1981)"},
+                {"imdbId": "tt0083972", "title": "Friday the 13th Part III (1982)"},
+            ],
+            "description": "The Friday the 13th franchise.",
+        })
     )
 
 
 def test_calls_add_title_to_collection(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(
-        [
-            *select_collection(),
-            *enter_token(),
-            *enter_title("tt0087298"),
-            *select_title_search_result(confirm="y"),
-            Escape,
-            Escape,
-        ]
-    )
+    mock_input([
+        *select_collection(),
+        *enter_token(),
+        *enter_title("tt0087298"),
+        *select_title_search_result(confirm="y"),
+        Escape,
+        Escape,
+    ])
     add_to_collection.prompt()
 
     data = json.loads((tmp_path / "collections" / "friday-the-13th.json").read_text())
@@ -94,17 +90,15 @@ def test_does_not_call_add_title_to_collection_if_no_selection(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *select_collection(),
-            *enter_token(),
-            *enter_title("The Final Chapter"),
-            Escape,
-            Escape,
-            Escape,
-            Escape,
-        ]
-    )
+    mock_input([
+        *select_collection(),
+        *enter_token(),
+        *enter_title("The Final Chapter"),
+        Escape,
+        Escape,
+        Escape,
+        Escape,
+    ])
     add_to_collection.prompt()
 
     data = json.loads((tmp_path / "collections" / "friday-the-13th.json").read_text())

@@ -27,9 +27,9 @@ def _edge_title_role_attributes_are_valid(edge: UntypedJson) -> bool:
 
     return (
         len(
-            {"scenes deleted", "voice", "voice: English version"}.intersection(
-                {attribute.get("text", "").lower() for attribute in attributes if attribute}
-            )
+            {"scenes deleted", "voice", "voice: English version"}.intersection({
+                attribute.get("text", "").lower() for attribute in attributes if attribute
+            })
         )
         == 0
     )

@@ -58,11 +58,7 @@ def generate_sort_name(name: str) -> str:
 
     # Find the first particle after the initial given name; that starts the last name.
     particle_index = next(
-        (
-            i
-            for i in range(1, len(split_name))
-            if split_name[i].lower() in SURNAME_PARTICLES
-        ),
+        (i for i in range(1, len(split_name)) if split_name[i].lower() in SURNAME_PARTICLES),
         None,
     )
 

@@ -99,20 +99,18 @@ def test_calls_add_viewing_and_create_or_update_review(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("m"),
-            *select_medium(),
-            *enter_medium_notes("Warner Bros., 2012"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("m"),
+        *select_medium(),
+        *enter_medium_notes("Warner Bros., 2012"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
 
     add_viewing.prompt()
 
@@ -136,22 +134,20 @@ def test_can_confirm_title(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0051554"),
-            *select_title_search_result("n"),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("m"),
-            *select_medium(),
-            *enter_medium_notes("Warner Bros., 2017"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0051554"),
+        *select_title_search_result("n"),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("m"),
+        *select_medium(),
+        *enter_medium_notes("Warner Bros., 2017"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -174,16 +170,14 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            Escape,
-            Escape,
-            Escape,
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        Escape,
+        Escape,
+        Escape,
+    ])
     add_viewing.prompt()
 
     assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
@@ -194,21 +188,19 @@ def test_guards_against_bad_dates(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-32"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("m"),
-            *select_medium(),
-            *enter_medium_notes("Warner Bros., 2012"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-32"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("m"),
+        *select_medium(),
+        *enter_medium_notes("Warner Bros., 2012"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -220,21 +212,19 @@ def test_can_confirm_date(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-13", confirm="n"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("m"),
-            *select_medium(),
-            *enter_medium_notes("Warner Bros., 2012"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-13", confirm="n"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("m"),
+        *select_medium(),
+        *enter_medium_notes("Warner Bros., 2012"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -243,22 +233,20 @@ def test_can_confirm_date(
 
 
 def test_can_add_new_medium(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("m"),
-            End,
-            Enter,
-            *enter_text("4k UHD Blu-ray"),
-            *enter_medium_notes("Warner Bros., 2023"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("m"),
+        End,
+        Enter,
+        *enter_text("4k UHD Blu-ray"),
+        *enter_medium_notes("Warner Bros., 2023"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -269,19 +257,17 @@ def test_can_add_new_medium(mock_input: MockInput, tmp_path: Path) -> None:
 
 
 def test_can_create_with_venue(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("v"),
-            *select_venue(),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("v"),
+        *select_venue(),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -292,21 +278,19 @@ def test_can_create_with_venue(mock_input: MockInput, tmp_path: Path) -> None:
 
 
 def test_can_add_new_venue(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            *select_if_medium_or_venue("v"),
-            End,
-            Enter,
-            *enter_text("Alamo Drafthouse"),
-            *enter_if_review("y"),
-            *enter_grade("A+"),
-            *add_another_viewing("n"),
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        *select_if_medium_or_venue("v"),
+        End,
+        Enter,
+        *enter_text("Alamo Drafthouse"),
+        *enter_if_review("y"),
+        *enter_grade("A+"),
+        *add_another_viewing("n"),
+    ])
     add_viewing.prompt()
 
     viewing_file = tmp_path / "viewings" / "2012-03-12-01-rio-bravo-1959.md"
@@ -318,20 +302,18 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
     mock_input: MockInput,
     tmp_path: Path,
 ) -> None:
-    mock_input(
-        [
-            *enter_token(),
-            *enter_title("tt0053221"),
-            *select_title_search_result("y"),
-            *enter_viewing_date("2012-03-12", confirm="y"),
-            Escape,
-            Escape,
-            Escape,
-            Escape,
-            Escape,
-            Escape,
-        ]
-    )
+    mock_input([
+        *enter_token(),
+        *enter_title("tt0053221"),
+        *select_title_search_result("y"),
+        *enter_viewing_date("2012-03-12", confirm="y"),
+        Escape,
+        Escape,
+        Escape,
+        Escape,
+        Escape,
+        Escape,
+    ])
     add_viewing.prompt()
 
     assert len(list((tmp_path / "viewings").glob("*.md"))) == 10
