@@ -35,23 +35,21 @@ def test_calls_add_performer(mock_input: MockInput, tmp_path: Path) -> None:
 
 
 def test_can_confirm_selection(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(
-        [
-            "a-test-aws-token",
-            Enter,
-            "nm0000078",
-            Enter,
-            Down,
-            Enter,
-            "n",
-            "nm0000078",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            Enter,
-        ]
-    )
+    mock_input([
+        "a-test-aws-token",
+        Enter,
+        "nm0000078",
+        Enter,
+        Down,
+        Enter,
+        "n",
+        "nm0000078",
+        Enter,
+        Down,
+        Enter,
+        "y",
+        Enter,
+    ])
     add_performer.prompt()
 
     data = json.loads((tmp_path / "watchlist" / "performers" / "john-wayne.json").read_text())

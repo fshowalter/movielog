@@ -131,6 +131,7 @@ Exports are generated automatically when running the main application. To manual
 
 ```python
 from movielog.exports.api import export_data
+
 export_data()
 ```
 

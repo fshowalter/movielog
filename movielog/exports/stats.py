@@ -11,19 +11,15 @@ from movielog.repository import api as repository_api
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
-_CREDIT_TEAMS = MappingProxyType(
-    {
-        frozenset(("nm0751577", "nm0751648")): "The Russo Brothers",
-        frozenset(("nm0001053", "nm0001054")): "The Coen Brothers",
-    }
-)
+_CREDIT_TEAMS = MappingProxyType({
+    frozenset(("nm0751577", "nm0751648")): "The Russo Brothers",
+    frozenset(("nm0001053", "nm0001054")): "The Coen Brothers",
+})
 
-_STAN_LEE_RULE = frozenset(
-    (
-        "nm0498278",  # Stan Lee
-        "nm1349117",  # Duke the horse
-    )
-)
+_STAN_LEE_RULE = frozenset((
+    "nm0498278",  # Stan Lee
+    "nm1349117",  # Duke the horse
+))
 
 _EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 

@@ -125,26 +125,22 @@ def prompt[T](
 
     application: Application[None] = Application(
         layout=Layout(
-            HSplit(
-                [
-                    FloatContainer(
-                        HSplit(
-                            [
-                                Label(HTML(title)),
-                                control,
-                            ]
+            HSplit([
+                FloatContainer(
+                    HSplit([
+                        Label(HTML(title)),
+                        control,
+                    ]),
+                    [
+                        Float(
+                            right=0,
+                            top=0,
+                            hide_when_covering_content=True,
+                            content=Label(rprompt or "ESC to go back"),
                         ),
-                        [
-                            Float(
-                                right=0,
-                                top=0,
-                                hide_when_covering_content=True,
-                                content=Label(rprompt or "ESC to go back"),
-                            ),
-                        ],
-                    )
-                ]
-            )
+                    ],
+                )
+            ])
         ),
         mouse_support=False,
         full_screen=False,
