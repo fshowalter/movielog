@@ -6,7 +6,7 @@ date: 2025-11-24
 synopsis: Caribbean pirate Burt Lancaster captures a British ship, schemes to sell its arms twice over, then falls for a rebel leader's daughter and switches sides.
 ---
 
-Burt Lancaster swings onto the screen shirtless, grinning at the camera, and promises us a romp. He delivers—mostly.
+Burt Lancaster swings onto the screen shirtless, grinning at the camera, and promises us a romp. He delivers--mostly.
 
 This 1952 adventure starts with real ships on real seas--Italian locations that put most studio-bound swashbucklers to shame. The Technicolor pops like a comic book. Reds, yellows, greens splash across the screen with the same vibrant joy as <span data-imdb-id="tt0029843">_The Adventures of Robin Hood_</span>. When the film stays outdoors, it sings.
 

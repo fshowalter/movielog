@@ -20,7 +20,7 @@ The supporting cast delivers. Pat O'Brien as the cop. Eduardo Ciannelli as the m
 
 Only Jay C. Flippen stumbles. He's playing a Swedish sailor with an accent nobody needed. Make him anything but Swedish. John Wayne in <span data-imdb-id="tt0032728">_The Long Voyage Home_</span> had better odds.
 
-Sturges knows how to tell a story. He mixes real NYC location footage with backlot work that blends seamlessly. And he's smart about the courtroom scenes. Instead of showing us every tedious moment, he cuts to Tracy's daughter reading the day's transcript. "Skip to the part about—" Boom. We're past the boring bits. Then Tracy rehearses tomorrow's cross-examination, and Sturges cuts from rehearsal to the real thing mid-sentence. Efficient as hell.
+Sturges knows how to tell a story. He mixes real NYC location footage with backlot work that blends seamlessly. And he's smart about the courtroom scenes. Instead of showing us every tedious moment, he cuts to Tracy's daughter reading the day's transcript. "Skip to the part about--" Boom. We're past the boring bits. Then Tracy rehearses tomorrow's cross-examination, and Sturges cuts from rehearsal to the real thing mid-sentence. Efficient as hell.
 
 But the script nearly sinks the ship. There's a clunky scene where Tracy's daughter and her boyfriend discuss his alcoholism like they're reading from a pamphlet. Worse, what recovering alcoholic keeps scotch in his liquor cabinet? And when Tracy bribes a witness, he does it by check. A check! It's necessary so he gets caught, but come on.
 

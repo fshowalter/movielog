@@ -11,7 +11,7 @@ _Valkyrie_ is a tight, well-done historical drama highlighted by solid performan
 
 The film's opening might have you believing screenwriters Christopher McQuarrie and Nathan Alexander are conceding this knowledge by starting with the failed assassination and working backwards, but that's not the case. Instead, they tell the story as a straight thriller, working in as much misdirection as possible in order to keep the audience guessing, but it's not enough.
 
-For the big scene, the actual assassination attempt, director Bryan Singer channels Alfred Hitchcock in an exquisitely cut sequence that would have you on the edge of your seat… if there was a chance of it actually working. Instead, you're just waiting to see what goes wrong, which effectively robs the scene of much of its potential.
+For the big scene, the actual assassination attempt, director Bryan Singer channels Alfred Hitchcock in an exquisitely cut sequence that would have you on the edge of your seat... if there was a chance of it actually working. Instead, you're just waiting to see what goes wrong, which effectively robs the scene of much of its potential.
 
 Indeed, the script's real strength is everything that happens afterwards. Here, McQuarrie and Alexander manage to shape a powerful and compelling drama as the conspirators try to secure their coup. From here through the surprisingly powerful ending, _Valkyrie_ is really something.
 

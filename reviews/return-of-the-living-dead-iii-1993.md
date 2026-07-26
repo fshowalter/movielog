@@ -21,4 +21,4 @@ The film devolves into a chase picture--Curt and zombie Julie fleeing from cops,
 
 _Return of the Living Dead III_ works as a franchise side-story, not a true sequel. It's too somber, too earnest. That's not inherently bad. But when your script keeps undermining itself with deaf characters and convenient stupidity, earnestness isn't enough.
 
-The ingredients for something special sit right there on screen—the effects, Clarke's performance, Yuzna's visual flair. They're just trapped in a script that never quite comes to life.
+The ingredients for something special sit right there on screen--the effects, Clarke's performance, Yuzna's visual flair. They're just trapped in a script that never quite comes to life.

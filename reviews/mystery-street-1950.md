@@ -16,7 +16,7 @@ That forensic angle--Bennett playing detective through bone analysis and scienti
 
 Still, there's much to savor. Montalban radiates an easy charm that never sacrifices authenticity. He's a natural, helped by Sturges to "tone down" his performance into something grounded and real.[^1] Elsa Lanchester steals scenes as a scheming landlady working every angle. The Boston location photography adds texture.
 
-The science, admittedly, is as dubious as anything in today's crime shows. But the effort counts. This was Sturges' audition at MGM, delivered on time and under budget. He had little control over the material—studio assembly-line work—but his touch shows in the tone, the performances, the confidence of the execution.
+The science, admittedly, is as dubious as anything in today's crime shows. But the effort counts. This was Sturges' audition at MGM, delivered on time and under budget. He had little control over the material--studio assembly-line work--but his touch shows in the tone, the performances, the confidence of the execution.
 
 "Good script. Good performances by Montalban and Lanchester. Good movie," Sturges said later.[^2] He was mostly right. For two-thirds of its running time, _Mystery Street_ is better than average. It just can't stick the landing.
 

@@ -6,7 +6,7 @@ grade: B-
 slug: color-out-of-space-2019
 ---
 
-**I liked this one, but I wanted to love it.** Based on H. P. Lovecraft’s story, a meteorite crash-lands outside an isolated New England farmhouse, dooming the family within to manipulation by extraterrestrial forces. Nicolas Cage plays the exasperated patriarch.
+**I liked this one, but I wanted to love it.** Based on H. P. Lovecraft's story, a meteorite crash-lands outside an isolated New England farmhouse, dooming the family within to manipulation by extraterrestrial forces. Nicolas Cage plays the exasperated patriarch.
 
 <!-- end -->
 

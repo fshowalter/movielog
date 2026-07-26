@@ -13,6 +13,6 @@ Joan Crawford and Michael Gough seem to take their roles with just the right amo
 
 Another plus is the circus scenes. Unlike say, <span data-imdb-id="tt0057952">_Circus World_</span>, _Berserk_ actually conveys some of the wonder and entertainment that drew audiences to the traveling shows in years past (love those poodles!).
 
-Sadly, the rest of the movie is pretty rough. There’s an ill-conceived musical number that features some awful lip-synching, and a finale that is so absurd you can’t help but laugh. Topping off these problems is an almost complete lack of gore, which is unfortunate because some over-the-top blood could have turned this into a wicked black comedy.
+Sadly, the rest of the movie is pretty rough. There's an ill-conceived musical number that features some awful lip-synching, and a finale that is so absurd you can't help but laugh. Topping off these problems is an almost complete lack of gore, which is unfortunate because some over-the-top blood could have turned this into a wicked black comedy.
 
 For Crawford fans, or fans of camp films, this might be an interesting curio, but others should stay away.

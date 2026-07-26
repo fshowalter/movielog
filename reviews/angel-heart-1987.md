@@ -16,7 +16,7 @@ Director Alan Parker shoots in actual diners, dive bars, and juke joints populat
 
 But about that ending.
 
-I've seen _Angel Heart_ three times now, maybe four. Each time I forget the big twist. Not because it's forgettable, but because it makes no sense. The film runs out of steam and wraps everything up with an exposition dump delivered at top volume. What had been quiet and atmospheric suddenly becomes talky and hysterical. Rourke runs around wide-eyed, shouting. Someone's eyes glow—twice. The second time made me laugh out loud.
+I've seen _Angel Heart_ three times now, maybe four. Each time I forget the big twist. Not because it's forgettable, but because it makes no sense. The film runs out of steam and wraps everything up with an exposition dump delivered at top volume. What had been quiet and atmospheric suddenly becomes talky and hysterical. Rourke runs around wide-eyed, shouting. Someone's eyes glow--twice. The second time made me laugh out loud.
 
 From the start, Robert De Niro's scenery-chewing turn as Cyphre plays like it's from a different movie--one approaching black comedy. It's not a bad performance. The tonal clash even works for the character. But it proves the first hint the film doesn't know where it's going. 
 

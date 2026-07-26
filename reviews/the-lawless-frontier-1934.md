@@ -5,7 +5,7 @@ grade: D
 slug: the-lawless-frontier-1934
 ---
 
-John Wayne plays a man searching for his parents' murderer, a notorious outlaw named Pandro Zanti, a “half white, half Apache Indian who poses as a Mexican.”
+John Wayne plays a man searching for his parents' murderer, a notorious outlaw named Pandro Zanti, a "half white, half Apache Indian who poses as a Mexican."
 
 <!-- end -->
 
@@ -21,4 +21,4 @@ Besides doubling for Wayne and coordinating the stunts, Canutt also plays Zanti'
 
 Like all of Wayne's Monogram releases, _The Lawless Frontier_ suffers from stilted dialog, wooden performances, and rushed production. These aren't good films, but important ones. Their limitations, combined with their relentless production schedules and Wayne's professional insecurity[^1], pushed Wayne to improve. Watching them is watching John Wayne as a work-in-progress.
 
-[^1]: Said screenwriter Lindsley Parsons of Wayne in those days, “We’d be out on location, he’d do a dialogue sequence and he’d just cuss himself out terribly. He’d go off behind a rock and talk about how lousy he was." Eyman, Scott. _John Wayne: The Life and Legend_ (Simon & Schuster, 2014), 75.
+[^1]: Said screenwriter Lindsley Parsons of Wayne in those days, "We'd be out on location, he'd do a dialogue sequence and he'd just cuss himself out terribly. He'd go off behind a rock and talk about how lousy he was." Eyman, Scott. _John Wayne: The Life and Legend_ (Simon & Schuster, 2014), 75.

@@ -13,4 +13,4 @@ Unlike leads Peter Fonda and Dennis Hopper, who are true outsiders, Nicholson's 
 
 _Easy Rider_ doesn't have much of a story, really. Fonda and Hopper do a drug deal and score some cash, and then take off for Mardi Gras. That's about the extent of it. Much of the film revolves around imagery and symbolism, but out of the 1960s context, a lot of it fails to resonate.
 
-While the film's central themes—the persecution of outsiders and the meaning of the American dream—still resonate, the way they're presented is tied so inextricably to 1969, that _Easy Rider_ is relegated to antique status, appreciated best by those who saw it when it was new.
+While the film's central themes--the persecution of outsiders and the meaning of the American dream--still resonate, the way they're presented is tied so inextricably to 1969, that _Easy Rider_ is relegated to antique status, appreciated best by those who saw it when it was new.

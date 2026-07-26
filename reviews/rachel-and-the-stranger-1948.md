@@ -6,17 +6,17 @@ grade: D
 slug: rachel-and-the-stranger-1948
 ---
 
-William Holden plays David Harvey, a farmer living with his young son Davey in the frontier wilderness. David's wife Susan died a year ago, sinking him into depression. After discovering Davey using his school books as fodder for toy boats, David resolves to take a new wife. Not for love, but because Susan was adamant that Davey not grow up “woodsy”.
+William Holden plays David Harvey, a farmer living with his young son Davey in the frontier wilderness. David's wife Susan died a year ago, sinking him into depression. After discovering Davey using his school books as fodder for toy boats, David resolves to take a new wife. Not for love, but because Susan was adamant that Davey not grow up "woodsy".
 
 <!-- end -->
 
-David travels to the nearby stockade—an impressive set—and consults the Parson. The Parson suggests David buy the contract of a bond woman named Rachel, played by Loretta Young. David likes the idea. A woman, but not a wife.
+David travels to the nearby stockade--an impressive set--and consults the Parson. The Parson suggests David buy the contract of a bond woman named Rachel, played by Loretta Young. David likes the idea. A woman, but not a wife.
 
-But the Parson says, “Decent church folk don't live together, man and woman, under the same roof without marriage.” So David marries Rachel and takes her back to his farm.
+But the Parson says, "Decent church folk don't live together, man and woman, under the same roof without marriage." So David marries Rachel and takes her back to his farm.
 
 David proves distant, allowing Rachel the bed while he sleeps on the floor in another room. Rachel works to endear herself, but David takes no notice.
 
-Davey, however, proves downright cruel. When Rachel tells him his father brought her there to school and mother him, Davey spits back, “The devil it was! You're a bond slave, is all!”
+Davey, however, proves downright cruel. When Rachel tells him his father brought her there to school and mother him, Davey spits back, "The devil it was! You're a bond slave, is all!"
 
 Things change when Jim, a family friend played by Robert Mitchum, arrives. He was a one-time suitor of Susan, and it surprised both him and David when she chose David over him. Jim plans to settle down and takes an instant interest in Rachel.
 

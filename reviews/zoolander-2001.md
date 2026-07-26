@@ -6,4 +6,4 @@ grade: B+
 slug: zoolander-2001
 ---
 
-Ten minutes into this rewatch, I remembered the upcoming “freak gasoline fight accident” scene and roared out laughing.
+Ten minutes into this rewatch, I remembered the upcoming "freak gasoline fight accident" scene and roared out laughing.

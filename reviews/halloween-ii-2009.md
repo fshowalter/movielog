@@ -16,7 +16,7 @@ I appreciated this nod to <span data-imdb-id="tt0082495">the original _Halloween
 
 One year has passed since the first film and Laurie's now a punk-rock girl battling full-blown post-traumatic stress disorder. Dr. Loomis has become a B-grade celebrity having written a tell-all memoir. Michael's body was never recovered, but he's presumed dead.
 
-Of course, he's not. He's been living in a remote barn miles outside of town. He has visions of his dead mother, clad in white alongside a white horse. The frequency and intensity of the visions increase as Halloween approaches. In them, he sees his younger self asking his mother when they can be a family again. “Soon,” she replies.
+Of course, he's not. He's been living in a remote barn miles outside of town. He has visions of his dead mother, clad in white alongside a white horse. The frequency and intensity of the visions increase as Halloween approaches. In them, he sees his younger self asking his mother when they can be a family again. "Soon," she replies.
 
 Halloween arrives and Michael sets off on a march for Haddonfield and Laurie, determined to reunite his family. Meanwhile, Laurie is having visions too. In a nod to <span data-imdb-id="tt0095271">_Halloween 4_</span>, Zombie introduces the notion of a shared family evil.
 

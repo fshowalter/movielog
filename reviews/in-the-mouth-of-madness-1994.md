@@ -16,7 +16,7 @@ This completes Carpenter's unofficial apocalypse trilogy, following _The Thing_ 
 
 The script (by studio head Michael De Luca) teems with ideas. An author whose fiction bleeds into reality. Cosmic horrors seeking entry to our world. A mobius strip story where investigator becomes investigated. 
 
-The problem? Nobody polished it. The film can't decide what it wants to be. Sutter Cane's book covers ape Stephen King's iconic designs, but a character insists "You can forget about Stephen King." The horror skews Lovecraftian—old ones, cosmic dread—yet Hobb's End plays like King's Castle Rock. Lovecraft loved coastal horror; this town sits landlocked. 
+The problem? Nobody polished it. The film can't decide what it wants to be. Sutter Cane's book covers ape Stephen King's iconic designs, but a character insists "You can forget about Stephen King." The horror skews Lovecraftian--old ones, cosmic dread--yet Hobb's End plays like King's Castle Rock. Lovecraft loved coastal horror; this town sits landlocked. 
 
 Worst of all, when the trap finally springs, it surprises but also cheats, withholding crucial information like a whodunit withholding evidence.
 

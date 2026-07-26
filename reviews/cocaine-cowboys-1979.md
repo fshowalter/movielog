@@ -12,7 +12,7 @@ I watched this before listening to the debut episode of Quentin Tarantino and Ro
 
 That description conjured visions of a touring band, mixed up with the drug trade, racing the clock to find the missing drugs before their big show. But the film's ambitions prove far less ambitious. The band does front a drug smuggling operation, but it involves flying the drugs up the east coast to a small Montauk Airport.
 
-As the film opens, the band yearns to go straight. But of course they have to do “one last job.” And of course, the cops show up at the airport during said “last job.” The plane crew panics and drops the drugs on the beach near the band's house. But when the band goes to retrieve them, the drugs are missing. We get lots of twilight shots of the band searching the dunes on horseback, interspersed with them jamming at their beach house.
+As the film opens, the band yearns to go straight. But of course they have to do "one last job." And of course, the cops show up at the airport during said "last job." The plane crew panics and drops the drugs on the beach near the band's house. But when the band goes to retrieve them, the drugs are missing. We get lots of twilight shots of the band searching the dunes on horseback, interspersed with them jamming at their beach house.
 
 Of course, the mob wants their drugs or their money, and they send a heavy to spy on the band from a boat anchored offshore. More jam sessions and horseback shots. A weird scene involving baby powder. Then Andy Warhol turns up (playing himself) and solves the mystery. Roll credits.
 

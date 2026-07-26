@@ -6,7 +6,7 @@ grade: D
 slug: stereo-tile-3b-of-a-caee-educational-mosaic-1969
 ---
 
-**David Cronenberg’s first feature.** Proffered as an educational film from the fictional Canadian Academy of Erotic Enquiry, the film documents telepathic experiments conducted on a group of young people.
+**David Cronenberg's first feature.** Proffered as an educational film from the fictional Canadian Academy of Erotic Enquiry, the film documents telepathic experiments conducted on a group of young people.
 
 <!-- end -->
 

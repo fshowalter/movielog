@@ -18,7 +18,7 @@ Browning tries to compensate with editing, cutting to closeups to break the mono
 
 But the film's most egregious sin? Two extended scenes of pure blackness when the lights go out during the séance. We hear shrieks. Cries. Frightened gasps. Browning has essentially swapped cinema for radio. Even 1929 audiences must have felt cheated.
 
-Lugosi, to his credit, commands attention. He's tall, imposing, smartly dressed. That sharp gaze, that arched finger pointing—he might as well be playing Dracula's more civilized cousin. Browning apparently saw Lugosi performing _Dracula_ on stage and reworked the inspector role to fit him, ditching the original character's comedic lightness.[^1] Smart move. Lugosi elevates everything he touches here.
+Lugosi, to his credit, commands attention. He's tall, imposing, smartly dressed. That sharp gaze, that arched finger pointing--he might as well be playing Dracula's more civilized cousin. Browning apparently saw Lugosi performing _Dracula_ on stage and reworked the inspector role to fit him, ditching the original character's comedic lightness.[^1] Smart move. Lugosi elevates everything he touches here.
 
 As for the mystery itself? A snoozer. The script withholds crucial information until the finale, then dumps reveal after improbable reveal without following any logical rules. It's a cheat, dressed up as cleverness.
 

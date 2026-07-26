@@ -20,7 +20,7 @@ Writer-director William Peter Blatty constructs a smart supernatural procedural.
 
 Then the third act arrives.
 
-Killers suddenly walk on ceilings—possession now grants Spider-Man powers. Nicol Williamson materializes to perform an exorcism nobody asked for. He hasn't shared a scene with Scott. We don't know how he found this patient, or why he waited so long, or how he got past hospital security. The editing suggests he and Scott are in the same room, but they're never in the same shot. You could excise his entire subplot without losing a frame of story.
+Killers suddenly walk on ceilings--possession now grants Spider-Man powers. Nicol Williamson materializes to perform an exorcism nobody asked for. He hasn't shared a scene with Scott. We don't know how he found this patient, or why he waited so long, or how he got past hospital security. The editing suggests he and Scott are in the same room, but they're never in the same shot. You could excise his entire subplot without losing a frame of story.
 
 Blatty called his source novel _Legion_, not _The Exorcist III_, because it didn't have an exorcism. The studio clearly disagreed. What we get feels spliced in from another film, a desperate attempt to give audiences the possession theatrics they expect. It fumbles the landing completely.
 

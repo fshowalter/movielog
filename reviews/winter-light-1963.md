@@ -14,7 +14,7 @@ This is Bergman at his most severe. No warmth. No hope. Just the cold, wet certa
 
 Tomas is sick with flu, but that's just his body catching up with his soul. He once believed--young, idealistic, full of fire. Then came the Spanish Civil War. Then came his wife's death. Now there's nothing left but the motions, the rituals, the empty words.
 
-Enter Märta, the schoolteacher who loves him. Ingrid Thulin plays her, and Bergman gives her a six-minute close-up that will shred you. She stares directly into the camera—directly at us—while we hear her letter to Tomas. She confesses her love. She condemns his cruelty. She tells him about her rash, how it repelled him, how he couldn't stand to look at her suffering while drowning in his own.
+Enter Märta, the schoolteacher who loves him. Ingrid Thulin plays her, and Bergman gives her a six-minute close-up that will shred you. She stares directly into the camera--directly at us--while we hear her letter to Tomas. She confesses her love. She condemns his cruelty. She tells him about her rash, how it repelled him, how he couldn't stand to look at her suffering while drowning in his own.
 
 Six minutes. One take. Her face filling the frame. It's devastating.
 

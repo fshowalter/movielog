@@ -14,7 +14,7 @@ We meet Mari on the eve of her seventeenth birthday. Through some snappy banter 
 
 Cut to the film's villains. A Mansonesque family escaped from jail. The murderous Krug, his sadistic girlfriend Sadie, his heroin-addicted son Junior, and a pedophile named Weasel. David Hess convinces as Krug, dripping testosterone fueled menace. In a nice touch, Craven has Krug pop a child's balloon with his cigarette as he struts down a darkened city street.
 
-The early dialog here impressed me too. Sadie at one point threatens to withhold sexual favors from Krug until he adds more women to the group. “Equal representation,” she says.
+The early dialog here impressed me too. Sadie at one point threatens to withhold sexual favors from Krug until he adds more women to the group. "Equal representation," she says.
 
 Cue Mari and her girlfriend who chance upon Krug's clan. The scene where the girls come to realize their misstep plays out with palpable tension. The killers kidnap the girls and place them in Krug's car. They plan to flee, but the car breaks down right in front of Mari's house.
 

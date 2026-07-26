@@ -6,7 +6,7 @@ date: 2025-03-08
 synopsis: A Foreign Office agent travels to Mykonos to retrieve a young Oxford Scholar who may be under the influence of a modern vampire.
 ---
 
-What to make of _Blood Suckers_? A production that ran out of money during filming and was assembled later by the producers, prompting director Robert Hartford-Davis to remove his name from the finished product.[^1] The performances range from awkward to moving, the editing careens between amateurish and inspired, and direction between tepid and dynamic. It is a film of highs and lows: the guffaws almost equal the thrills—but at times, it shows flashes of brilliance.
+What to make of _Blood Suckers_? A production that ran out of money during filming and was assembled later by the producers, prompting director Robert Hartford-Davis to remove his name from the finished product.[^1] The performances range from awkward to moving, the editing careens between amateurish and inspired, and direction between tepid and dynamic. It is a film of highs and lows: the guffaws almost equal the thrills--but at times, it shows flashes of brilliance.
 
 The plot concerns a young Oxford Scholar, Richard, played by Patrick Mower, who has gotten mixed up with a bad crowd in Mykonos. The Foreign Office dispatches an agent, Tony, to retrieve Richard to avoid a scandal. In Greece, Tony partners with the local military attaché, played by Patrick Macnee. In trying to locate Richard, they discover he may be under the influence of a young woman who may be some kind of vampire.
 

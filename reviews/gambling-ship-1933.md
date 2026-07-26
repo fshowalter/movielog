@@ -26,7 +26,7 @@ Pete soon sends some goons around to shoo Ace out of town. When that doesn't wor
 
 Frustrated, Ace agrees to Joe's offer. This leads to both Ace's and Evelyn's deceptions being revealed as their worlds collide, with Joe caught in the middle and Pete breathing down their necks.
 
-The film plays as a mix of light-hearted crime film and romance, perhaps best illustrated when a frustrated Ace says, “Boy, I'm gonna have a vacation if I have to kill a few guys.”
+The film plays as a mix of light-hearted crime film and romance, perhaps best illustrated when a frustrated Ace says, "Boy, I'm gonna have a vacation if I have to kill a few guys."
 
 The combination is reminiscent of <span data-imdb-id="tt0023074">_Jewel Robbery_</span>, <span data-imdb-id="tt0023007">_High Pressure_</span>, and--to a lesser degree--<span data-imdb-id="tt0023305">_One Way Passage_</span>, all Warner Bros. productions starring William Powell. Indeed, in _Cary Grant, the Making of a Hollywood Legend_, Mark Glancy reports that when first choice George Raft wasn't available, Paramount tried to get Powell, who also had scheduling conflicts, leaving the role to fall to Grant.
 
@@ -34,6 +34,6 @@ That said, Grant and the rest of the cast aren't half-bad. Yes, Grant is miscast
 
 The production surprises. The finale utilizes the simple but effective technique of bobbing the camera to simulate the rocking ship on stormy seas. With the actors miming being jostled about, it gives the appearance of a moving set. Though common now, with the bulky sound cameras in the early 1930s, this was novel, and the film doesn't overdo it.
 
-The biggest problem comes with the non-ending. In a laughably abrupt transition, Grant goes calling Hume a two-timing chiseler and declaring he'd never "double-cross a partner for a dame when there's a thousand like her running around loose,” to cuddled up with her on a train heading out of town. Rather than resolving the triangle it's created, the script punts with a deus ex machina moment, then, a few minutes later, the credits. It's like the film lost a final reel.
+The biggest problem comes with the non-ending. In a laughably abrupt transition, Grant goes calling Hume a two-timing chiseler and declaring he'd never "double-cross a partner for a dame when there's a thousand like her running around loose," to cuddled up with her on a train heading out of town. Rather than resolving the triangle it's created, the script punts with a deus ex machina moment, then, a few minutes later, the credits. It's like the film lost a final reel.
 
 Still, Grant fans should enjoy this early effort, as should fans of Powell's similar light-hearted crime pictures, provided they can overlook the film's shortcomings.

@@ -9,9 +9,9 @@ A young couple dine at Hawthorn, the restaurant of reclusive chef Julian Slowik.
 
 <!-- end -->
 
-As Slowik, Ralph Fiennes channels James Lipton in a performance that straddles the comedic and sinister. Early in the meal, he announces the bread course will feature no bread. Bread, he says, “Has always been, the food of the common man. But you, my dear guests, are not the common man. And so tonight… you get no bread.” Instead, he serves the dipping sauces, saying, “In this spirit, please enjoy the unaccompanied accompaniments.”
+As Slowik, Ralph Fiennes channels James Lipton in a performance that straddles the comedic and sinister. Early in the meal, he announces the bread course will feature no bread. Bread, he says, "Has always been, the food of the common man. But you, my dear guests, are not the common man. And so tonight... you get no bread." Instead, he serves the dipping sauces, saying, "In this spirit, please enjoy the unaccompanied accompaniments."
 
-As Slowik's right hand, Hong Chau also proves memorable. She conveys a simmering menace masked by a thin veneer of politeness. When she drops said veneer for a moment to whisper to a petulant diner, “You will eat less than you desire and more than you deserve,” the delivery chills.
+As Slowik's right hand, Hong Chau also proves memorable. She conveys a simmering menace masked by a thin veneer of politeness. When she drops said veneer for a moment to whisper to a petulant diner, "You will eat less than you desire and more than you deserve," the delivery chills.
 
 As a black satire _The Menu_ shines. As Slowik's aggression grows gruesome and violent, the customers' reactions afford the film opportunity to satirize the patrons of such high-end restaurants. Nicholas Hoult plays a Slowik fanboy who proves oblivious to the growing danger, highlighted by Slowik having to cue him to run away. John Leguizamo channels Johnny Depp as a scandal-ridden former A-lister sliding into irrelevance who reacts with alarm but proves incapable of effecting change. A trio of frat-boy executives react with indignation and we relish their embarrassment. A food-critic and her assistant assume it's an act. An aging married couple with more money than they can spend sits passive, bored and numb.
 

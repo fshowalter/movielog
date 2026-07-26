@@ -18,7 +18,7 @@ Later, hired to rescue Emma from the Collector's lair, Arkin refuses to go insid
 
 This is <span data-imdb-id="tt0090605">_Aliens_</span> to <span data-imdb-id="tt0844479">the first film</span>'s <span data-imdb-id="tt0078748">_Alien_</span>. More action, higher stakes, bigger body count. The Collector's warehouse lair is loaded with traps and drugged-up victims who attack like rabid zombies. It's a house of horrors that actually horrifies.
 
-The script is lean and mean. Eighty-two minutes. No fat. When the Collector threatens Arkin's family, Arkin tells his estranged wife to grab their daughter and run. Don't pack. Don't tell anyone where you're going. Just go. She goes. No argument, no melodrama, no third-act twist where she turns up captured. Sanity in a horror film—imagine that.
+The script is lean and mean. Eighty-two minutes. No fat. When the Collector threatens Arkin's family, Arkin tells his estranged wife to grab their daughter and run. Don't pack. Don't tell anyone where you're going. Just go. She goes. No argument, no melodrama, no third-act twist where she turns up captured. Sanity in a horror film--imagine that.
 
 Emma has a hearing aid. The film treats it like glasses--a detail, not a plot device. One great scene where it falls out and she has to snatch it from a bear trap, then the movie moves on. A lazier film would've made it a third-act MacGuffin.
 

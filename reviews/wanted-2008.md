@@ -12,7 +12,7 @@ James McAvoy plays a frustrated, broke, depressed, cubicle-bound, go-nowhere los
 
 Then, a mysterious stranger played by Angelina Jolie tells him that he's really the son of one of the most feared men on the planet, and the heir to his father's place among an elite group of assassins. All of this culminates in McAvoy living out every office-worker's dream and quitting in grand style. But then, unfortunately, _Wanted_ runs out of ideas.
 
-It turns out that being an elite assassin basically means living in a crumbling textile factory, getting beat up a lot, and waking up in a tub full of mud. Even being an assassin isn't that badass, because, you see, these "good-guy" assassins get their orders from—well, let's just say that part killed the movie for me.
+It turns out that being an elite assassin basically means living in a crumbling textile factory, getting beat up a lot, and waking up in a tub full of mud. Even being an assassin isn't that badass, because, you see, these "good-guy" assassins get their orders from--well, let's just say that part killed the movie for me.
 
 Despite a fourth-billed cameo from Terence Stamp, there's little in the way of a memorable antagonist, and a few predictable plot twists later, it's all over.
 

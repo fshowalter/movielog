@@ -21,7 +21,7 @@ This scene provides the first look at director Jim Henson's puppets, as we cut t
 
 Soon, she's wished the brother away and Bowie appears sporting a teased wig, generous eyeliner, puffy shirt, tights, and jackboots. Think New Wave pirate.
 
-Connelly demands her brother's return. Bowie agrees, provided she claims him at his castle. To reach the castle, she must navigate a vast maze—the titular Labyrinth.
+Connelly demands her brother's return. Bowie agrees, provided she claims him at his castle. To reach the castle, she must navigate a vast maze--the titular Labyrinth.
 
 Along the way Connelly recruits some puppet allies: a gentle giant named Luto who resembles a furry ogre and can talk to rocks, a conniving Gnome named Hoggle with a penchant for plastic jewelry, and Didymus, a terrier knight whose trusty steed is a sheep dog bearing an uncanny resemblance to Connelly's. All save the sheep dog are puppet creations of Henson and, like Henson's Muppets, feel like actual characters with personalities, nuance, and feelings.
 
@@ -37,4 +37,4 @@ Its theme of the terror inherent in the transition to young adulthood escaped my
 
 Bowie's performance, the catchy songs, Henson's creations, and the finale inspired by M. C. Escher's _Relativity_ all helped.
 
-Mostly Bowie. His charisma works on all ages. The aforementioned finale sees him defy gravity by walking underneath Connelly in a dizzying maze of platforms and stairs. When he reaches one walkway's end, Bowie steps out and pivots upward 180 degrees to face Connelly. It's a startling effect made plausible by the performer. Rewatching it now, even my adult self bought it. “Of course he can do that,” I thought. “He's Bowie.”
+Mostly Bowie. His charisma works on all ages. The aforementioned finale sees him defy gravity by walking underneath Connelly in a dizzying maze of platforms and stairs. When he reaches one walkway's end, Bowie steps out and pivots upward 180 degrees to face Connelly. It's a startling effect made plausible by the performer. Rewatching it now, even my adult self bought it. "Of course he can do that," I thought. "He's Bowie."

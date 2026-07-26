@@ -8,11 +8,11 @@ synopsis: Desperate to rival her beautiful stepsister for a Prince's affections,
 
 Here's a fairy tale that draws blood.
 
-Emilie Blichfeldt's _The Ugly Stepsister_ opens like Grimm and closes like Cronenberg. This is a movie that understands beauty's true cost—and makes us pay it alongside its protagonist.
+Emilie Blichfeldt's _The Ugly Stepsister_ opens like Grimm and closes like Cronenberg. This is a movie that understands beauty's true cost--and makes us pay it alongside its protagonist.
 
 The setup is devilishly clever. Two families collide in mutual disappointment: widow Rebekka (with homely daughters Elvira and Alma) marries widower Otto (with beautiful daughter Agnes), each thinking the other wealthy. Otto dies on their wedding night. They're penniless. Now what?
 
-Rebekka hatches a plan. She'll remake Elvira—through surgery, through pain, through sheer force of will—into something the Prince might want. Elvira, who's idealized this Prince since childhood, agrees. She shouldn't.
+Rebekka hatches a plan. She'll remake Elvira--through surgery, through pain, through sheer force of will--into something the Prince might want. Elvira, who's idealized this Prince since childhood, agrees. She shouldn't.
 
 What follows earned every gag-reflex I experienced.
 

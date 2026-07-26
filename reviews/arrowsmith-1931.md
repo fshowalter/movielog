@@ -12,4 +12,4 @@ Ronald Colman charms as a promising young doctor who tries small-town medicine b
 
 The West Indies segment proves a highlight. As plague ravages the island, Colman's wife finds herself surrounded by death. The shadow-filled photography conjures a claustrophobic, horrific atmosphere.
 
-But I struggled with the script's plodding reliance on exposition and head-scratcher ending. What is the film trying to say besides “smoking kills?”
+But I struggled with the script's plodding reliance on exposition and head-scratcher ending. What is the film trying to say besides "smoking kills?"

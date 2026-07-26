@@ -6,7 +6,7 @@ grade: C-
 slug: shivers-1975
 ---
 
-A high-rise apartment's residents fall prey to a malignant parasite, compelling them to orgiastic violence. Cronenberg mixes ‘50s sci-fi sensibilities with graphic body horror, resulting in a most uncomfortable watch.
+A high-rise apartment's residents fall prey to a malignant parasite, compelling them to orgiastic violence. Cronenberg mixes '50s sci-fi sensibilities with graphic body horror, resulting in a most uncomfortable watch.
 
 <!-- end -->
 

@@ -6,7 +6,7 @@ grade: B
 slug: the-virgin-spring-1960
 ---
 
-While not the first rape-revenge picture, _The Virgin Spring_ proved a direct influence on <span data-imdb-id="tt0068833">_Last House on the Left_</span> and its countless imitators. But director Ingmar Bergman isn't interested in the visceral revenge thrill exploited by those remakes. He's more concerned with the aftermath—of survivor's guilt and rationalizing brutal violence. And of the never-present God facilitating the perpetual cycle.
+While not the first rape-revenge picture, _The Virgin Spring_ proved a direct influence on <span data-imdb-id="tt0068833">_Last House on the Left_</span> and its countless imitators. But director Ingmar Bergman isn't interested in the visceral revenge thrill exploited by those remakes. He's more concerned with the aftermath--of survivor's guilt and rationalizing brutal violence. And of the never-present God facilitating the perpetual cycle.
 
 <!-- end -->
 

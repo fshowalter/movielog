@@ -12,7 +12,7 @@ Three years after the events of <span data-imdb-id="tt0120082">_Scream 2_</span>
 
 The movie starts promisingly. Roger Corman appears as a studio producer. There's a winking acknowledgment of fan outrage over a death in the previous film. Then Jay and Silent Bob show up on a studio tour, and you realize something has gone terribly wrong.
 
-Director Wes Craven, once the maestro of meta-horror, seems exhausted. He recycles setups from earlier entries, including that soundproof room from _Part 2_. The tone lurches wildly—pratfalls here, supernatural dream sequences there. Nothing coheres.
+Director Wes Craven, once the maestro of meta-horror, seems exhausted. He recycles setups from earlier entries, including that soundproof room from _Part 2_. The tone lurches wildly--pratfalls here, supernatural dream sequences there. Nothing coheres.
 
 With Campbell absent for most of the running time, Courteney Cox and David Arquette shoulder the burden. They're game, but the script--clearly rewritten into oblivion--gives them nothing to work with. Jenny McCarthy plays an actress complaining about constant rewrites and having only two scenes. It's the film's most honest moment.
 

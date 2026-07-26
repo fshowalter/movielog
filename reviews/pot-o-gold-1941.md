@@ -22,7 +22,7 @@ But Stewart's soon arrested for the tomato toss. At his trial, the judge dismiss
 
 Horace and the band hock their instruments to post Stewart's bail, springing him from jail. When C.J. gets out, he's too hoarse from the jail sing-alongs to host his nationwide radio program and has Stewart go on in his stead. This leads to Horace discovering Stewart's relation to C.J., but Stewart squares things by getting the band's instruments out of hock. Meanwhile, Molly daydreams a medieval fantasy that sees her as a princess throwing flowers from a castle balcony with a dubbed Stewart serenading her.
 
-Stewart and Horace then cook up a plan to gaslight C.J.. It works. Convinced he's going crazy, C.J. travels to Canada to relax. Stewart gets Horace and the band on the radio show, providing a big break. But Molly—who just now learns Stewart is C.J.'s nephew—storms to the microphone and announces a one-thousand dollar giveaway during every future show.
+Stewart and Horace then cook up a plan to gaslight C.J.. It works. Convinced he's going crazy, C.J. travels to Canada to relax. Stewart gets Horace and the band on the radio show, providing a big break. But Molly--who just now learns Stewart is C.J.'s nephew--storms to the microphone and announces a one-thousand dollar giveaway during every future show.
 
 C.J., listening from Canada, panics and starts the trek home. Meanwhile, Stewart must figure out how to give away the money or suffer legal ramifications. The law forbids lotteries, raffles, and contests. He could sign an affidavit declaring Molly responsible for the idea, but this would lose the McCorkles the boarding house.
 

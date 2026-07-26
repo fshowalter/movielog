@@ -10,9 +10,9 @@ William Powell stars as famed impresario Florenz Ziegfeld. The film traces his c
 
 <!-- end -->
 
-It opens well, with Powell shining as the always angling Ziegfeld. His urbane charm, combined with the character's infectious optimism and confidence, endear him despite his questionable behavior. For example, he hires a rival's butler by offering to double his salary, despite being near broke. When he later encounters said rival, who's still sore about losing such a good man, Powell dismisses it with a grin, saying, “Gentlemen don't quarrel over gentlemen's gentleman.”
+It opens well, with Powell shining as the always angling Ziegfeld. His urbane charm, combined with the character's infectious optimism and confidence, endear him despite his questionable behavior. For example, he hires a rival's butler by offering to double his salary, despite being near broke. When he later encounters said rival, who's still sore about losing such a good man, Powell dismisses it with a grin, saying, "Gentlemen don't quarrel over gentlemen's gentleman."
 
-But the film stumbles with Luise Rainer's introduction as French diva Anna Held. The script paints her as petulant and self-absorbed, but—unlike Powell—doesn't afford her any charming moments to offset this behavior. Further, she lacks chemistry with Powell, making their entire relationship feel forced and robbing the relationship of any emotional stakes. And it doesn't help that her would-be French accent keeps slipping to her native German.
+But the film stumbles with Luise Rainer's introduction as French diva Anna Held. The script paints her as petulant and self-absorbed, but--unlike Powell--doesn't afford her any charming moments to offset this behavior. Further, she lacks chemistry with Powell, making their entire relationship feel forced and robbing the relationship of any emotional stakes. And it doesn't help that her would-be French accent keeps slipping to her native German.
 
 Things go downhill from here.
 

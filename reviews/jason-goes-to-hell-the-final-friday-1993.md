@@ -22,5 +22,5 @@ Indeed, _Jason Goes to Hell_ isn't a bad movie so much as a misguided attempt to
 
 The possession-horror angle shows promise, but having to shoehorn it into the franchise's mythology proves its undoing. The resulting film feels caught between two worlds--too unconventional to satisfy series purists, yet too tied to its slasher roots to fully commit to its more ambitious ideas.
 
-Perhaps that's why I never feel the urge to revisit this entry. When I'm in the mood for a _Friday the 13th_ film, this won't scratch that itch. That said, whenever I do revisit it, I'm always surprised by how well it executes the rare moments it hews to the series formula, and how “not bad” it proves during the rest.
+Perhaps that's why I never feel the urge to revisit this entry. When I'm in the mood for a _Friday the 13th_ film, this won't scratch that itch. That said, whenever I do revisit it, I'm always surprised by how well it executes the rare moments it hews to the series formula, and how "not bad" it proves during the rest.
 

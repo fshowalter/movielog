@@ -15,7 +15,7 @@ For his part, John Wayne is more of a supporting player. Ford tells the story th
 
 Further, Ford does a wonderful job of creating the story's world. The atmosphere of fort life through Ford's eyes is detailed and engrossing, from the various army rituals to the class divisions, it may not be very authentic, but it's believable.
 
-Unfortunately, the film isn't perfect. Shirley Temple, who plays Fonda's character's daughter, doesn’t work. She's too whiney and ham-fisted in her scenes, and doesn't fit as the daughter of such a driven, obsessive man. Her entire romance with John Agar (her real-life husband) feels abrupt and forced, and drags the entire film down.
+Unfortunately, the film isn't perfect. Shirley Temple, who plays Fonda's character's daughter, doesn't work. She's too whiney and ham-fisted in her scenes, and doesn't fit as the daughter of such a driven, obsessive man. Her entire romance with John Agar (her real-life husband) feels abrupt and forced, and drags the entire film down.
 
 And then there's the aforementioned epilogue that feels more like a way for Ford to reconcile his own views with the more liberal, anti-war script, and in effect, get the last word in. Whatever the rationalization it doesn't work and the film would be better without it.
 

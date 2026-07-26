@@ -17,17 +17,17 @@ Having pocketed a screwdriver earlier, Maren leverages it to escape and attend t
 
 Then Maren closes her eyes and, trance-like, takes the other girl's finger into her mouth and bites down--hard. The other girl screams, but Maren continues, eyes closed, ripping bone from joint. As the screams register and she jerks from her ecstatic stupor and hurries outside, face smeared in gore, while the other girls wail in terror.
 
-Cut to Maren pounding on her front door. Her father answers, groggy from sleep, sees the gore on her face and says, “In the car. Three minutes. What you can take in three minutes. Got it?”
+Cut to Maren pounding on her front door. Her father answers, groggy from sleep, sees the gore on her face and says, "In the car. Three minutes. What you can take in three minutes. Got it?"
 
 A terrific hook. Maren's cannibalism as a metaphor for homosexuality. Revealing her true self has invited horror and forced the family to flee.
 
 Or so I thought.
 
-Fast-forward and Maren's on her own, traveling cross-country by bus, searching for her mother. At a stop in exurban Maryland, she encounters Sully, played by Mark Rylance, in a performance that echoes Harry Dean Stanton and would feel at home in a David Lynch film. Brimming with vague menace, Sully tells Maren he could smell her from half a mile away, and invites her back to a house to eat. “Don't worry, Maren—I'm ok. I got rules. Number one is never eat an eater,” he says. Sully continues, explaining how eating human flesh isn't a choice, but a need that will grow in her as she ages. This recasts her from cannibal to ghoul and strengthens the homosexuality metaphor, even as Sully's leering glances call it into doubt.
+Fast-forward and Maren's on her own, traveling cross-country by bus, searching for her mother. At a stop in exurban Maryland, she encounters Sully, played by Mark Rylance, in a performance that echoes Harry Dean Stanton and would feel at home in a David Lynch film. Brimming with vague menace, Sully tells Maren he could smell her from half a mile away, and invites her back to a house to eat. "Don't worry, Maren--I'm ok. I got rules. Number one is never eat an eater," he says. Sully continues, explaining how eating human flesh isn't a choice, but a need that will grow in her as she ages. This recasts her from cannibal to ghoul and strengthens the homosexuality metaphor, even as Sully's leering glances call it into doubt.
 
 Indeed, the homosexuality metaphor disappears in favor of one analogizing the need for human flesh with drug addiction. Maren flees Sully and meets another teen ghoul named Lee, played by Chalamet, who looks the part of a junkie, with jaded eyes and an emaciated build, accentuated by undersized shirts and oversized pants held up by a knotted rope.
 
-Tying back to the homosexuality metaphor, Lee's pattern of preying on gay men alludes to the AIDS epidemic. Combined with the 1980s setting, I wondered if the film wasn't intending to weave the metaphor through the era: the War on Drugs, AIDS, perhaps the rampant “Greed is good” capitalism?
+Tying back to the homosexuality metaphor, Lee's pattern of preying on gay men alludes to the AIDS epidemic. Combined with the 1980s setting, I wondered if the film wasn't intending to weave the metaphor through the era: the War on Drugs, AIDS, perhaps the rampant "Greed is good" capitalism?
 
 But no. Maren and Lee road trip across the Rust Belt and Appalachian areas, living on stolen money, driving a stolen car, trying to keep their hunger at bay. The film presents these regions as majestic, proffering panoramic views of bridges, fields, and forests.
 
@@ -41,7 +41,7 @@ The film returns to the addiction metaphor as Maren finds her mother and sees th
 
 And here, the movie stalls. Perhaps the screenwriters had written themselves into a corner. Perhaps this third act was a forced change. Whatever the cause, the film abandons its metaphors and devolves into a contrived thriller.
 
-Maren abandons Lee and encounters Sully—who's been trailing her this whole time--then goes to Lee's hometown to find him again, after which the pair resume their road trip. This diversion exists to facilitate the finale, which sees Sully assault Maren in her apartment. The script had to explain his motive and how he tracked the pair.
+Maren abandons Lee and encounters Sully--who's been trailing her this whole time--then goes to Lee's hometown to find him again, after which the pair resume their road trip. This diversion exists to facilitate the finale, which sees Sully assault Maren in her apartment. The script had to explain his motive and how he tracked the pair.
 
 But why such a trite ending? Consider how ripe with promise the film began, how everything was open space, big skies, sprawling highways. How it meditated on sexuality and addiction. In the end, it amounted to a struggle in a tiny apartment bearing the tired message that old white men are evil.
 
@@ -53,6 +53,6 @@ Chalamet, for his part, never stumbles. Every action, line, and gesture feels au
 
 Indeed, Chalamet's performance, along with the strong first two acts, and panoramic cinematography, is enough to make the film passable despite the tepid ending.
 
-The film exudes a strong <span data-imdb-id="tt0090756">_Blue Velvet_</span> influence. Both feature a severed extremity as an inciting incident, and both explore the monsters lurking behind the serene beauty of Americana. This film's eccentric supporting characters, like the ghoul and his tourist friend, would feel at home in a Lynch picture. Indeed, I wish the Lynch influence extended to the ending, giving us something more challenging—and satisfying than what the film offers.
+The film exudes a strong <span data-imdb-id="tt0090756">_Blue Velvet_</span> influence. Both feature a severed extremity as an inciting incident, and both explore the monsters lurking behind the serene beauty of Americana. This film's eccentric supporting characters, like the ghoul and his tourist friend, would feel at home in a Lynch picture. Indeed, I wish the Lynch influence extended to the ending, giving us something more challenging--and satisfying than what the film offers.
 
 As-is, it proves difficult to recommend. The ideal audience comprises the Venn overlap of Chalamet and horror fans. Non horror fans may find the cannibalism too off-putting, despite much of it occurring off screen, while horror fans will bemoan the film's reluctance to commit to full-on cannibal horror, and everyone will chafe at the reductive ending. Still, the strong opening, convincing performances, and evocative cinematography keep it from feeling like a total burn.

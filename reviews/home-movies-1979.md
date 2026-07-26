@@ -10,8 +10,8 @@ While teaching a film course at Sarah Lawrence College, Brian De Palma devised a
 
 <!-- end -->
 
-Keith Gordon plays Denis, an aimless schmuck who features as “an extra in his own life.” He suffers under his condescending older brother James, played by Gerrit Graham, hysterical mother, and philandering father.
+Keith Gordon plays Denis, an aimless schmuck who features as "an extra in his own life." He suffers under his condescending older brother James, played by Gerrit Graham, hysterical mother, and philandering father.
 
-Enter the enigmatic “Maestro”, an egomaniacal film director played by Kirk Douglas. The Maestro emboldens Denis to pursue James' fiancée Kristina, played by Nancy Allen.
+Enter the enigmatic "Maestro", an egomaniacal film director played by Kirk Douglas. The Maestro emboldens Denis to pursue James' fiancée Kristina, played by Nancy Allen.
 
 Despite amusing performances from Douglas and Graham, the film never gels. With seven credited writers, it's no wonder it feels episodic and stitched together. An interesting experiment, I suspect a documentary chronicling its creation would prove more engaging than the film itself.

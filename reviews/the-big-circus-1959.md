@@ -7,7 +7,7 @@ synopsis: Saddled with a bank-mandated accountant and publicist, traveling circu
 ---
 
 
-Victor Mature plays a circus owner who splits from his partners and strikes out on his own. He's broke. He needs a bank loan. The bank saddles him with an accountant played by Red Buttons, and a publicist played by Rhonda Fleming. Mature doesn't want either one—especially not a woman publicist. But he's got no choice.
+Victor Mature plays a circus owner who splits from his partners and strikes out on his own. He's broke. He needs a bank loan. The bank saddles him with an accountant played by Red Buttons, and a publicist played by Rhonda Fleming. Mature doesn't want either one--especially not a woman publicist. But he's got no choice.
 
 Then the sabotage begins. Accidents. A death. Mature gets desperate and stages a tightrope walk across Niagara Falls for publicity.
 

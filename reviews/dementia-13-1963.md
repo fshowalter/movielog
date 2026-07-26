@@ -13,4 +13,4 @@ That said, Coppola shot the film while he was assisting Roger Corman on <span da
 
 The cast (borrowed from the Corman picture) is fairly unremarkable, with the exception of Patrick Magee who makes a sizable impression as a somewhat unhinged doctor.
 
-Where Coppola’s film shines though, is where he diverts from the standard Corman formula, such as the excellent underwater scenes. While these moments are rare, the brief 75-minute running time is some compensation.
+Where Coppola's film shines though, is where he diverts from the standard Corman formula, such as the excellent underwater scenes. While these moments are rare, the brief 75-minute running time is some compensation.

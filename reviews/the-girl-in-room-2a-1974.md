@@ -10,7 +10,7 @@ _The Girl in Room 2A_ likely began life as a different film. A Scooby-Doo-style 
 
 <!-- end -->
 
-But somewhere along its creation, it was “spiced up” with additional nudity and violence. This manifests in several scenes of a masked figure torturing and murdering naked young women. One such scene even plays over the opening credits, as though the film were afraid its audience might otherwise desert the theater.
+But somewhere along its creation, it was "spiced up" with additional nudity and violence. This manifests in several scenes of a masked figure torturing and murdering naked young women. One such scene even plays over the opening credits, as though the film were afraid its audience might otherwise desert the theater.
 
 Such changes aren't uncommon in foreign films. Changes to soften or enhance the exploitative elements allow the producer to sell the film to more distributors. Sometimes such changes included splicing in hardcore sex scenes.
 
@@ -24,7 +24,7 @@ But, lest you think this film could have been a masterpiece without this sequenc
 
 The only true mystery is the red blotch that keeps appearing on the floor in Margaret's room, and what kind of magic cleaner she uses to wipe it up with a single rag and leave nary a trace.
 
-Throughout, the film splices in scenes similar to the opening. These misogynistic sequences seem at odds with the script's lighthearted mystery-adventure tone and score. Shortly after another bit of torture, we cut to Frank and Margaret walking down a country road. They pass a farmer who remarks, “Ah, young love,” and everyone laughs.
+Throughout, the film splices in scenes similar to the opening. These misogynistic sequences seem at odds with the script's lighthearted mystery-adventure tone and score. Shortly after another bit of torture, we cut to Frank and Margaret walking down a country road. They pass a farmer who remarks, "Ah, young love," and everyone laughs.
 
 Indeed, though lumped into the giallo genre, _The Girl in Room 2A_ lacks a black-gloved killer, POV shots through the killer's eyes, or even an escalating body count. As a contemporary-set Italian exploitation non-comedy, it falls into the genre by default, not convention.
 

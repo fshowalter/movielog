@@ -20,7 +20,7 @@ Ten years ago, he'd been treating a wealthy cancer patient when the local sherif
 
 They interfered.
 
-Desperate to save his patient, Karloff whipped up a poisonous potion that—if dropped—would gasify and kill them all within minutes. It dropped, and the group retreated into Karloff's ice chamber, where they passed out and froze.
+Desperate to save his patient, Karloff whipped up a poisonous potion that--if dropped--would gasify and kill them all within minutes. It dropped, and the group retreated into Karloff's ice chamber, where they passed out and froze.
 
 Flashback over, Karloff realizes the poisonous gas enabled him to survive the ten years and that such a duration would mean an end to cancer, as doctors could freeze patients until the cancerous cells die off, starved of nutrients. Science-fiction, yes, but stay with me.
 

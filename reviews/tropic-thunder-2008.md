@@ -14,15 +14,15 @@ The setup is simple. Three pampered actors get dropped into real jungle warfare 
 
 What could have been a one-joke premise becomes something richer. Stiller understands that Hollywood's greatest sin isn't making bad movies--it's taking itself too seriously while making them.
 
-The film opens with a fake commercial and trailers. Brandon T. Jackson hawks "Booty Sweat" energy drinks, Stiller stars in summer blockbuster _Scorcher VI_, Downey Jr. in an Oscar-baiting period piece _Satan's Alley_, Black in a sequel that makes <span data-imdb-id="tt0117218">_The Nutty Professor_</pan> look restrained. These aren't just clever--they're surgical strikes against every type of Hollywood vanity.
+The film opens with a fake commercial and trailers. Brandon T. Jackson hawks "Booty Sweat" energy drinks, Stiller stars in summer blockbuster _Scorcher VI_, Downey Jr. in an Oscar-baiting period piece _Satan's Alley_, Black in a sequel that makes <span data-imdb-id="tt0117218">_The Nutty Professor_</span> look restrained. These aren't just clever--they're surgical strikes against every type of Hollywood vanity.
 
-Then comes the genius move. When the action turns "real," Stiller doesn't abandon the spectacle. He doubles down. The explosions are bigger, the stunts more elaborate, the violence more visceral. The film becomes the very thing it's mocking—and earns the right to do so.
+Then comes the genius move. When the action turns "real," Stiller doesn't abandon the spectacle. He doubles down. The explosions are bigger, the stunts more elaborate, the violence more visceral. The film becomes the very thing it's mocking--and earns the right to do so.
 
 Downey Jr. gives the film's most fearless performance. His Kirk Lazarus is an Australian who undergoes a "controversial pigmentation procedure" to play an African-American soldier. In lesser hands, this would be disaster. Downey Jr. creates a brilliant hall of mirrors, satirizing method actors, racial assumptions, and Hollywood's clumsy attempts at authenticity all at once.
 
 The film's sharpest moment: Stiller addresses the group as "you people." Downey Jr.'s character responds indignantly, "What do you mean, 'you people'?" To which Brandon T. Jackson's African-American character replies with astonishment, "What do _you_ mean, 'you people'?" 
 
-Even more surprising is Tom Cruise’s volcanic cameo as studio executive Les Grossman, a bald, overweight bully with a penchant for hip-hop dancing. It’s an outrageous performance that seems to will itself into existence through sheer force of Cruise’s commitment. That Stiller coaxed such fearless work from both Downey Jr. and Cruise speaks to his skill in creating an environment where his actors feel safe to take enormous risks.
+Even more surprising is Tom Cruise's volcanic cameo as studio executive Les Grossman, a bald, overweight bully with a penchant for hip-hop dancing. It's an outrageous performance that seems to will itself into existence through sheer force of Cruise's commitment. That Stiller coaxed such fearless work from both Downey Jr. and Cruise speaks to his skill in creating an environment where his actors feel safe to take enormous risks.
 
 This is what separates _Tropic Thunder_ from lesser comedies. It doesn't sneer at its targets. It understands them. The best satire comes from affection, not contempt. Stiller loves movies--even bad ones--and that love shows.
 

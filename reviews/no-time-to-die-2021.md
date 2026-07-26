@@ -22,7 +22,7 @@ _No Time to Die_ carries over the chemistry-less romance between Bond and Madele
 
 Fast-forward to post-_Spectre_ present. Said assassin, played by Rami Malek, resurfaces in Madeleine's life and professes his love for her. Somehow, he's the same age as Madeleine, but the script proffers no explanation. Malek's performance follows Christoph Waltz's trend of talented actors proving terrible Bond villains. His unintelligible accent and detached performance feel pretentious.
 
-The script doesn't help. It provides him with no cogent motivation or even plausible means for his actions. He exists as a one-dimensional “angry man,” a plot device to stitch together a Frankenstein script credited to four writers.
+The script doesn't help. It provides him with no cogent motivation or even plausible means for his actions. He exists as a one-dimensional "angry man," a plot device to stitch together a Frankenstein script credited to four writers.
 
 The tonal inconsistency surfaces early, when Bond travels to Cuba to infiltrate a gathering of Spectre operatives. Putting aside this scenario's inanity, it proves the film's lone moment of levity. In a throwback to the Roger Moore days, Bond's on-the-ground operative, played by Ana de Armas, morphs from nervous school-girl to superhero agent as she and Bond banter and swap drinks while picking off bad guys. Following this scene, we get the film's first death, a major supporting player in the series.
 

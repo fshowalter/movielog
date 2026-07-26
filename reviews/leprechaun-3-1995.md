@@ -11,7 +11,7 @@ After a pawnshop owner resurrects him, the titular Leprechaun terrorizes a Las V
 
 The ostensible plot concerns Scott, a teen passing through Las Vegas on his way to college. A chance encounter with a magician's assistant played by Lee Armstrong leads him to the fictitious Lucky Shamrock casino. Inside, Scott devolves into a degenerate gambler and loses his twenty-three-thousand dollar college tuition.
 
-Desperate to recoup his losses, Scott heads to pawn his watch. At the pawnshop, he finds a shilling of the Leprechaun's gold and wishes himself a winning streak. This sets the Leprechaun in pursuit and coins the franchise's best catch phrase: “I want me shillin'!”
+Desperate to recoup his losses, Scott heads to pawn his watch. At the pawnshop, he finds a shilling of the Leprechaun's gold and wishes himself a winning streak. This sets the Leprechaun in pursuit and coins the franchise's best catch phrase: "I want me shillin'!"
 
 This entry abandons any pretense of placing horror first and leans into the comedy. To its credit, an exploding butt and surprising encephalogram elicited guffaws. And Tom Dugan had me smirking as an eloquent enforcer.
 

@@ -16,6 +16,6 @@ I relished this premise. Taking four desperate (but not fierce) men and dangling
 
 The cast performs well. As Carrère, Gérald Laroche's underplayed transformation into a bitter convict serves as a grounded audience surrogate. As Lassalle, Philippe Laudenbach adds gravitas, communicating volumes with his weary looks.
 
-It had me riveted until the third act. The strong setup had me hoping for a knock-out finale. Instead, the story devolves into a predictable version of [_The Monkey’s Paw_](https://en.wikipedia.org/wiki/The_Monkey's_Paw), with a _Tales from the Crypt_ ending.
+It had me riveted until the third act. The strong setup had me hoping for a knock-out finale. Instead, the story devolves into a predictable version of [_The Monkey's Paw_](https://en.wikipedia.org/wiki/The_Monkey's_Paw), with a _Tales from the Crypt_ ending.
 
 Imagine a film that took these characters--one imprisoned in his body, one in his mind, one in his wealth--and explored their prisons and the lengths they would go for freedom. _Maléfique_ is not that movie. It's not a bad film, just one that falls short of its potential.

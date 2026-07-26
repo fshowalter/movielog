@@ -14,4 +14,4 @@ slug: tomorrow-never-dies-1997
 >
 > **Dr. Evil**: Outstanding.
 
-Except that's in **this** movie. Both hit theaters in 1997, so that's… something? I dunno. Everything looks cheap: the sets, the car, the effects, even the clothes. Makes a compelling case for **Worst Bond Movie**. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">_The World Is Not Enough_</span>.
+Except that's in **this** movie. Both hit theaters in 1997, so that's... something? I dunno. Everything looks cheap: the sets, the car, the effects, even the clothes. Makes a compelling case for **Worst Bond Movie**. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">_The World Is Not Enough_</span>.

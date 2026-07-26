@@ -8,7 +8,7 @@ synopsis: After accidentally killing his wife, an exterminator flees to a halluc
 
 David Cronenberg's _Naked Lunch_ isn't really an adaptation of William S. Burroughs's 1959 novel. It's a fever dream that stitches together that book, other Burroughs stories, and the writer's own tragic life into something that probably won't make much sense unless you've done your homework.
 
-Peter Weller plays William Lee, a Burroughs stand-in working as an exterminator in 1953 New York. His wife Joan has been shooting up his bug poison for a "literary high." Lee hallucinates a giant talking beetle that recruits him as a secret agent and orders him to kill Joan. He does kill her—accidentally, during an inebriated William Tell routine where he shoots at a glass on her head and misses.
+Peter Weller plays William Lee, a Burroughs stand-in working as an exterminator in 1953 New York. His wife Joan has been shooting up his bug poison for a "literary high." Lee hallucinates a giant talking beetle that recruits him as a secret agent and orders him to kill Joan. He does kill her--accidentally, during an inebriated William Tell routine where he shoots at a glass on her head and misses.
 
 Then Lee flees to Interzone, a North African hellscape that may exist only in his drug-addled mind. There he becomes hooked on "black meat," a narcotic harvested from giant centipedes. He writes "reports" on a talking insect typewriter. The typewriter gives him assignments. He seduces his dead wife's doppelgänger and one of the "Interzone Boys" named Kiki. The whole secret agent plot is nonsense, a MacGuffin. What Cronenberg is really after is the connection between addiction, art, and self-destruction.
 

@@ -11,6 +11,6 @@ Following the events of <span data-imdb-id="tt14901058">_Mortal Kombat Legends: 
 
 The limited cast keeps the running time to a lean eighty-two-minutes while still providing engaging characterizations. David Wenham shines as Kano, the monstrous, yet charismatic villain.
 
-The animation proffers creative, over-the-top violence, but looks cheaper than ever. Early scenes substitute optical zooms and pans for real animation, and the finale sports 90s-era computer generated imagery. Odd given some of the computer generated backgrounds and establishing shots shine—often making the hand-drawn animation look even worse in comparison.
+The animation proffers creative, over-the-top violence, but looks cheaper than ever. Early scenes substitute optical zooms and pans for real animation, and the finale sports 90s-era computer generated imagery. Odd given some of the computer generated backgrounds and establishing shots shine--often making the hand-drawn animation look even worse in comparison.
 
-If the rule that each sequel gets a smaller budget holds true, the next installment might well amount to voice over with static drawings. That said, given how this entry ends, I’m not sure where the series goes next.
+If the rule that each sequel gets a smaller budget holds true, the next installment might well amount to voice over with static drawings. That said, given how this entry ends, I'm not sure where the series goes next.

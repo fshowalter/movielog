@@ -11,6 +11,6 @@ _Cocoon_ is a classic sci-fi tale with a twist. Instead of teenagers--or even ne
 
 The performers, both young and old, are excellent, with Hume Cronyn and Brian Dennehy particular standouts.
 
-_Cocoon_ does have a few missteps though. The special effects don’t age very well at all, especially the now almost-laughable shriveled alien, and the big climax feels forced, as if the filmmakers didn’t believe the audience would accept a quieter, more meditative ending.
+_Cocoon_ does have a few missteps though. The special effects don't age very well at all, especially the now almost-laughable shriveled alien, and the big climax feels forced, as if the filmmakers didn't believe the audience would accept a quieter, more meditative ending.
 
 Still, it's a decent little movie that will, I suspect, resonate more as my own years tick by.

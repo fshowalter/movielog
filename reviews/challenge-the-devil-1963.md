@@ -22,7 +22,7 @@ Lest you worry this is some great loss, fear not. Veggezzi had grand ambitions o
 
 The film's lone moment of inspiration comes early, as the group arrives at the castle and Veggezzi proffers a shot of the cars in the courtyard, their headlights like eyes looking toward the ramparts.
 
-For his part, Lee reportedly worked one week, but based on the final product, I’d be shocked if it was more than two days. He never saw any dailies or even the finished film. The dubbing robs him of his signature baritone yet he still conveys more screen presence than the rest of the cast. That said, even Lee die-hards can safely skip this one, as his few minutes offer nothing memorable. After shooting this he moved on to another Italian gothic horror, Mario Bava's <span data-imdb-id="tt0057078">_The Whip and the Body_</span>, a superior effort all around.
+For his part, Lee reportedly worked one week, but based on the final product, I'd be shocked if it was more than two days. He never saw any dailies or even the finished film. The dubbing robs him of his signature baritone yet he still conveys more screen presence than the rest of the cast. That said, even Lee die-hards can safely skip this one, as his few minutes offer nothing memorable. After shooting this he moved on to another Italian gothic horror, Mario Bava's <span data-imdb-id="tt0057078">_The Whip and the Body_</span>, a superior effort all around.
 
 [^1]: Roberto Curti, "Dance with the Devil," video featurette on _Challenge the Devil_ (1963; Los Angeles: Severin Films, 2021), Blu-ray.
 [^2]: Roberto Curti, _Italian Gothic Horror Films: 1957-1969_ (McFarland & Company, 2015), 92.

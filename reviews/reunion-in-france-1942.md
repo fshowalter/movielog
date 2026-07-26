@@ -18,6 +18,6 @@ Forty-one-minutes in, John Wayne appears. He's wasted, with nothing to do, save 
 
 Back to the movie. The third act proves the film's strongest, comprising a heist plot where Crawford and the local resistance try to get Wayne to safety in Lisbon. Some improbable reveals and accent switches hamper this otherwise passable sequence. But in a film fraught with poor decisions, these prove the easiest to overlook.
 
-_Reunion in France_ relies on Joan Crawford to carry the film, but saddles her with an unlikable character that only somewhat redeems herself in the last scene. As a melodrama, it's ham-fisted. As propaganda, it does little to endear us to the French people. But the closing tag, a shot of Allied skywriting over Paris, occupied during the film's production and release, resonates. It reads, “Courage”.
+_Reunion in France_ relies on Joan Crawford to carry the film, but saddles her with an unlikable character that only somewhat redeems herself in the last scene. As a melodrama, it's ham-fisted. As propaganda, it does little to endear us to the French people. But the closing tag, a shot of Allied skywriting over Paris, occupied during the film's production and release, resonates. It reads, "Courage".
 
 Indeed, better John Wayne films would come.

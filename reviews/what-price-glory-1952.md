@@ -15,4 +15,4 @@ Like many a film that tries to marry comedy and drama, this one's wildly uneven,
 
 Perhaps _What Price Glory_ needed Howard Hawks instead of John Ford. While Ford is certainly no slouch, this tale of male camaraderie amid impossible pressure is right up Hawks' alley. Further, Hawks lacks Ford's tendency to try to humanize the film's dramatic aspects, which don't work here given the film's lighthearted, comedic setup.
 
-Thus, this is a hard film to recommend, simply because it's so flawed, but damn if Cagney isn't so good that it's also a hard film _not_ to recommend. That said, if you’re a Cagney fan this is a must see, though others may want to give it a look as well.
+Thus, this is a hard film to recommend, simply because it's so flawed, but damn if Cagney isn't so good that it's also a hard film _not_ to recommend. That said, if you're a Cagney fan this is a must see, though others may want to give it a look as well.

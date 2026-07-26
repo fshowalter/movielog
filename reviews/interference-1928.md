@@ -6,11 +6,11 @@ grade: D+
 slug: interference-1928
 ---
 
-William Powell plays a womanizer believed killed in the first World War. When he’s discovered living under an assumed name, a former flame, played by top-billed Evelyn Brent, seizes the opportunity to blackmail her former rival, Powell’s ex-wife, now married to an upstanding doctor played by Clive Brook.
+William Powell plays a womanizer believed killed in the first World War. When he's discovered living under an assumed name, a former flame, played by top-billed Evelyn Brent, seizes the opportunity to blackmail her former rival, Powell's ex-wife, now married to an upstanding doctor played by Clive Brook.
 
 <!-- end -->
 
-Powell’s first talkie was also Paramount’s first all-talking motion picture. First filmed as a silent, Paramount then reshot it with dialogue, then released both versions to theaters.
+Powell's first talkie was also Paramount's first all-talking motion picture. First filmed as a silent, Paramount then reshot it with dialogue, then released both versions to theaters.
 
 The novelty and constraints of the sound production affected the actors. Said Brent of the production:
 
@@ -22,13 +22,13 @@ The soundproof camera enclosures also proved intimidating. Said Brook:
 
 Said enclosures prevented any camera movement. Thanks to the microphone-induced hesitancy, the actors feel as stiff as the camera work. This inherent stiffness prevents any emotional stakes.
 
-It’s been written that Powell “planned to go into hiding” after hearing his voice test,[^3] but he’d later realize how critical sound was to his career. When asked if talkies had “hurried” his career, he replied:
+It's been written that Powell "planned to go into hiding" after hearing his voice test,[^3] but he'd later realize how critical sound was to his career. When asked if talkies had "hurried" his career, he replied:
 
-> Don’t be foolish. They caused it. But for talkies I would probably be a first class so-and-so in every picture. I was practically doomed by my face to play a screen menace.[^4]
+> Don't be foolish. They caused it. But for talkies I would probably be a first class so-and-so in every picture. I was practically doomed by my face to play a screen menace.[^4]
 
-Indeed, Powell’s relaxed demeanor (compared to his costars), combined with his urbane diction and phrasing, affords his performance a quiet dignity that provides the film’s only resonance. _Interference_ isn’t a good picture, but an important one, announcing Powell as a leading man candidate for the sound era.
+Indeed, Powell's relaxed demeanor (compared to his costars), combined with his urbane diction and phrasing, affords his performance a quiet dignity that provides the film's only resonance. _Interference_ isn't a good picture, but an important one, announcing Powell as a leading man candidate for the sound era.
 
-[^1]: John Kobal, _People Will Talk_ (United Kingdom: Knopf, 1985), 116.
-[^2]: Alexander Walker, *The Shattered Silents: How the Talkies Came to Stay* (New York: W. Morrow, 1979), 106.
+[^1]: John Kobal, _People Will Talk_ (United Kingdom: Knopf, 1985), 116.
+[^2]: Alexander Walker, *The Shattered Silents: How the Talkies Came to Stay* (New York: W. Morrow, 1979), 106.
 [^3]: Adolph Zukor with Dale Kramer, _The Public is Never Wrong_ (New York: G. P. Putnam's Sons, 1953), 253.
 [^4]: _Los Angeles Times_, March 6, 1984.

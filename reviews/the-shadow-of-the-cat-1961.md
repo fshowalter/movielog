@@ -14,7 +14,7 @@ The woman's husband, played by André Morell, orchestrated the killing. The butl
 
 Yes, you read that correctly. A housecat is the instrument of justice.
 
-The film desperately wants you to believe this cat is terrifying. Characters shriek about it. They cower from it. They follow it onto window ledges and fall to their deaths. They chase it across rotting logs and tumble into bogs. One victim has a heart attack just looking at it. At one point—and I'm not making this up—the cat pushes a woman down the stairs.
+The film desperately wants you to believe this cat is terrifying. Characters shriek about it. They cower from it. They follow it onto window ledges and fall to their deaths. They chase it across rotting logs and tumble into bogs. One victim has a heart attack just looking at it. At one point--and I'm not making this up--the cat pushes a woman down the stairs.
 
 The problem? When we see the cat, it's just a cat. An ordinary tabby doing ordinary cat things. This is no hound of the Baskervilles. There's no menace, no otherworldly presence. Just a pet who probably wanted dinner. 
 

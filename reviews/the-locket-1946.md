@@ -14,7 +14,7 @@ Day is extraordinary. She radiates wholesome charm one moment, then goes dead be
 
 Mitchum himself is good but miscast. His character's name--Norman Clyde--hints the part wasn't written for him. Still he makes it work until the script demands he leap from a skyscraper in despair. The laconic Mitchum leaping from a window? Absurd.
 
-That said, the film's fatal flaw isn't the casting or even the narrative acrobatics. It's the explanation. Everything—the theft, the murder, the sociopathy--stems from a childhood incident where ten-year-old Nancy didn't get to keep a diamond locket. A wealthy woman's daughter gave it to her, then the mother snatched it back and later accused Nancy of stealing it. The film plays this scene at maximum melodrama, with the child sobbing hysterically, and asks us to accept it as the origin of a killer.
+That said, the film's fatal flaw isn't the casting or even the narrative acrobatics. It's the explanation. Everything--the theft, the murder, the sociopathy--stems from a childhood incident where ten-year-old Nancy didn't get to keep a diamond locket. A wealthy woman's daughter gave it to her, then the mother snatched it back and later accused Nancy of stealing it. The film plays this scene at maximum melodrama, with the child sobbing hysterically, and asks us to accept it as the origin of a killer.
 
 It's psychobabble dressed as insight. Nonsense masquerading as depth.
 

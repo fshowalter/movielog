@@ -10,6 +10,6 @@ Constance Cummings and Robert Young play lovers caught between their warring mob
 
 <!-- end -->
 
-Karloff opens the film with an electric scene confronting his estranged son Young, then disappears. Fortunately, Carrillo proves a strong substitute, turning in an entertaining performance that foreshadows Paul Muni's turn in <data span imdb-id="tt0023427">_Scarface_</span>. And Cummings shines as Carrillo's daughter. Impressive given she failed to register in <span data-imdb-id="tt0021770">_The Criminal Code_</span>.
+Karloff opens the film with an electric scene confronting his estranged son Young, then disappears. Fortunately, Carrillo proves a strong substitute, turning in an entertaining performance that foreshadows Paul Muni's turn in <span data-imdb-id="tt0023427">_Scarface_</span>. And Cummings shines as Carrillo's daughter. Impressive given she failed to register in <span data-imdb-id="tt0021770">_The Criminal Code_</span>.
 
 An agreeable enough experience, but Carrillo proves far more interesting than the star-crossed lovers.

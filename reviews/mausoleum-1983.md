@@ -15,11 +15,11 @@ But no. Instead, Susan's psychologist, Dr. Andrew, provides voiceover explaining
 
 Fast forward twenty years to present day. Susan has settled into married life. She and her husband Oliver head over for a night of dancing. At the nightclub, a drunken oaf gropes Susan on the dance floor, then gets belligerent when she refuses his advances. As Susan and Oliver are leaving, the same drunken man stumbles by them and enters his car. Susan's eyes glow green and the car bursts into flames, killing the man. The green-eye effect underwhelms, as the film keeps cutting back to a freeze-frame shot of Susan.
 
-Susan and Oliver return home, but their live-in housekeeper, played by LaWanda Page, senses something's amiss and tries to warn Oliver the next morning. When he dismisses her concerns, she threatens to quit. Oliver convinces her to stay until he returns from a business trip, then heads out the door. Frustrated, Page marches upstairs to check on Susan, muttering, “There's some strange shit goin' on in this house.”
+Susan and Oliver return home, but their live-in housekeeper, played by LaWanda Page, senses something's amiss and tries to warn Oliver the next morning. When he dismisses her concerns, she threatens to quit. Oliver convinces her to stay until he returns from a business trip, then heads out the door. Frustrated, Page marches upstairs to check on Susan, muttering, "There's some strange shit goin' on in this house."
 
 LaWanda Page then walks in on Susan, who's glowing green, mid-transformation. Cue some comical strings on the soundtrack and over-cranked footage of Page running out of the house, trying to catch Oliver.
 
-She fails, returns to the house and pours herself a “drink of the good stuff,” J&B, of course. With a shaking hand, she raises the glass to her lips, saying, “I ain't been this nervous since I've been black.”
+She fails, returns to the house and pours herself a "drink of the good stuff," J&B, of course. With a shaking hand, she raises the glass to her lips, saying, "I ain't been this nervous since I've been black."
 
 She creeps back upstairs and sees Susan further changed. More comedic music and over-cranked footage as Page flees out the front door, bags packed, running down the street.
 
@@ -31,9 +31,9 @@ After Oliver returns home the film delivers its lone scene transcending schlock 
 
 Oliver exits the room and calls Dr. Andrew, who sees Susan the next day and puts her under hypnosis. While hypnotized, Susan speaks with the demon's voice and exhibits the glowing green eyes. Shaken, the doctor calls a colleague for help, setting up the final showdown.
 
-The performances throughout underwhelm, but the cast appears engaged and not just reciting lines. The clunky dialog doesn't help. Consider this mouthful when Dr. Andrew is phoning his colleague Roni, saying, “My initial diagnosis was extreme schizophrenic regression. Just a second. Just wanna gather myself, Roni. It was extreme schizophrenic regression manifested by inner impulses and outer physical projection, including vocal and facial fantasies.”
+The performances throughout underwhelm, but the cast appears engaged and not just reciting lines. The clunky dialog doesn't help. Consider this mouthful when Dr. Andrew is phoning his colleague Roni, saying, "My initial diagnosis was extreme schizophrenic regression. Just a second. Just wanna gather myself, Roni. It was extreme schizophrenic regression manifested by inner impulses and outer physical projection, including vocal and facial fantasies."
 
-The aforementioned showdown features the demon in all its rubber-suited glory. John Carl Buechler (who'd later direct <span data-imdb-id="tt0095179">_Friday the 13th Part VII: The New Blood_</span>) receives a “special effects makeup creator” credit, and while the suit doesn't look cheap, it still looks like a suit. The film's inventive cinematography betrays the seams during a bird's-eye shot of the demon returning to the crypt where we see the sneaker tread on the bottom of the demon's foot.
+The aforementioned showdown features the demon in all its rubber-suited glory. John Carl Buechler (who'd later direct <span data-imdb-id="tt0095179">_Friday the 13th Part VII: The New Blood_</span>) receives a "special effects makeup creator" credit, and while the suit doesn't look cheap, it still looks like a suit. The film's inventive cinematography betrays the seams during a bird's-eye shot of the demon returning to the crypt where we see the sneaker tread on the bottom of the demon's foot.
 
 I can forgive slips like this. I can also forgive the stiff acting and disjointed nonsensical plotting. But I can't forgive boring.
 

@@ -14,10 +14,10 @@ But director Tonino Valerii squanders everything around his leading man. Coburn'
 
 The technical problems prove glaring. Day-for-night shots that had me wondering why they were sneaking into the fort in broad daylight. Dubbing so sloppy that "shove it up your ass" becomes "shove it down your throat"--apparently Italian censors drew the line somewhere.
 
-Most painful is an endless sequence where Coburn threads rope up a cliff face. Valerii shoots it in mind-numbing close-ups: rope against rock, Coburn pulling, rope against rock, Coburn pulling. When he finally cuts wide, the geography makes no sense. A competent director would have shown Coburn scaling the cliff himself, soldiers prowling above—real tension, real stakes.
+Most painful is an endless sequence where Coburn threads rope up a cliff face. Valerii shoots it in mind-numbing close-ups: rope against rock, Coburn pulling, rope against rock, Coburn pulling. When he finally cuts wide, the geography makes no sense. A competent director would have shown Coburn scaling the cliff himself, soldiers prowling above--real tension, real stakes.
 
 Coburn doesn't even come face-to-face with his nemesis, third-billed Telly Savalas, until the film's basically over in a sequence devoid of tension because Valerii awkwardly opened the film with the climax, killing all suspense. Storytelling suicide.
 
-Coburn deserved better. So do audiences. The 90-minute version I saw was cut from 112 minutes—maybe those missing 22 minutes contain actual characters and coherent geography.
+Coburn deserved better. So do audiences. The 90-minute version I saw was cut from 112 minutes--maybe those missing 22 minutes contain actual characters and coherent geography.
 
 Probably not.

@@ -6,4 +6,4 @@ grade: D+
 slug: ant-man-2015
 ---
 
-Breaks the Marvel formula where heroes acquire their powers at a great personal cost. As Rudd says, he’s expendable.
+Breaks the Marvel formula where heroes acquire their powers at a great personal cost. As Rudd says, he's expendable.

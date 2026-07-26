@@ -14,6 +14,6 @@ Director Russ Meyer threads a fine tonal seam between detached camp and earnest 
 
 The same measured tone applies to the violence. It's bloody and gruesome, yet never mean-spirited or off-putting.
 
-Most of all, I appreciated the film's willingness to eviscerate both sides of the generation gap. A critical reveal proves timely, demonstrating how the “enlightened” flower children weren't ready to accept all types of people.
+Most of all, I appreciated the film's willingness to eviscerate both sides of the generation gap. A critical reveal proves timely, demonstrating how the "enlightened" flower children weren't ready to accept all types of people.
 
 This film also marks Pam Grier's first credited feature. It's a blink-and-you-miss-it appearance and, I admit, I missed it. But I'm eager to re-watch this with commentary by screenwriter Roger Ebert.

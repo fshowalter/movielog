@@ -10,13 +10,13 @@ In medieval China, China's greatest swordsman Ching Wan and Japan's greatest swo
 
 <!-- end -->
 
-If you’ve ever said to yourself “You know, this movie would be a lot better with some ninjas,” then this is the movie for you.
+If you've ever said to yourself "You know, this movie would be a lot better with some ninjas," then this is the movie for you.
 
-It’s got ninjas erupting out of sand, ninjas popping out of water, ninjas flying on giant kites, ninjas bursting out of trees, exploding ninjas, disappearing ninjas, naked ninjas--you name it. It’s even got a gestalt ninja.
+It's got ninjas erupting out of sand, ninjas popping out of water, ninjas flying on giant kites, ninjas bursting out of trees, exploding ninjas, disappearing ninjas, naked ninjas--you name it. It's even got a gestalt ninja.
 
-That’s right--a ninja made of ninjas.
+That's right--a ninja made of ninjas.
 
-And it's those ninjas that elevate _Duel to the Death_. Their bonkers insanity culminates with the ninja leader's severed head saying “A Zen monk feels no pain,” before exploding. I loved it.
+And it's those ninjas that elevate _Duel to the Death_. Their bonkers insanity culminates with the ninja leader's severed head saying "A Zen monk feels no pain," before exploding. I loved it.
 
 Contrasting that cartoonishness, the Ching Wan and Hashimoto story plays out with stoic determination. When the climactic battle arrives, the script demonstrates unexpected depth. Ching Wan proves reluctant to fight while circumstances have left Hashimoto with nothing _but_ the fight.
 

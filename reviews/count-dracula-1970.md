@@ -8,7 +8,7 @@ synopsis: Christopher Lee plays Count Dracula, a vampire who relocates to London
 
 Christopher Lee finally gets to speak Bram Stoker's original dialogue as Count Dracula, but that may be the only compelling reason to watch Jess Franco's 1970 adaptation. While the film's opening title card promises to tell Stoker's story "as written," what follows is a curious hybrid: more faithful to the novel than the <span data-imdb-id="tt0021814">Universal</span> or <span data-imdb-id="tt0051554">Hammer</span> versions, yet ultimately less entertaining than either.
 
-The film's strongest segment arrives early, following Jonathan Harker's fateful journey to Castle Dracula. Here, we find Lee, sporting the character's literary white hair and mustache, clearly relishing the chance to finally deliver the Count's most memorable lines including "The children of the night—what music they make."
+The film's strongest segment arrives early, following Jonathan Harker's fateful journey to Castle Dracula. Here, we find Lee, sporting the character's literary white hair and mustache, clearly relishing the chance to finally deliver the Count's most memorable lines including "The children of the night--what music they make."
 
 But this fidelity to the source material proves short-lived. Jonathan's weeks of imprisonment in the castle compress into what feels like mere days before he makes an inexplicable leap from a window, only to wake up in London at a sanitarium run by Herbert Lom's Van Helsing.[^1] The novel's mounting dread gives way to rushed plotting, while the atmospheric arrival of Dracula's ship--one of Gothic literature's most memorable scenes--vanishes entirely, likely a casualty of the film's meager budget.
 
@@ -22,7 +22,7 @@ The film clocks in under 100 minutes, making it a modest time investment for Chr
 
 [^1]: This creates a gaping plot hole, as Harker knows Dracula is a monster who's living next-door to the hospital. Once Van Helsing deduces the same, we get an awkward scene where Harker mumbles an unconvincing excuse about "not making the connection."
 
-[^2]: Christopher Lee, _Tall Dark and Gruesome_ (Baltimore: Midnight Marquee Press, 2009), 288–89.
+[^2]: Christopher Lee, _Tall Dark and Gruesome_ (Baltimore: Midnight Marquee Press, 2009), 288-89.
 
 
 

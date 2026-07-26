@@ -5,15 +5,15 @@ grade: D+
 slug: the-seas-beneath-1931
 ---
 
-An uneven amalgam of war picture, spy drama, and romance. In late WWI, O’Brien captains a naval crew aboard a decoy ship posing as merchant marines. They’re hunting for a notorious German U-boat.
+An uneven amalgam of war picture, spy drama, and romance. In late WWI, O'Brien captains a naval crew aboard a decoy ship posing as merchant marines. They're hunting for a notorious German U-boat.
 
 <!-- end -->
 
-While docked picking up fuel for their submarine escort, O’Brien and company encounter a German outfit doing the same. Of course, it’s the outfit they’re after. O’Brien also gets mixed up with Lessing, who plays the U-Boat commander’s sister. Things drag. Lessing and O’Brien have no chemistry, and she proves unconvincing as a German national.
+While docked picking up fuel for their submarine escort, O'Brien and company encounter a German outfit doing the same. Of course, it's the outfit they're after. O'Brien also gets mixed up with Lessing, who plays the U-Boat commander's sister. Things drag. Lessing and O'Brien have no chemistry, and she proves unconvincing as a German national.
 
-Ford shines with the naval action, however. We see just how difficult it was to refuel at sea, how tricky it was to transfer passengers in rough seas, and we’re treated to a memorable POV shot of a submarine surfacing. All real, shot at sea, no effects.
+Ford shines with the naval action, however. We see just how difficult it was to refuel at sea, how tricky it was to transfer passengers in rough seas, and we're treated to a memorable POV shot of a submarine surfacing. All real, shot at sea, no effects.
 
-The technical prowess peaks with a naval battle finale that holds up today, but the coda scene between O’Brian and Lessing is laugh-out-loud bad.
+The technical prowess peaks with a naval battle finale that holds up today, but the coda scene between O'Brian and Lessing is laugh-out-loud bad.
 
 Said Ford[^1]:
 

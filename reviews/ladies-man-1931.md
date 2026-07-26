@@ -9,4 +9,4 @@ William Powell plays a gigolo romancing a married older woman and flirting with 
 
 <!-- end -->
 
-Powell’s sheer charisma overcomes the flimsy plot and his suspect casting. I couldn’t buy him as a gigolo, but I _could_ buy him as a con man. Perhaps that’s why the dark ending surprised me.
+Powell's sheer charisma overcomes the flimsy plot and his suspect casting. I couldn't buy him as a gigolo, but I _could_ buy him as a con man. Perhaps that's why the dark ending surprised me.

@@ -19,15 +19,15 @@ Though top-billed, Chow's role amounts to an extended cameo. The casting proves 
 
 This leads to a flashback-within-a-flashback where we see Yuen in Thailand, part of an expedition researching a possible AIDs cure. Yuen chances upon a beautiful woman bathing in a see-through camisole. The two exchange hesitant words before she rushes back to her village.
 
-That night, Dr. Yuen and the other researchers hear jungle drums. Their guide warns them not to investigate, but of course they don't listen. They sneak up to the native village, where, by firelight, they witness a bizarre ceremony where dozens of black-gi clad tribesmen gather before a white-faced wizard leader who selects members for sacrifice to their “Old Ancestor”.
+That night, Dr. Yuen and the other researchers hear jungle drums. Their guide warns them not to investigate, but of course they don't listen. They sneak up to the native village, where, by firelight, they witness a bizarre ceremony where dozens of black-gi clad tribesmen gather before a white-faced wizard leader who selects members for sacrifice to their "Old Ancestor".
 
 Yuen recognizes one of the sacrificial nominees as the girl he met earlier. Before he can react, another tribesman objects to the wizard's choice of the girl. The wizard gestures, as if withdrawing something from inside his robes, and a creature reminiscent of the baby from <span data-imdb-id="tt0071675">_It's Alive_</span> materializes and flies toward the objector. The baby-thing rips out the objector's throat in gory detail.
 
 Shocked, Yuen's compatriots flee, but Yuen rushes forward, determined to rescue the girl. He succeeds, but not before the wizard curses him in a sequence that sees another researcher's insides turn to maggots.
 
-Flashback complete, Wisely tells Yuen the blood curse will cause six vessels to pop, one per day, until the seventh and final day, when his heart will burst. Wisely suggests Yuen return to Thailand to seek a cure. Again, credit the decision to cast Chow, who delivers the equivalent of “that's tough… good luck!” with charm.
+Flashback complete, Wisely tells Yuen the blood curse will cause six vessels to pop, one per day, until the seventh and final day, when his heart will burst. Wisely suggests Yuen return to Thailand to seek a cure. Again, credit the decision to cast Chow, who delivers the equivalent of "that's tough... good luck!" with charm.
 
-The rest of the film sees Yuen return to Thailand, leading to another run-in with the wizard and his tribe of goons. More action, after the requisite “gear up” scene, including a massive kung-fu battle up and down an ancient statue, a fight with a skeleton puppet that evokes Ray Harryhausen, and gallons of blood.
+The rest of the film sees Yuen return to Thailand, leading to another run-in with the wizard and his tribe of goons. More action, after the requisite "gear up" scene, including a massive kung-fu battle up and down an ancient statue, a fight with a skeleton puppet that evokes Ray Harryhausen, and gallons of blood.
 
 Despite the ample gore, the film retains a contagious sense of fun and adventure akin to the better James Bond entries. Don't expect rich characterization or deep emotional arcs. The focus is on spectacle and thrills with high narrative stakes but low emotional engagement. A fun watch where the thrill isn't _will_ our hero survive, but _how_. It may lack the Bond franchise's polish, but it compensates with sheer enthusiasm, overflowing with set pieces, special effects, and stunt work.
 

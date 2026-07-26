@@ -14,7 +14,7 @@ The film spends its first hour setting up what feels like a CW drama series pilo
 
 When the killing starts, Craig finally shows flashes of the filmmaker who made _Tucker and Dale_. There's genuine wit in how he plays with horror conventions, like a teen's meta-realization that she's destined to be the next victim. But these moments of inspiration feel grafted onto a film that's otherwise content to color within the lines of both teen drama and slasher conventions.
 
-The cast of young actors all deliver competent performances, but none possesses that ineffable quality that makes us truly invest in their survival. They're trapped playing archetypes: the jock, the musician, the princess, the oligarch's son. Even Quinn, our protagonist, never develops beyond being the new girl in town with a tragic backstory—her mother's overdose death--a plot point the film raises and then puzzlingly abandons.
+The cast of young actors all deliver competent performances, but none possesses that ineffable quality that makes us truly invest in their survival. They're trapped playing archetypes: the jock, the musician, the princess, the oligarch's son. Even Quinn, our protagonist, never develops beyond being the new girl in town with a tragic backstory--her mother's overdose death--a plot point the film raises and then puzzlingly abandons.
 
 The R rating feels almost accidental. Despite some serviceable kill scenes that should satisfy genre fans, the film maintains a peculiarly chaste atmosphere that betrays its YA origins. There's some underage drinking, but otherwise these teens feel sanitized for prime time, which creates a cognitive dissonance with the film's darker elements.
 

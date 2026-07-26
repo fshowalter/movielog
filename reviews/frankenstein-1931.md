@@ -12,4 +12,4 @@ Like <span data-imdb-id="tt0021814">_Dracula_</span>, I've seen this movie count
 
 Watching this with _Dracula_ fresh in mind, Edward Van Sloan might as well be playing Van Helsing. Imagine that: Van Helsing, mentor of Frankenstein. It warms my heart.
 
-And as for the doctor, I've always found him a tragic character. Fate conspires against him in such a cruel manner, I can't help but root for him, which blunts the story's edge. I never read the lesson as, “Man shouldn't play God,” but rather, “Never send a clumsy assistant to do a delicate job.”
+And as for the doctor, I've always found him a tragic character. Fate conspires against him in such a cruel manner, I can't help but root for him, which blunts the story's edge. I never read the lesson as, "Man shouldn't play God," but rather, "Never send a clumsy assistant to do a delicate job."

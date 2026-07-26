@@ -8,7 +8,7 @@ date: 2024-11-01
 
 Boris Karloff delivers a thoughtfully restrained performance in this first _Mr. Wong_ film, though it sees him once again playing an East-Asian character.
 
-According to Scott Allen Nollen in _Boris Karloff: A Gentleman's Life_, in 1938, poverty row studio Monogram, inspired by the success of Fox's _Charlie Chan_ and _Mr. Moto_ series, optioned Hugh Wiley’s popular "James Lee Wong" stories that had appeared in _Collier's_ magazine, and approached Karloff to star.
+According to Scott Allen Nollen in _Boris Karloff: A Gentleman's Life_, in 1938, poverty row studio Monogram, inspired by the success of Fox's _Charlie Chan_ and _Mr. Moto_ series, optioned Hugh Wiley's popular "James Lee Wong" stories that had appeared in _Collier's_ magazine, and approached Karloff to star.
 
 Karloff, enticed by the prospect of starring in a non-horror role, agreed, and signed a four-picture deal, with _Mr. Wong, Detective_ being the first.
 

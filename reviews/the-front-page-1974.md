@@ -5,7 +5,7 @@ grade: C-
 slug: the-front-page-1974
 ---
 
-_The Front Page_ is yet another adaptation of the play by Ben Hecht and Charles MacArthur, the most famous of which was probably Howard Hawks' <span data-imdb-id="tt0032599">_His Girl Friday_</a>. This Billy Wilder-directed adaptation features Walter Matthau in the Cary Grant role and Jack Lemmon in the Rosalind Russell role.
+_The Front Page_ is yet another adaptation of the play by Ben Hecht and Charles MacArthur, the most famous of which was probably Howard Hawks' <span data-imdb-id="tt0032599">_His Girl Friday_</span>. This Billy Wilder-directed adaptation features Walter Matthau in the Cary Grant role and Jack Lemmon in the Rosalind Russell role.
 
 Wilder, along with his writing partner I.A.L. Diamond, tries to beef up the story's dramatic elements, depicting newspapers and their employees as callous, bloodthirsty jackals hungry for human suffering to feed their presses. The problem is that it doesn't work. The story's just too farciful to support the drama Wilder and Diamond want to hang on it.
 

@@ -16,7 +16,7 @@ What surprises is the craft. Director Jim Muro--who'd become Hollywood's go-to S
 
 The effects rival anything from the studios. Bodies don't just bleed, they erupt in neon rainbows, melting like Crayolas on hot pavement. It's not gore. It's surrealism with intestines.
 
-The comedy cuts deepest. One bum shoplifts raw chicken, gets caught, then accuses the store manager of racism—both men are black—and storms out through a plate glass window. Another scene features bums playing keep-away with a severed penis while ragtime piano tinkles merrily. When no cab will take him, the victim rides to the hospital clinging to the back of a school bus. I'm not making this up.
+The comedy cuts deepest. One bum shoplifts raw chicken, gets caught, then accuses the store manager of racism--both men are black--and storms out through a plate glass window. Another scene features bums playing keep-away with a severed penis while ragtime piano tinkles merrily. When no cab will take him, the victim rides to the hospital clinging to the back of a school bus. I'm not making this up.
 
 But the actors can't match the artistry. Tony Darrow brings menace as the mobster. James Lorinz sparkles as a doorman. But the rest of the cast is stiff and charmless. 
 

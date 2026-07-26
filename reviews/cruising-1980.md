@@ -11,13 +11,13 @@ William Friedkin doesn't flinch. With _Cruising_, he sets his story in Manhattan
 
 Al Pacino plays a cop who goes undercover in the gay underground to catch a serial killer. Simple premise. But Friedkin, who cut his teeth on documentaries, knows the real story isn't the murders. It's the man hunting them. It's what happens when you wear a mask so long you forget which face is yours.
 
-The film pulses with color. Dark blue saturates every frame—streets, parks, clubs drowning in cobalt night. Then come the accents: green foliage, brown leaves, black leather. And blood. Always red blood, shocking against that blue darkness. 
+The film pulses with color. Dark blue saturates every frame--streets, parks, clubs drowning in cobalt night. Then come the accents: green foliage, brown leaves, black leather. And blood. Always red blood, shocking against that blue darkness. 
 
 Pacino starts as observer. He ends up working out, wearing leather, applying mascara. Is he method acting? Or discovering something? Friedkin won't tell you. The brilliance is in what he refuses to show, what he leaves unsaid. His journalistic eye simply records.
 
 Pacino's a perfect conduit. This is Pacino before <span data-imdb-id="tt0086250">_Scarface_</span>, when he could still deliver a quiet performance full of subtle nuance. His small frame lets him disappear into the sweaty crowds even as his large eyes convey his sense of inner turmoil.
 
-Some dialogue clunks—a scene with Pacino's captain where exposition dumps when emotion should speak. But that ending. That elegant, ambiguous ending justifies everything. It wraps up the plot while leaving the real mystery—identity itself—wide open.
+Some dialogue clunks--a scene with Pacino's captain where exposition dumps when emotion should speak. But that ending. That elegant, ambiguous ending justifies everything. It wraps up the plot while leaving the real mystery--identity itself--wide open.
 
 The supporting cast delivers. Joe Spinell as a corrupt cop in the opening. Ed O'Neill threatening a suspect with a memorable "test." Powers Boothe in a brief but indelible appearance. Friedkin knows how to populate a world.
 

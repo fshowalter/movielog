@@ -10,7 +10,7 @@ _The Getaway_ is a slick bit of neo-noir exploitation.
 
 Steve McQueen stars as Doc McCoy, an incarcerated bank robber. The opening credit sequence--cut to the staccato rhythm of an industrial loom--hammers home the hellish, regimented existence of prison life.
 
-Doc finds himself near breaking after his expected parole is denied. When his wife Carol (Ali McGraw) visits him in jail, Doc cuts the visit short, telling her to contact a man named Beynon and tell him “I'm for sale. His price.”
+Doc finds himself near breaking after his expected parole is denied. When his wife Carol (Ali McGraw) visits him in jail, Doc cuts the visit short, telling her to contact a man named Beynon and tell him "I'm for sale. His price."
 
 Beynon (Ben Johnson) is a greasy operator who sits on the parole board. He pulls some strings and Doc is paroled.
 

@@ -18,4 +18,4 @@ The cast impresses. Anya Taylor-Joy's performance as a teenage girl coming of ag
 
 This isn't a film of jump-scares or gory set pieces. The story unfolds with a grim, nihilistic inevitability. Take out the supernatural elements and you still have a riveting drama.
 
-But it's those supernatural scenes that elevate _The Witch_. A lesser director might have ditched the overt horror—leaving it to the viewer to interpret the film's events. But Eggers leans into the fantastic. A memorable scene of the titular witch preparing a flying spell plays like a wordless, gruesome, waking nightmare. I loved it.
+But it's those supernatural scenes that elevate _The Witch_. A lesser director might have ditched the overt horror--leaving it to the viewer to interpret the film's events. But Eggers leans into the fantastic. A memorable scene of the titular witch preparing a flying spell plays like a wordless, gruesome, waking nightmare. I loved it.

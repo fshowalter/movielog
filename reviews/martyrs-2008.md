@@ -14,7 +14,7 @@ The film opens with a tween girl named Lucie escaping a nightmarish imprisonment
 
 Fast-forward. Lucie is in an orphanage. The emotional scars of her years-long torture leave her alienated from the other children, save another young girl named Anna. The two form an inseparable bond, with Anna functioning as Lucie's caregiver.
 
-Fast-forward again. We meet an upper-middle-class family. The tween daughter is a star swimmer. The college-age son contemplates a new major. They're enjoying a nice breakfast when someone knocks at the door. It is Lucie—now a grown woman who believes the mother and father were her torturers.
+Fast-forward again. We meet an upper-middle-class family. The tween daughter is a star swimmer. The college-age son contemplates a new major. They're enjoying a nice breakfast when someone knocks at the door. It is Lucie--now a grown woman who believes the mother and father were her torturers.
 
 I'll say no more about the plot save that the film reinvents itself multiple times. Just when you think you know the story, it pivots, often via an act of sudden violence. Said pivots are never tonal. Laugier maintains a nihilistic bent throughout. Each narrative shift reexamines his central theme from a new perspective.
 

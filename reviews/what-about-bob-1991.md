@@ -6,4 +6,4 @@ grade: C+
 slug: what-about-bob-1991
 ---
 
-No Disney film could have dared the darker, more manic edge this film deserved. Still, Bill Murray’s performance remains entertaining.
+No Disney film could have dared the darker, more manic edge this film deserved. Still, Bill Murray's performance remains entertaining.

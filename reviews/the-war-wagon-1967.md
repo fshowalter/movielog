@@ -9,9 +9,9 @@ Fresh out of prison, a rancher (John Wayne) teams up with the gunslinger (Kirk D
 
 _The War Wagon_ is an agreeable western adventure, due largely to the strength of its two leads.
 
-John Wayne struts his way through the picture with his usual laconic persona. While this may not exactly fit the script given that Wayne plays a former rancher returning to town after being shot and falsely imprisoned, he’s so damn charismatic that details like that are easy to overlook.
+John Wayne struts his way through the picture with his usual laconic persona. While this may not exactly fit the script given that Wayne plays a former rancher returning to town after being shot and falsely imprisoned, he's so damn charismatic that details like that are easy to overlook.
 
-Opposite Wayne, Kirk Douglas does an equally fine job as a gun-for-hire with a way with the ladies. Douglas manages to hold his own opposite Wayne, which is no small feat, and the banter between them makes for some of the film’s best moments. Further, Douglas’s running gag of never getting on his horse the same way twice is a classic.
+Opposite Wayne, Kirk Douglas does an equally fine job as a gun-for-hire with a way with the ladies. Douglas manages to hold his own opposite Wayne, which is no small feat, and the banter between them makes for some of the film's best moments. Further, Douglas's running gag of never getting on his horse the same way twice is a classic.
 
 The biggest problem with _The War Wagon_ is the rest of the cast. This is, at its core, a heist picture, and thus should play as an ensemble piece. Robert Walker Jr., Howard Keel, Bruce Cabot, and Keenan Wynn all try hard, but next to Wayne and Douglas they barely register.
 

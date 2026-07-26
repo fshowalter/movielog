@@ -30,7 +30,7 @@ Anyway, Hannie survives, but Borgnine and company burn down her house on their w
 
 Bearded, bushy-haired, and squinting behind small glasses, Culp is all quiet menace and studious attention to detail. I could imagine James Coburn or Kris Kristofferson in the part, but wouldn't trade Culp. He makes the movie.
 
-Hannie wants Price to teach her to shoot. He proves reluctant, but soon acquiesces, and we get a training montage of Hannie doing wrist rolling exercises with bigger and bigger weights as Christopher Lee—in what I believe is his lone western—crafts her a custom six-shooter. Once armed and strong, Price gives her shooting lessons. In a refreshing detail, these go beyond aiming, reminding her to turn sideways because, “they're shooting at you too.”
+Hannie wants Price to teach her to shoot. He proves reluctant, but soon acquiesces, and we get a training montage of Hannie doing wrist rolling exercises with bigger and bigger weights as Christopher Lee--in what I believe is his lone western--crafts her a custom six-shooter. Once armed and strong, Price gives her shooting lessons. In a refreshing detail, these go beyond aiming, reminding her to turn sideways because, "they're shooting at you too."
 
 After the training, some plot-convenient bandits assault Lee's home. One sneaks up behind Hannie. She turns and puts her training to work, plugging him. But she can't finish the job and Price has to save her.
 

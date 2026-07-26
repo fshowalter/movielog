@@ -12,7 +12,7 @@ Noomi Rapace and Aksel Hennie play an estranged married couple. They head to the
 
 It's best to go in blind. I knew the two planned to kill one another, but the film expects half of this equation to surprise us.
 
-It aims for <span data-imdb-id="tt0119167">_Funny Games_</span> by way of Quentin Tarantino. Great idea. But director/co-writer Tommy Wirkola's strength lies in frantic—borderline cartoonish—action that thrills and amuses.
+It aims for <span data-imdb-id="tt0119167">_Funny Games_</span> by way of Quentin Tarantino. Great idea. But director/co-writer Tommy Wirkola's strength lies in frantic--borderline cartoonish--action that thrills and amuses.
 
 This film proffers multiple scenes where one party restrains another, then engages in a drawn-out exchange. The dialogue isn't awful, but it's not Tarantino-level witty either.
 

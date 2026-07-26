@@ -9,11 +9,11 @@ How to describe _The Boxer's Omen_? It proves an experience best viewed cold, as
 
 <!-- end -->
 
-The film opens amid a professional mixed martial-arts fight. One fighter represents Thailand, the other Hong Kong. They're referred to as “Thai Guy” and “Hong Kong Guy”.
+The film opens amid a professional mixed martial-arts fight. One fighter represents Thailand, the other Hong Kong. They're referred to as "Thai Guy" and "Hong Kong Guy".
 
 Thai Guy has Hong Kong Guy on the ropes, but Hong Kong Guy pulls off an upset, leading Thai Guy to attack Hong Kong Guy after the bell, landing Hong Kong Guy in the hospital. Hong Kong Guy's brother, Chan Hung (also referred to as Hong Kong Guy by Thai Guy), vows revenge.
 
-This would seem a familiar setup, but it proves a ruse. Instead, the film pulls a hard detour into monks and black magic. The formal imagery evokes <span data-imdb-id="tt0079714">_Phantasm_</span>'s nightmare esthetic. It even samples Angus Scrimm's “Boy!” closing line.
+This would seem a familiar setup, but it proves a ruse. Instead, the film pulls a hard detour into monks and black magic. The formal imagery evokes <span data-imdb-id="tt0079714">_Phantasm_</span>'s nightmare esthetic. It even samples Angus Scrimm's "Boy!" closing line.
 
 Director Kuei Chih-Hung leverages wide-angle lenses to stretch set depths and employs color filters and abundant shadows to give most scenes a dream-like atmosphere.
 

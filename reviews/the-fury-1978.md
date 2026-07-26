@@ -10,10 +10,10 @@ Director Brian De Palma's follow up to <span data-imdb-id="tt0074285">_Carrie_</
 
 <!-- end -->
 
-With Douglas off-screen, the story shifts to Amy Irving, another psychic teen. She can “see” Robin, and soon she's leading Douglas on a rescue mission. Meanwhile, Robin has spent the last several months becoming the titular Fury, a petulant, misogynistic, Arab-hating brat. The finale devolves into a _Carrie_ knock-off and the final shot of Irving had me cackling.
+With Douglas off-screen, the story shifts to Amy Irving, another psychic teen. She can "see" Robin, and soon she's leading Douglas on a rescue mission. Meanwhile, Robin has spent the last several months becoming the titular Fury, a petulant, misogynistic, Arab-hating brat. The finale devolves into a _Carrie_ knock-off and the final shot of Irving had me cackling.
 
 David Cronenberg's <span data-imdb-id="">_Scanners_</span> apes the premise and entire images with memorable success. So what went wrong here?
 
-John Farris's script—based on his own novel—overflows with expository dialog but lacks action. Character's motivations—perhaps explained with inner monologues in the novel—remain opaque on screen.
+John Farris's script--based on his own novel--overflows with expository dialog but lacks action. Character's motivations--perhaps explained with inner monologues in the novel--remain opaque on screen.
 
 And where was De Palma? Was this another case of studio interference? Did he take a post-_Carrie_ paycheck and check out? Perhaps the extras on the Arrow disc will shed some light.

@@ -9,7 +9,7 @@ William Powell plays an American agent operating in Paris. An exfiltration missi
 
 <!-- end -->
 
-The opening spy antics cram a lot of extraneous plot into a brisk ten minutes, but they also explain Powell's character's malleable ethics and lend credibility to his hard-boiled persona. Still, Powell doesn't quite convince in a scene where he's interrogating a goon at gunpoint. Lines like “I'm beginning to lose patience. If you don't open up pretty quick, I'm gonna let you have it right under the table. I'll rip a hole in you big enough to drive a Ford through, and I'm not playing,” sound better coming from Bogart.
+The opening spy antics cram a lot of extraneous plot into a brisk ten minutes, but they also explain Powell's character's malleable ethics and lend credibility to his hard-boiled persona. Still, Powell doesn't quite convince in a scene where he's interrogating a goon at gunpoint. Lines like "I'm beginning to lose patience. If you don't open up pretty quick, I'm gonna let you have it right under the table. I'll rip a hole in you big enough to drive a Ford through, and I'm not playing," sound better coming from Bogart.
 
 Still, Lindsay proves charming, and it's refreshing to see her character portrayed as shrewd and capable for most of the film, even though the third act necessitates her behaving like a helpless damsel pleading for the male leads to rescue her. At least a welcome coda reasserts her character's agency.
 

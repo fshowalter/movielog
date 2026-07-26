@@ -6,7 +6,7 @@ date: 2026-02-06
 synopsis: "\"Dirty\" Harry Callahan suspects a squad of sharp-shooting young motorcycle officers are operating as vigilantes, executing criminals the courts won't touch."
 ---
 
-Harry Callahan is back. So is Clint Eastwood's iconic scowl, his .44 Magnum, and his knack for stumbling into crime while trying to grab lunch. In <span data-imdb-id="tt0066999">_Dirty Harry_, it was a hot dog and a bank robbery. Here, it's a hamburger and a hijacking. The man can't eat in peace.
+Harry Callahan is back. So is Clint Eastwood's iconic scowl, his .44 Magnum, and his knack for stumbling into crime while trying to grab lunch. In <span data-imdb-id="tt0066999">_Dirty Harry_</span>, it was a hot dog and a bank robbery. Here, it's a hamburger and a hijacking. The man can't eat in peace.
 
 Meanwhile, men dressed as cops are executing criminals the courts won't touch. Harry suspects a squad of sharp-shooting young motorcycle officers. His obstinate superior, played by Hal Holbrook, won't listen. As Harry gets closer to the truth, the bodies pile up.
 

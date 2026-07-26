@@ -7,7 +7,7 @@ slug: the-harder-they-fall-1956
 
 A hard-luck sportswriter (Humphrey Bogart) hypes a naïve Argentinean boxer for the mob.
 
-_The Harder They Fall_ is perhaps most notable as Humphrey Bogart’s final film, but that shouldn’t overshadow the film itself.
+_The Harder They Fall_ is perhaps most notable as Humphrey Bogart's final film, but that shouldn't overshadow the film itself.
 
 Bogart looks the part of a tired, down on his luck sportswriter. His eyes have a beaten quality that shows the viewer in a single glance that his character has no illusions about life. Most likely this was due to his battle with lung cancer, and the fact that he was sick while making the film. Yet he retains the undeniable charisma that made him a star.
 

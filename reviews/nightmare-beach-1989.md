@@ -15,7 +15,7 @@ This sense of overcrowded, drunken revelry effuses the film's principal sets. A 
 
 This concludes the plus side.
 
-The inane script concerns an “unknown” assailant who—dressed in a trim leather biker suit and face-hiding motorcycle helmet—electrocutes random breakers using his tricked out touring bike. I say “unknown” with quotes because veteran giallo fans will guess the culprit early-on, though it doesn't detract from the narrative as the script downplays the mystery.
+The inane script concerns an "unknown" assailant who--dressed in a trim leather biker suit and face-hiding motorcycle helmet--electrocutes random breakers using his tricked out touring bike. I say "unknown" with quotes because veteran giallo fans will guess the culprit early-on, though it doesn't detract from the narrative as the script downplays the mystery.
 
 Instead, it focuses on the kills. While the assailant prefers breakers, he's not above offing a peeping hotel manager, or local gang member. The practical effects are fine, albeit forgettable, unlike the setups, which prove preposterous.
 
@@ -33,7 +33,7 @@ The killer's behavior isn't the only head-scratcher. One of the myriad side plot
 
 And lest I forget our protagonists. Skip is a college football quarterback who just lost the Orange Bowl for his team. Gail is a local bartender. Both deliver their lines dead flat, as though someone were feeding them the script via an earpiece and they were just repeating the words with no sense of context or emphasis.
 
-The supporting players fare better. John Saxon plays the local police chief. Unlike his usual cop roles, this time he wears a uniform. Lance LeGault plays the local reverend with his typical gravitas. And Michael Parks plays the local coroner with a drinking problem that's not intended as comedy but plays as such. But the standout supporting player award goes to “Gator Guy,” a drunken University of Florida fan who pops up screaming “Gators!” at various times. Love that guy.
+The supporting players fare better. John Saxon plays the local police chief. Unlike his usual cop roles, this time he wears a uniform. Lance LeGault plays the local reverend with his typical gravitas. And Michael Parks plays the local coroner with a drinking problem that's not intended as comedy but plays as such. But the standout supporting player award goes to "Gator Guy," a drunken University of Florida fan who pops up screaming "Gators!" at various times. Love that guy.
 
 Anyway, continuing the script's inane setups, Skip twice displays an unnerving ease at stalking and kidnapping folks, at one point hiding out in a character's car to question them at knifepoint, and later straight-up kidnapping a woman by sneaking up behind, clasping a hand over her mouth, and carrying her away.
 

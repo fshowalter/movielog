@@ -9,7 +9,7 @@ When Sir Karell is discovered drained of blood and bearing puncture wounds in hi
 
 <!-- end -->
 
-The first fifty minutes of this hour-long film proffer a quasi-rehash of <span data-imdb-id="tt0021814">_Dracula_</span>'s second act. Lugosi stalks around a cobweb-strewn castle holding a candelabra, gazing bug-eyed at rats and spiders. Accompanying Lugosi is Carroll Borland as his vampire… daughter? Their relationship, like the bullet hole in Lugosi's head, isn't explained. Nor is his identity beyond his name: Count Mora.
+The first fifty minutes of this hour-long film proffer a quasi-rehash of <span data-imdb-id="tt0021814">_Dracula_</span>'s second act. Lugosi stalks around a cobweb-strewn castle holding a candelabra, gazing bug-eyed at rats and spiders. Accompanying Lugosi is Carroll Borland as his vampire... daughter? Their relationship, like the bullet hole in Lugosi's head, isn't explained. Nor is his identity beyond his name: Count Mora.
 
 Enter Lionel Barrymore as this entry's Van Helsing. He's there to protect Sir Karell's daughter, played by Elizabeth Allan. Lionel Atwill rounds out the leads as a skeptical police inspector from Prague. Barrymore and Allan deliver their parts broad, giving wide-eyed reactions to every line reading, and with Barrymore snapping his dialog in a sneering nasal tone.
 

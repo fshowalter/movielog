@@ -15,7 +15,7 @@ Sally screams, alerting the patrolling guards and setting the mystery plot in mo
 
 Kendall has a history with Karloff and fingers him for the murder. Unlike the rest of the cast, who come across as bland at best, Kendall delivers a performance oozing self-righteous sleaze. You can see the sanctimonious glee twinkle in his eyes as he sucker-punches Karloff for not confessing, and behind said twinkle a rising fury at Karloff's obstinance.
 
-Opposite Kendall, Karloff gets some big pleading scenes, but the nonexistent emotional stakes render them inert. The film trades on our familiarity with Karloff playing horror villains instead of providing his character with agency and substance. Unlike Kendall, who _shows_ his character's corruption through his actions, Karloff can only _tell_, reacting with expository dialog and stale denials like, “I did come here to get him, but somebody beat me to it!” and then, “I haven't admitted it, I've nothing to do with it!”
+Opposite Kendall, Karloff gets some big pleading scenes, but the nonexistent emotional stakes render them inert. The film trades on our familiarity with Karloff playing horror villains instead of providing his character with agency and substance. Unlike Kendall, who _shows_ his character's corruption through his actions, Karloff can only _tell_, reacting with expository dialog and stale denials like, "I did come here to get him, but somebody beat me to it!" and then, "I haven't admitted it, I've nothing to do with it!"
 
 Meanwhile, Sally interjects herself into the proceedings, pointing out obvious clues that lead us to the killer's identity long before the cast.
 

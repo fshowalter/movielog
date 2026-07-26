@@ -11,4 +11,4 @@ This is not a pretty movie. It begins with a graphic hanging and only gets darke
 
 The nihilistic atmosphere pervading the movie can be chiefly credited to director Michael Reeves. He uses everything possible to build a sense of dread and despair, even taking a cue from the western genre and treating his landscapes as a character unto themselves. Further credit has to be given to Reeves for delivering one of the most unforgettable climaxes I've ever seen.
 
-Still, _Witchfinder General_ has a few problems. Some of the chase scenes are padded a bit too long, losing some dramatic tension, and the supporting cast beneath Price—while solid—never seems to aspire to his level, but these are minor quibbles.
+Still, _Witchfinder General_ has a few problems. Some of the chase scenes are padded a bit too long, losing some dramatic tension, and the supporting cast beneath Price--while solid--never seems to aspire to his level, but these are minor quibbles.

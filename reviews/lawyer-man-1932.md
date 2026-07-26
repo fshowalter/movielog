@@ -15,7 +15,7 @@ After transitioning to the uptown job, Powell's grooming improves, but his chara
 
 What _does_ surprise, however, is that a film called _Lawyer Man_ features no courtroom sequences. We don't see Powell defend himself against the scandal, just spinning clock hands and falling calendar pages to denote time passing.
 
-Then, after the hung jury cannot clear his name, Powell delivers not one, but two lengthy speeches about how he'll go crooked to get even. Except “crooked” just means taking any case he can, no matter the ethics. So, what's changed?
+Then, after the hung jury cannot clear his name, Powell delivers not one, but two lengthy speeches about how he'll go crooked to get even. Except "crooked" just means taking any case he can, no matter the ethics. So, what's changed?
 
 Anyway, Powell's soon riding high again and has a case against Gilmurry. He parlays the case into an appointment as assistant District Attorney. Then he leverages his new office to indict the people responsible for the scandal that ruined him.
 

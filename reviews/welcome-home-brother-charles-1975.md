@@ -33,6 +33,6 @@ A fascinating watch. Fanaka's documentary-like focus on the depressed community 
 
 Drawing such a clear delineation between realism and fantasy prevents the exploitative elements from diminishing the first two acts' authenticity. It also provides a novel way for Fanaka to confront fears of interracial sex and stereotypes of black male sexuality. By depicting these fears heightened to ludicrous levels, he points out their inherent inanity.
 
-Granted, the over-the-top nature pushes it beyond horror and into satire, but Fanaka's take isn't far removed from Bram Stoker using Dracula as an allegory for transgressive sexuality and Jewish immigration fears. Except Fanaka empathizes with his monster and uses the first two acts to—if not justify—at least contextualize his actions.
+Granted, the over-the-top nature pushes it beyond horror and into satire, but Fanaka's take isn't far removed from Bram Stoker using Dracula as an allegory for transgressive sexuality and Jewish immigration fears. Except Fanaka empathizes with his monster and uses the first two acts to--if not justify--at least contextualize his actions.
 
 All that said, the film's biggest weakness is its ending, or lack thereof. None of the plot threads resolve, the film just ends. I can appreciate Fanaka's nihilistic message, but also can't help feeling like he ran out of ideas, money, or time. Or maybe a good movie just leaves you wanting more.
