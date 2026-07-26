@@ -6,7 +6,7 @@ grade: D
 slug: hoppy-serves-a-writ-1943
 ---
 
-**Robert Mitchum's inauspicious debut.** He plays a grunt in an outlaw gang that's fled into Oklahoma, where Texas sheriff Hopalong “Hoppy” Cassidy, played by William Boyd, lacks jurisdiction. Mitchum's part amounts to a single forgettable line.
+**Robert Mitchum's inauspicious debut.** He plays a grunt in an outlaw gang that's fled into Oklahoma, where Texas sheriff Hopalong "Hoppy" Cassidy, played by William Boyd, lacks jurisdiction. Mitchum's part amounts to a single forgettable line.
 
 <!-- end -->
 

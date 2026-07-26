@@ -10,7 +10,7 @@ Robert Forster plays a Chicago cop determined to kill a giant alligator lurking 
 
 <!-- end -->
 
-Buoyed by Forster's engaging performance, the film mixes pulp horror and wry humor to terrific effect. In an early scene, Forster and his partner are scouring the sewers. As they orient themselves on their map, the light shifts and the alligator's monstrous head looms. The dim lights and split-second timing hide the seams and—for an instant—you believe. Yet later, when an unscrupulous reporter falls victim to the monster, we almost cheer. Credit the script by John Sayles with walking the fine line between genuine horror and black comedy.
+Buoyed by Forster's engaging performance, the film mixes pulp horror and wry humor to terrific effect. In an early scene, Forster and his partner are scouring the sewers. As they orient themselves on their map, the light shifts and the alligator's monstrous head looms. The dim lights and split-second timing hide the seams and--for an instant--you believe. Yet later, when an unscrupulous reporter falls victim to the monster, we almost cheer. Credit the script by John Sayles with walking the fine line between genuine horror and black comedy.
 
 As the film unfolds, the monster emerges from the sewers and the shadows. These daylight scenes betray the animatronic and forced-perspective creature effects. And Chicago looks a lot like Los Angeles. Disappointing, but this twist also brings in Henry Silva as a smarmy big game hunter. His performance proves fun, and he seems to relish the character's pulp nature.
 

@@ -6,13 +6,13 @@ slug: blood-rage-1987
 synopsis: When his institutionalized twin brother escapes on Thanksgiving night, a young man embarks on a homicidal rampage through a Jacksonville garden apartment complex.
 ---
 
-Get a group of horror fans together around Thanksgiving and one of them will eventually say, “It’s not cranberry sauce.” This will elicit a chorus of similar replies and knowing smiles all around.
+Get a group of horror fans together around Thanksgiving and one of them will eventually say, "It's not cranberry sauce." This will elicit a chorus of similar replies and knowing smiles all around.
 
 For those not in the know, the quote originates with this film, a low-budget slasher shot in 1983 but shelved until 1987 when it was released theatrically--minus much of its explicit gore--as _Nightmare at Shadow Woods_. Ironically, it was producer Marianne Kanter--who plays a sanitarium doctor--who mandated the excessive nudity and violence in the first place.[^1]
 
 The plot concerns twin brothers played by Mark Soper--one locked up for a childhood hatchet murder he didn't commit, the other free to enjoy the good life until brother dearest escapes on turkey day. Naturally, the guilty twin responds by turning his apartment complex into an abattoir.
 
-The film's calling card arrives when Soper, drenched in gore, touches the blood on his shirt, tastes it, and deadpans: “It’s not cranberry sauce.” Soper commits to the absurdity with such glee that the line transcends camp and becomes perversely iconic.
+The film's calling card arrives when Soper, drenched in gore, touches the blood on his shirt, tastes it, and deadpans: "It's not cranberry sauce." Soper commits to the absurdity with such glee that the line transcends camp and becomes perversely iconic.
 
 And here's the thing about Soper: he's good. As Terry, the psycho, he's charming, even as he exudes a nonchalant menace. As Todd, the wrongly accused innocent, the charisma vanishes and he's genuinely scared and vulnerable. 
 

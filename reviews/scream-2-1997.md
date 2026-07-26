@@ -20,7 +20,7 @@ Then comes the finale, and the whole house of cards collapses.
 
 Sidney flees to an empty theater instead of the police. Apologists might call it an homage to Argento's _Opera_. It didn't work there either. Then the reveal. We're supposed to believe dramatic weight loss and plastic surgery made someone so unrecognizable that they were able to infiltrate the college town undetected and land a prominent position, all in under a year? It's not just a reach, it's an insult. The film's self-awareness has curdled into self-parody.
 
-Worse still, the film kills off one of its best characters in a misguided attempt to prove "no one is safe." For a franchise clearly banking on sequels, it's a tactical error and—most damning--an unmemorable death.
+Worse still, the film kills off one of its best characters in a misguided attempt to prove "no one is safe." For a franchise clearly banking on sequels, it's a tactical error and--most damning--an unmemorable death.
 
 There's even a scene where Sidney rehearses for a college production of what appears to be Agamemnon. It exists only to show her fraying nerves and set up the theatrical finale. Comparing this to Greek tragedy? Another bridge too far.
 

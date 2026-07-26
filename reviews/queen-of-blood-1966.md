@@ -11,7 +11,7 @@ In all honesty the only thing that kept my finger off the fast-forward was the h
 
 An alien spaceship crashes on Mars and a team of astronauts are sent out to investigate. The team finds an alien specimen and proceeds to take it back to Earth, but while en-route they are killed one-by-one by their new passenger.
 
-But wait-doesn't this sound a little familiar? Despite its poor quality, this film obviously influenced Dan O'Bannon, writer of <span data-imdb-id="tt0078748">_Alien_</span>, <span data-imdb-id="tt0089489">_Lifeforce_</span>, and <span data-imdb-id="tt0100802">_Total Recall_</a>, as all of those films have images or themes that seem to show up here.</p>
+But wait-doesn't this sound a little familiar? Despite its poor quality, this film obviously influenced Dan O'Bannon, writer of <span data-imdb-id="tt0078748">_Alien_</span>, <span data-imdb-id="tt0089489">_Lifeforce_</span>, and <span data-imdb-id="tt0100802">_Total Recall_</span>, as all of those films have images or themes that seem to show up here.
 
 But unlike those movies, this one is bad. It's slow, stiffly acted, and underproduced.
 

@@ -13,4 +13,4 @@ Worse, both Mitchum and Palance are off, with Mitchum's smoldering cool giving w
 
 A large part of the blame likely goes to director Rudolph Maté. While the former cinematographer does a great job showcasing the Mexican locales, his editing during the climactic cable-car sequence is underwhelming. What should be a scene of nail-biting tension instead feels stilted and drawn-out. Granted, some of this could fall on producer Howard Hughes, who was known for re-cutting his film, but we'll never know.
 
-_Second Chance_ was billed as "For the First Time—3D with Important Stars!" and perhaps the 3-D gimmick might make the film worthy of its title, but since you're not likely to find a 3-D print, this is one to avoid.
+_Second Chance_ was billed as "For the First Time--3D with Important Stars!" and perhaps the 3-D gimmick might make the film worthy of its title, but since you're not likely to find a 3-D print, this is one to avoid.

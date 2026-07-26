@@ -6,7 +6,7 @@ grade: D
 slug: the-hoodlum-saint-1946
 ---
 
-William Powell plays a newspaper man returned home from World War I to find himself unemployed and broke. He finagles a job as a corporate executive, amasses a fortune, loses it in the crash of ‘29, and finds religion.
+William Powell plays a newspaper man returned home from World War I to find himself unemployed and broke. He finagles a job as a corporate executive, amasses a fortune, loses it in the crash of '29, and finds religion.
 
 <!-- end -->
 
@@ -20,12 +20,12 @@ The Runyonesque gang resurfaces after Gleason ends up in jail expecting Powell t
 
 Somehow this coincides with them investing all their money in Powell's company. The crash hits, wiping out everyone and leaving Powell penniless, friendless, and unemployed. Gleason urges Powell to pray to Saint Dismas. Powell shrugs it off, but Gleason says he'll put in a good word and soon Powell lands a job back in Baltimore.
 
-This proves providential enough to convince Powell, though he compartmentalizes his growing faith. A plot-convenient health-scare lands Powell in a convalescent hospital where the doctor informs him he must have “no mental conflict”.
+This proves providential enough to convince Powell, though he compartmentalizes his growing faith. A plot-convenient health-scare lands Powell in a convalescent hospital where the doctor informs him he must have "no mental conflict".
 
 Powell receives word from Gleason that the rest of the gang are running a Saint Dismas charity as a racket, skimming from the top. Powell returns to New York to convince the gang to go straight, parading out a kid with a leg brace to show the charity's good work. The gang--now led by Lansbury--laugh him out the door.
 
 Despondent, Powell walks to the local church, kneels before the statue of Dismas, and, with tears streaming down his face, prays. This convinces the old gang, who replace the skimmed money.
 
-Powell and Williams end up together and the film closes with them buying an antique clock. They insist on removing the hands so they'll “never know what time it is,” because that's supposed to mean something.
+Powell and Williams end up together and the film closes with them buying an antique clock. They insist on removing the hands so they'll "never know what time it is," because that's supposed to mean something.
 
 If this seems long, convoluted, and trite, then I've conveyed the execution. I've seen the film twice now, and I'm still not sure what it's trying to say. I'm not convinced anyone involved knew either.

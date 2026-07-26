@@ -7,7 +7,7 @@ slug: 20000-years-in-sing-sing-1932
 
 Spencer Tracy plays a smart but arrogant young convict entering New York's Sing Sing prison, where he's set to serve five to thirty years for armed robbery. There, he clashes with the incorruptible warden, but time sees the two develop a mutual respect and trust. This trust is tested when the warden grants Tracy twenty-four hours leave to visit his ailing girlfriend, played by Bette Davis.
 
-Lewis Lawes, then warden of Sing Sing, wrote the source novel, which explains Arthur Byron's cigar-chomping warden's boy scout characterization. In an early scene, one of Tracy's entourage—played with an easy sleaze by Louis Calhern—attempts to bribe the warden with five thousand dollars in bonds. As Calhern explains how there's "bales more where that came from," the warden grins and sets the bonds alight with his desktop cigar lighter.
+Lewis Lawes, then warden of Sing Sing, wrote the source novel, which explains Arthur Byron's cigar-chomping warden's boy scout characterization. In an early scene, one of Tracy's entourage--played with an easy sleaze by Louis Calhern--attempts to bribe the warden with five thousand dollars in bonds. As Calhern explains how there's "bales more where that came from," the warden grins and sets the bonds alight with his desktop cigar lighter.
 
 When Calhern balks at the refusal to play ball, the warden lays into him, saying Tracy will get no special treatment. "People on the outside are supposed to be created free and equal but they aren't," he says. "In here, they are." Suspect logic aside, the dialogue crackles.
 

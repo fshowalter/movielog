@@ -10,4 +10,4 @@ Jason Statham plays an enigmatic loner who joins an armored car service and disp
 
 <!-- end -->
 
-The incessant shots of downtown Los Angeles invite comparisons to Michael Mann’s <span data-imdb-id="tt0113277">_Heat_</span>. This highlights the film’s biggest weakness. Statham’s great, but the script lacks a worthy antagonist. There’s no Pacino to his De Niro. Or is it the other way round? Regardless, this gap and the plot holes prove the difference between good and great.
+The incessant shots of downtown Los Angeles invite comparisons to Michael Mann's <span data-imdb-id="tt0113277">_Heat_</span>. This highlights the film's biggest weakness. Statham's great, but the script lacks a worthy antagonist. There's no Pacino to his De Niro. Or is it the other way round? Regardless, this gap and the plot holes prove the difference between good and great.

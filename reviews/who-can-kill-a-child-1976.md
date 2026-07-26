@@ -11,7 +11,7 @@ The Spanish island looks like a postcard. White adobe walls. Brilliant sunshine.
 
 That should be your first clue to get back in the boat.
 
-Narciso Ibáñez Serrador's horror film starts strong with atmosphere you can taste. The opening mainland sequences burst with life—festival crowds, fireworks, bodies packed so tight on the beach you can't see sand. Then comes the island: empty, silent, suffocating despite the open air. The white walls pop against the heat. The sweat glistens. Serrador knows how to frame dread.
+Narciso Ibáñez Serrador's horror film starts strong with atmosphere you can taste. The opening mainland sequences burst with life--festival crowds, fireworks, bodies packed so tight on the beach you can't see sand. Then comes the island: empty, silent, suffocating despite the open air. The white walls pop against the heat. The sweat glistens. Serrador knows how to frame dread.
 
 But he doesn't trust it.
 

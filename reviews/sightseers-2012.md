@@ -10,7 +10,7 @@ After <span data-imdb-id="tt1788391">_Kill List_</span>'s neo-noir horror, direc
 
 <!-- end -->
 
-Wheatley brings the stylized realism of his prior films, which suits the dry humor well. Consider the scene when Chris meets Tina's mother before the trip. He tries for small-talk, saying “I understand you collect snow globes,” to which she sneers and replies, “I don't like you.”
+Wheatley brings the stylized realism of his prior films, which suits the dry humor well. Consider the scene when Chris meets Tina's mother before the trip. He tries for small-talk, saying "I understand you collect snow globes," to which she sneers and replies, "I don't like you."
 
 Much of the humor plays in this vein, but some bits pack more gore. The practical effects prove gruesome and effective, in line with Wheatley's style. That said, my biggest laugh came from a bit of off-screen violence involving a Jack Russell terrier and some knitting needles. The film's ability to play this as comedy testifies to Wheatley's tonal mastery.
 

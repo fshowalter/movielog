@@ -17,19 +17,19 @@ Regardless of why, Jesse serves as a kind of gateway for Freddy. First, it's Jes
 
 Now, I love a good "nightmare logic" picture, but the filmmakers must understand the rules they're breaking. This script feels like an unrelated possession movie repurposed to fast-track a sequel to the first film's unexpected success. Consider how the penultimate set-piece has Freddy running around a pool party terrorizing kids. They're all awake, so there's no dream logic, and the bright lighting eliminates any atmospheric mood. What's the point?
 
-In a 1997 interview, Elm Street creator Wes Craven cites this scene when explaining why he passed on this sequel, pointing out many of the pool party kids are taller than Freddy [^1]. Indeed, the scene lacks any narrative stakes or tension. The kids are all strangers and we’re too stunned by the inanity to feel afraid.
+In a 1997 interview, Elm Street creator Wes Craven cites this scene when explaining why he passed on this sequel, pointing out many of the pool party kids are taller than Freddy [^1]. Indeed, the scene lacks any narrative stakes or tension. The kids are all strangers and we're too stunned by the inanity to feel afraid.
 
-Even the now-acknowledged homoerotic subtext proves a muddled mess. Though Jesse gazes at ostensible love-interest Lisa during gym class—causing him to take a pop-fly to the face—he's soon rolling around with his pants around his ankles, wrestling bad-boy Grady. Later, he's in Grady's bedroom saying, "I'm scared, Grady. Something is trying to get inside my body," before Freddy bursts out of his skin and murders Grady.
+Even the now-acknowledged homoerotic subtext proves a muddled mess. Though Jesse gazes at ostensible love-interest Lisa during gym class--causing him to take a pop-fly to the face--he's soon rolling around with his pants around his ankles, wrestling bad-boy Grady. Later, he's in Grady's bedroom saying, "I'm scared, Grady. Something is trying to get inside my body," before Freddy bursts out of his skin and murders Grady.
 
 In between, Jesse walks across town one rainy night in his pajamas to an underground leather bar. Soaking wet and still in his pajamas, he orders a beer but gets caught by his gym teacher, a bar patron, who's dressed in a leather vest and wristbands.
 
-The gym teacher forces Jesse to run laps at the high school gym and then orders him to hit the showers. As Jesse showers, an invisible force assaults the gym teacher. This force drags the gym teacher into the showers with Jesse. The gym teacher finds himself tied spread-eagle to the shower wall, stripped naked, and whipped with towels across his buttocks. A point-of-view shot slashing the gym teacher across the back and the gym teacher’s body hangs lifeless. Cut to Jesse, covered in blood, wearing Freddy's glove. Jesse emits a shriek worthy of the best scream queens.
+The gym teacher forces Jesse to run laps at the high school gym and then orders him to hit the showers. As Jesse showers, an invisible force assaults the gym teacher. This force drags the gym teacher into the showers with Jesse. The gym teacher finds himself tied spread-eagle to the shower wall, stripped naked, and whipped with towels across his buttocks. A point-of-view shot slashing the gym teacher across the back and the gym teacher's body hangs lifeless. Cut to Jesse, covered in blood, wearing Freddy's glove. Jesse emits a shriek worthy of the best scream queens.
 
 Is the film a metaphor for the fear inherent in discovering one's homosexuality? Is Freddy manifesting Jesse's homoerotic impulses? If so, what about the finale, which sees Freddy defeated by Lisa's heterosexual love for Jesse? Is this movie meant to be queer-coded positive or negative?
 
 Regardless of intent, the ending doesn't work. Aside from the one aforementioned scene, Jesse shows zero physical or emotional interest in Lisa and offers no sense of depth or vulnerability to substitute and explain her attraction. She pursues him because the script requires it. Their sudden professions of mutual love ring hollow.
 
-So we're left with a horror film that isn't scary, makes no internal sense, and takes a questionable stance on homosexuality. I blame producer Robert Shaye and director Jack Sholder. Shaye for rushing out a sequel he knew was awful—he cameos in the leather bar scene—and Sholder for misunderstanding what made the first film successful.
+So we're left with a horror film that isn't scary, makes no internal sense, and takes a questionable stance on homosexuality. I blame producer Robert Shaye and director Jack Sholder. Shaye for rushing out a sequel he knew was awful--he cameos in the leather bar scene--and Sholder for misunderstanding what made the first film successful.
 
 In another 1997 interview, Sholder confesses he and the studio didn't realize Freddy was the franchise, saying:
 
@@ -41,6 +41,6 @@ Sholder also bears responsibility for casting Mark Patton as Jesse and crafting 
 
 The sequel's lone bright spot lies in the Freddy makeup, which shines, as illustrated by an early sequence between Freddy and Jesse. "You've got the body," Freddy says to Jesse as he removes his hat and peels the skin off the top of his skull, "and I've got the brain." A clever way of explaining possession that proves to be the film's singular memorable sequence.
 
-Fortunately, both Shaye and Sholder would course correct. Shaye would pivot back to Craven’s original premise with the franchise’s <span data-imdb-id="tt0093629">third installment</span>, and Sholder would next direct <span data-imdb-id="tt0093185">_The Hidden_</span>.
+Fortunately, both Shaye and Sholder would course correct. Shaye would pivot back to Craven's original premise with the franchise's <span data-imdb-id="tt0093629">third installment</span>, and Sholder would next direct <span data-imdb-id="tt0093185">_The Hidden_</span>.
 
 [^1]: _Heroes and Villains_, _A Nightmare on Elm Street Collection_, Warner Bros., 2013

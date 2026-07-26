@@ -8,7 +8,7 @@ synopsis: When Sidney Prescott returns to Woodsboro to promote her memoir, Ghost
 
 Ten years later, Ghostface is back. So is the series' mojo.
 
-Wes Craven's final film opens with a triple-decker fake-out. We get three cold opens nested like Russian dolls—movie within a movie within a movie. It's series creator Kevin Williamson correcting course after the muddled <span data-imdb-id="tt0134084">third entry</span>, and Craven announcing the series' return to its gorier roots. Some will groan. I grinned.
+Wes Craven's final film opens with a triple-decker fake-out. We get three cold opens nested like Russian dolls--movie within a movie within a movie. It's series creator Kevin Williamson correcting course after the muddled <span data-imdb-id="tt0134084">third entry</span>, and Craven announcing the series' return to its gorier roots. Some will groan. I grinned.
 
 Neve Campbell is back as Sidney Prescott. The plot sees her return to Woodsboro hawking her memoir, _Out of Darkness_. Naturally, the murders start again. Her niece Jill steps into the ingénue role. The template is familiar. The execution isn't.
 

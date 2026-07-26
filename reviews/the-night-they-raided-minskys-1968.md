@@ -13,19 +13,19 @@ More drama comes via a nebbish vice detective who threatens to shut down the the
 
 It's all meant as a love letter to the waning days of burlesque in New York's Lower East Side, offering both a behind-the-scenes view of the backstage drama and the audience's view of the acts.
 
-In his autobiography, _The Friedkin Connection_, Friedkin reveals how, post <span data-imdb-id="tt0061720">_Good Times_</span>, he feared another flop would end his career. Thus, he passed on a lot of material. This led to concerns from his agents at William Morris. “You're only a film director if you're making films,” they cautioned.
+In his autobiography, _The Friedkin Connection_, Friedkin reveals how, post <span data-imdb-id="tt0061720">_Good Times_</span>, he feared another flop would end his career. Thus, he passed on a lot of material. This led to concerns from his agents at William Morris. "You're only a film director if you're making films," they cautioned.
 
 Enter Bud Yorkin. Friedkin met Yorkin through Dave Wolper, a documentary producer and Friedkin's former employer. Yorkin and Friedkin hit it off and became instant friends.
 
 Yorkin, along with partner Norman Lear, had dominated television variety shows and sitcoms. Now they were branching into movies. They had a two-picture deal with United Artists studio head David Picker. Yorkin was going to France to direct one (<span data-imdb-id="tt0066402">_Start the Revolution Without Me_</span>) and proposed Friedkin direct the other (_Minsky's_) in New York.
 
-Wrote Friedkin, “Forget for the moment that I knew nothing about burlesque in the 1920s, or how to direct a musical comedy. Forget that I had only the commercial failure of _Good Times_. Bud believed in me and convinced David Picker that with Norman producing, I'd bring something original and contemporary to an older subject. I was offered $100,000, which was huge.”
+Wrote Friedkin, "Forget for the moment that I knew nothing about burlesque in the 1920s, or how to direct a musical comedy. Forget that I had only the commercial failure of _Good Times_. Bud believed in me and convinced David Picker that with Norman producing, I'd bring something original and contemporary to an older subject. I was offered $100,000, which was huge."
 
-His "something original and contemporary" translated into a documentary-style approach—realistic lighting, candid audience reaction shots, and natural performances. They lend ample verisimilitude but betrays the acts' illusions. Being so close to the performers, we see the rote memorization behind the feigned inspiration. The tired eyes and worn bodies beneath the makeup and costumes. Burlesque never looked so unappealing.
+His "something original and contemporary" translated into a documentary-style approach--realistic lighting, candid audience reaction shots, and natural performances. They lend ample verisimilitude but betrays the acts' illusions. Being so close to the performers, we see the rote memorization behind the feigned inspiration. The tired eyes and worn bodies beneath the makeup and costumes. Burlesque never looked so unappealing.
 
 Though his approach doesn't work, I understand Friedkin's rationale. He's compensating for a script that trades on a non-existent nostalgia, assuming the viewer's familiarity and love for burlesque. Take the burlesque scenes out, and you're left with four underwritten characters with suspect motivations and no clear protagonist.
 
-The casting doesn't help and proved the first red flag. Friedkin and Lear's first choice for Raymond was Tony Curtis. He agreed but asked for rewrites to beef up the material. “You gotta tell Norman to put some meat on the bones,” Curtis said.
+The casting doesn't help and proved the first red flag. Friedkin and Lear's first choice for Raymond was Tony Curtis. He agreed but asked for rewrites to beef up the material. "You gotta tell Norman to put some meat on the bones," Curtis said.
 
 After the rewrites and three weeks before Lear and Friedkin were to leave for New York to prep the film, Curtis dropped out. They turned to Alan Alda, who agreed but couldn't escape a Broadway commitment. Thus, the part went to Robards.
 
@@ -33,9 +33,9 @@ Though Robards' resemblance to Humphrey Bogart helps, he and Ekland have no chem
 
 Ekland's character proves no more endearing. One could spin her bouncing from Raymond to Trim as a story of female empowerment, but Ekland's naïve performance robs her character of any calculated agency. The uneven tone leaves us wondering if we're meant to cheer or pity her.
 
-With such a shaky foundation, it's unsurprising Friedkin floundered. “There were many problems with it, but the biggest was my own ineptitude," he wrote. "I had researched the period but I didn't know how to convey the right tone. I was in over my head.”
+With such a shaky foundation, it's unsurprising Friedkin floundered. "There were many problems with it, but the biggest was my own ineptitude," he wrote. "I had researched the period but I didn't know how to convey the right tone. I was in over my head."
 
-After filming wrapped, Friedkin, eager to wash his hands of the affair, turned in his rough cut and left for London to start production on <psan data-imdb-id="tt0062732">_The Birthday Party_</span>. Said Friedkin, “The final cut of Minsky's was Norman's, with assistance from our title designer, Pablo Ferro. Much as I'd like to absolve myself of blame for the film, I see my handiwork all over it, especially in the documentary approach to many of the scenes.”
+After filming wrapped, Friedkin, eager to wash his hands of the affair, turned in his rough cut and left for London to start production on <span data-imdb-id="tt0062732">_The Birthday Party_</span>. Said Friedkin, "The final cut of Minsky's was Norman's, with assistance from our title designer, Pablo Ferro. Much as I'd like to absolve myself of blame for the film, I see my handiwork all over it, especially in the documentary approach to many of the scenes."
 
 Indeed, Ferro's magic trick-like device of morphing seeming archival footage to color current footage lends an immediate sense of authenticity and authority. Unlike Friedkin's documentary style, this device enhances, rather than detracts from the proceedings.
 

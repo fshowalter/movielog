@@ -21,7 +21,7 @@ Massey wants to produce the fighter now. Bogart wants the money the stunt will n
 
 As Bogart races to Washington clad in the aforementioned flight suit, Whorf races to implement his new designs, using himself as a test pilot.
 
-There's a passable story buried in _Chain Lightning_, but Bogart's wrong for the role. The laughable sight of him squeezed into the flight suit distracts from the script's foresight. Though common enough today, escape pods, pressurized flight suits, and braking parachutes were science fiction to 1950s audiences. When he lands, Bogart says, “Get me out of this Buck Rogers monkey suit, will ya?”
+There's a passable story buried in _Chain Lightning_, but Bogart's wrong for the role. The laughable sight of him squeezed into the flight suit distracts from the script's foresight. Though common enough today, escape pods, pressurized flight suits, and braking parachutes were science fiction to 1950s audiences. When he lands, Bogart says, "Get me out of this Buck Rogers monkey suit, will ya?"
 
 Compounding matters, the film pushes the melodrama, despite the three leads having no chemistry. Will Bogart and Parker get back together? Will there be obstacles to their romance? I think you know the answer.
 

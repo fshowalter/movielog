@@ -3,7 +3,7 @@ date: 2026-06-07
 imdb_id: tt0046963
 grade: B-
 slug: executive-suite-1954
-synopsis: After the death of their imposing president, a company’s executives clash over who will assume control.
+synopsis: After the death of their imposing president, a company's executives clash over who will assume control.
 ---
 
 Robert Wise's _Executive Suite_ opens with a gimmick. We see through the eyes of Avery Bullard, president of a furniture empire, as he moves through a lobby where no one dares meet his gaze. He sends a wire. He walks outside. He raises his hand for a cab, groans, and the camera drops to the pavement. He's dead.

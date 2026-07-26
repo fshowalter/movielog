@@ -11,9 +11,9 @@ Elizabeth Taylor plays the headstrong daughter of a defense attorney played by W
 
 The charismatic performances compensate for the familiar plotting. Supporting player Powell, in his last MGM feature, holds his own in scenes with top-billed Taylor.
 
-The film opens with the pair in their well-furnished living room. She calls him Steve instead of Dad, indicative of their semi-estranged relationship. A small exposition dump informs us Powell's wife died when Taylor was young and that, because of work, he's been an absent father, missing Taylor's graduation, a major surgery, and her playing the lead in her senior play. As a result, she ran wild and got into a jam, forcing Powell to “step in and do something about the kind of girl she was getting to be.”
+The film opens with the pair in their well-furnished living room. She calls him Steve instead of Dad, indicative of their semi-estranged relationship. A small exposition dump informs us Powell's wife died when Taylor was young and that, because of work, he's been an absent father, missing Taylor's graduation, a major surgery, and her playing the lead in her senior play. As a result, she ran wild and got into a jam, forcing Powell to "step in and do something about the kind of girl she was getting to be."
 
-Enter Lamas as an arrogant New York mobster on trial before the US Senate. His thick accent helps the performance, furthering his sense of “otherness” while enhancing his effortless confidence the same way Arnold Schwarzenegger's would decades later.
+Enter Lamas as an arrogant New York mobster on trial before the US Senate. His thick accent helps the performance, furthering his sense of "otherness" while enhancing his effortless confidence the same way Arnold Schwarzenegger's would decades later.
 
 Taylor sees him on TV and feels an instant attraction. When Powell takes the case, she travels to DC. Meeting Lamas, the attraction proves mutual.
 
@@ -23,7 +23,7 @@ Gig Young plays Taylor's ostensible beau and all-around nice guy. She returns ho
 
 Taylor stammers out faux outrage, but Young presses on, "Are you sure you're not reverting to the comic strips? Getting your kicks out of a hoodlum?"
 
-The script never reaches these barbed heights again, but the trio of Powell, Taylor, and Lamas entertain. Taylor, in particular, shines. In a part ripe for over-emoting, she delivers an understated performance, relying on her inherit charisma to win over the audience even as her character's actions prove alienating. Powell's objection isn't born of prejudice or elitism—we know Lamas is a bad guy. Taylor's strength lies in keeping us on her side, regardless.
+The script never reaches these barbed heights again, but the trio of Powell, Taylor, and Lamas entertain. Taylor, in particular, shines. In a part ripe for over-emoting, she delivers an understated performance, relying on her inherit charisma to win over the audience even as her character's actions prove alienating. Powell's objection isn't born of prejudice or elitism--we know Lamas is a bad guy. Taylor's strength lies in keeping us on her side, regardless.
 
 Things reach a tipping point when a drunken Powell visits Lamas late one night to find him in his bed robe, and her upstairs. As explicit as a 1952 film would allow. Taylor announces her intent to marry Lamas, Powell tries to warn her. She won't hear of it.
 

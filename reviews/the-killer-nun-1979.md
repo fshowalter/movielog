@@ -10,7 +10,7 @@ _The Killer Nun_ is trash, but not **total** trash, and that's a shame.
 
 <!-- end -->
 
-Anita Ekberg plays Sister Gertrude, a hospital matron whose recent brain surgery has left her morphine-addicted and unhinged. She sneaks out to drink, smoke, and have anonymous sex. She menaces her charges, reprimanding an elderly patient by stomping their dentures to pieces. In bed with a young nun, she orders her would-be paramour to “Say you're a dirty whore.”
+Anita Ekberg plays Sister Gertrude, a hospital matron whose recent brain surgery has left her morphine-addicted and unhinged. She sneaks out to drink, smoke, and have anonymous sex. She menaces her charges, reprimanding an elderly patient by stomping their dentures to pieces. In bed with a young nun, she orders her would-be paramour to "Say you're a dirty whore."
 
 Later, when patients turn up murdered, Sister Gertrude proves the prime suspect.
 

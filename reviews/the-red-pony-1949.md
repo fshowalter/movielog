@@ -11,7 +11,7 @@ _The Red Pony_ is most notable for two things. First, it's one of the few screen
 
 About that color. Whether it was the print, or simply poor processing, Myrna Loy looks like an absolute ghoul, with washed out grey-white skin. What happened there?
 
-That said, as a screenwriter, Steinbeck is competent, if unremarkable. The film's first two acts work best, as it establishes great atmosphere and sets up its various characters and conflicts. The third act is a bit more problematic, as the climatic scene involving the titular pony's fate doesn’t play well on the screen, as much of the drama is inside Peter Miles' character's head and Miles simply isn't up to that level of a performance. Instead, he just overacts and the film falters. Granted, the animated buzzard doesn't help matters.
+That said, as a screenwriter, Steinbeck is competent, if unremarkable. The film's first two acts work best, as it establishes great atmosphere and sets up its various characters and conflicts. The third act is a bit more problematic, as the climatic scene involving the titular pony's fate doesn't play well on the screen, as much of the drama is inside Peter Miles' character's head and Miles simply isn't up to that level of a performance. Instead, he just overacts and the film falters. Granted, the animated buzzard doesn't help matters.
 
 Thankfully, the rest of the cast suffers no such shortcomings. Myrna Loy is great and understated as Miles' character's watchful mother and Shepperd Strudwick is good as her conflicted husband, but Louis Calhern and Mitchum steal the show.
 

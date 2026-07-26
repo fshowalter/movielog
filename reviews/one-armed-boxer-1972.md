@@ -14,7 +14,7 @@ Wang Yu (who writes, directs, and stars) survives the slaughter but loses his ri
 
 You've seen this before. What you haven't seen is the execution.
 
-The early fights are competent but forgettable. Then the foreign fighters arrive and the film achieves liftoff. Each has a distinct style. The Thai boxers deliver vicious knees and elbows. The Taekwondo expert unleashes powerful kicks. The Judo master throws opponents through walls. The karate master—who sports unexplained fangs—severs limbs with single blows. And the Indian yoga expert, played in regrettable blackface, runs around on his hands in dizzying circles.
+The early fights are competent but forgettable. Then the foreign fighters arrive and the film achieves liftoff. Each has a distinct style. The Thai boxers deliver vicious knees and elbows. The Taekwondo expert unleashes powerful kicks. The Judo master throws opponents through walls. The karate master--who sports unexplained fangs--severs limbs with single blows. And the Indian yoga expert, played in regrettable blackface, runs around on his hands in dizzying circles.
 
 They massacre Wang Yu's school in a sequence that's genuinely memorable. Wang Yu crawls away with a bloody stump. The medicine man and his daughter find him. Then comes the brew, which requires Wang Yu to kill the nerves in his good arm first. Cue a montage, delivered in Sam Raimi-style Dutch angles, of Wang Yu punching coal pits and smashing his arm with a boulder.
 

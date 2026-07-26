@@ -10,11 +10,11 @@ Ricky attends summer camp with his cousin Angela, where a series of grisly murde
 
 <!-- end -->
 
-I'd tried watching this several times but could never get past the awful acting during the film's opening. I can't say the acting improves—the performances vary from passable to awful—but the film has its strong points.
+I'd tried watching this several times but could never get past the awful acting during the film's opening. I can't say the acting improves--the performances vary from passable to awful--but the film has its strong points.
 
 Foremost, it's a camp slasher set at a camp with children. You wouldn't think this a rarity, yet, up to this point, the _Friday the 13th_ films had featured camps populated only with teen counselors arrived early to prepare the facility before the kids arrive.
 
-_Sleepaway Camp_ proffers a lakeside camp teeming with kids, and staffed by a bonkers group of characters. A pederast cook and shady owner. The requisite bitchy female counselor, and the surprising muscle-bound-but-sensitive male counselor. The male teen fashions—think crop tops and short-shorts—had me roaring.
+_Sleepaway Camp_ proffers a lakeside camp teeming with kids, and staffed by a bonkers group of characters. A pederast cook and shady owner. The requisite bitchy female counselor, and the surprising muscle-bound-but-sensitive male counselor. The male teen fashions--think crop tops and short-shorts--had me roaring.
 
 As for the kids, Ricky's fine, but Angela wanders through the movie with a perpetual deer-in-headlights stare that teeters between creepy and hilarious. Their nominal antagonist, Judy, proves an inspired caricature. Think Lolita by way of Jersey.
 

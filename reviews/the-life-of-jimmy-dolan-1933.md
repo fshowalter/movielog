@@ -5,11 +5,11 @@ grade: C+
 slug: the-life-of-jimmy-dolan-1933
 ---
 
-Douglas Fairbanks Jr. plays the titular Jimmy Dolan, who opens the film winning the world light-heavyweight boxing championship. Radio reporters crowd the ring, asking Jimmy to say a few words. He says “Hello mom, are you listening? This is Jimmy. I just won and there ain't a mark on me mom, not a mark. I'm coming home right away now and I got the money and you can get that house in Yonkers.”
+Douglas Fairbanks Jr. plays the titular Jimmy Dolan, who opens the film winning the world light-heavyweight boxing championship. Radio reporters crowd the ring, asking Jimmy to say a few words. He says "Hello mom, are you listening? This is Jimmy. I just won and there ain't a mark on me mom, not a mark. I'm coming home right away now and I got the money and you can get that house in Yonkers."
 
 <!-- end -->
 
-In the training room, the celebration's begun. Someone offers Jimmy a drink, but he says “No thanks. Don't imbibe. That is, drink, I don't drink. Clean living, that's what does it!”
+In the training room, the celebration's begun. Someone offers Jimmy a drink, but he says "No thanks. Don't imbibe. That is, drink, I don't drink. Clean living, that's what does it!"
 
 After his rub down, some society folks invite Jimmy to the casino where the mayor will give an address. Jimmy declines, saying he has to get home to his mother.
 
@@ -43,7 +43,7 @@ Then this exchange:
 
 > PHLAXER: Let me see, it was back in 1894. I was the leading man in a little show doing one night stands. The going was pretty tough.
 >
-> PHLAXER (cont): One night, we tried out a new play. I remember it well—we got paid that night.
+> PHLAXER (cont): One night, we tried out a new play. I remember it well--we got paid that night.
 >
 > PHLAXER (cont): It was all about the old family mortgage and the poor, honest girl. I was the leading man and I got the girl.
 >
@@ -51,6 +51,6 @@ Then this exchange:
 >
 > PHLAXER: Yeah, the good old sob stuff. It got em every time.
 >
-> PHLAXER (cont): But that was back in ‘94. This is 1933 son, and they don't fall for it anymore.
+> PHLAXER (cont): But that was back in '94. This is 1933 son, and they don't fall for it anymore.
 
 Had the film ended with that exchange and the pair boarding the train, I would have given it four stars. It doesn't, of course, but I couldn't help think the screenwriters were winking at us.

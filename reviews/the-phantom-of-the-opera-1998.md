@@ -12,7 +12,7 @@ This baby grows up to become Julian Sands, the Phantom, raised by rats, fluent i
 
 From there, Dario Argento's film stumbles through the familiar beats. Asia Argento (the director's daughter) plays Christine, the understudy. The Phantom falls for her. Baron Raoul also falls for her. She's drawn to the Phantom, who helps her achieve stardom, but recoils in horror at his methods and takes solace in the Baron's arms. The Phantom abducts her and he's hunted down and killed. 
 
-What's baffling is the tone. Argento can't decide what movie he's making, so he makes all of them. For long stretches, this plays like a live-action Disney cartoon—heightened, almost whimsical. You wonder if Argento toyed with the idea of having the rats talk. Then someone gets bisected at the waist. A rat hunter's thumb-bone juts through torn flesh as he flexes his fingers. The Phantom rips out a woman's tongue with his teeth. 
+What's baffling is the tone. Argento can't decide what movie he's making, so he makes all of them. For long stretches, this plays like a live-action Disney cartoon--heightened, almost whimsical. You wonder if Argento toyed with the idea of having the rats talk. Then someone gets bisected at the waist. A rat hunter's thumb-bone juts through torn flesh as he flexes his fingers. The Phantom rips out a woman's tongue with his teeth. 
 
 These effects are mostly practical and excellent, save one CGI impalement that looks like an early _Mortal Kombat_ fatality. The follow-up shot redeems it with proper in-camera gore.
 

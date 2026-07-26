@@ -14,7 +14,7 @@ The story follows Bud, played by Eric Linden, a young man from Hoopersville, Ind
 
 Upon arriving, Bud checks into a posh suite at the expensive Hotel Hercules. This at the suggestion of Bud's only contact in New York, his cousin Gibboney.
 
-Cousin Gibboney is a fast-talking piece of work. When Bud says he's paying eight dollars per day for his suite, Gibboney feigns nonchalance. “Well don't worry about that,” Gibboney says, “I'll just have that chopped right in half. I'll speak to the manager of the hotel, he's an old pal of mine.” Later, Gibboney explains, “That room was supposed to go for twelve dollars a day, but don't worry, I spoke to the manager and I fixed it. It's all right. You can have it for eight.”
+Cousin Gibboney is a fast-talking piece of work. When Bud says he's paying eight dollars per day for his suite, Gibboney feigns nonchalance. "Well don't worry about that," Gibboney says, "I'll just have that chopped right in half. I'll speak to the manager of the hotel, he's an old pal of mine." Later, Gibboney explains, "That room was supposed to go for twelve dollars a day, but don't worry, I spoke to the manager and I fixed it. It's all right. You can have it for eight."
 
 Gibboney introduces Bud to a couple of chorus girls, including Vida, played by Joan Blondell. Vida and Bud make googly eyes. Gibboney invites the girls to a party in Bud's suite later that evening.
 
@@ -22,7 +22,7 @@ With Bud's money, Gibboney acquires some black-market booze. Assorted partiers a
 
 The police figure Bud for the murder and issue a warrant for his arrest. Alone and short on funds, Bud reunites with Vida in a speakeasy. He uses the last of his money to gamble, hoping to win enough to secure a future with Vida. Bud wins back his losses and then some, but of course, he doesn't quit while he's ahead. Bud loses everything. Then the police pounce.
 
-The film plays as a cautionary fable, but the pre-code script imbues New York with a certain allure. Part of said allure is Blondell as Vida. She's all wholesome charm tinged with a bad-girl streak. Like a spiked milkshake. Before gambling away his money, Bud wonders if they should just leave. Vida replies, “I don't wanna leave. I wanna stay where there's noise and excitement and crowds!” Judging by Bud's reaction, this is just the response he wanted.
+The film plays as a cautionary fable, but the pre-code script imbues New York with a certain allure. Part of said allure is Blondell as Vida. She's all wholesome charm tinged with a bad-girl streak. Like a spiked milkshake. Before gambling away his money, Bud wonders if they should just leave. Vida replies, "I don't wanna leave. I wanna stay where there's noise and excitement and crowds!" Judging by Bud's reaction, this is just the response he wanted.
 
 Linden plays Bud as naive without being cloying. The script helps. In a lesser film, Bud would be judgmental. Here, he doesn't object to the bootleg gin and he knows his way around a dice game.
 

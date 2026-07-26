@@ -9,15 +9,15 @@ Burt Lancaster plays a district attorney prosecuting three Italian teens for mur
 
 <!-- end -->
 
-Director John Frankenheimer’s second feature starts strong. The three teens, sporting leather jackets, pegged jeans, and greased hair, stomp through their Harlem neighborhood en route to their target. The murder proves brutal without being graphic. After, the teens flee through a demolition site that evokes soldiers running through bombed-out buildings. Frankenheimer caps the sequence with a wide shot illustrating the futility of their flight.
+Director John Frankenheimer's second feature starts strong. The three teens, sporting leather jackets, pegged jeans, and greased hair, stomp through their Harlem neighborhood en route to their target. The murder proves brutal without being graphic. After, the teens flee through a demolition site that evokes soldiers running through bombed-out buildings. Frankenheimer caps the sequence with a wide shot illustrating the futility of their flight.
 
-Enter Lancaster. He convinces from the outset as an archetype Humphrey Bogart popularized: a tough authority figure who pulled himself out of the slums. This case has a personal angle, with Lancaster having been serious with one suspect’s mother before he left for law school.
+Enter Lancaster. He convinces from the outset as an archetype Humphrey Bogart popularized: a tough authority figure who pulled himself out of the slums. This case has a personal angle, with Lancaster having been serious with one suspect's mother before he left for law school.
 
-Edward Anhalt’s script surprises with its depth. One suspect calls out Lancaster’s character for changing his name to mask his ethnicity. And we get a terrific scene where Lancaster’s wife—who comes from wealth—makes snide drunken remarks to Lancaster’s boss, only for Lancaster to escort her out and chastise her, saying:
+Edward Anhalt's script surprises with its depth. One suspect calls out Lancaster's character for changing his name to mask his ethnicity. And we get a terrific scene where Lancaster's wife--who comes from wealth--makes snide drunken remarks to Lancaster's boss, only for Lancaster to escort her out and chastise her, saying:
 
 > You third-generation progressive, sitting up at Vassar getting your fat checks from daddy. When was the last time you had to scrounge for a buck? You think I can afford this phony idealism of yours?
 
-Lancaster plays more detective than attorney. Frankenheimer builds an immersive atmosphere as Lancaster navigates seedy tenements, cramped apartments, and packed jails. The actual detective, played by Telly Savalas, amounts to Lancaster’s chauffeur, though Savalas makes the most of the part, offering bemused reactions to Lancaster’s efforts.
+Lancaster plays more detective than attorney. Frankenheimer builds an immersive atmosphere as Lancaster navigates seedy tenements, cramped apartments, and packed jails. The actual detective, played by Telly Savalas, amounts to Lancaster's chauffeur, though Savalas makes the most of the part, offering bemused reactions to Lancaster's efforts.
 
 Frankenheimer coaxes standout turns from his young performers. John Davis Chandler convinces as a burgeoning sociopath, as does Neil Burstyn as his dim-witted henchman. As the opposing gang leader, Luis Arroyo avoids any trace of stereotype or caricature, providing a nuanced portrayal of what amounts to a young politician.
 

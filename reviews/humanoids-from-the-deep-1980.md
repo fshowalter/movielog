@@ -26,4 +26,4 @@ But judge this film by exploitation standards and it shines. The small-town atmo
 
 **Warning:** this contains graphic rape sequences, animal violence, and mutilated dog corpses. Delicate viewers should skip it. Everyone else will find a nasty, energetic monster movie that respects its audience enough to create a believable world before unleashing rubber-suited hell.
 
-[^1]: Lukeman, Adam. _Fangoria’s 101 Best Horror Movies You’ve Never Seen: A Celebration of the World’s Most Unheralded Fright Flicks_. United Kingdom: Crown, 2011.
+[^1]: Lukeman, Adam. _Fangoria's 101 Best Horror Movies You've Never Seen: A Celebration of the World's Most Unheralded Fright Flicks_. United Kingdom: Crown, 2011.

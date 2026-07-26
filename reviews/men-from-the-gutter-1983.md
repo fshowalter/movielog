@@ -16,7 +16,7 @@ There's a moment where a character tries to outrun a car, realizes he can't, and
 
 That's his approach throughout. Wide shots as men scale buildings or rappel down them. A bird's eye view when the action demands it. Clarity over chaos. There's a sequence where a car jumps, rolls, and crashes on its side mere feet from the actors. You'd never see that near Don Johnson. Choi wants you to feel exactly how dangerous this is.
 
-The film shares DNA with early _Miami Vice_, with the <span data-imdb-id="tt0097700">_LA Takedown_</span> TV movie that Mann would later remake as <span data-imdb-id="tt0113277">_Heat_</span>. Same focus on professional competence. Same moral ambiguity. By the end, you're rooting for almost everyone—the cops, the ex-cons, even the assassin. You know someone has to lose. The tension is palpable.
+The film shares DNA with early _Miami Vice_, with the <span data-imdb-id="tt0097700">_LA Takedown_</span> TV movie that Mann would later remake as <span data-imdb-id="tt0113277">_Heat_</span>. Same focus on professional competence. Same moral ambiguity. By the end, you're rooting for almost everyone--the cops, the ex-cons, even the assassin. You know someone has to lose. The tension is palpable.
 
 It's this commitment to character that makes it work. The ex-cons aren't cartoon villains. They're desperate and scared. The assassin is brutal but not one-dimensional. The stakes are earned, not manufactured through exploitation. This is a serious crime film that happens to feature Hong Kong action choreography.
 

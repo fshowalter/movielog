@@ -7,7 +7,7 @@ slug: shopping-1994
 
 Disenchanted British youths (Jude Law, Sadie Frost) steal cars and crash them into storefronts.
 
-_Shopping_ tries really hard to be something deeper than it is. Unfortunately, it never quite succeeds. It wants to reflect the generation's condemnation of the vapid materialism of the '80s, yet Jude Law’s hair is always perfectly gelled and his clothes are a perfect fit. It wants to express the frustration of youth, yet the worst these hooligans do is try and loot a mall.
+_Shopping_ tries really hard to be something deeper than it is. Unfortunately, it never quite succeeds. It wants to reflect the generation's condemnation of the vapid materialism of the '80s, yet Jude Law's hair is always perfectly gelled and his clothes are a perfect fit. It wants to express the frustration of youth, yet the worst these hooligans do is try and loot a mall.
 
 Still, Jude Law is amiable enough, and Sadie Frost manages to avoid being whiney in a part that gives her little else to do.
 

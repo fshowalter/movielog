@@ -6,7 +6,7 @@ grade: B+
 slug: what-we-do-in-the-shadows-2014
 ---
 
-Funny, clever, and gruesome—albeit overlong.
+Funny, clever, and gruesome--albeit overlong.
 
 _What We Do in the Shadows_ is a mockumentary following four vampires sharing a house in Wellington, New Zealand.
 

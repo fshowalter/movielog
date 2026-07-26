@@ -16,7 +16,7 @@ This proves awkward, as Leigh's entertaining her current suitor, a lawyer, playe
 
 You know Mitchum and Leigh will get together, but the film takes a pleasant route to this destination. A lesser script would have painted Corey as a villain. But here he's an honest man eager to marry a widow supporting a kid and struggling to make ends meet. It's hard to root against him. Ditching him for an unemployed vagabond seems crazy.
 
-But Mitchum proves compelling, exuding his laconic charm. In one scene, Leigh visits him at his boardinghouse room. She enters, but declines to close the door, saying she doesn't want to worry the land lady. “Let‘s worry her,” says Mitchum, closing the door. He sees her eyes flicker to the bed, which he then folds up into the closet. “But let's not worry you.”
+But Mitchum proves compelling, exuding his laconic charm. In one scene, Leigh visits him at his boardinghouse room. She enters, but declines to close the door, saying she doesn't want to worry the land lady. "Let's worry her," says Mitchum, closing the door. He sees her eyes flicker to the bed, which he then folds up into the closet. "But let's not worry you."
 
 Indeed, it's hard to root against any of the characters.
 

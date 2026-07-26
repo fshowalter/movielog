@@ -14,11 +14,11 @@ Sacchi plays the role absolutely straight, never winking at the camera, never ac
 
 The tonal whiplash should sink the picture. It doesn't. Something about the heightened performances suggests the filmmakers might be in on the joke. Maybe.
 
-Consider the evidence: Vernon's desk sports a prop that's part shrunken head, part zombie. Someone mentions its eyes move. Then nothing. It's never mentioned again. Or how every Parisian in this movie keeps a tiny pistol in their desk drawer. Or the murder scenes, repeated four to six times in lurid comic-book colors—yellow, blue, green, purple.
+Consider the evidence: Vernon's desk sports a prop that's part shrunken head, part zombie. Someone mentions its eyes move. Then nothing. It's never mentioned again. Or how every Parisian in this movie keeps a tiny pistol in their desk drawer. Or the murder scenes, repeated four to six times in lurid comic-book colors--yellow, blue, green, purple.
 
 Best of all: Sacchi's detective finds a victim who's scrawled a letter in blood. He assumes the dying woman wrote it _upside down_ to make it easier for him to read when he walked in. I'm not making this up.
 
-The motorcycle chase deserves its own paragraph. It starts in downtown Paris, detours through riverside woods, features genuinely dangerous-looking stunts—and then stops dead. It ping-pongs between stripped-down thrills and camp exploitation so fast I laughed aloud. That's the movie in miniature.
+The motorcycle chase deserves its own paragraph. It starts in downtown Paris, detours through riverside woods, features genuinely dangerous-looking stunts--and then stops dead. It ping-pongs between stripped-down thrills and camp exploitation so fast I laughed aloud. That's the movie in miniature.
 
 Is this satire? Incompetence elevated to art? I honestly can't tell, but I was compelled.
 Not good, exactly. But oddly compelling.

@@ -19,12 +19,12 @@ Before this mystery resolves, another twist. Two guests aren't who we believed. 
 
 Then the ultimate card. When Byrkit reveals the characters aren't facing a parallel reality, but a near-infinite multiverse. Again, the execution shines. No histrionics from our protagonist, just a creeping realization.
 
-And now my pet theory. Early in the dinner party, Mike, played by Nicholas Brendon, needles Laurie, his friend's date, about her profession. Is she still teaching “Spanish Yoga?” Laurie looks confused, saying “Not me,” and Mike brushes it off, saying he must have her confused with one of his friend's prior girlfriends. An uncomfortable moment, we write off as an honest mistake.
+And now my pet theory. Early in the dinner party, Mike, played by Nicholas Brendon, needles Laurie, his friend's date, about her profession. Is she still teaching "Spanish Yoga?" Laurie looks confused, saying "Not me," and Mike brushes it off, saying he must have her confused with one of his friend's prior girlfriends. An uncomfortable moment, we write off as an honest mistake.
 
 But then Laurie asks Mike what he does. Acting, he replies. She asks if he's been in anything she'd know. A television series named _Roswell_, Mike replies. Laurie's eyes go wide. She's a big fan. But she doesn't remember him. Which episode? All of them, Mike says. A series regular. Still, Laurie doesn't remember, but the group writes it off to Mike having aged. We assume she was needling him back.
 
 But what if she wasn't? What if the multiverse had already opened? What if, in Laurie's reality, Mike didn't act on the show, but the Laurie of Mike's reality had taught Spanish Yoga?
 
-As I was writing this review, another theory occurred to me. Early on, the film makes ample use of a black screen between cuts. I assumed this was an artifact of the micro-budget. A shortcut to denote a passage of time and mask any gaps in coverage. But what if it's more literal? What if the film is cutting between realities and the black interstices represent the roulette “dark zone”?
+As I was writing this review, another theory occurred to me. Early on, the film makes ample use of a black screen between cuts. I assumed this was an artifact of the micro-budget. A shortcut to denote a passage of time and mask any gaps in coverage. But what if it's more literal? What if the film is cutting between realities and the black interstices represent the roulette "dark zone"?
 
 The Blu-ray features two audio commentaries, I was excited to hear. Now, I'm not so sure. Much like _Primer_, this film rewards repeat viewings and I may need one or two more to grasp all the tricks it's playing.

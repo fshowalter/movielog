@@ -32,7 +32,7 @@ From there, Jay and her friends retreat to a neighbor's lake house. The next day
 
 Once again, Jay flees. The film breaks the narrative circle by having Jay crash her car in a cornfield. It's the same tired trope of the girl tripping while fleeing the monster. She wakes up in a hospital. Realizing she's in danger, but too injured to leave, Jay has sex with her neighbor, passing the curse. The neighbor turns out to be pretty dim-witted. The thing gets him in a matter of days. Jay flees again and ends up passing the curse to a pair of random strangers.
 
-The strangers don't last long. It’s likely Jay never warned them, but perhaps she tried and they didn’t believe her. Either way, it's soon back after Jay, but this time her friends have a plan.
+The strangers don't last long. It's likely Jay never warned them, but perhaps she tried and they didn't believe her. Either way, it's soon back after Jay, but this time her friends have a plan.
 
 They go to the local indoor pool, where Jay wades into the center of the water[^2]. After some tense waiting, the thing shows up, but refuses to enter the water. Instead, it throws things at Jay. One of her friends produces a handgun. He fires blind at where the creature might be. He wings another of Jay's friends before putting a bullet in the creature's head. The thing falls into the pool and dies trying to drag Jay under.
 
@@ -42,7 +42,7 @@ To be fair, this is a well-produced film dripping with atmosphere. The suburban 
 
 But about that script.
 
-The opening sequence reveals too much. Consider if we hadn’t seen what happened to the girl waiting by the lake. Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having a breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
+The opening sequence reveals too much. Consider if we hadn't seen what happened to the girl waiting by the lake. Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having a breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
 
 Continuing the too-much-information trend, the film then explains the details of the curse. Worse still, it does it all through dialogue. Rule #1 of good storytelling: Show, don't tell. Rule #1 of good horror: Nothing is scarier than the unknown.
 
@@ -52,7 +52,7 @@ Which leads me to the biggest problem of all. Yes this is a horrible curse, but 
 
 And while we're on the subject of nit-picks, I'm not sure when this film is set, but how do these kids not have internet access? Wouldn't they search online for information about the curse?
 
-In the end, _It Follows_ offers little genuine horror, and the manufactured sense of dread wears thin well before the finale. Nor does it offer anything in the way of vicarious thrills. Its attempt to subvert slasher tropes only reinforces their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
+In the end, _It Follows_ offers little genuine horror, and the manufactured sense of dread wears thin well before the finale. Nor does it offer anything in the way of vicarious thrills. Its attempt to subvert slasher tropes only reinforces their value. Without them, there's nothing to distract us from what's otherwise a trite premise.
 
 [^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
-[^2]: It’s a stupid plan. They place various plugged-in electrical items around the pool’s edge. When the thing gets in the water, Jay will somehow get out and they’ll fry it. Putting aside the logic of electrocuting a semi-invisible monster, wouldn't the pool have GFCI wiring?
+[^2]: It's a stupid plan. They place various plugged-in electrical items around the pool's edge. When the thing gets in the water, Jay will somehow get out and they'll fry it. Putting aside the logic of electrocuting a semi-invisible monster, wouldn't the pool have GFCI wiring?

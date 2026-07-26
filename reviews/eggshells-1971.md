@@ -15,11 +15,11 @@ The film opens with a woman riding in the bed of a pickup truck traveling into d
 
 As they arrive at the University of Texas at Austin, we witness a large Vietnam War protest. This establishes the film's anti-war theme and realistic style. Hooper filmed a real protest, but lingers on intimate details. A girl sits on a bench popping a pimple on her forearm. The protestors shake hands with the smiling police officers monitoring the demonstration.
 
-Hooper also pans up to the Main building clock tower—the site of Charles Whitman's mass shooting three years prior—an odd inclusion given Hooper comments how he excised a "traveling prophet" side-plot because it was “too heavy.” But Hooper also comments in a solemn tone that he was on campus during the massacre.
+Hooper also pans up to the Main building clock tower--the site of Charles Whitman's mass shooting three years prior--an odd inclusion given Hooper comments how he excised a "traveling prophet" side-plot because it was "too heavy." But Hooper also comments in a solemn tone that he was on campus during the massacre.
 
 Next we get the first example of one of Hooper's formal trick shots. A paper airplane takes off from the ground, flies through the air and impacts a house, exploding in a fireball and crumbling to smouldering ashes. An on-the-nose allegory to the students' protection from the Vietnam draft.
 
-Then the film settles into a loose narrative following two hippy couples living in the house. Unbeknownst to them, the basement houses a benign, mysterious entity. Hooper calls it a "hyper-electric crypto-embryonic presence.” A fifth housemate, who witnesses the paper airplane explosion, is, as Hooper puts it, “from another dimension,” conjured here by the presence. He's invisible to the other residents for the film's first half. A detail I missed during my first viewing and would never have caught without Hooper's commentary.
+Then the film settles into a loose narrative following two hippy couples living in the house. Unbeknownst to them, the basement houses a benign, mysterious entity. Hooper calls it a "hyper-electric crypto-embryonic presence." A fifth housemate, who witnesses the paper airplane explosion, is, as Hooper puts it, "from another dimension," conjured here by the presence. He's invisible to the other residents for the film's first half. A detail I missed during my first viewing and would never have caught without Hooper's commentary.
 
 There is no plot or character arcs. Hooper opts for a slice-of-life portrait. Over dinners, parties, house renovations, and baths, the couples engage in pretentious dialogue about their friends, futures and the state of the world. In between, Hooper injects some memorable shots.
 
@@ -27,13 +27,13 @@ In one long shot, he fixes the camera in a corner facing both a hallway and stai
 
 Other formal efforts include a variable-speed point-of-view shot of the presence arriving (which, thanks to Hooper's commentary I now know was a flashback), a man sword-fighting himself (done via jump-cuts), and a scene of one couple's room painting itself.
 
-Though the realistic narrative scenes prove tedious, they feel authentic. In a sly sendup of the “dirty hippy” stereotype, we get several scenes of the couples sharing bathtubs. The naked cast members avoid seeming shy or exhibitionist, engendering a sense of voyeurism.
+Though the realistic narrative scenes prove tedious, they feel authentic. In a sly sendup of the "dirty hippy" stereotype, we get several scenes of the couples sharing bathtubs. The naked cast members avoid seeming shy or exhibitionist, engendering a sense of voyeurism.
 
 Credit Hooper. In the commentary, he reveals he filmed from outside the house, standing on the roof to get those bathtub shots. For another scene of one couple waking up, Hooper had them sleep in the house, then arrived early with his crew, crept upstairs, and filmed them waking, capturing their natural actions.
 
 An interesting aside: during the commentary, restoration co-producer Mark Rylance reveals the performers went on strike. Hooper acknowledges the strike but deflects details. Disappointing, as it would be interesting to learn the source of friction, given the legendary harshness of Hooper's _The Texas Chain Saw Massacre_ shoot.
 
-The film meanders to a double finale. One couple marries in an outdoor ceremony, while the other merges with the basement presence in another head-scratching scene Hooper explains as them being “purified”.
+The film meanders to a double finale. One couple marries in an outdoor ceremony, while the other merges with the basement presence in another head-scratching scene Hooper explains as them being "purified".
 
 This interesting but flawed combination of cinéma vérité and near surrealism has a limited audience.
 

@@ -10,7 +10,7 @@ William Powell cracks codes. Rosalind Russell cracks wise. The movie cracks unde
 
 Powell plays a newspaperman-turned-officer who'd rather dodge bullets in France than push pencils in 1917 Washington. But when the Army finds out he's a cryptography whiz he gets the desk job he'd dreaded. Russell's the assistant war secretary's niece, a whirlwind of energy who gets Powell reassigned, drugs his coffee, sabotages spy operations out of jealousy, and generally behaves as if World War I is merely an inconvenient backdrop to her meet-cute.
 
-For a while, it works. Russell channels Myrna Loy (who was in a contract dispute with MGM) with surprising spark. She and Powell generate real heat in their early scenes. After Russell spikes his coffee with sleeping pills (because he's working too hard, you see), Powell shoos her out and tells a guard: "If she tries to get in again use your gun. Don’t shoot to kill, just wing her. I don’t want her haunting me!" Good stuff.
+For a while, it works. Russell channels Myrna Loy (who was in a contract dispute with MGM) with surprising spark. She and Powell generate real heat in their early scenes. After Russell spikes his coffee with sleeping pills (because he's working too hard, you see), Powell shoos her out and tells a guard: "If she tries to get in again use your gun. Don't shoot to kill, just wing her. I don't want her haunting me!" Good stuff.
 
 But it also reveals the film's fatal flaw.
 

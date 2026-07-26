@@ -21,9 +21,9 @@ LaBute, a playwright, should know better. Consider a throwaway moment: Cage leav
 
 The original film understood that a trap picture must work like a whodunit. We shouldn't see it coming, but when we do, it must feel inevitable. Here, we see it coming and it makes no sense. The conspiracy is so all-encompassing it becomes laughable. At least the unrated cut omits the theatrical release's coda that tried to explain things but only doubled down on the inanity.
 
-Still, there are flashes. A woman enters carrying a broom—nice witch homage. The location photography creates genuine foreboding. Ellen Burstyn, as the island's matriarch, channels Christopher Lee's menace from the original. In her first scene, she's terrific.
+Still, there are flashes. A woman enters carrying a broom--nice witch homage. The location photography creates genuine foreboding. Ellen Burstyn, as the island's matriarch, channels Christopher Lee's menace from the original. In her first scene, she's terrific.
 
-Then there are the bees. The film's calling card, for better or worse. The women trap Cage in a mask and pour in a swarm. He screams hysterically. It's unintentionally hilarious, though the film establishes he's allergic and they revive him with an Epi-Pen. Never mind that an Epi-Pen isn't a cure—it buys time for real medical help. The CGI bees look terrible. The scene reveals LaBute's discomfort with genre filmmaking.
+Then there are the bees. The film's calling card, for better or worse. The women trap Cage in a mask and pour in a swarm. He screams hysterically. It's unintentionally hilarious, though the film establishes he's allergic and they revive him with an Epi-Pen. Never mind that an Epi-Pen isn't a cure--it buys time for real medical help. The CGI bees look terrible. The scene reveals LaBute's discomfort with genre filmmaking.
 
 That discomfort sinks the picture. LaBute plays the horror beats so over-the-top they become camp. The genre elements feel like obligations, not opportunities.
 

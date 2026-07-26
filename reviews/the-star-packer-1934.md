@@ -11,9 +11,9 @@ John Wayne plays a U.S. Marshall who, along with his Indian partner Yak, played 
 
 After the local sheriff drops dead of a mysterious gunshot, Wayne assumes the mantle of the titular star packer. Gabby Hayes plays a local ranch owner whose niece, Anita, makes a surprise arrival.
 
-Anita has inherited a large stake in the ranch. Hayes confesses the Shadow’s gang has stolen the cattle and scared off the help. Ashamed, he offers to buy her out. That night, the Shadow’s men try to scare Anita with Scooby-Doo style ghost antics, but in a refreshing twist, she doesn’t panic, and instead picks up her pistol, draws a bead and drills the “ghost”.
+Anita has inherited a large stake in the ranch. Hayes confesses the Shadow's gang has stolen the cattle and scared off the help. Ashamed, he offers to buy her out. That night, the Shadow's men try to scare Anita with Scooby-Doo style ghost antics, but in a refreshing twist, she doesn't panic, and instead picks up her pistol, draws a bead and drills the "ghost".
 
-Meanwhile, Wayne and Yak discover a secret passage and trick stump that explains how the prior sheriff’s shooter remained unseen. They also suss out the Shadow’s identity. Given the limited cast, I suspect you can guess the culprit.
+Meanwhile, Wayne and Yak discover a secret passage and trick stump that explains how the prior sheriff's shooter remained unseen. They also suss out the Shadow's identity. Given the limited cast, I suspect you can guess the culprit.
 
 This was one of sixteen Lone Star westerns Wayne made for Monogram. These sixty-minute features shot back-to-back, each taking six days max. Said Wayne:
 
@@ -30,4 +30,4 @@ These stunts prove the major differentiators between the films. _The Star Packer
 Like all of Wayne's Monogram releases, _The Star Packer_ suffers from stilted dialog, wooden performances, and rushed production. These aren't good films, but important ones. Their limitations, combined with their relentless production schedules and Wayne's professional insecurity[^2], pushed Wayne to improve. Watching them is watching John Wayne as a work-in-progress.
 
 [^1]: Munn, Michael. _John Wayne_ (Penguin Publishing Group, 2001), 40.
-[^2]: Said screenwriter Lindsley Parsons of Wayne in those days, “We’d be out on location, he’d do a dialogue sequence and he’d just cuss himself out terribly. He’d go off behind a rock and talk about how lousy he was." Eyman, Scott. _John Wayne: The Life and Legend_ (Simon & Schuster, 2014), 75.
+[^2]: Said screenwriter Lindsley Parsons of Wayne in those days, "We'd be out on location, he'd do a dialogue sequence and he'd just cuss himself out terribly. He'd go off behind a rock and talk about how lousy he was." Eyman, Scott. _John Wayne: The Life and Legend_ (Simon & Schuster, 2014), 75.

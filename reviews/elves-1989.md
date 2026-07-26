@@ -30,7 +30,7 @@ Then fifteen minutes later, two of Kirsten's friends have this exchange:
 
 "Whatever."
 
-And later, when Kirsten's little brother, alarmed, asks, “What’s wrong? Are we gonna be all right?” Kirsten replies in perfect deadpan: "No Willie, gramps is a Nazi." 
+And later, when Kirsten's little brother, alarmed, asks, "What's wrong? Are we gonna be all right?" Kirsten replies in perfect deadpan: "No Willie, gramps is a Nazi." 
 
 Bad as they are, these exchanges achieve a kind of surreal absurdism.
 

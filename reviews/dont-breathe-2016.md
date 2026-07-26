@@ -13,7 +13,7 @@ The story sees a trio of teens burgle a blind man's dilapidated Detroit home. Bu
 
 Getting the kids into the house takes forever. We sit through pages of clunky exposition meant to endear the kids to us. It does not.
 
-Once inside, we’re treated to the film’s lone highlight. The kids' initial encounter with the blind man crackles with palpable tension. I gasped aloud when one character revealed his presence via a creaky floorboard.
+Once inside, we're treated to the film's lone highlight. The kids' initial encounter with the blind man crackles with palpable tension. I gasped aloud when one character revealed his presence via a creaky floorboard.
 
 Then the plot kicks in, shuffling the characters from one set piece to another with no relatable behavior or convincing motivation. It's lazy writing run amok.
 

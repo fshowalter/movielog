@@ -13,11 +13,11 @@ Horror comedy is hard, but for its first two acts, this film makes it look easy.
 
 The coeds are in a traditional slasher horror film. They encounter menacing mountain folk, witness one of their own being dragged motionless aboard the hillbillies' boat, and discover their friends' mutilated corpses.
 
-Meanwhile, Tucker and Dale are in a rom-com. Dale attempts a meet-cute with Allison, a coed played by Katrina Bowden, but she mistakes his nerves for menace. Later, when he and Tucker are out night fishing, he saves her from drowning. When Tucker yells to the other kids, “We've got your friend,” they see them hauling her motionless body aboard their boat and flee in terror. Flummoxed, Tucker and Dale decide to take Allison back to their cabin. A forbidden love plot kicks in with Allison discovering Dale's sweetheart nature and him discovering she was raised on a farm.
+Meanwhile, Tucker and Dale are in a rom-com. Dale attempts a meet-cute with Allison, a coed played by Katrina Bowden, but she mistakes his nerves for menace. Later, when he and Tucker are out night fishing, he saves her from drowning. When Tucker yells to the other kids, "We've got your friend," they see them hauling her motionless body aboard their boat and flee in terror. Flummoxed, Tucker and Dale decide to take Allison back to their cabin. A forbidden love plot kicks in with Allison discovering Dale's sweetheart nature and him discovering she was raised on a farm.
 
 Labine, his heavyset face covered in perpetual grime and framed with a mangy beard and sweat plastered hair, convinces as a hillbilly. But his innate charisma, evidenced through his gentle nature and temperament, also shines through, making Allison's attraction plausible. Bowden charms as well, making for a compelling romance.
 
-Director and co-writer Eli Craig plays these two movies out in parallel, mining the inherent dissonance for comedy. Neither group can see beyond their own genre. When confronted with the mounting dead bodies, all Tucker can guess is the kids are “part of some suicide cult.”
+Director and co-writer Eli Craig plays these two movies out in parallel, mining the inherent dissonance for comedy. Neither group can see beyond their own genre. When confronted with the mounting dead bodies, all Tucker can guess is the kids are "part of some suicide cult."
 
 Despite the farcical premise, only the death scenes prove over-the-top. They offer the film's funniest moments.
 
@@ -27,11 +27,11 @@ The other deaths follow suit. I won't spoil any more, save there's a gruesome se
 
 Craig avoids contrived setups, surprising us with each sudden bit of accidental violence, then allowing Tucker and Dale's reactions to magnify the mania. In another laugh aloud moment, a character has set themselves on fire. Tucker and Dale stand hostage, whimpering and repulsed by the sight.
 
-“He's crackling like a log,” says Tucker, his voice squeaking with terror.
+"He's crackling like a log," says Tucker, his voice squeaking with terror.
 
-“Oh, that stinks,” says Dale.
+"Oh, that stinks," says Dale.
 
-This genre weaving reaches an apex when Dale, seeing beyond his genre but remaining within it, tells Allison, “I should have known that if a guy like me talked to a girl like you, somebody'd end up dead.”
+This genre weaving reaches an apex when Dale, seeing beyond his genre but remaining within it, tells Allison, "I should have known that if a guy like me talked to a girl like you, somebody'd end up dead."
 
 Beyond its comical nature, the line offers surprising resonance. It hints at an unexplored theme of social prejudice. In Dale's rom-com movie, he and Allison can't be together because they're from different worlds, and the coeds' reactions are born of elitism.
 
@@ -41,7 +41,7 @@ Having said coed sport a popped collar and ooze aggression and entitlement rende
 
 From here, the film devolves into a comedic monster movie. The aforementioned popped-collar coed transforms into a disfigured maniac, kidnaps Allison, and imperils her, Snidely Whiplash style, in an old sawmill. It elicits some chuckles but relies on the humor of Dale's awkward fit as an action hero.
 
-It's a rehash of the film's running mistaken identity theme. One gag involves Dale “suiting up” to battle the maniac, only to have Allison shriek when she spies him, leading Dale to say, “Oh, I thought it might look kind of intimidating. Does it?”
+It's a rehash of the film's running mistaken identity theme. One gag involves Dale "suiting up" to battle the maniac, only to have Allison shriek when she spies him, leading Dale to say, "Oh, I thought it might look kind of intimidating. Does it?"
 
 Another gag has burly Dale besting the maniac, not by violence, but by trivial knowledge.
 

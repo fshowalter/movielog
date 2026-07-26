@@ -3,12 +3,12 @@ imdb_id: tt0054416
 slug: the-two-faces-of-dr-jekyll-1960
 grade: C
 date: 2025-11-25
-synopsis: Homely Dr. Jekyll's serum transforms him into the dashing, sociopathic Edward Hyde—who promptly torments Jekyll's unfaithful wife and her lover, Jekyll's backstabbing best friend, played by Christopher Lee.
+synopsis: Homely Dr. Jekyll's serum transforms him into the dashing, sociopathic Edward Hyde--who promptly torments Jekyll's unfaithful wife and her lover, Jekyll's backstabbing best friend, played by Christopher Lee.
 ---
 
 Hammer Films gambled on prestige and lost. They doubled their usual script fee for Wolf Mankowitz. They chased BAFTA-winner Laurence Harvey for the lead.[^1] What they got was an intriguing mess--too talky for horror fans, too lurid for the art-house crowd.
 
-The hook is clever. Paul Massie's Dr. Jekyll sports a laughable fake beard and caveman eyebrows, speaking in funeral-dirge tones. His Mr. Hyde? Clean-shaven, handsome, quick-witted. It inverts Stevenson's premise while staying true to its spirit—Jekyll wants to indulge his vices without consequence.
+The hook is clever. Paul Massie's Dr. Jekyll sports a laughable fake beard and caveman eyebrows, speaking in funeral-dirge tones. His Mr. Hyde? Clean-shaven, handsome, quick-witted. It inverts Stevenson's premise while staying true to its spirit--Jekyll wants to indulge his vices without consequence.
 
 The triangle elevates things. Jekyll neglects his wife Kitty, played by Dawn Addams. She's canoodling with his sponging best friend Paul Allen. Christopher Lee plays Allen as deliciously drunk and dissolute. When Hyde discovers their betrayal, he moves in. It's more _Dorian Gray_ than Gothic horror, and for a while, that works. Massie's Hyde is a grinning sociopath, jaunty and merciless.
 

@@ -10,7 +10,7 @@ Clown-faced comedian Joe E. Brown heads west with his skirt-chasing cousin, endi
 
 <!-- end -->
 
-The film opens on a drunken party with the guests dressed as babies. A knock at the door reveals the aforementioned cousin wheeling a large stroller. We hear crying, “Wah, wah, wah, I want my mamma!” and the cousin opens the stroller to reveal Brown, dressed as a baby--complete with bonnet--mouth wide, crying. Bugged-eyed, he babbles baby-talk and takes an oversized lollypop and a bottle filled with booze.
+The film opens on a drunken party with the guests dressed as babies. A knock at the door reveals the aforementioned cousin wheeling a large stroller. We hear crying, "Wah, wah, wah, I want my mamma!" and the cousin opens the stroller to reveal Brown, dressed as a baby--complete with bonnet--mouth wide, crying. Bugged-eyed, he babbles baby-talk and takes an oversized lollypop and a bottle filled with booze.
 
 As in this scene, most of the film's humor derives from Brown mugging for the camera using his oversized mouth and rubber face to convey exaggerated emotions.
 

@@ -11,4 +11,4 @@ _Smokey and the Bandit_, while not a great movie, is an entertaining one. Direct
 
 Reynolds shines in the role he would basically repeat through most of the '80s. His bandit is almost impossible to dislike, a bubbling brew of testosterone and charm, while Gleason eats up the scenery as the memorable Sheriff Buford T. Justice.
 
-The car chases and stunts are all handled well, and the songs by Jerry Reed are annoyingly catchy, but it’s all secondary to the great performances from the leads.
+The car chases and stunts are all handled well, and the songs by Jerry Reed are annoyingly catchy, but it's all secondary to the great performances from the leads.

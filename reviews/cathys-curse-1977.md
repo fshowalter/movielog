@@ -6,7 +6,7 @@ grade: F
 slug: cathys-curse-1977
 ---
 
-Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.com/). For the site's first six years, Collins watched and reviewed a horror movie every single day. Two months into his run, buried in a fifty-film “Chilling Classics” DVD pack, Collins discovered _Cathy's Curse_. [His review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) crowned it the “Best/Worst” film he'd seen.
+Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.com/). For the site's first six years, Collins watched and reviewed a horror movie every single day. Two months into his run, buried in a fifty-film "Chilling Classics" DVD pack, Collins discovered _Cathy's Curse_. [His review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) crowned it the "Best/Worst" film he'd seen.
 
 If _Cathy's Curse_ was a cult film, Collins became the cult leader. As his site's audience grew, Collins kept recommending the film and even posted [a commentary track](http://horror-movie-a-day.blogspot.com/2009/03/cathys-curse-commentary-now-live.html).
 

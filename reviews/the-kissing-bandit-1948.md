@@ -10,7 +10,7 @@ There is a moment, early in _The Kissing Bandit_, when Frank Sinatra appears on 
 
 That person has a lot to answer for.
 
-Sinatra plays Ricardo, a Boston college boy who returns to Old California expecting to take over the family inn, only to discover his late father's secret life as a dashing, womanizing outlaw known as "The Kissing Bandit." He must now assume the identity. Problem is, he’s a milquetoast who flees from sexually aggressive women.
+Sinatra plays Ricardo, a Boston college boy who returns to Old California expecting to take over the family inn, only to discover his late father's secret life as a dashing, womanizing outlaw known as "The Kissing Bandit." He must now assume the identity. Problem is, he's a milquetoast who flees from sexually aggressive women.
 
 As a five-minute comedy sketch, the casting might have been inspired lunacy. The combination of the Hoboken accent, the knobby knees in tights, and those sprouting ears framed by artificial sideburns is genuinely, helplessly absurd. But the film runs past 90 minutes. That's one joke stretched until it snaps.
 

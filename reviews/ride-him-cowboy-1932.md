@@ -12,9 +12,9 @@ Early in _Ride Him, Cowboy_, a town tries a horse for attempted murder. It gets 
 
 John Wayne plays a wandering cowboy out to apprehend a mysterious outlaw known as The Hawk, only to end up framed for the outlaw's crimes.
 
-The opening sequence reveals The Hawk's identity, so there's no mystery. It also telegraphs the finale by providing someone who can identify The Hawk. Granted, said person lies comatose, but, as the doctor says, “He'll be fine.”
+The opening sequence reveals The Hawk's identity, so there's no mystery. It also telegraphs the finale by providing someone who can identify The Hawk. Granted, said person lies comatose, but, as the doctor says, "He'll be fine."
 
-This absurdity continues to the aforementioned horse trial, through Wayne's introduction, and the frame-up, which consists of The Hawk dropping Wayne's monogrammed harmonica after raiding a homestead. That's all the town needs to lynch Wayne. As they say, “We've got incontrovertible proof.”
+This absurdity continues to the aforementioned horse trial, through Wayne's introduction, and the frame-up, which consists of The Hawk dropping Wayne's monogrammed harmonica after raiding a homestead. That's all the town needs to lynch Wayne. As they say, "We've got incontrovertible proof."
 
 And yet, despite the inanity, or perhaps because of it, the script surprises. When the female lead finds herself surrounded by The Hawk's gang, she isn't captured. Instead, she displays surprising cunning and rescues Wayne. It's only _later_ that she's captured.
 

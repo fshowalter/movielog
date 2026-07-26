@@ -13,4 +13,4 @@ Without spoiling anything, suffice it to say the film may leave a few feeling ch
 
 This is a movie that feels like two scripts stitched together and will leave you scratching your head over the numerous gaping plot holes. Not helping matters, surprisingly, is the large amount of exposition devoted to explaining said plot holes, which, in turn, only succeeds in creating more.
 
-Still, Bette Davis is good in the lead, and the 67-minute running time, while certainly adding to the film’s frantic nature, means it’s all over pretty quickly.
+Still, Bette Davis is good in the lead, and the 67-minute running time, while certainly adding to the film's frantic nature, means it's all over pretty quickly.

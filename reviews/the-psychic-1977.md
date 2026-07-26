@@ -9,7 +9,7 @@ Jennifer O'Neill plays an American married to a wealthy Italian businessman. A p
 
 <!-- end -->
 
-You know the story. Act one sees the protagonist visited by a vision comprising a series of threatening and disjointed images. O'Neill's includes a broken mirror, an imposing room, a limping man, and several faces—one bloodied and dead. Act two sees the visions come true one piece at a time, each accompanied by an ominous soundtrack swell. Act three sees the vision play out complete with a twist derived from the context.
+You know the story. Act one sees the protagonist visited by a vision comprising a series of threatening and disjointed images. O'Neill's includes a broken mirror, an imposing room, a limping man, and several faces--one bloodied and dead. Act two sees the visions come true one piece at a time, each accompanied by an ominous soundtrack swell. Act three sees the vision play out complete with a twist derived from the context.
 
 Director Lucio Fulci follows the usual beats, but adds his own twist. Known for his ocular predilection, Fulci crash zooms in on O'Neill's eyes every time she remembers her vision, or a piece comes to pass. I'd suggest making a drinking game out of it, but, dear reader, I fear for your liver.
 

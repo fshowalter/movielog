@@ -6,7 +6,7 @@ grade: D
 slug: the-man-who-dared-1946
 ---
 
-**The directorial debut of John Sturges.** George Macready plays a crusading reporter who seizes an opportunity to expose the fallacy of circumstantial evidence, only to find himself convicted of murder. Top-billed Leslie Brooks plays his girlfriend, who endeared herself to this viewer by avowing her favorite meal as “steak with hash brown potatoes.”
+**The directorial debut of John Sturges.** George Macready plays a crusading reporter who seizes an opportunity to expose the fallacy of circumstantial evidence, only to find himself convicted of murder. Top-billed Leslie Brooks plays his girlfriend, who endeared herself to this viewer by avowing her favorite meal as "steak with hash brown potatoes."
 
 <!-- end -->
 

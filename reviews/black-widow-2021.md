@@ -10,7 +10,7 @@ Scarlett Johansson plays Natasha Romanoff, a Russian super-spy turned Avenger in
 
 <!-- end -->
 
-Fast-forward to the present. A message from her sister—now a Black Widow herself played by Florence Pugh—reunites the siblings, but they're pursued by a mysterious assailant able to mimic the fighting style of anyone it sees.
+Fast-forward to the present. A message from her sister--now a Black Widow herself played by Florence Pugh--reunites the siblings, but they're pursued by a mysterious assailant able to mimic the fighting style of anyone it sees.
 
 This part of the film works the best, with some Russo-brothers style action chases. But soon the sisters are breaking their father out of a Gulag prison and the film slows. It struggles to mesh the prior comic book escapism with an earnest exploration of family dynamics and female empowerment. Early on, there's a scene where Johansson's watching a Roger Moore James Bond entry. This film's tonal shift feels as organic as it would in that film.
 

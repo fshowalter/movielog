@@ -17,4 +17,4 @@ An Irish cop? Sure. But this part proves less about the character's ethnicity an
 
 Then what's already a contrived plot becomes ludicrous. Ten minutes off the bus from prison, Bogart's bug-eyed and shaking, convinced O'Brien is out to get him. When O'Brien does arrive, Bogart's so paranoid and delusional, you could make the case he belongs in prison, despite O'Brien just wanting to give Bogart some toys for his daughter.
 
-At least the finale commits to the inanity, with Bogie saving O’Brien’s life via a blood transfusion, literally putting the everyman into O'Brien. It's a ham-fisted way to make a point, but, then again, maybe all O’Brien needed was some Bogie blood in his veins all along.
+At least the finale commits to the inanity, with Bogie saving O'Brien's life via a blood transfusion, literally putting the everyman into O'Brien. It's a ham-fisted way to make a point, but, then again, maybe all O'Brien needed was some Bogie blood in his veins all along.

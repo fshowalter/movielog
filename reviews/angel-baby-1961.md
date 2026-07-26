@@ -6,7 +6,7 @@ grade: C
 slug: angel-baby-1961
 ---
 
-**Burt Reynolds's debut.** He plays an aggressive, womanizing good old boy. As the film opens, he's fooling around with the titular Jenny Angel, a mute young woman played by Salome Jens. When Jenny's mother catches them, she takes Jenny to Paul, a revival preacher played by George Hamilton. Standing before the congregation, with Paul's urging, Jenny says, “God” and rediscovers her voice. Soon Jenny's a preacher herself, but missteps by taking on an opportunistic business partner.
+**Burt Reynolds's debut.** He plays an aggressive, womanizing good old boy. As the film opens, he's fooling around with the titular Jenny Angel, a mute young woman played by Salome Jens. When Jenny's mother catches them, she takes Jenny to Paul, a revival preacher played by George Hamilton. Standing before the congregation, with Paul's urging, Jenny says, "God" and rediscovers her voice. Soon Jenny's a preacher herself, but missteps by taking on an opportunistic business partner.
 
 <!-- end -->
 

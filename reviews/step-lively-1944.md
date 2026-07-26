@@ -16,13 +16,13 @@ This time he's a wholesome playwright chasing royalties from slippery Broadway p
 
 Or they're supposed to.
 
-The problem is Murphy. He's meant to be a lovable rogue, but he's just a rogue. He panders his girlfriend, betrays his family, lies, bullies, kidnaps—all in service of a show he's producing and starring in. This kind of character needs a Groucho Marx to make him charming. Murphy isn't Groucho. He's not even Harpo.
+The problem is Murphy. He's meant to be a lovable rogue, but he's just a rogue. He panders his girlfriend, betrays his family, lies, bullies, kidnaps--all in service of a show he's producing and starring in. This kind of character needs a Groucho Marx to make him charming. Murphy isn't Groucho. He's not even Harpo.
 
 Which brings us to the film's dirty secret: it's a remake of the 1938 Marx Brothers vehicle <span data-imdb-id="tt0030696">_Room Service_</span>, based on a 1937 play. Suddenly everything makes sense. The small number of sets. The pair of useless hangers-on who were other Marx Brothers in the original. Murphy desperately trying to fill Groucho's shoes and failing with every step.
 
 Sinatra fares no better. His stammering milquetoast role gives him little to do besides rush to call his mother and recoil from a predatory woman. The disconnect between the real Sinatra and his public persona registers onscreen. In some shots, he looks a decade older than his years, thanks to his gaunt features, hard living, and ill-applied makeup. When the 42-year-old Murphy calls him "kid" and "son," it feels like a joke nobody's in on. 
 
-The script shoehorns in Sinatra's singing and a romantic subplot that wasn't in the original. The result is a cavalcade of contrived plotting and stale gags. The opening musical numbers are pleasant enough—forgettable but harmless. Then the plot kicks in and takes the whole enterprise down with it. The script’s antics needed the kind of zany energy the Marx Brothers could inject. Comedy was never Sinatra’s strong suit.
+The script shoehorns in Sinatra's singing and a romantic subplot that wasn't in the original. The result is a cavalcade of contrived plotting and stale gags. The opening musical numbers are pleasant enough--forgettable but harmless. Then the plot kicks in and takes the whole enterprise down with it. The script's antics needed the kind of zany energy the Marx Brothers could inject. Comedy was never Sinatra's strong suit.
 
 The finale delivers the coup de grâce. A big musical number uses cheap optical tricks to make performers vanish with a snap. The whole point of movie musicals is to use the camera to make the impossible look possible, to maintain the illusion we're watching a real show. Instead, we get transparent camera trickery that reminds us we're watching a movie--and a cheap one at that.
  

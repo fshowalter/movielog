@@ -7,7 +7,7 @@ slug: eagle-eye-2008
 
 A young man (Shia LaBeouf) and a single mother (Michelle Monaghan) find themselves thrown together on a perilous journey by a mysterious organization capable of controlling every bit of technology in their lives.
 
-_Eagle Eye_ is so ridiculous, it's almost laughable… almost. The story is an amalgam of <span data-imdb-id="tt0053125">_North by Northwest_</span>, <span data-imdb-id="tt0025452">_The Man Who Knew Too Much_</span>, and <span data-imdb-id="tt0062622">_2001: A Space Odyssey_</span>, that gets more and more implausible as it unwinds. Indeed, the plot holes are so big, and so gaping, that it's impossible to take the film seriously.
+_Eagle Eye_ is so ridiculous, it's almost laughable... almost. The story is an amalgam of <span data-imdb-id="tt0053125">_North by Northwest_</span>, <span data-imdb-id="tt0025452">_The Man Who Knew Too Much_</span>, and <span data-imdb-id="tt0062622">_2001: A Space Odyssey_</span>, that gets more and more implausible as it unwinds. Indeed, the plot holes are so big, and so gaping, that it's impossible to take the film seriously.
 
 This wouldn't be such a bad thing if the filmmakers felt the same way, but unfortunately, everyone seems to believe they're making a serious thriller instead of a satire.
 

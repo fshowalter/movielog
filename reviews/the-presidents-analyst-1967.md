@@ -13,4 +13,4 @@ That said, this is a film to enjoy while you can. Playing everything with a stra
 
 Further, the film's willingness to address many controversial topics, like liberal guilt, racism, world relations, and the counter-culture movement, make for some biting comedy, such as the liberal gun owners eager for a mugging so they can vent their pent-up rage, or the universally short, clean cut G-men that all talk in monotone.
 
-Ultimately, while it may not age anywhere near as well as <span data-imdb-id="">_Dr. Strangelove_</span>, it's still worth a look, especially for fans of Kubrick's classic. Just don’t wait too long to see it.
+Ultimately, while it may not age anywhere near as well as <span data-imdb-id="">_Dr. Strangelove_</span>, it's still worth a look, especially for fans of Kubrick's classic. Just don't wait too long to see it.

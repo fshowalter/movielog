@@ -10,7 +10,7 @@ George Brent plays a writer in love with an heiress played by Ruth Chatterton. S
 
 <!-- end -->
 
-Brent gets a Raymond Chandleresque line early when he's distracted by Chatterton across the room and a catty socialite asks, “Did you hear what I said?” To which he replies no, then deadpans, “I was looking into your eyes and the glamour of them deafened me.” The script overflows with snappy dialog like this, and Chatterton, Brent, and Davis handle it with aplomb.
+Brent gets a Raymond Chandleresque line early when he's distracted by Chatterton across the room and a catty socialite asks, "Did you hear what I said?" To which he replies no, then deadpans, "I was looking into your eyes and the glamour of them deafened me." The script overflows with snappy dialog like this, and Chatterton, Brent, and Davis handle it with aplomb.
 
 But I couldn't swallow the age gap between Brent and Chatterton. The script implies Brent and Chatterton are the same age, but the casting doesn't match. He's twelve years her junior, and it shows.
 

@@ -6,7 +6,7 @@ grade: C
 slug: rituals-1977
 ---
 
-A <span data-imdb-id="tt0068473">_Deliverance_</span> knock-off that outdoes its inspiration—at least for the first half. A group of doctors travel into the Canadian wilderness planning to hike out over several days. Where _Deliverance_ showcased the river's beauty and power, _Rituals_ revels in the land's brutality. The cinematography finds majesty in savagery as the doctors endure jagged rocks, boggy swamps, and flies. Tons of flies. These early sequences pay off when the doctors awake the first morning to find their boots missing. This proves the first incursion by an unseen assailant determined to torture and kill the group.
+A <span data-imdb-id="tt0068473">_Deliverance_</span> knock-off that outdoes its inspiration--at least for the first half. A group of doctors travel into the Canadian wilderness planning to hike out over several days. Where _Deliverance_ showcased the river's beauty and power, _Rituals_ revels in the land's brutality. The cinematography finds majesty in savagery as the doctors endure jagged rocks, boggy swamps, and flies. Tons of flies. These early sequences pay off when the doctors awake the first morning to find their boots missing. This proves the first incursion by an unseen assailant determined to torture and kill the group.
 
 <!-- end -->
 

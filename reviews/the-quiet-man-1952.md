@@ -13,4 +13,4 @@ Majestic landscapes aside, _The Quiet Man_ is also notable for the great tandem 
 
 Wayne and McLaglen far outshine their costar, Maureen O'Hara, who comes across as quite unlikable (and even a little touched in the head) early on, but thankfully does manage to win you over by the film's end. The problem is that you're hard pressed early on to understand just why Wayne's character would go through so much trouble for such a bull-headed woman he just met.
 
-_The Quiet Man_ is often mentioned as one of John Wayne's best films, and while it may not belong amongst the likes of <span data-imdb-id="tt0053221">_Rio Bravo_</a> or Ford's own <span data-imdb-id="tt0056217">_The Man Who Shot Liberty Valance_</a>, it's still certainly worth a look.
+_The Quiet Man_ is often mentioned as one of John Wayne's best films, and while it may not belong amongst the likes of <span data-imdb-id="tt0053221">_Rio Bravo_</span> or Ford's own <span data-imdb-id="tt0056217">_The Man Who Shot Liberty Valance_</span>, it's still certainly worth a look.

@@ -16,7 +16,7 @@ First, the matching outfits. Lung and his crew coordinate their wardrobes like t
 
 And then there's the tone. One moment, we're watching characters dish out shocking brutality, the next, we get oversized condom gags and bathroom humor. The film lurches between parody and earnestness without warning. A character jump-kicks into frame with obviously ripped pants. A child actor cries fake tears so theatrical you wonder if Wong Jing is winking at us. A climactic shootout features a guy firing one-handed from the hip, chest thrust out like he's auditioning for a Schwarzenegger movie. Is it satire? Is it sincere? Yes.
 
-But here's the thing: the action delivers. The opening sequence is pure James Bond insanity—Lung dives through a high-rise window onto a truck, then bursts out on a motorcycle. A later car chase threads vehicles on two wheels through Hong Kong alleys with genuine peril. These aren't CG safety nets. These are real stunts with real danger, and you feel it.
+But here's the thing: the action delivers. The opening sequence is pure James Bond insanity--Lung dives through a high-rise window onto a truck, then bursts out on a motorcycle. A later car chase threads vehicles on two wheels through Hong Kong alleys with genuine peril. These aren't CG safety nets. These are real stunts with real danger, and you feel it.
 
 This sense of danger extends to the fight scenes. When Lung's team gets ambushed by Triads, the resulting brawl--bats versus pipes--is visceral and ugly in the best way. Bones crunch. Flesh squishes. You wince.
 

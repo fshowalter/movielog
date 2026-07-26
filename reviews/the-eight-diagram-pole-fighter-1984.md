@@ -18,4 +18,4 @@ The other surviving brother makes his way to a monastery. He demands to become a
 
 Things improve as Liu trains as a monk, culminating in a nice duel between him and the abbot. Nice, but not nice enough to justify the prior 80-minutes.
 
-But then the finale happens. Not only does it include some impressive choreography involving several stacked coffins that double as platforms, but the battle between Fu and the legion of nameless baddies proves one of the most wince-inducing I've seen. I won't spoil it, but the monks have a method for dealing with “wolves” that feels more visceral than punches, kicks, or blade slices.
+But then the finale happens. Not only does it include some impressive choreography involving several stacked coffins that double as platforms, but the battle between Fu and the legion of nameless baddies proves one of the most wince-inducing I've seen. I won't spoil it, but the monks have a method for dealing with "wolves" that feels more visceral than punches, kicks, or blade slices.

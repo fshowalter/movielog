@@ -3,7 +3,7 @@ date: 2026-06-28
 imdb_id: tt0059106
 grade: D-
 slug: die-die-my-darling-1965
-synopsis: In a remote country house, a religious zealot confines her dead son’s fiancée to an attic prison.
+synopsis: In a remote country house, a religious zealot confines her dead son's fiancée to an attic prison.
 ---
 
 Known as _Fanatic_ in the UK and _Die! Die! My Darling!_ in the USA, here is a movie unsure of its identity.

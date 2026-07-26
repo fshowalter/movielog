@@ -18,6 +18,6 @@ The film's fatal flaw? It can't commit. Are the supernatural elements real or im
 
 Fenech spends most of her screen time in various states of undress and terror, but we never understand what's actually frightening her beyond the obvious. Unlike _Repulsion_, which brilliantly showed us madness from the inside, this film keeps us at arm's length from Jane's crumbling psyche.
 
-Still, _All the Colors of the Dark_ remains oddly compelling. Its production design feels authentic—lived-in apartments, cluttered kitchens, the kind of detail that grounds even the most absurd supernatural elements. And Martino's visual flair occasionally transcends the script's limitations.
+Still, _All the Colors of the Dark_ remains oddly compelling. Its production design feels authentic--lived-in apartments, cluttered kitchens, the kind of detail that grounds even the most absurd supernatural elements. And Martino's visual flair occasionally transcends the script's limitations.
 
 But I couldn't shake the sense the film would have worked better as straight giallo or committed occult horror. Frustrating, as we're left with what feels like three different movies fighting for control of the same negative. 

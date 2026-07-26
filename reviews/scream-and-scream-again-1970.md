@@ -22,9 +22,9 @@ Michael Gothard also deserves mention. He makes a terrifying villain--charming e
 
 The film walks a tightrope between serious thriller and camp. It shouldn't work. A network of artificial humans with supernatural powers? Ridiculous. But Hessler grounds the absurdity in Cold War paranoia and scientific hubris. 
 
-The film’s greatest weakness is also its greatest strength: it leaves many questions unanswered. Some viewers will find this frustrating, but I found it refreshing. In an era when horror films often over-explain their mysteries, _Scream and Scream Again_ trusts us to fill in the blanks and draw our own conclusions.
+The film's greatest weakness is also its greatest strength: it leaves many questions unanswered. Some viewers will find this frustrating, but I found it refreshing. In an era when horror films often over-explain their mysteries, _Scream and Scream Again_ trusts us to fill in the blanks and draw our own conclusions.
 
-That ambiguity only amplifies its paranoid undertones. Don't expect gothic horror. This is contemporary, gritty, and surprisingly thoughtful about the intersection of science, politics, and human nature. It’s the kind of film that gets better the more you think about it, connecting dots the film leaves scattered.
+That ambiguity only amplifies its paranoid undertones. Don't expect gothic horror. This is contemporary, gritty, and surprisingly thoughtful about the intersection of science, politics, and human nature. It's the kind of film that gets better the more you think about it, connecting dots the film leaves scattered.
 
 
 ---

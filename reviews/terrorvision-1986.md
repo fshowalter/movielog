@@ -18,7 +18,7 @@ The movie drags. Under 90 minutes should feel breezy, but Nicolaou recycles gags
 
 The single-location setting doesn't help. Despite the wild production design, you can tell it's all studio-bound. Those "backyard" shots? Pure sitcom. The space feels claustrophobic in the wrong way.
 
-Small pleasures exist. Randi Brooks does a decent Judy Holliday impression. The monster watching <span data-imdb-id="tt0049169">_Earth vs. the Flying Saucers_</span> and laughing at the destruction—that's inspired. And yes, that theme song is single-worthy.
+Small pleasures exist. Randi Brooks does a decent Judy Holliday impression. The monster watching <span data-imdb-id="tt0049169">_Earth vs. the Flying Saucers_</span> and laughing at the destruction--that's inspired. And yes, that theme song is single-worthy.
 
 But _Terrorvision_ commits the cardinal sin of cult movies: it bored me. This might have worked as a <span data-imdb-id="tt0083767">_Creepshow_</span> segment--tight, nasty, and out before overstaying its welcome. At feature length, it's a good creature design in search of a better movie.
 

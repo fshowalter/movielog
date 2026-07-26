@@ -16,7 +16,7 @@ Wayne plays a cowboy investigating an abandoned mine. It's a dull, talky, Scooby
 
 Wayne's performance is stiff and unsure, lacking even a glimpse of his signature laconic persona.
 
-And then there's Blue Washington as Wayne's sidekick. It's an unfunny and demeaning role that sees him run around wide-eyed, scared of every shadow and beholden to superstition. In one scene, Wayne refers to him as “boy,” and in another the villains note his “watermelon accent.” It makes an awful movie even worse.
+And then there's Blue Washington as Wayne's sidekick. It's an unfunny and demeaning role that sees him run around wide-eyed, scared of every shadow and beholden to superstition. In one scene, Wayne refers to him as "boy," and in another the villains note his "watermelon accent." It makes an awful movie even worse.
 
 To be clear, I don't attribute malicious intent. Casual racism of this sort was acceptable at the time, and the film positions Washington as a clown sidekick. But neither the writing, nor the performance amuse.
 

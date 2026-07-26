@@ -9,7 +9,7 @@ Think Alice in Wonderland, but with a Japanese influence.
 
 _Spirited Away_ is animation at its finest. Like a living, breathing, piece of art, the movie enthralls the viewer with its nuances and subtleties, while at the same time dazzling them with its vision and skill.
 
-The script by writer-director Hayao Miyazaki balances meaningful characterization with wondrous visuals and an intriguing story, a technique Disney—with its cookie-cutter approach to characterization and by-the-numbers plotting—would do well to learn from.
+The script by writer-director Hayao Miyazaki balances meaningful characterization with wondrous visuals and an intriguing story, a technique Disney--with its cookie-cutter approach to characterization and by-the-numbers plotting--would do well to learn from.
 
 While _Spirited Away_'s allusions to Japanese mythology may be lost on western audiences, the aura of fantasy and wonder is only enhanced by the culture gap.
 

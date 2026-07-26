@@ -13,6 +13,6 @@ The cast's charisma makes the opening hour bearable. Joan Crawford does a surpri
 
 This really doesn't feel like a Howard Hawks film until the final quarter. Only then does his familiar theme of men under stress shouldering an immense burden simply because it's their job begin to develop. Its no coincidence that here's where the story also takes off, generating a real investment in the characters, as well as some dynamic action on screen.
 
-Given its already overlong running time, it's amazing that over 20 minutes was cut from the initial preview before general release. Of course, that’s probably indicative of the fact that the producers knew they had a problem picture, but the reality is that problems like this should be solved at the script stage, not in the editing room.
+Given its already overlong running time, it's amazing that over 20 minutes was cut from the initial preview before general release. Of course, that's probably indicative of the fact that the producers knew they had a problem picture, but the reality is that problems like this should be solved at the script stage, not in the editing room.
 
 That said, unless you're a big fan of the stars, _Today We Live_ isn't really worth a look. But if you must, at least have the fast-forward button at the ready.

@@ -43,7 +43,7 @@ Worst of all, the ending underwhelms. The film over-explains itself with a needl
 
 But okay, so the townspeople are drawn to the beach, lighting fires as beacons for the Dark Rider's return (a detail we could have inferred, but more voice-over narration spoon-feeds). Maybe his return will contain some kind of twist? Nope, we see him walking up the beach, still wearing his 19th-century garb (and dry despite his supposed ocean origin), then more voice-over from Arletty explaining that he let her go.
 
-Cut back to the asylum where Arletty paraphrases her opening monologue—again in voice-over—and the film's done.
+Cut back to the asylum where Arletty paraphrases her opening monologue--again in voice-over--and the film's done.
 
 Disappointing. I applaud the film's intent to meld George Romero's <span data-imdb-id="tt0063350">_Night of the Living Dead_</span> with Italian gothic horror aesthetics, but the film would have done well to emulate Romero's masterful structure that compounds the tension and emotional stakes, pushing past nightmare imagery into a fever-dream frenzy.
 

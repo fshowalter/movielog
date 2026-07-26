@@ -18,7 +18,7 @@ Marc Eliot's biography of Cary Grant offers clues. RKO studio head Howard Hughes
 
 Hughes hoped to exploit Grant and Drake's off-screen chemistry (which blossomed to marriage a year after the film's release) ala Humphrey Bogart and Lauren Bacall.
 
-But Drake is no Bacall, and Grant's direction does her no favors. She speaks as though she's trying to affect or mask an accent and her performance neither charms nor amuses. Though, to be fair, some shots elicit unintentional laughs, like the shot of her poking out of the kitchen pass-through window, cocktails in hand, the smile on her face meant to evoke a fantasy come true but hewing closer to Nicholson's “Here's Johnny” moment in <span data-imdb-id="tt0081505">_The Shining_</span>.
+But Drake is no Bacall, and Grant's direction does her no favors. She speaks as though she's trying to affect or mask an accent and her performance neither charms nor amuses. Though, to be fair, some shots elicit unintentional laughs, like the shot of her poking out of the kitchen pass-through window, cocktails in hand, the smile on her face meant to evoke a fantasy come true but hewing closer to Nicholson's "Here's Johnny" moment in <span data-imdb-id="tt0081505">_The Shining_</span>.
 
 Indeed, they'd have been better served embracing the male delusion and staging the film as an over-the-top black-comedy horror. With someone like Billy Wilder behind the camera, it might have worked. But we'll never know.
 

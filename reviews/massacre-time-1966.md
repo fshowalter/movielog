@@ -17,7 +17,7 @@ But Fulci has tricks up his sleeve. Nero starts channeling Clint Eastwood's stee
 
 It's a clever subversion. Nero's performance shifts from Eastwood to Bill Holden, wounded and human. This opens space for Hilton to steal scenes with his crackling physical charisma. The brothers become equals rather than hero and sidekick.
 
-Fulci announces his visual genius from frame one. Junior leading the hunting party, his face twisted in psychotic glee. Fulci cuts between menacing close-ups and sweeping wide shots that make the landscape a character. Blood flows freely—from split lips, whip marks, bullet holes. The future "godfather of gore" plants his flag here.
+Fulci announces his visual genius from frame one. Junior leading the hunting party, his face twisted in psychotic glee. Fulci cuts between menacing close-ups and sweeping wide shots that make the landscape a character. Blood flows freely--from split lips, whip marks, bullet holes. The future "godfather of gore" plants his flag here.
 
 But the script stumbles with its parade of disposable characters. Fulci introduces hapless victims only to slaughter them minutes later. It's meant to establish Junior as a monster, but Castelnuovo already radiates creepy intensity with his tilted head and unbalanced stare. The shortcut cheapens the impact.
 

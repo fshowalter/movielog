@@ -17,6 +17,6 @@ Consider how a restaurant sequence looks like it's set in the 1930s despite the 
 
 Granted, some moments work despite the chaos. This much talent can't help but stumble into a few laughs. But they're scattered across 85 minutes that feel twice as long. You keep checking your watch, hoping the flashback structure will pay off, that once we catch up to death row the film will click into place. It doesn't. At least the ending is mercifully brief.
 
-I suspect the story behind _Crimewave_--the nightmare production, the studio interference—will prove more entertaining than the movie itself. But that's a low bar.
+I suspect the story behind _Crimewave_--the nightmare production, the studio interference--will prove more entertaining than the movie itself. But that's a low bar.
 
 

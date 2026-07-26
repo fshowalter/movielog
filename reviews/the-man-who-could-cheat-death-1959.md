@@ -10,7 +10,7 @@ After conquering gothic horror with _Curse of Frankenstein_ and _Horror of Dracu
 
 Anton Diffring plays a 104-year-old doctor with a 36-year-old body. He needs a new parathyroid gland every decade to stay young. His surgeon has had a stroke. His green serum--a stopgap measure--keeps turning him into a homicidal maniac. Desperate times, desperate measures: he kidnaps Hazel Court to blackmail Christopher Lee into performing the operation.
 
-The premise works on paper. But Jimmy Sangster's script can't escape the play it's adapting. Too much talk. Too little horror. This is Frankenstein neutered—no creation, just preservation. Dracula defanged—no immortal predator, just a desperate old man with gland problems.
+The premise works on paper. But Jimmy Sangster's script can't escape the play it's adapting. Too much talk. Too little horror. This is Frankenstein neutered--no creation, just preservation. Dracula defanged--no immortal predator, just a desperate old man with gland problems.
 
 The budget doesn't help. Diffring's transformation amounts to green contact lenses and pancake makeup. Director Terence Fisher's previous monsters looked terrifying. This looks like bad cosmetics. Most scenes unfold in Diffring's cramped living room. The stage origins and cost-cutting show.
 

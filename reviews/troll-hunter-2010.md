@@ -15,7 +15,7 @@ Jespersen is the film's secret weapon. That weathered face. Those world-weary ey
 
 The film moves. Scene to scene, valley to fjord, with Norway itself stealing the show. The landscape dwarfs everything. Makes you feel small. Makes the trolls feel inevitable.
 
-About those trolls: they're CGI, and it shows. The first one has a head too big for its body. They lack weight. You don't feel the ground shake. Branches don't fall. The film tries to compensate with deep bass rumbles, but your brain knows better. Still, when they work—particularly a late sequence with the students driving beneath a giant—they thrill.
+About those trolls: they're CGI, and it shows. The first one has a head too big for its body. They lack weight. You don't feel the ground shake. Branches don't fall. The film tries to compensate with deep bass rumbles, but your brain knows better. Still, when they work--particularly a late sequence with the students driving beneath a giant--they thrill.
 
 The tone confuses. Is it horror? Comedy? Satire? The film doesn't choose, and that's both its charm and its problem. We descend into an atmospheric mine shaft, tense and dark, only to hide from farting trolls. It's jarring. I suspect Norwegian audiences catch references I'm missing, understand political jabs that sail past me. There's a cultural wavelength here I can't quite tune into.
 

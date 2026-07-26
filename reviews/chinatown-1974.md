@@ -7,7 +7,7 @@ slug: chinatown-1974
 
 In 1937 Los Angeles, a private detective (Jack Nicholson) working a simple adultery case uncovers a massive conspiracy protected by murder.
 
-_Chinatown_ is one of the best-written films of all time. Screenwriter Robert Towne, with a little help from director Roman Polanski on the ending, crafts a masterful mystery, weaving several motifs, including water, and the ever-present and ominous Chinatown, together to create a rich tapestry that simultaneously pays homage to—and one-ups—the pulp detective stories of Chandler, Hammett and the like.
+_Chinatown_ is one of the best-written films of all time. Screenwriter Robert Towne, with a little help from director Roman Polanski on the ending, crafts a masterful mystery, weaving several motifs, including water, and the ever-present and ominous Chinatown, together to create a rich tapestry that simultaneously pays homage to--and one-ups--the pulp detective stories of Chandler, Hammett and the like.
 
 A good script is only part of the puzzle, but _Chinatown_ brings the complete package. Polanski handles the period setting with flair, luring you in, then breaking with expectations in such scenes as his famous cameo as the knife-wielding assailant who maims Jack Nicholson.
 

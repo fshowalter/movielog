@@ -5,7 +5,7 @@ grade: D+
 slug: black-mass-2015
 ---
 
-Based on a true story, _Black Mass_ sees Johnny Depp made up as a balding and paunchy James “Whitey” Bulger. The film chronicles Bulger's ascent from small-time hood to South Boston crime-lord. A journey made possible by the FBI.
+Based on a true story, _Black Mass_ sees Johnny Depp made up as a balding and paunchy James "Whitey" Bulger. The film chronicles Bulger's ascent from small-time hood to South Boston crime-lord. A journey made possible by the FBI.
 
 <!-- end -->
 

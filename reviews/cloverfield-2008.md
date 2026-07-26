@@ -7,11 +7,11 @@ slug: cloverfield-2008
 
 A group of friends struggles to escape Manhattan as a monster terrorizes the city.
 
-_Cloverfield_’s biggest strength is in the originality of its approach, but the actual execution of that approach leaves much to be desired.
+_Cloverfield_'s biggest strength is in the originality of its approach, but the actual execution of that approach leaves much to be desired.
 
-Director Matt Reeves leverages a hand-held camera gimmick throughout the film’s 85-minute running time. Far worse than the <span data-imdb-id="tt0440963">shaky cam favored by directors such as Paul Greengrass</span>, _Cloverfield_'s camera careens up, down and sideways in a vertigo-inducing triumph of style over substance.
+Director Matt Reeves leverages a hand-held camera gimmick throughout the film's 85-minute running time. Far worse than the <span data-imdb-id="tt0440963">shaky cam favored by directors such as Paul Greengrass</span>, _Cloverfield_'s camera careens up, down and sideways in a vertigo-inducing triumph of style over substance.
 
-While it’s fine to use this gimmick as a method of intimating the audience with the story, once the actual story takes off, Reeves should have seamlessly transitioned to a smoother filming style. That’s not to say it can’t be first person, but camera work should rarely be noticeable, and should never force the audience to disengage to avoid losing their lunch.
+While it's fine to use this gimmick as a method of intimating the audience with the story, once the actual story takes off, Reeves should have seamlessly transitioned to a smoother filming style. That's not to say it can't be first person, but camera work should rarely be noticeable, and should never force the audience to disengage to avoid losing their lunch.
 
 Personally, the cinematography actually caused me to lose any emotional attachment to the character filming the action, as I found myself rooting for his death in the hopes that someone with steadier hands would pick up the camera.
 

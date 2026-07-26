@@ -12,7 +12,7 @@ A sequel of sorts to both <span data-imdb-id="tt4972582">_Split_</span> and <spa
 
 There's more plot. Too much. Anya Taylor-Joy returns in a superfluous role as something of a love interest. Sarah Paulson plays a doctor convinced everyone is delusional.
 
-I had high hopes. I loved how _Unbreakable_ explored the “What if your Dad was Superman?” premise. The breakfast scene where David slides the newspaper to his son and mouths “You were right,” still drives a lump in my throat.
+I had high hopes. I loved how _Unbreakable_ explored the "What if your Dad was Superman?" premise. The breakfast scene where David slides the newspaper to his son and mouths "You were right," still drives a lump in my throat.
 
 _Glass_ offers nothing so resonant. Rather than further explore Willis's character, or even Jackson's (who's the titular character, after all), the film focuses on the Horde. McAvoy's great in the role, delivering another tour de force performance, but to what end? The script doubles down on _Unbreakable_'s comic-book thesis, yet expends a good deal of screen time attempting to convince us David and Kevin aren't superhuman.
 

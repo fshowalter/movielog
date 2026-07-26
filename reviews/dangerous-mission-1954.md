@@ -16,9 +16,9 @@ Two weeks later, we're in a posh high-rise office. The rain hasn't stopped. The 
 
 We learn Johnny is out on bail. He plans to claim self-defense, but the District Attorney has identified a witness that could prove otherwise. Johnny thinks he knows where the witness is hiding and wants her out of the picture.
 
-“That's your job,” Johnny says to a man sitting with his back to us. Now, here's where things get contrived. They know the witness's location and what she looks like, but somehow they don't know her name. So the mystery hitman must go undercover and suss out the witness's identity before killing her.
+"That's your job," Johnny says to a man sitting with his back to us. Now, here's where things get contrived. They know the witness's location and what she looks like, but somehow they don't know her name. So the mystery hitman must go undercover and suss out the witness's identity before killing her.
 
-“What a hideout,” Johnny says. “No wonder we couldn't find it until yesterday. It's the last place in the world you'd expect anyone to hide.”
+"What a hideout," Johnny says. "No wonder we couldn't find it until yesterday. It's the last place in the world you'd expect anyone to hide."
 
 Cut to Glacier National Park in Montana. We see Matt Hallett, played by Victor Mature, entering the park in a rented car. The guard at the gate spies a gun in Matt's glove compartment and phones it in to Chief Ranger Joe, played by William Bendix.
 

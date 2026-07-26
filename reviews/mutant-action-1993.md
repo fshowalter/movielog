@@ -11,7 +11,7 @@ In a dystopian near future, beautiful people rule the world. A group of outsider
 
 The film opens with the group floundering without their imprisoned leader, Ramón. They try to kidnap and ransom a famous bodybuilder, but while they argue whether the bag over the bodybuilder's head should have air holes, the bodybuilder suffocates.
 
-Soon after the botched job, Ramón walks free from prison. To his dismay, he finds the group's headquarters—a large spacecraft—in disarray, their cause floundering, and their cat unfed.
+Soon after the botched job, Ramón walks free from prison. To his dismay, he finds the group's headquarters--a large spacecraft--in disarray, their cause floundering, and their cat unfed.
 
 Ramón barks orders, and the group snaps into action. Their plan, to kidnap a beautiful heiress at her wedding, proves successful, but not without a cost, as two mutants fall to police bullets.
 

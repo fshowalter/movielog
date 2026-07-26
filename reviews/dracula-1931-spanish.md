@@ -18,7 +18,7 @@ The film rights itself with a memorable shot aboard the Demeter. In a raging sto
 
 The striking visual left me wondering: Was I being too harsh? Was I dismissing Villarías for straying from an iconic interpretation? Was he another George Lazenby, doomed to have a solid performance ignored?
 
-The classic mirror scene dispelled any doubt. Villarías arrives with a goofy smile on his face, miles away from Lugosi's vulpine grin. The climax between Villarías and Eduardo Arozamena's Van Helsing devolves into a contest of “Whose eyes can bug out more?”
+The classic mirror scene dispelled any doubt. Villarías arrives with a goofy smile on his face, miles away from Lugosi's vulpine grin. The climax between Villarías and Eduardo Arozamena's Van Helsing devolves into a contest of "Whose eyes can bug out more?"
 
 The editing doesn't help. Despite working from the same script, the Spanish production runs thirty minutes longer. The drawn-out pace drags down the second act, rendering taut scenes in the English production tedious here.
 

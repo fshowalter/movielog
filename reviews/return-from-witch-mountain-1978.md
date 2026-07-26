@@ -7,7 +7,7 @@ slug: return-from-witch-mountain-1978
 
 Alien youngsters Tia and Tony (Kim Richards and Ike Eisenmann) return to Earth for a vacation, only to fall victim to the machinations of a power-hungry scientist (Christopher Lee) and his spinster financier (Bette Davis).
 
-_Return from Witch Mountain_ is the sequel to <span data-imdb-id="tt0072951">_Escape to Witch Mountain_</a> that unfortunately lacks the original's sense of charm and adventure.
+_Return from Witch Mountain_ is the sequel to <span data-imdb-id="tt0072951">_Escape to Witch Mountain_</span> that unfortunately lacks the original's sense of charm and adventure.
 
 This time around instead of pairing child actors Kim Richards and Ike Eisenmann in another "us against the world" scenario, they spend much of the film apart, with Richards falling in with a gang that makes _West Side Story_'s Jets and Sharks look positively menacing. Seriously, not only is she taller than some of the boys, she looks at least 3 years older, which, at that age, is a significant difference.
 

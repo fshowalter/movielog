@@ -18,7 +18,7 @@ You know you're in trouble when, fifteen minutes in, Burton straps on a wired he
 
 The film reeks of compromise. We get authentic New York locations, but Africa and Washington are obvious backlots. The locust effects look cheap now and probably looked cheap in 1977. And what about that giant locust we see in a POV shot? Villagers throw spears at it, yet later it seems small enough that Burton doesn't notice it. Which is it? 
 
-And yet—and here's the mystery—it's watchable. Burton, clearly cashing a paycheck during his second divorce from Elizabeth Taylor, somehow conjures gravitas from thin air. His world-weariness feels earned. Jones, despite that grasshopper costume, maintains his dignity. Even Ned Beatty shows up, as if to remind us that yes, Boorman once made a masterpiece.
+And yet--and here's the mystery--it's watchable. Burton, clearly cashing a paycheck during his second divorce from Elizabeth Taylor, somehow conjures gravitas from thin air. His world-weariness feels earned. Jones, despite that grasshopper costume, maintains his dignity. Even Ned Beatty shows up, as if to remind us that yes, Boorman once made a masterpiece.
 
 It's watchable the way a car crash is watchable. 
 

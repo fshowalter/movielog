@@ -18,7 +18,7 @@ Now that we're at the casino, the film fumbles one of the novel's best beats by 
 
 Less plausible changes include the probability-focused Le Chiffre shorting an aerospace manufacturer as part of a complicated bomb plot. Or using Vesper as a roadblock instead of spikes. Or why the winnings had to be deposited and withdrawn. Or why Le Chiffre would implicate Mathis.
 
-The novel's third act proved far more low-key, serving as an epilogue. The film drags this out to include a magnificent sinking building action set-piece, but at significant narrative cost. Where the book felt plausible, the film feels melodramatic. It keeps the book's icy “The bitch is dead” line, but tacks on another coda to soften Bond's character and hook viewers for the sequel.
+The novel's third act proved far more low-key, serving as an epilogue. The film drags this out to include a magnificent sinking building action set-piece, but at significant narrative cost. Where the book felt plausible, the film feels melodramatic. It keeps the book's icy "The bitch is dead" line, but tacks on another coda to soften Bond's character and hook viewers for the sequel.
 
 While I appreciated the thrills and spectacle these additions provided, I'm not sure they justify the impact to the narrative resonance. Same with the omissions. While the movie's decision to jettison an early assassination attempt by Le Chiffre's goons proved wise, the shortening and toning down of the torture scene neutered its impact relative to the source.
 

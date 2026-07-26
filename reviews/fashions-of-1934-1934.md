@@ -9,11 +9,11 @@ William Powell plays a conman who recruits an artist played by Bette Davis into 
 
 <!-- end -->
 
-Powell's loveable rogue feels like an amalgam of his characters in <span data-imdb-id="tt0023305">_One Way Passage_</span> and <span data-imdb-id="tt0023007">_High Pressure_</span>. The script affords him some witty quips. To the compliment, “You serve the most delicious caviar,” he replies, “It comes from the most contented sturgeons.”
+Powell's loveable rogue feels like an amalgam of his characters in <span data-imdb-id="tt0023305">_One Way Passage_</span> and <span data-imdb-id="tt0023007">_High Pressure_</span>. The script affords him some witty quips. To the compliment, "You serve the most delicious caviar," he replies, "It comes from the most contented sturgeons."
 
-The pre-code production proffers half-dressed models and Busby Berkeley musical numbers featuring showgirls in ostrich feather lingerie. Ostrich feathers prove a big plot point, providing Powell with a scam-within-a-scam. When a woman asks if harvesting the feathers hurts the ostriches, Powell replies: “Our patented plucking process is practically painless.”
+The pre-code production proffers half-dressed models and Busby Berkeley musical numbers featuring showgirls in ostrich feather lingerie. Ostrich feathers prove a big plot point, providing Powell with a scam-within-a-scam. When a woman asks if harvesting the feathers hurts the ostriches, Powell replies: "Our patented plucking process is practically painless."
 
-Frank McHugh once again plays Powell's sidekick. He handles the overt comedy, including a running gag where he and a showgirl can't get any privacy for a discreet tryst. Powell gets the subtler humor, such as this bit of innuendo, when a woman asks if he supervises all the details of his show's production, even to the page girl costumes, he replies, “I take care of everything from the bottom up.”
+Frank McHugh once again plays Powell's sidekick. He handles the overt comedy, including a running gag where he and a showgirl can't get any privacy for a discreet tryst. Powell gets the subtler humor, such as this bit of innuendo, when a woman asks if he supervises all the details of his show's production, even to the page girl costumes, he replies, "I take care of everything from the bottom up."
 
 The film even features a cheeky cut from a showgirl's bare legs to an ostrich's legs.
 
