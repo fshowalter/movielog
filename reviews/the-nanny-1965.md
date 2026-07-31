@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0059496
 slug: the-nanny-1965
-grade: C+
+grade: C
 date: 2026-07-16
 synopsis: Sent to a school for disturbed children after the accident that killed his baby sister, ten-year-old Joey returns home and insists his nanny, played by Bette Davis, means to kill him next.
 ---
