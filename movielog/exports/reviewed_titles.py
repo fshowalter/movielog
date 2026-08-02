@@ -126,7 +126,7 @@ def _build_json_more_cast_and_crew(
             sliced_titles = _slice_list(
                 source_list=sorted(
                     [repository_data.titles[title_id] for title_id in member_titles],
-                    key=lambda title: title.imdb_id,
+                    key=lambda title: f"{title.release_date}-{title.imdb_id}",
                 ),
                 matcher=_build_imdb_id_matcher(review.imdb_id),
             )
@@ -155,7 +155,7 @@ def _build_json_more_collections(
         sliced_titles = _slice_list(
             source_list=sorted(
                 [repository_data.titles[title_id] for title_id in collection_title_ids],
-                key=lambda title: title.imdb_id,
+                key=lambda title: f"{title.release_date}-{title.imdb_id}",
             ),
             matcher=_build_imdb_id_matcher(review.imdb_id),
         )
