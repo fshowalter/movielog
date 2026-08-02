@@ -97,6 +97,11 @@ def _add_watchlist_credits(
                 title = repository_data.titles[title_id]
                 _check_title_for_names(title, cast_and_crew_by_imdb_id)
 
+    for collection in repository_data.collections:
+        for title_id in collection.title_ids:
+            title = repository_data.titles[title_id]
+            _check_title_for_names(title, cast_and_crew_by_imdb_id)
+
 
 def _add_review_credits(
     cast_and_crew_by_imdb_id: _CastAndCrewByImdbId, repository_data: RepositoryData
