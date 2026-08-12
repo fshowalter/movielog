@@ -1,23 +1,27 @@
 ---
-date: 2022-09-01
+date: 2026-08-10
 imdb_id: tt0082118
-title: The Burning (1981)
-grade: C-
+grade: C+
 slug: the-burning-1981
+synopsis: Five years after a summer camp prank leaves him horrifically burned, a drunken groundskeeper returns with a pair of garden shears to stalk the campers across the lake.
 ---
 
-A summer camp prank hospitalizes a drunken caretaker with severe burns. Five years later, after a series of failed skin grafts, the caretaker leaves the hospital and begins a murderous rampage at another summer camp.
+The slasher boom of 1981 produced dozens of pictures about young people being killed in the woods, and I sat through more of them than any man should. _The Burning_ is one I've come back to. It's better made than it needs to be and meaner than I remembered.
 
-<!-- end -->
+The setup is a campfire story, which is fitting, since the Cropsy legend is a real one told to New York campers for decades. A prank at Camp Blackfoot goes wrong and the drunken caretaker goes up like a birthday cake. Five years and a lot of failed skin grafts later, he checks himself out of the hospital, acquires a pair of garden shears, and goes looking for teenagers. He finds them at Camp Stonewater. The shears do not go unused.
 
-One could summarize _The Burning_ as a standard summer camp slasher buoyed by strong practical effects courtesy of Tom Savini and featuring an early performance from Jason Alexander, but that would neglect the film's finer points--both good and bad.
+Now, a problem. Jason Alexander, with hair, was twenty-one or so. Ned Eisenberg, playing Eddy, the resident lothario, was pushing twenty-four. Larry Joshua, the bully Glazer, was closer to thirty and had a couple of years on the counselors supposedly supervising him. The film compounds this by also including actual children, so we watch nine-year-olds share a mess hall with men who need to shave twice a day. <span data-imdb-id="tt0080761">_Friday the 13th_</span> dodged this by making its young people the staff. Here, the pecking order collapses. Nobody at Camp Stonewater is anybody's elder.
 
-First the bad. Are the assorted twenty-something actors meant to portray counselors or campers? The film acknowledges the oldest guy and girl as counselors, but the rest goof-off like regular campers. If we assume they're high school seniors (at the youngest), what are they doing at a camp with little kids? Creepy.
+Get past that and the cast is a pleasure. There's a canoe trip that turns into a splash fight, and everyone is laughing in a way that no script produces. These were unknowns on location outside Buffalo, thrilled to be in a movie at all, and it shows on their faces. Director Tony Maylam photographs the lake and the woods with real affection, which makes the eventual carnage feel like vandalism.
 
-Speaking of creepy, now the good. A meta-contextual element pervades the story. An early scene sees a female maybe-counselor showering. The camera lingers on her naked breasts as she washes. Then she realizes a male camper is spying on her and screams. The counselors chastise the boy for peeping, calling him a pervert and creep for ogling her. Yet, weren't we--the audience--doing just that?
+What stayed with me is how much of the picture is about looking. It opens with boys watching Cropsy through his window. At the hospital, an orderly cheerfully invites a new doctor to have a peek at the burn victim. At camp, the boys ogle the girls' softball game. And in the shower, the camera lingers on a young woman washing until she spots Alfred, the resident creep, watching her through the slats. The counselors call him a pervert. Fair enough. But the camera had a longer look than he did, and we were behind it. Later, Alfred stumbles onto a murder and doesn't run. He stands there, sweating, his face working through fear and revulsion and something that looks unpleasantly like appetite. That's us, too.
 
-Later, this same boy witnesses a gruesome murder. Rather than run, he's frozen to the spot, his face a mask of fear, revulsion, and yes, anticipation. Again reflecting us, the audience.
+The film is capable of surprising you elsewhere. Eddy, the smooth one, reveals himself in a scene of attempted assault that is genuinely ugly. Then Glazer, the brute, finishes embarrassingly early with his girlfriend and asks if they can just lie there a while. A tender moment in a movie about shears.
 
-It's easy to miss these moments amid the pervasive toxic male personalities. But even these ugly elements prove surprising. The suave seducer character reveals himself as an entitled sexual predator in one horrific scene, but a short time later the brutish thug character reveals a sensitive side after suffering premature ejaculation and opting to cuddle.
+The shears belong to Tom Savini, who turned down <span data-imdb-id="tt0082418">_Friday the 13th Part 2_</span> for this. Those are his arms in the point-of-view shots, twisting the blades into a stomach, taking fingers off at the knuckle. Those are his legs on fire in the prologue. He built the monster, then climbed inside it.
 
-I'm uncertain how much of this subversion was intentional, but the result resonates. _The Burning_ is not a good movie--its original moments prove too sporadic--but worth watching for genre fans.
+The raft massacre is the money sequence, and Cropsy silhouetted with the shears raised overhead is one of the great images of the era. It also makes no sense whatsoever. How long was he folded up in that canoe? What if the kids had rowed past? Later, a boy peels back a sleeping bag, finds a dead girl, and the blades are already in frame, which suggests Cropsy had been in the bag with her, waiting, arms up. I laughed out loud.
+
+Genre fans will forgive all that. They should know what they're getting: this is nastier than any _Friday the 13th_, with no wink to soften it.
+
+The ending is stranger still. Alfred runs through the woods hunched and drenched, eyes flicking everywhere, while a counselor crashes through the brush hunting for him. Watch it cold and you would swear the peeper is the killer and the counselor is the hero closing in. As a red herring it's a bust. As an accident it gives the finale a dignity nothing else here earns: a man risking his life for the camp creep, because somebody has to. I doubt anybody intended it, but I'm glad it's there.
