@@ -1,0 +1,21 @@
+---
+imdb_id: tt17490712
+slug: mortal-kombat-ii-2026
+grade: C+
+date: 2026-08-13
+synopsis: With a tournament looming, the Earthrealm defenders recruit washed-up martial arts star Johnny Cage, while Edenian princess Kitana plots revenge against her adopted father, the tyrannical Shao Kahn. 
+---
+
+There is a moment in _Mortal Kombat II_ when a man who has recently been dead pops a fresh eyeball into his empty socket, discovers that it fires lasers, and reacts about the way you or I would react to finding a good parking space downtown. I laughed out loud. The man is Kano, the Australian mercenary played by Josh Lawson, and for the second film running he walks off with a picture that cost a hundred times what he's being paid to be in it.
+
+The plot both does not exist and exists in a quantity that requires charts. A prologue gives us Outworld's emperor Shao Kahn killing the king of Edenia, annexing his realm, his widow, and his small daughter. That daughter is Kitana, grown now into a warrior with fans that turn into flying buzz-saws and a grudge she has been sharpening for centuries. On Earth, the survivors of the last film need a fifth fighter for the tournament and settle on Johnny Cage, a martial arts movie star whose career has gone the way of direct-to-streaming. Meanwhile Shao Kahn's people scheme to siphon the powers of the thunder god Raiden using an amulet, because in these films there is always an amulet. Many characters die. Several of them in ways that would require a mop. Some, a hose.
+
+Karl Urban is Cage, and here the movie fumbles a gift it was handed. Urban is a pleasure. He walks into a room and the room adjusts. The script tells us Cage is finished; the screen tells us he could headline Cannes. If they had shown us the actual reason he stopped working, some specific humiliation, some habit, some agent who stopped returning calls, the self-discovery arc would have paid off. A washed-up movie star fighting demons for the fate of the planet is inherently funny and secretly moving. The filmmakers instead pour their sincerity into Kitana's revenge, which is a fine story for a different picture, one without a reanimated Australian and his laser eye. Tone is the ongoing problem. The first film had it too. This one gets closer and still keeps a straight face during scenes that are begging to smirk.
+
+The larger ambition is transparent: this wants to be _Infinity War_. Shao Kahn is Thanos with a warhammer, Kitana and her bodyguard Jade are Gamora and Nebula with better wardrobe, characters are scattered across worlds, there is a heist, there is a body count that the sequel will presumably reverse. What Marvel had was five years of setup and the Russo brothers, who could cut between six locations and leave you always knowing who was standing where. This movie has neither. It runs long and feels unfinished, which is a difficult trick. The material wants ten episodes of television. It has been given two hours and a shoehorn.
+
+The returning cast is largely furniture. Jessica McNamee, Mehcad Brooks, and Ludi Lin are playing characters whose entire personalities are captured in their costumes, and yet I could not tell you a single thing any of them wants. Hiroyuki Sanada returns in what amounts to a cameo as Scorpion. Tadanobu Asano's Raiden again had me missing Christopher Lambert, who in 1995 played the thunder god like a man enjoying a private joke he had no intention of explaining.
+
+There are pluses. New addition Damon Herriman plays the sorcerer Quan Chi as Boris Karloff, complete with the soft lisp, a choice that has nothing to do with the games and everything to do with entertaining me. And there is a startling sequence, gory and gleeful, in which the film corrects the single worst decision of its predecessor. For all the noise about toxic fandom, here is a franchise that reads its mail.
+
+So: too many characters, no emotional stakes, a leading man in the wrong slot. I had a good time anyway. The fights are choreographed with real geography, the deaths arrive when you are not braced for them, and the production design conjures Outworld more convincingly than the animated features have managed. If the last film annoyed you, this one has fixed those complaints and issued you a shorter list of new ones. Progress, of a sort.

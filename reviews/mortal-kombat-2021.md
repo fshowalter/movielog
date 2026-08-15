@@ -2,7 +2,7 @@
 date: 2021-05-13
 imdb_id: tt0293429
 title: Mortal Kombat (2021)
-grade: B-
+grade: C-
 slug: mortal-kombat-2021
 ---
 
