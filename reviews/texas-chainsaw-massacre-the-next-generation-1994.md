@@ -1,0 +1,23 @@
+---
+imdb_id: tt0110978
+slug: texas-chainsaw-massacre-the-next-generation-1994
+grade: D+
+date: 2026-08-20
+synopsis: On prom night, two teenage couples get into a fender-bender on a narrow dirt road, go for help, and find the wrong family.
+---
+
+Prom night in Texas. Two couples pile into a car after slipping out of the dance, take a wrong turn onto a narrow dirt road, and get into a fender-bender with a vehicle coming the other way. They set out on foot to find a telephone. They find a family instead.
+
+A brief prologue tips its hat to parts two and three and then forgets them, which is the correct decision. Kim Henkel, who co-wrote the 1974 original and here directs for the first time, has made something closer to a cover version than a sequel. He plays the same song at a different tempo, in a comic key. Hooper made the same calculation on part two, having presumably worked out that you cannot out-horrify the first movie, so you may as well laugh. The difference is that Henkel appears to be aiming higher.
+
+He has, without knowing it, cast two movie stars. Renée Zellweger plays Jenny, the mousy one with the stepfather problem, and she is the only person on screen who behaves like an actual human being under duress. Matthew McConaughey plays Vilmer, the patriarch, and he is having the time of his life. Vilmer has a hydraulic leg he adjusts with a remote control, fiddling with it the way other men fuss with a car seat, and he likes to play rock music in the cab of his tow truck while running people down. The performance is all good-old-boy hospitality laid over something with no floor under it, and it carries scenes that have no business working. 
+
+Which brings us to Leatherface, who is a disaster. Robert Jacks is tall but narrow, all knees and elbows, and he spends most of the picture shrieking and stamping and flapping his hands. Gunnar Hansen could have put him down with one punch. Henkel seems to want this. He introduces the character sneaking up behind a girl like a pervert at a bus stop, which is a long way from 1974, when Leatherface came through that doorway like a bolt of lightning. In satirizing the character, Henkel has robbed him of menace. 
+
+The rest of the cast is what you'd expect for regional horror. I liked Joe Stevens as W.E., a family member who speaks almost entirely in quotations and functions as a sly deflation of the cultured-killer business that Hannibal Lecter made fashionable. The other teens are all archetypes: the ice queen, the bro, and the stoner, and the comedy in the first half comes from how completely uninterested they are in their own peril. The 1974 kids had Vietnam on the radio. These kids have seen a lot of horror movies, and Henkel understands that this has left them unable to recognize the real thing when it is standing in the road. But Henkel doesn't push it. A couple of years later, Wes Craven and Michael Haneke would, to terrific effect.
+
+Henkel being a first-time director shows in places where a firmer hand would help. He lets the teens flatten his dialogue in the early scenes. In a later one, Zellweger falls from a second story through a greenhouse roof, lies still, then wakes and runs. On the page that reads fine. On screen she gets up the way you get up on a Sunday, when she should be moving like a woman two hours late to open the store. 
+
+Then comes the third act, when a man arrives in a limousine with a chauffeur and an English accent and proceeds to chew out McConaughey like a regional manager reviewing quarterly numbers. He opens his shirt. His chest is a map of scars and piercings. The carnage, he explains in a matter-of-fact tone, is meant to deliver the surviving victim into a transcendent experience. For about four minutes the movie becomes a Clive Barker story, and it is electric. Then, just as abruptly, we are in a field with an RV and a biplane and Leatherface in an evening dress, and the man is forgotten. I don't believe Henkel knew what he had here. Fourteen years later Pascal Laugier made _Martyrs_ out of roughly the same premise. I wonder what Henkel thought.
+
+So the film wants more than it gets. The dark woods never feel as bleak as the white sunlight of the original, and I spent some of the running time wishing Tobe Hooper had sobered up and come back. But there is a scene where a family member stuffs Zellweger in a car trunk and drives to a pizza window, and one of the pies is vegetarian, and I laughed out loud. As I did during another where McConaughey inexplicably does the sand people from _Star Wars_. I confess, I liked it better than parts two and three, and I did not expect to.
