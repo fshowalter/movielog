@@ -1,0 +1,25 @@
+---
+imdb_id: tt0082481
+slug: bewitched-1981
+grade: B-
+date: 2026-08-20
+synopsis: The murder of a young girl by her father sends a Hong Kong detective to Thailand to investigate a black magic curse, only to find himself the next target.
+---
+
+There is a moment about two-thirds of the way through _Bewitched_ when a Thai sorcerer, losing a long-distance magic duel and in need of a lift, opens a cauldron and ladles himself a bowl of what is inside. I won't say what it is. He drinks it down like a linebacker working a Gatorade cup on the sideline, wipes his mouth, and goes back to cursing his enemy. The movie never refers to this again. It doesn't need to. 
+
+Getting there requires patience. The film opens on the discovery of a child's body and then behaves like a police procedural. Detective Bobby Wong King Sun and his men identify the girl, work the evidence, and arrest her father, Stephen Lam Wai. In court Stephen admits everything and offers an unusual defense: he was cursed. The judge sends him for psychiatric evaluation, then sentences him to death. From his cell he asks for the detective, and tells him the story.
+
+Director Kuei Chih-Hung shoots all of this flat and plain, in the manner of a documentary crew that got lucky with access. The flashback to Thailand keeps that register, with long establishing shots of the beach and the streets and a tourist's appetite for local color. Stephen has gone there for the sex trade. A language barrier leads him to mistake a typist named Bon Brown for a masseuse. He buys her jewelry and pays her for the week. He thinks that settles it. She thinks he loves her. When he fails to return on the promised date, he becomes impotent, and immediately concludes he has been cursed, because what else could it be? Then a clump of hair erupts from his belly, and boils rise on his skin, and his young daughter begins trying to kill him. 
+
+Once the supernatural takes over, so does the camera. Kuei tilts his angles, floods rooms with color, and composes shots to hide what he intends to spring later. Stephen wakes to a noise, creeps into the kitchen, and finds his daughter standing at the open refrigerator, lit red from inside and blocked from view by the door. Slurping fills the soundtrack. He moves closer, and Kuei gives us her gore-stained face and the raw liver in her hands. It is the trick William Friedkin worked in <span data-imdb-id="tt0070047">_The Exorcist_</span>, realism bleeding into formalism, except that Kuei will make that film's pea soup look quaint.
+
+Indeed, this is a squishy movie. Stephen pops one of his boils in close-up, and that is the opening bid. Fluids of assorted colors and viscosities leave assorted bodies, usually through the face. Characters eat maggots, and if the maggots were fake, I could not find the seam. Forty-five years on, none of it has aged into camp. The effects were in the room with the actors, and it shows.
+
+Bobby listens to Stephen's story the way a homicide detective listens to a man facing the rope. Then Stephen shows him the hair and the boils, and Bobby flies to Bangkok. From here the film turns increasingly fantastic, and Kuei introduces the impossible with a magician's ease. Bobby and his Thai liaison visit a psychic who summons something called the Basket God in a ritual that plays like a Ouija session. When the liaison first proposes the visit, Bobby gives a small shrug that translates to "sure, why not," which is the correct amount of acknowledgment for a plot this insane. Then Kuei sits in the room and lets it be a room, in silence, for an uncomfortably long time before anything moves. Such restraint would be admirable in a film about grief. It is astonishing in a film with edible maggots.
+
+Sze-To On's script is more disciplined than it lets on. It solves its opening mystery fast and confirms the curse faster, and both moves turn out to be feints concealing two later reveals that surprised me. Neither is cheap, but each reframes a character's actions in a more cynical light.
+
+My complaint is with the curses. They arrive with title cards and small demonstrations of their preparation: fluid drawn from the nose of a dead pregnant woman for the Corpse Oil Curse, a root pulled and submerged for the Coffin Curse. Terrific. Then come the Lemon Curse, the Worm Curse, the Split Head Curse. By the time the Death Curse arrived I had lost count. If black magic is this cheap and this reliable, these men should be running the world instead of squabbling over one tourist from Hong Kong.
+
+Shaw Brothers horror remains the genre's best-kept secret, uninhibited in its appetites and far more disciplined than those appetites suggest. Kuei went on to make the more famous <span data-imdb-id="tt0085951">_The Boxer's Omen_</span>, which is more delirious and less cynical. Devotees argue about which is better. Bring a strong stomach to either.
