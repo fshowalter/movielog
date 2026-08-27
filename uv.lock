@@ -549,11 +549,11 @@ wheels = [
 
 [[package]]
 name = "types-webencodings"
-version = "0.6.0.20260826"
+version = "0.6.0.20260827"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3a/66/3b8884734f186cdc8f383204d8cc128bac8515d4a1209f0a30bbe7362c7f/types_webencodings-0.6.0.20260826.tar.gz", hash = "sha256:55ad82cd1c10d0dd3824e2fc779666a44375c61348a7f0939825af79994c0d69", size = 7689, upload-time = "2026-08-26T02:54:46.474Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1d/b7/33bd0df774f09d3316894a792c7585f64ce044fca60c047e4ed02e937d10/types_webencodings-0.6.0.20260827.tar.gz", hash = "sha256:b7a8ce68141ae0d318fbc479137f28dc245ba578ae07f6ec6ce35b294f04cf41", size = 7693, upload-time = "2026-08-27T12:06:12.036Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/31/2d/c98d88c03a2af7ded4d77abdb8def60962e5cf4a3f03613ac11ef0590bba/types_webencodings-0.6.0.20260826-py3-none-any.whl", hash = "sha256:f2fd1c5cb45fc196b6dcb9852ca5a5d1bce48802c1190c5dad0233983b699859", size = 8559, upload-time = "2026-08-26T02:54:45.635Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/73/a9a0f2845cdb4ffe0d5123ebfe96f5c3b3f5a1f1848ff350eef4d2e0dbc0/types_webencodings-0.6.0.20260827-py3-none-any.whl", hash = "sha256:10600b0833f6c2a565879df74f806df69659f6fd87857f11438b924c74587416", size = 8559, upload-time = "2026-08-27T12:06:11.097Z" },
 ]
 
 [[package]]
