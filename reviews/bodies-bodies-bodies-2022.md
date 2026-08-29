@@ -20,4 +20,4 @@ We are asked to invest in her romance with Sophie, but the film never shows us w
 
 The soundtrack is a missed opportunity. Reijn has said the music came from her cast, and you can hear the anxiety of a director in her forties asking twenty-three-year-olds what's cool. The opening drive is scored to announce the film's youth. Haneke dropped a John Zorn grindcore track over the credits of <span data-imdb-id="tt0119167">_Funny Games_</span> and made your skin crawl before anything happened. A wrong song would have served this material better than a right one.
 
-Still, I laughed too hard and too often to be stingy. It plays like the American remake of a European film that was never shot. But the one we got is sharp and mean, and it ends on a nihilistic punchline that had me cackling in the dark.
+Still, I laughed too hard and too often to be stingy. It plays like the American remake of a better European film that was never shot. But the one we got is sharp and mean, and it ends on a nihilistic punchline that had me cackling in the dark.
