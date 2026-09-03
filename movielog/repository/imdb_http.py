@@ -10,8 +10,6 @@ from movielog.utils.logging import logger
 
 TIMEOUT = 30
 
-Session = requests.Session
-
 type UntypedJson = dict[Any, Any]
 
 GetToken = Callable[[], str | None]
