@@ -101,3 +101,30 @@ def get_next_data(imdb_session: ImdbSession, url: str) -> UntypedJson:
     assert isinstance(page_data, dict)
 
     return page_data
+
+
+def _fetch_graphql_data(session: requests.Session, url: str) -> UntypedJson | None:
+    response = session_get(session=session, url=url, json=True)
+
+    try:
+        response_data = json.loads(response.text)
+    except json.JSONDecodeError:
+        return None
+
+    if not isinstance(response_data, dict):
+        return None
+
+    return response_data
+
+
+def get_graphql_data(imdb_session: ImdbSession, url: str) -> UntypedJson:
+    response_data = _fetch_graphql_data(imdb_session.session, url)
+
+    if response_data is None:
+        logger.log("AWS WAF token appears to have expired for {}. Requesting a new one...", url)
+        imdb_session.refresh_token()
+        response_data = _fetch_graphql_data(imdb_session.session, url)
+
+    assert response_data is not None
+
+    return response_data

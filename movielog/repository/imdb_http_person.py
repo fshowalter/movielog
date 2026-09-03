@@ -138,13 +138,7 @@ def call_graphql(
 
     url = f"https://caching.graphql.imdb.com/?operationName={operation}&variables={query_variables}&extensions={query_extensions}"
 
-    response = imdb_http.session_get(url=url, session=imdb_session.session, json=True)
-
-    response_data = json.loads(response.text)
-
-    assert isinstance(response_data, dict)
-
-    return response_data
+    return imdb_http.get_graphql_data(imdb_session, url)
 
 
 def _get_person_data(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> UntypedJson:
