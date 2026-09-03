@@ -59,7 +59,7 @@ def _add_title_page_to_watchlist_person_titles(
 
 
 def _get_title_credits_from_name_pages_for_credit_kind(
-    session: imdb_http.Session,
+    imdb_session: imdb_http.ImdbSession,
     watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> set[TitleCredit]:
@@ -70,12 +70,12 @@ def _get_title_credits_from_name_pages_for_credit_kind(
     }
 
     if isinstance(watchlist_person["imdbId"], str):
-        person = method_map[kind](session, watchlist_person["imdbId"])
+        person = method_map[kind](imdb_session, watchlist_person["imdbId"])
         return set(person.credits)
 
     filmographies: list[set[TitleCredit]] = []
     for imdb_id in watchlist_person["imdbId"]:
-        person = method_map[kind](session, imdb_id)
+        person = method_map[kind](imdb_session, imdb_id)
         filmographies.append(set(person.credits))
 
     return set.intersection(*filmographies)
@@ -117,12 +117,12 @@ def _filter_existing_titles_for_watchlist_person(
 
 
 def _update_watchlist_person_titles_for_credit_kind(
-    session: imdb_http.Session,
+    imdb_session: imdb_http.ImdbSession,
     watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> None:
     title_credits = _get_title_credits_from_name_pages_for_credit_kind(
-        session=session, watchlist_person=watchlist_person, kind=kind
+        imdb_session=imdb_session, watchlist_person=watchlist_person, kind=kind
     )
 
     _remove_watchlist_person_titles_not_in_given_title_credits(
@@ -169,8 +169,28 @@ def _get_progress_file_path(kind: json_watchlist_people.Kind) -> Path:
     return progress_file_path
 
 
-def update_watchlist_credits(token: str) -> None:
-    session = imdb_http.create_session(token=token)
+def _process_watchlist_person(
+    imdb_session: imdb_http.ImdbSession | None,
+    get_token: imdb_http.GetToken,
+    watchlist_person: JsonWatchlistPerson,
+    kind: json_watchlist_people.Kind,
+) -> imdb_http.ImdbSession:
+    updated_watchlist_person = deepcopy(watchlist_person)
+
+    imdb_session = imdb_session or imdb_http.create_session(get_token)
+
+    _update_watchlist_person_titles_for_credit_kind(
+        imdb_session, updated_watchlist_person, WatchlistKindToCreditKind[kind]
+    )
+
+    if updated_watchlist_person != watchlist_person:
+        json_watchlist_people.serialize(updated_watchlist_person, kind)
+
+    return imdb_session
+
+
+def update_watchlist_credits(get_token: imdb_http.GetToken) -> None:
+    imdb_session: imdb_http.ImdbSession | None = None
     progress_files: list[Path] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
@@ -197,14 +217,10 @@ def update_watchlist_credits(token: str) -> None:
                     )
                     continue
 
-                updated_watchlist_person = deepcopy(watchlist_person)
-
-                _update_watchlist_person_titles_for_credit_kind(
-                    session, updated_watchlist_person, WatchlistKindToCreditKind[kind]
+                imdb_session = _process_watchlist_person(
+                    imdb_session, get_token, watchlist_person, kind
                 )
 
-                if updated_watchlist_person != watchlist_person:
-                    json_watchlist_people.serialize(updated_watchlist_person, kind)
                 progress_file.write("{}\n".format(watchlist_person["slug"]))
 
     for completed_progress_file_path in progress_files:

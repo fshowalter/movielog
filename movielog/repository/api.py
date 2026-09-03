@@ -36,14 +36,18 @@ update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
 
 
-def get_person_page(token: str, imdb_id: str) -> imdb_http_person.PersonPage:
-    session = imdb_http.create_session(token=token)
-    return imdb_http_person.get_person_page(session=session, imdb_id=imdb_id)
+def create_session(get_token: imdb_http.GetToken) -> imdb_http.ImdbSession:
+    return imdb_http.create_session(get_token)
 
 
-def get_title_page(token: str, imdb_id: str) -> imdb_http_title.TitlePage:
-    session = imdb_http.create_session(token=token)
-    return imdb_http_title.get_title_page(session=session, imdb_id=imdb_id)
+def get_person_page(
+    imdb_session: imdb_http.ImdbSession, imdb_id: str
+) -> imdb_http_person.PersonPage:
+    return imdb_http_person.get_person_page(imdb_session=imdb_session, imdb_id=imdb_id)
+
+
+def get_title_page(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> imdb_http_title.TitlePage:
+    return imdb_http_title.get_title_page(imdb_session=imdb_session, imdb_id=imdb_id)
 
 
 @dataclass
@@ -158,8 +162,8 @@ def _hydrate_collection(
     )
 
 
-def validate_data(token: str) -> None:
-    title_data_validator.validate(token)
+def validate_data(get_token: imdb_http.GetToken) -> None:
+    title_data_validator.validate(get_token)
     cast_and_crew_validator.validate()
     imdb_ratings_data_validator.validate()
 

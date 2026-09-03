@@ -25,7 +25,7 @@ def mock_search_person(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 def test_calls_add_director(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(["a-test-aws-token", Enter, "nm0001328", Enter, Down, Enter, "y", Enter])
+    mock_input(["nm0001328", Enter, "a-test-aws-token", Enter, Down, Enter, "y", Enter])
     add_director.prompt()
 
     data = json.loads((tmp_path / "watchlist" / "directors" / "howard-hawks.json").read_text())

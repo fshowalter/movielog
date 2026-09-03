@@ -1,12 +1,44 @@
+import json
+from collections.abc import Callable
+from typing import Any
+
 import requests
+from bs4 import BeautifulSoup, SoupStrainer, Tag
 from requests.adapters import HTTPAdapter, Retry
+
+from movielog.utils.logging import logger
 
 TIMEOUT = 30
 
-Session = requests.Session
+type UntypedJson = dict[Any, Any]
+
+GetToken = Callable[[], str | None]
 
 
-def create_session(token: str) -> requests.Session:
+class TokenPromptCancelledError(Exception):
+    pass
+
+
+class ImdbSession:
+    def __init__(self, session: requests.Session, get_token: GetToken) -> None:
+        self.session = session
+        self._get_token = get_token
+
+    def refresh_token(self) -> None:
+        token = self._get_token()
+
+        if token is None:
+            raise TokenPromptCancelledError
+
+        self.session.cookies["aws-waf-token"] = token
+
+
+def create_session(get_token: GetToken) -> ImdbSession:
+    token = get_token()
+
+    if token is None:
+        raise TokenPromptCancelledError
+
     session = requests.Session()
 
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
@@ -16,7 +48,7 @@ def create_session(token: str) -> requests.Session:
     if token:
         session.cookies["aws-waf-token"] = token
 
-    return session
+    return ImdbSession(session=session, get_token=get_token)
 
 
 def session_get(session: requests.Session, url: str, *, json: bool = False) -> requests.Response:
@@ -33,3 +65,64 @@ def session_get(session: requests.Session, url: str, *, json: bool = False) -> r
         headers=headers,
         timeout=TIMEOUT,
     )
+
+
+def _fetch_next_data_script_tag(session: requests.Session, url: str) -> Tag | None:
+    page = session_get(session=session, url=url)
+
+    soup = BeautifulSoup(
+        page.text, "html.parser", parse_only=SoupStrainer("script", id="__NEXT_DATA__")
+    )
+
+    script_tag = soup.find("script", id="__NEXT_DATA__")
+
+    if script_tag is None:
+        return None
+
+    assert isinstance(script_tag, Tag)
+
+    return script_tag
+
+
+def get_next_data(imdb_session: ImdbSession, url: str) -> UntypedJson:
+    script_tag = _fetch_next_data_script_tag(imdb_session.session, url)
+
+    if script_tag is None:
+        logger.log("AWS WAF token appears to have expired for {}. Requesting a new one...", url)
+        imdb_session.refresh_token()
+        script_tag = _fetch_next_data_script_tag(imdb_session.session, url)
+
+    assert script_tag
+
+    page_data = json.loads(str(script_tag.string))
+
+    assert isinstance(page_data, dict)
+
+    return page_data
+
+
+def _fetch_graphql_data(session: requests.Session, url: str) -> UntypedJson | None:
+    response = session_get(session=session, url=url, json=True)
+
+    try:
+        response_data = json.loads(response.text)
+    except json.JSONDecodeError:
+        return None
+
+    if not isinstance(response_data, dict):
+        return None
+
+    return response_data
+
+
+def get_graphql_data(imdb_session: ImdbSession, url: str) -> UntypedJson:
+    response_data = _fetch_graphql_data(imdb_session.session, url)
+
+    if response_data is None:
+        logger.log("AWS WAF token appears to have expired for {}. Requesting a new one...", url)
+        imdb_session.refresh_token()
+        response_data = _fetch_graphql_data(imdb_session.session, url)
+
+    assert response_data is not None
+
+    return response_data

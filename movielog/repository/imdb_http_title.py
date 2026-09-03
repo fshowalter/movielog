@@ -1,14 +1,10 @@
-import json
 from dataclasses import dataclass, field
 from math import floor
-from typing import Any, Literal, get_args
-
-from bs4 import BeautifulSoup, SoupStrainer, Tag
+from typing import Literal, get_args
 
 from movielog.repository import imdb_http
+from movielog.repository.imdb_http import UntypedJson
 from movielog.utils.get_nested_value import get_nested_value
-
-type UntypedJson = dict[Any, Any]
 
 TIMEOUT = 30
 
@@ -222,25 +218,10 @@ def _parse_runtime_minutes(page_data: UntypedJson) -> int:
     return floor(runtime_seconds / 60)
 
 
-def get_title_page(session: imdb_http.Session, imdb_id: str) -> TitlePage:
-    page = imdb_http.session_get(
-        session=session,
-        url=f"https://www.imdb.com/title/{imdb_id}/reference",
+def get_title_page(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> TitlePage:
+    page_data = imdb_http.get_next_data(
+        imdb_session, f"https://www.imdb.com/title/{imdb_id}/reference"
     )
-
-    soup = BeautifulSoup(
-        page.text, "html.parser", parse_only=SoupStrainer("script", id="__NEXT_DATA__")
-    )
-
-    script_tag = soup.find("script", id="__NEXT_DATA__")
-
-    assert script_tag
-
-    assert isinstance(script_tag, Tag)
-
-    page_data = json.loads(str(script_tag.string))
-
-    assert isinstance(page_data, dict)
 
     return TitlePage(
         imdb_id=imdb_id,

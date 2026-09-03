@@ -76,11 +76,11 @@ def _build_json_writer(writer: imdb_http_title.NameCredit) -> json_titles.JsonWr
 
 
 def _update_json_title_with_title_page_data(
-    session: imdb_http.Session,
+    imdb_session: imdb_http.ImdbSession,
     json_title: json_titles.JsonTitle,
     watchlist_performer_ids: set[str],
 ) -> None:
-    title_page = imdb_http_title.get_title_page(session, json_title["imdbId"])
+    title_page = imdb_http_title.get_title_page(imdb_session, json_title["imdbId"])
 
     if json_title["imdbId"] not in ValidTitles:
         json_title["title"] = title_page.title
@@ -154,8 +154,8 @@ def _get_progress_file_path() -> Path:
     return progress_file_path
 
 
-def update_from_imdb_pages(token: str) -> None:
-    session = imdb_http.create_session(token=token)
+def update_from_imdb_pages(get_token: imdb_http.GetToken) -> None:
+    imdb_session: imdb_http.ImdbSession | None = None
     processed_slugs = []
     progress_file_path = _get_progress_file_path()
 
@@ -198,7 +198,12 @@ def update_from_imdb_pages(token: str) -> None:
 
             updated_title = deepcopy(json_title)
 
-            _update_json_title_with_title_page_data(session, updated_title, watchlist_performer_ids)
+            if imdb_session is None:
+                imdb_session = imdb_http.create_session(get_token)
+
+            _update_json_title_with_title_page_data(
+                imdb_session, updated_title, watchlist_performer_ids
+            )
 
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
@@ -209,13 +214,17 @@ def update_from_imdb_pages(token: str) -> None:
 
 
 def update_title(
-    session: imdb_http.Session, json_title: json_titles.JsonTitle, watchlist_performer_ids: set[str]
+    imdb_session: imdb_http.ImdbSession,
+    json_title: json_titles.JsonTitle,
+    watchlist_performer_ids: set[str],
 ) -> None:
     if json_title["imdbId"] in FrozenTitles:
         return
 
     updated_json_title = deepcopy(json_title)
-    _update_json_title_with_title_page_data(session, updated_json_title, watchlist_performer_ids)
+    _update_json_title_with_title_page_data(
+        imdb_session, updated_json_title, watchlist_performer_ids
+    )
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
