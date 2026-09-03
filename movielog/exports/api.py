@@ -21,6 +21,7 @@ from movielog.exports.repository_data import (
     WatchlistTitlesKey,
 )
 from movielog.repository import api as repository_api
+from movielog.repository import imdb_http
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
@@ -78,10 +79,10 @@ def _build_watchlist_titles(
     return watchlist_title_index
 
 
-def export_data(token: str) -> None:
+def export_data(get_token: imdb_http.GetToken) -> None:
     logger.log("Initializing...")
 
-    repository_api.validate_data(token)
+    repository_api.validate_data(get_token)
 
     reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.imdb_id)
 

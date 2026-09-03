@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from movielog.repository import api as repository_api
+from movielog.repository import imdb_http
 
 
 @dataclass
@@ -12,8 +13,8 @@ class SearchResult:
     principal_cast_names: list[str]
 
 
-def search(token: str, title_id: str) -> list[SearchResult]:
-    title_page = repository_api.get_title_page(token, title_id)
+def search(imdb_session: imdb_http.ImdbSession, title_id: str) -> list[SearchResult]:
+    title_page = repository_api.get_title_page(imdb_session, title_id)
 
     return [
         SearchResult(

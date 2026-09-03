@@ -71,8 +71,8 @@ def seed_collection(tmp_path: Path) -> None:
 def test_calls_add_title_to_collection(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([
         *select_collection(),
-        *enter_token(),
         *enter_title("tt0087298"),
+        *enter_token(),
         *select_title_search_result(confirm="y"),
         Escape,
         Escape,
@@ -92,8 +92,8 @@ def test_does_not_call_add_title_to_collection_if_no_selection(
 ) -> None:
     mock_input([
         *select_collection(),
-        *enter_token(),
         *enter_title("The Final Chapter"),
+        *enter_token(),
         Escape,
         Escape,
         Escape,

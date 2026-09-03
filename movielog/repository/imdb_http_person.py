@@ -1,11 +1,9 @@
 import json
 from dataclasses import dataclass
-from typing import Any, Literal, get_args
-
-import requests
-from bs4 import BeautifulSoup, SoupStrainer, Tag
+from typing import Literal, get_args
 
 from movielog.repository import imdb_http
+from movielog.repository.imdb_http import UntypedJson
 from movielog.utils.get_nested_value import get_nested_value
 
 CreditKind = Literal["director", "writer", "performer"]
@@ -38,9 +36,6 @@ class PersonPage:
     imdb_id: str
     name: str
     known_for_titles: list[str]
-
-
-type UntypedJson = dict[Any, Any]
 
 
 def _parse_credits(edge: UntypedJson) -> tuple[Role, ...] | None:
@@ -132,7 +127,10 @@ def edge_is_valid_title(edge: UntypedJson) -> bool:
 
 
 def call_graphql(
-    session: requests.Session, operation: str, variables: UntypedJson, extensions: UntypedJson
+    imdb_session: imdb_http.ImdbSession,
+    operation: str,
+    variables: UntypedJson,
+    extensions: UntypedJson,
 ) -> UntypedJson:
     query_variables = json.dumps(variables)
 
@@ -140,7 +138,7 @@ def call_graphql(
 
     url = f"https://caching.graphql.imdb.com/?operationName={operation}&variables={query_variables}&extensions={query_extensions}"
 
-    response = imdb_http.session_get(url=url, session=session, json=True)
+    response = imdb_http.session_get(url=url, session=imdb_session.session, json=True)
 
     response_data = json.loads(response.text)
 
@@ -149,24 +147,8 @@ def call_graphql(
     return response_data
 
 
-def _get_person_data(session: requests.Session, imdb_id: str) -> UntypedJson:
-    page = imdb_http.session_get(session=session, url=f"https://www.imdb.com/name/{imdb_id}/")
-
-    soup = BeautifulSoup(
-        page.text, "html.parser", parse_only=SoupStrainer("script", id="__NEXT_DATA__")
-    )
-
-    script_tag = soup.find("script", id="__NEXT_DATA__")
-
-    assert script_tag
-
-    assert isinstance(script_tag, Tag)
-
-    page_data = json.loads(str(script_tag.string))
-
-    assert isinstance(page_data, dict)
-
-    return page_data
+def _get_person_data(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> UntypedJson:
+    return imdb_http.get_next_data(imdb_session, f"https://www.imdb.com/name/{imdb_id}/")
 
 
 def _parse_known_for_titles(page_data: UntypedJson) -> list[str]:
@@ -179,8 +161,8 @@ def _parse_known_for_titles(page_data: UntypedJson) -> list[str]:
     ]
 
 
-def get_person_page(session: requests.Session, imdb_id: str) -> PersonPage:
-    page_data = _get_person_data(session, imdb_id)
+def get_person_page(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> PersonPage:
+    page_data = _get_person_data(imdb_session, imdb_id)
 
     return PersonPage(
         imdb_id=imdb_id,
@@ -191,8 +173,8 @@ def get_person_page(session: requests.Session, imdb_id: str) -> PersonPage:
     )
 
 
-def get_credits(session: requests.Session, imdb_id: str) -> list[UntypedJson]:
-    page_data = _get_person_data(session, imdb_id)
+def get_credits(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> list[UntypedJson]:
+    page_data = _get_person_data(imdb_session, imdb_id)
 
     edges = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "released", "edges"]

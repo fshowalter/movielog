@@ -1,8 +1,7 @@
-import requests
-
+from movielog.repository import imdb_http
+from movielog.repository.imdb_http import UntypedJson
 from movielog.repository.imdb_http_person import (
     ImdbPerson,
-    UntypedJson,
     call_graphql,
     edge_is_valid_title,
     get_credits,
@@ -21,7 +20,7 @@ def _edge_is_valid_title_for_director(edge: UntypedJson) -> bool:
 
 def _build_director(
     imdb_id: str,
-    session: requests.Session,
+    imdb_session: imdb_http.ImdbSession,
     credit_groupings: list[UntypedJson],
 ) -> ImdbPerson:
     director = ImdbPerson(imdb_id=imdb_id, credits=[])
@@ -60,7 +59,7 @@ def _build_director(
         }
 
         next_page_data = call_graphql(
-            session=session,
+            imdb_session=imdb_session,
             operation="FilmographyV2Pagination",
             variables=query_variables,
             extensions=query_extensions,
@@ -77,7 +76,9 @@ def _build_director(
     return director
 
 
-def get_director(session: requests.Session, imdb_id: str) -> ImdbPerson:
-    credit_groupings = get_credits(session=session, imdb_id=imdb_id)
+def get_director(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> ImdbPerson:
+    credit_groupings = get_credits(imdb_session=imdb_session, imdb_id=imdb_id)
 
-    return _build_director(imdb_id=imdb_id, session=session, credit_groupings=credit_groupings)
+    return _build_director(
+        imdb_id=imdb_id, imdb_session=imdb_session, credit_groupings=credit_groupings
+    )

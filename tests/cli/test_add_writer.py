@@ -25,7 +25,7 @@ def mock_search_person(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 def test_calls_add_writer(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(["a-test-aws-token", Enter, "nm0102824", Enter, Down, Enter, "y", Enter])
+    mock_input(["nm0102824", Enter, "a-test-aws-token", Enter, Down, Enter, "y", Enter])
     add_writer.prompt()
 
     data = json.loads((tmp_path / "watchlist" / "writers" / "leigh-brackett.json").read_text())
