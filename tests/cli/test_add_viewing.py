@@ -34,10 +34,6 @@ def mock_search_title(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr("movielog.cli.title_searcher.repository_api.get_title_page", mock)
 
 
-def enter_token() -> list[str]:
-    return enter_text("a-test-aws-token")
-
-
 def enter_title(title: str) -> list[str]:
     return enter_text(title)
 
@@ -101,7 +97,6 @@ def test_calls_add_viewing_and_create_or_update_review(
 ) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-12", confirm="y"),
         *select_if_medium_or_venue("m"),
@@ -136,7 +131,6 @@ def test_can_confirm_title(
 ) -> None:
     mock_input([
         *enter_title("tt0051554"),
-        *enter_token(),
         *select_title_search_result("n"),
         *enter_title("tt0053221"),
         *select_title_search_result("y"),
@@ -172,7 +166,6 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
 ) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         Escape,
         Escape,
@@ -190,7 +183,6 @@ def test_guards_against_bad_dates(
 ) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-32"),
         *enter_viewing_date("2012-03-12", confirm="y"),
@@ -214,7 +206,6 @@ def test_can_confirm_date(
 ) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-13", confirm="n"),
         *enter_viewing_date("2012-03-12", confirm="y"),
@@ -235,7 +226,6 @@ def test_can_confirm_date(
 def test_can_add_new_medium(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-12", confirm="y"),
         *select_if_medium_or_venue("m"),
@@ -259,7 +249,6 @@ def test_can_add_new_medium(mock_input: MockInput, tmp_path: Path) -> None:
 def test_can_create_with_venue(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-12", confirm="y"),
         *select_if_medium_or_venue("v"),
@@ -280,7 +269,6 @@ def test_can_create_with_venue(mock_input: MockInput, tmp_path: Path) -> None:
 def test_can_add_new_venue(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-12", confirm="y"),
         *select_if_medium_or_venue("v"),
@@ -304,7 +292,6 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
 ) -> None:
     mock_input([
         *enter_title("tt0053221"),
-        *enter_token(),
         *select_title_search_result("y"),
         *enter_viewing_date("2012-03-12", confirm="y"),
         Escape,

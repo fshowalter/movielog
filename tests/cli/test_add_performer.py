@@ -25,7 +25,7 @@ def mock_search_person(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 def test_calls_add_performer(mock_input: MockInput, tmp_path: Path) -> None:
-    mock_input(["nm0000078", Enter, "a-test-aws-token", Enter, Down, Enter, "y", Enter])
+    mock_input(["nm0000078", Enter, Down, Enter, "y", Enter])
     add_performer.prompt()
 
     data = json.loads((tmp_path / "watchlist" / "performers" / "john-wayne.json").read_text())
@@ -37,8 +37,6 @@ def test_calls_add_performer(mock_input: MockInput, tmp_path: Path) -> None:
 def test_can_confirm_selection(mock_input: MockInput, tmp_path: Path) -> None:
     mock_input([
         "nm0000078",
-        Enter,
-        "a-test-aws-token",
         Enter,
         Down,
         Enter,

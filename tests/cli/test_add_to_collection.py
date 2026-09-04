@@ -13,10 +13,6 @@ from tests.cli.keys import Escape
 from tests.cli.prompt_utils import ConfirmType, enter_text, select_option
 
 
-def enter_token() -> list[str]:
-    return enter_text("a-test-aws-token")
-
-
 def enter_title(title: str) -> list[str]:
     return enter_text(title)
 
@@ -72,7 +68,6 @@ def test_calls_add_title_to_collection(mock_input: MockInput, tmp_path: Path) ->
     mock_input([
         *select_collection(),
         *enter_title("tt0087298"),
-        *enter_token(),
         *select_title_search_result(confirm="y"),
         Escape,
         Escape,
@@ -93,7 +88,6 @@ def test_does_not_call_add_title_to_collection_if_no_selection(
     mock_input([
         *select_collection(),
         *enter_title("The Final Chapter"),
-        *enter_token(),
         Escape,
         Escape,
         Escape,

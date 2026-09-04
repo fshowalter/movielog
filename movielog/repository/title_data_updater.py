@@ -155,7 +155,6 @@ def _get_progress_file_path() -> Path:
 
 
 def update_from_imdb_pages(get_token: imdb_http.GetToken) -> None:
-    imdb_session: imdb_http.ImdbSession | None = None
     processed_slugs = []
     progress_file_path = _get_progress_file_path()
 
@@ -198,11 +197,8 @@ def update_from_imdb_pages(get_token: imdb_http.GetToken) -> None:
 
             updated_title = deepcopy(json_title)
 
-            if imdb_session is None:
-                imdb_session = imdb_http.create_session(get_token)
-
             _update_json_title_with_title_page_data(
-                imdb_session, updated_title, watchlist_performer_ids
+                imdb_http.get_session(get_token), updated_title, watchlist_performer_ids
             )
 
             if updated_title != json_title:

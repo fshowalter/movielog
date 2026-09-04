@@ -146,7 +146,7 @@ def add_new_titles(get_token: imdb_http.GetToken, new_title_ids: set[str]) -> No
     if not new_title_ids:
         return
 
-    imdb_session = imdb_http.create_session(get_token)
+    imdb_session = imdb_http.get_session(get_token)
 
     watchlist_performer_ids = {
         performer["imdbId"]

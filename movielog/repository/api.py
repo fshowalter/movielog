@@ -36,17 +36,13 @@ update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
 
 
-def create_session(get_token: imdb_http.GetToken) -> imdb_http.ImdbSession:
-    return imdb_http.create_session(get_token)
-
-
-def get_person_page(
-    imdb_session: imdb_http.ImdbSession, imdb_id: str
-) -> imdb_http_person.PersonPage:
+def get_person_page(get_token: imdb_http.GetToken, imdb_id: str) -> imdb_http_person.PersonPage:
+    imdb_session = imdb_http.get_session(get_token)
     return imdb_http_person.get_person_page(imdb_session=imdb_session, imdb_id=imdb_id)
 
 
-def get_title_page(imdb_session: imdb_http.ImdbSession, imdb_id: str) -> imdb_http_title.TitlePage:
+def get_title_page(get_token: imdb_http.GetToken, imdb_id: str) -> imdb_http_title.TitlePage:
+    imdb_session = imdb_http.get_session(get_token)
     return imdb_http_title.get_title_page(imdb_session=imdb_session, imdb_id=imdb_id)
 
 

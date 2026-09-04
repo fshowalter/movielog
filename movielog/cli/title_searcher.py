@@ -13,8 +13,8 @@ class SearchResult:
     principal_cast_names: list[str]
 
 
-def search(imdb_session: imdb_http.ImdbSession, title_id: str) -> list[SearchResult]:
-    title_page = repository_api.get_title_page(imdb_session, title_id)
+def search(get_token: imdb_http.GetToken, title_id: str) -> list[SearchResult]:
+    title_page = repository_api.get_title_page(get_token, title_id)
 
     return [
         SearchResult(
