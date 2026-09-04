@@ -109,6 +109,11 @@ def mock_needs_token(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr("movielog.cli.ask_for_token.NEEDS_TOKEN", True)
 
 
+@pytest.fixture(autouse=True)
+def reset_imdb_session(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr("movielog.repository.imdb_http._cache.session", None)
+
+
 def dict_factory(cursor: sqlite3.Cursor, row: tuple[Any, ...]) -> dict[str, Any]:
     row_dict = {}
     for index, column in enumerate(cursor.description):

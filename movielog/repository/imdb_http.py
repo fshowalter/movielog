@@ -51,6 +51,21 @@ def create_session(get_token: GetToken) -> ImdbSession:
     return ImdbSession(session=session, get_token=get_token)
 
 
+class _SessionCache:
+    def __init__(self) -> None:
+        self.session: ImdbSession | None = None
+
+
+_cache = _SessionCache()
+
+
+def get_session(get_token: GetToken) -> ImdbSession:
+    if _cache.session is None:
+        _cache.session = create_session(get_token)
+
+    return _cache.session
+
+
 def session_get(session: requests.Session, url: str, *, json: bool = False) -> requests.Response:
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0",  # noqa: E501

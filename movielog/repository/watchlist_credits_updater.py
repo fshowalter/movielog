@@ -170,14 +170,13 @@ def _get_progress_file_path(kind: json_watchlist_people.Kind) -> Path:
 
 
 def _process_watchlist_person(
-    imdb_session: imdb_http.ImdbSession | None,
     get_token: imdb_http.GetToken,
     watchlist_person: JsonWatchlistPerson,
     kind: json_watchlist_people.Kind,
-) -> imdb_http.ImdbSession:
+) -> None:
     updated_watchlist_person = deepcopy(watchlist_person)
 
-    imdb_session = imdb_session or imdb_http.create_session(get_token)
+    imdb_session = imdb_http.get_session(get_token)
 
     _update_watchlist_person_titles_for_credit_kind(
         imdb_session, updated_watchlist_person, WatchlistKindToCreditKind[kind]
@@ -186,11 +185,8 @@ def _process_watchlist_person(
     if updated_watchlist_person != watchlist_person:
         json_watchlist_people.serialize(updated_watchlist_person, kind)
 
-    return imdb_session
-
 
 def update_watchlist_credits(get_token: imdb_http.GetToken) -> None:
-    imdb_session: imdb_http.ImdbSession | None = None
     progress_files: list[Path] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
@@ -217,9 +213,7 @@ def update_watchlist_credits(get_token: imdb_http.GetToken) -> None:
                     )
                     continue
 
-                imdb_session = _process_watchlist_person(
-                    imdb_session, get_token, watchlist_person, kind
-                )
+                _process_watchlist_person(get_token, watchlist_person, kind)
 
                 progress_file.write("{}\n".format(watchlist_person["slug"]))
 
