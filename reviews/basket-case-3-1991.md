@@ -10,7 +10,7 @@ Frank Henenlotter begins his third _Basket Case_ picture with five minutes of hi
 
 Duane is now a captive in Granny Ruth's boarding house for what she calls unique individuals, chained up and talking to himself. Belial is not speaking to him. Belial's beloved Eve, the she-creature he met in the last picture, is expecting, and close enough to term that Granny Ruth packs the whole household onto a school bus and drives to Georgia, where her friend Uncle Hal keeps a unique individual of his own, Little Hal, in the back room. Eve produces twelve babies. Two deputies with an eye for a quick dollar steal them. Belial, who has spent two movies establishing his position on such matters, responds.
 
-If you've seen the prior entry, this will feel like more of the same. The plot still meanders, as the last one did, and it picks up when the blood starts, and there is another homage to the _Alien_ pictures, this time the cargo loader from _Aliens_, which, if you're feeling generous, could be considered a callback.
+If you've seen the prior entry, this will feel like more of the same. The plot still meanders, as the last one did, and it picks up when the blood starts, and there is another homage to the _Alien_ pictures, this time the cargo loader from <span data-imdb-id="tt0090605">_Aliens_</span>, which, if you're feeling generous, could be considered a callback.
 
 Still, the movie is unexpectedly funny. The producers balked at the gore Henenlotter wanted for the birth scene, pages went out, and Jim O'Doherty filled the gap with improvised play-by-play, sweating and narrating like a man calling a horse race he has money on, finally requesting an "ovarian ovation" for the mother. I laughed out loud.
 
@@ -22,5 +22,4 @@ Duane, the lead of two films, is here a device. He is released whenever the stor
 
 Elsewhere the movie grabs at whatever is within reach. Jolt Cola appears often enough that I assume a check changed hands. Tina Louise Hilbert turns up as the sheriff's daughter, who is fond of whips and disinclined to stay dressed, in a scene with no relationship to anything around it. Odd as these detours are, they wake the thing up.
 
-The result isn't a bad film so much as a tired one. Anyone who liked the second will like this one, but anyone who hasn't seen _Brain Damage_ or _Frankenhooker_ should watch those first. There you have Henenlotter's full attention.
-
+The result isn't a bad film so much as a tired one. Anyone who liked the second will like this one, but anyone who hasn't seen <span data-imdb-id="tt0094793">_Brain Damage_</span> or <span data-imdb-id="tt0099611">_Frankenhooker_</span> should watch those first. There you have Henenlotter's full attention.
