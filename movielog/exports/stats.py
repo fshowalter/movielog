@@ -46,6 +46,7 @@ class _JsonMostWatchedTitle(TypedDict):
     reviewSlug: str | None
     title: str
     count: int
+    lastViewingDate: str
 
 
 class _JsonDistribution(TypedDict):
@@ -291,7 +292,10 @@ def _build_most_watched_person_list(
 
 
 def _build_most_watched_title(
-    imdb_id: str, count: int, repository_data: RepositoryData
+    imdb_id: str,
+    count: int,
+    viewings: list[repository_api.Viewing],
+    repository_data: RepositoryData,
 ) -> _JsonMostWatchedTitle:
     title = repository_data.titles[imdb_id]
 
@@ -303,6 +307,10 @@ def _build_most_watched_title(
         releaseYear=title.release_year,
         reviewSlug=review.slug if review else None,
         count=count,
+        lastViewingDate=max(
+            viewings,
+            key=lambda viewing: viewing.date,
+        ).date.isoformat(),
     )
 
 
@@ -322,12 +330,15 @@ def _build_most_watched_titles(
                 imdb_id=imdb_id,
                 count=len(viewings_for_title),
                 repository_data=repository_data,
+                viewings=viewings_for_title,
             )
         )
 
     return sorted(
         most_watched_titles,
-        key=lambda most_watched_title: most_watched_title["count"],
+        key=lambda most_watched_title: (
+            f"{most_watched_title['count']:02d}-{most_watched_title['lastViewingDate']}"
+        ),
         reverse=True,
     )[:12]
 
