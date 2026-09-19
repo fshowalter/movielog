@@ -1,0 +1,23 @@
+---
+imdb_id: tt0078748
+slug: alien-1979
+grade: B+
+date: 2026-09-10
+synopsis: A space freighter crew falls prey to a deadly alien lifeform they unwittingly bring aboard.
+---
+
+The ship in _Alien_ is a tugboat. The Nostromo is hauling refined ore back to Earth with seven people asleep in the freezer, and when the computer wakes them early it isn't for glory, it's because the contract says they have to check out a distress signal or forfeit their shares. They sit around a galley table complaining about money. Yaphet Kotto and Harry Dean Stanton, down in the engine room where the water drips, are two guys who would be exactly the same two guys in a boiler room in Gary, Indiana.
+
+They land on a rock that looks like weather happening to geology, and find a derelict alien ship. Inside sits the fossil of something enormous and vaguely human, its chest opened outward from the inside. Below is a chamber of leathery eggs about the size of office wastebaskets. John Hurt's Kane leans over one and something comes through his helmet and fastens onto his face. They carry him back to the ship, which is the single worst decision anyone makes in the picture, and Sigourney Weaver's Ripley says so, and is overruled.
+
+Ridley Scott has said he wanted to make the <span data-imdb-id="tt0072271">_Texas Chain Saw Massacre_</span> of science fiction, and the fingerprints are all over it. H.R. Giger's interiors are bone architecture, the same way Tobe Hooper's farmhouse was decorated in femurs and feathers. The creature arrives the way Leatherface did, bursting into the frame. Even the sweat is borrowed; the Nostromo is a humid ship, and everyone on it looks like they need a shower and a raise. There is a corridor of hanging chains, drifting and clinking while water rains down, that seems to exist for no reason except that Scott knew it would be terrifying, and Clive Barker apparently agreed, because he built a whole franchise in that room.
+
+The look is beyond argument. Giger's creature remains the most upsetting monster design in movies because it refuses to settle into one shape; you never get a clean view, and the glimpses do not assemble into anything reassuring. Scott admits he is a designer first, and the movie is one of the few where that admission plays as a strength. The Nostromo is cramped, stained, and cluttered with the junk of people who live there. The atmosphere is so immersive, you don't mind that for the first forty minutes almost nothing happens except men in dirty jumpsuits walking through beautiful gloom. Then Kane sits up at dinner and everything happens at once. That scene is still the most violent thing in the film, partly because the camera doesn't seem to know what to do afterward. Nobody does.
+
+For a great many people this is the perfect horror film. I stop a little short. On a first viewing the intensity papers over everything. On a fourth, questions start arriving. The Nostromo turns out to be one corridor filmed from six angles, and by the third act I was recognizing pipes the way you recognize a neighbor's dog. Scott throws a strobe over it and hopes. 
+
+And two hinge moments are fudges. What is Kane thinking down there? The kids in _Chain Saw_ at least wanted gasoline. Kane wants to put his face on an egg that is visibly opening. Dan O'Bannon and Ronald Shusett invented the facehugger because they needed a plausible way to get the monster aboard the ship, and it works beautifully at the cost of making Kane behave like a man reaching into a wood chipper to see what the noise is. The same clumsiness returns at the end, when Ripley goes back for the cat. Scott admitted he worried audiences would balk. I balked. Ripley was the one person aboard who insisted on following quarantine procedure even though it would have cost Kane his life. The cat is there because the script had to get her and the alien into a small room together, and it is the same solution as the egg, wearing fur.
+
+Four writers worked on this, counting producers Walter Hill and David Giler, who added the android and the company's designs on the creature, over O'Bannon's objections. They were right and he was wrong. The layers give the picture a fatalism that lingers after the shocks. Kudos to all four for resisting the urge to explain the fossil. Scott says in his 1999 commentary that he imagines it as the pilot and the derelict as a kind of aircraft carrier, the eggs being ordnance. He could have put that in a line of dialogue. He wisely didn't.
+
+What you get, then, is a scary picture with an all-time monster and some great-looking sets. It is not the _Texas Chain Saw Massacre_ of science fiction, but it is close enough that the distinction only bothers you after several viewings.
