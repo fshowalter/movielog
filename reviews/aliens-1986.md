@@ -1,0 +1,29 @@
+---
+imdb_id: tt0090605
+slug: aliens-1986
+grade: A-
+date: 2026-09-12
+synopsis: When the company loses contact with a terraforming colony on the planet that cost Ripley her crew, she returns with a squad of Colonial Marines who are nowhere near prepared for what they find.
+---
+
+Ripley has been asleep for fifty-seven years when they find her, and the first thing the movie does is punish her for surviving. She wakes into a hearing room where men in good suits explain, patiently, that her story is impossible. The planet she describes now has colonists on it. Families. A weather system they built themselves. Sigourney Weaver plays the scene with the flat calm of a woman who has been informed she imagined her own life, and when the company strips her flight license, the only work she can get is running an exosuit cargo loader on the docks. A forklift with legs. 
+
+Then Paul Reiser comes to her apartment with news. They've lost contact with the colony.
+
+James Cameron's sequel begins by imitating <span data-imdb-id="tt0078748">Ridley Scott's original</span>. The first minutes have the slow drift and the blue-collar aesthetic of the 1979 picture, and then everything changes shape: drab conference rooms, pre-fab corridors, a military that buys its hardware from the company it's protecting. Most sequels treat the passage of time as an inconvenience. Cameron uses it to bridge Scott's visual style to his own. Scott made a haunted house picture; Cameron delivers a siege film. Scott had one creature and a crew of space truckers who complained about their shares. Cameron gives us a nest and a squad of Colonial Marines with enough ordnance to level a county, and then he makes the odds worse. This is my favorite kind of horror picture, the one where competent people meet something more competent. 
+
+There is no scene of anybody leaning over an egg to have a look, no heroic detour to rescue a pet. The colony is discovered as a burned-out ruin, empty except for a filthy, feral child named Newt who has survived by living in the air ducts, and by the time Ripley is strapping a flamethrower to a rifle with duct tape to go get her back, you are not asking why. You are looking for your own duct tape.
+
+The movie's most terrifying instrument is a handheld motion tracker that beeps. It tells you something is coming, then that it is close, then that it is inside the room with you. The soldiers point their lights at the ceiling. There is nothing on the ceiling. Cameron has figured out that a number going down is scarier than anything he could show you, which is a lesson he learned from Scott and improved upon.
+
+I once wrote of Scott's film that Yaphet Kotto and Harry Dean Stanton, down in the engine room where the water drips, were two guys who would be exactly the same two guys in a boiler room in Gary, Indiana. That was praise. Those men were real. Cameron's people are iconic, which is harder. Bill Paxton's Hudson runs his mouth about how he's a state-of-the-badass-art until the moment arrives when he isn't. His "game over, man" line has outlived the movie. Jenette Goldstein's Vasquez does pull-ups in the troop bay and presages the stoic grunts who would follow Schwarzenegger into the jungle next year in <span data-imdb-id="tt0093773">_Predator_</span>. Lance Henriksen, as the android Bishop, has maybe ten minutes of screen time but keeps you uneasy for two hours. His knife trick is the best party favor in science fiction. Michael Biehn has the least showy job as Corporal Hicks and gets the most out of it by being decent, tired, and reluctant to be in charge. When he agrees with Ripley that the answer is to nuke the site from orbit because "it's the only way to be sure," I wanted to run him for president.
+
+Carrie Henn plays Newt without a single tremble of the lip. She looks at the adults with the face of someone grading them. Cameron never sends her wandering off so the plot can find something to do, and uses her dialogue sparingly. After the dropship crashes and the group stands in shock, she whispers that they should get inside, because it'll be dark soon and they mostly come at night. Mostly.
+
+Reiser, as Burke, holds the whole thing together by being worse than the aliens. As Ripley points out, you don't see them betraying each other for a percentage. My lone complaint after all these years is that Cameron cuts away before Burke gets what's coming to him. I generally favor leaving things to the imagination. Not here. Here I wanted a set piece.
+
+Scott's picture is more beautifully photographed.[^1] Cameron's is better paced and better written. But Cameron was not yet "James Cameron" when he shot this. The British crew at Pinewood thought the American kid was unqualified, since <span data-imdb-id="tt0088247">_The Terminator_</span> hadn't opened there yet, and the production was miserable. His first cut ran two and a half hours and the studio wanted two. It was Gale Anne Hurd, his then-wife and producer, who found the cut: an entire reel of colonists discovering the derelict ship and getting infected. Losing it was the right call, since it only explained what we already knew, and the process suggests that Cameron is better when someone tells him no.
+
+One warning. Like Michael Mann, Cameron cannot leave his work alone, and the high-definition releases have been color-timed toward a teal that was never in the theatrical prints. I have no objection to a director's revision as long as the original is still on the shelf. If a repertory house near you runs a film print, cancel whatever you were doing and go.
+
+[^1]: In the audio commentary, Cameron admits he prefers Scott's widescreen framing but avoided it here after fighting the anamorphic lenses on <span data-imdb-id="tt0082340">_Escape from New York_</span>, where he worked as director of visual effects photography.
