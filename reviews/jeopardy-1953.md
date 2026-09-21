@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0045932
 slug: jeopardy-1953
-grade: C
+grade: C-
 date: 2026-09-14
 synopsis: Vacationing wife Barbara Stanwyck races the tide to keep her husband from drowning, and the only man she finds is escaped convict Ralph Meeker, who sees something he wants.
 ---
