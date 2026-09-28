@@ -3,7 +3,7 @@ imdb_id: tt0062443
 slug: the-viking-queen-1967
 grade: D
 date: 2026-09-01
-synopsis: In Roman Britain, an Iceni queen and a Roman general fall in love while merchants, druids, and ambitious officers on both sides engineer the war that everyone but the lovers seems to want.
+synopsis: An Iceni queen and a Roman general fall in love while merchants, druids, and ambitious officers on both sides engineer the war that everyone but the lovers seems to want.
 ---
 
 There are no Vikings in _The Viking Queen_. There are no longships, no ocean, not so much as a horned helmet hanging on a wall. The picture takes place in Roman Britain under Nero, and the closest thing to Scandinavia on the premises is Carita, a Finnish actress whose accent I assume is the whole reason for the title. That, and the hope that audiences might still be thinking of Kirk Douglas in <span data-imdb-id="tt0052365">_The Vikings_</span>.

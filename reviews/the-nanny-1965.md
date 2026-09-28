@@ -3,7 +3,7 @@ imdb_id: tt0059496
 slug: the-nanny-1965
 grade: C
 date: 2026-07-16
-synopsis: Sent to a school for disturbed children after the accident that killed his baby sister, ten-year-old Joey returns home and insists his nanny, played by Bette Davis, means to kill him next.
+synopsis: Sent to a school for disturbed children after the accident that killed his baby sister, ten-year-old Joey returns home and insists nanny Bette Davis means to kill him next.
 ---
 
 There is a scene early in _The Nanny_ in which ten-year-old Joey Fane arranges a doll face-down in a full bathtub and then invites his Nanny in to have a look. She moans and rushes away. He watches her go. He appears to be taking notes.
