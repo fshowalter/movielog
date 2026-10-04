@@ -26,4 +26,4 @@ What holds it together is Chow Yun-Fat. He can stand still in the middle of a fi
 
 Woo made the picture with Hong Kong eight years from its handover to China, and you can feel him mourning a world before it is gone. The idea was sound, and the time was right for it. The execution is unruly, the ambition larger than the discipline. Those who prefer Sirk to Hawks will go on calling it a classic, and I won't argue with them over dinner. For me it sits near Peckinpah's <span data-imdb-id="tt0070518">_Pat Garrett and Billy the Kid_</span>, another story of a lawman and an outlaw drawn together as the old order closes in on them. Both wander, but I'd sit through either again tonight.
 
-[^1]: Chang also says about the finale: "I don’t remember exact figures but we did spend a lot of money on the candles."
+[^1]: Chang also says about the finale: "I don't remember exact figures but we did spend a lot of money on the candles."
