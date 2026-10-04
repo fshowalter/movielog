@@ -1,0 +1,29 @@
+---
+imdb_id: tt0097202
+slug: the-killer-1989
+grade: B-
+date: 2026-09-29
+synopsis: Assassin Chow Yun-Fat takes one last job to save the sight of the nightclub singer he half-blinded, while the detective hunting him finds himself taking the killer's side.
+---
+
+John Woo's _The Killer_ ends in a church, with candles burning, a statue of the Madonna looking on, and white doves bursting into the air every time somebody fires a gun, which is often. By the time the credits roll, the doves have outlasted most of the cast. If you have never seen a Woo picture, that should tell you what you are in for. Men die in slow motion, bleed by the bucket, and talk about honor while they do it.
+
+Chow Yun-Fat plays Ah Jong, a hit man who carries out a job in a nightclub and, in the process, damages the eyes of the singer, Jennie, with his muzzle flash. Guilt brings him back to her. He sits in the club, listens to her sing, and lets her believe he is a kind stranger who happened along. When doctors tell her she needs a cornea transplant or she will lose what sight she has left, he takes one last contract, on a triad boss, to pay for it. His employer double-crosses him. Meanwhile an inspector named Li Ying, played by Danny Lee, is on his trail, and the more Li learns about the killer, the more he likes him. Ah Jong keeps risking his neck for bystanders, which is not in the job description of most assassins.
+
+I first saw the film on a videocassette from a mom-and-pop rental store. It was dubbed and cropped, but that didn't matter. American action pictures of the time winked at the audience. Even in somebody else's English, Woo meant every word.
+
+Now, thirty years later, I've watched it again, with the advantage of the original Cantonese and Arrow's new subtitles, and the disadvantage of having seen a great many other movies in the meantime. It is still a good film, though not the revelation I remembered.
+
+Woo has named Peckinpah's _The Wild Bunch_ as an influence, and once you have watched Peckinpah's men walk toward their deaths, the slow-motion gunfights look like an inheritance, lovingly spent. Then there is Michael Mann's _Heat_, which tells nearly the same story of a cop and a criminal who come to respect each other, and tells it without the tears. Mann borrowed from Howard Hawks, whose professionals do the work and keep their feelings to themselves, and that restraint gives his film more weight. I kept seeing _Heat_ in this movie: Ah Jong gazing over the harbor in blue light, De Niro's McCauley gazing at the Pacific from a house with no furniture. Woo links his two men with a clever mirrored shot of each sitting alone at home. Mann put Pacino and De Niro in a coffee shop and let them talk, and I remember that scene better.
+
+Both comparisons expose the film's weakest element, which is Jennie. Woo writes her as a child. She is there to give Ah Jong a reason not to leave town when the triads come for him. In his Criterion commentary, Woo concedes that Sally Yeh overplays the role, which is generous of him. Watch the moment she is blinded. A sensible person caught in a gunfight would cover her face and get down. Jennie stands, flails, and runs around the room as if the bullets have agreed to wait. For the rest of the movie she whimpers and clings, and Ah Jong looks after her the way a man looks after a promise he regrets making.
+
+Another problem is competence. Ah Jong is supposed to be the best, yet every job we see him attempt goes wrong. He blinds a bystander, walks into an ambush on the triad hit, and botches his revenge on the man who sold him out. If he were a plumber you would not call him back. Li, for his part, loses his man repeatedly and finds him only when the plot needs them in the same room. Peckinpah's outlaws were frighteningly good at their trade, and so was McCauley's crew. You believed them.
+
+Woo says he made the film without a script, pitching an idea to the producers and starting to shoot. I believe him up to a point. He also says he planned a love triangle involving Jennie and dropped it when Yeh was available for only forty-five days of a ninety-day shoot, which sounds like a man with a story in his head, if not on paper. His producer, Terence Chang, says the absence of a script made it hard to keep Woo on budget[^1], and Woo complains that his crew didn't understand the movie he was making. A script might have helped with both. It might also have shown him how thin Jennie was.
+
+What holds it together is Chow Yun-Fat. He can stand still in the middle of a firefight and make the chaos seem to be happening for his benefit. When he carries a wounded little girl off a beach and into a hospital, you believe in his decency, though you have just watched him kill a roomful of men. Hollywood took years to notice him, and when it finally did, it handed him movies that didn't know what to do with him. Watching this one, you wonder how they missed.
+
+Woo made the picture with Hong Kong eight years from its handover to China, and you can feel him mourning a world before it is gone. The idea was sound, and the time was right for it. The execution is unruly, the ambition larger than the discipline. Those who prefer Sirk to Hawks will go on calling it a classic, and I won't argue with them over dinner. For me it sits near Peckinpah's _Pat Garrett and Billy the Kid_, another story of a lawman and an outlaw drawn together as the old order closes in on them. Both wander, but I'd sit through either again tonight.
+
+[^1]: Chang also says about the finale: "I don’t remember exact figures but we did spend a lot of money on the candles."
