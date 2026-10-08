@@ -1,0 +1,29 @@
+---
+imdb_id: tt0060955
+slug: seconds-1966
+grade: B
+date: 2026-10-06
+synopsis: A middle-aged banker pays a sinister company to fake his death and remake him as a younger, handsomer man, only to find his new life as empty as the old one.
+---
+
+Early in _Seconds_, a company man named Ruby sits across a desk from Arthur Hamilton and explains how Arthur is going to die. There will be a hotel fire. A body will be found, the right height and weight, with the dental work attended to. Someone has brought Arthur a plate of chicken, and while the details pile up, Ruby’s eyes keep drifting to it. Arthur has lost his appetite. Eventually Ruby reaches across, takes a piece, and goes on explaining between bites. I have seen whole movies about the banality of evil that made the point less well than that chicken.
+
+John Randolph plays Arthur, a New York banker with the gray face of a man who stopped expecting anything around the time Eisenhower left office. He has a house in Scarsdale, a wife he no longer talks to and a married daughter on the West Coast who writes when she remembers to. A stranger in Grand Central presses a slip of paper into his hand. That night the phone rings, and it’s Charlie, an old friend Arthur saw buried. The address on the paper leads to a laundry, which sends him to a meatpacking plant, which puts him in the back of a truck. At the end of the ride is an office where, for $30,000, the company will stage his death, rebuild his face and body, and set him up in a Malibu beach house with a background as a painter of modest reputation. 
+
+The opening is close to wordless. Director John Frankenheimer and his cinematographer, the great James Wong Howe, shot it in the real Grand Central and on the real train to Scarsdale, with lenses that bend the edges of the frame so the crowd seems to lean in on Arthur. Nothing happens that couldn’t happen to any commuter, and yet you feel watched all the way home. David Lynch would later build a career on that feeling.
+
+What holds the first act together is that Arthur behaves the way a person would. At the company he is shown into an office, offered a glass of water and asked to wait. The water is drugged. When he wakes and sees the time, he gets up to go, finds that the way he came in no longer leads out, and politely asks someone for directions to the street. He is a banker to the end. Each step follows from the last, and because Arthur is something of a blank, we fill him in with ourselves. Then comes the surgery. Frankenheimer says he filmed a real operation, and when the crew got queasy, Howe handed him a camera. You will believe it. Arthur comes out of the bandages as Rock Hudson.
+
+In California, a stranger at the airport seems to recognize Tony Wilson, as Arthur is now called. The film acknowledges but doesn't explain this, inviting you to wonder if Arthur's new identity is stolen instead of invented, and if so, what became of the first Tony Wilson. But after that, the story idles. Tony mopes around the house. He walks on the beach. His butler, supplied by the company, keeps urging him to give a party for the neighbors. 
+
+Then on one of the walks he meets Nora, played by Salome Jens, who takes him to a wine festival in Santa Barbara. There, beatnik revelers shed their clothes and pile into a vat to stomp grapes. Nora climbs in. Tony shouts her name over and over until he is hauled in himself, and his “No!” turns into an ecstatic “Yes!” Frankenheimer, who says he went into the vat with a handheld camera when Howe balked at the nudity, cuts it like a fever. I didn’t believe a minute of it. The movie needs him to crack, so he cracks.
+
+The cocktail party that follows has the same trouble. Tony gets drunk and spills his past to the guests. Frankenheimer says he got Hudson drunk for real, and I believe him; Howe’s woozy point-of-view shots catch that sense of watching yourself from a step behind. But the drunk who blurts his secrets is an old shortcut for exposition. The first act let us ask what we would do. Here the movie is busy arranging its last act.
+
+There was a better second act hiding in that vineyard. Tony has the body of a younger man and none of its references, and he is standing among people who grew up in a different country, even if it has the same name. If he had slipped away from the vat the way Arthur tried to slip away from that office, and understood on the drive home that a new face doesn’t come with a new past, the ending would have landed even harder.
+
+The ending works anyway. Tony returns to Scarsdale and calls on his widow, posing as an old acquaintance, and she speaks about her husband with a frankness she never offered him while he lived. Hudson plays it with almost nothing, and it is devastating. Then Tony goes back to the company to ask for another try. I won’t describe what follows, except to say that Will Geer, later the grandfather on _The Waltons_, presides over it like Will Rogers playing Satan, and that Hudson’s last minutes on screen hold some of the rawest, most frightened acting I have seen from a star of his era.
+
+It’s hard to watch those minutes knowing that Hudson spent his career hiding who he was and died of AIDS in 1985. I’d only say he may have understood better than most what it meant to live as a man the public had been sold. Randolph, Geer and Jeff Corey, who plays Ruby, had all been blacklisted, and here they are in a movie about the price of a second chance.
+
+_Seconds_ flopped in 1966, but its reputation has grown since. Some call it a masterpiece and others a long episode of _The Twilight Zone_. The movie makes both cases. The middle stretch is short, at least. If you’re a man of a certain age, the final scenes will stay with you longer than you’d like. I’m curious whether a second viewing plays better once you know the movie recovers. The title practically invites one.
