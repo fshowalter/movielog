@@ -29,4 +29,4 @@ And it's funny, in its way. The man of the house comes home, surveys the front d
 Fifty-plus years of cheap horror debuts have followed, and none has beaten it.[^1] It may not be as gory as the title and reputation would have you believe, but it's every bit as intense. See it enough times and you'll start laughing. What that says, I leave to the viewer.
 
 
-[^1]: Clive Barker's _Hellraiser_ comes nearest, and it had money for gore, some of which it should have kept in the bank.
+[^1]: Clive Barker's _Hellraiser_ comes nearest, and it had money for gore and puppets, some of which it should have kept in the bank.
