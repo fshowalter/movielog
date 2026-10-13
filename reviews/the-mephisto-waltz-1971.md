@@ -12,7 +12,7 @@ Myles's wife, Paula, played by Jacqueline Bisset, is the first to notice the cha
 
 The film arrived three years after _Rosemary's Baby_ and would like you to remember that. Move the Dakota to a Los Angeles mansion, trade the nosy old neighbors for decadent party guests, and you have the outline. You do not have Polanski's patience, or his gift for making a kitchen more frightening than a crypt. The producer was Quinn Martin, of _The Fugitive_, and the picture has the look of a Tuesday night on ABC. Ely's house is enormous from the driveway and seems to contain three rooms. Dream sequences are flagged with a star filter and smeared edges, so we know we can relax. 
 
-Bisset carries the movie and should have been billed first. Alda is likable, but compare him to Andrew Robinson in _Hellraiser_, which tells much the same story: when Robinson comes down the stairs at the end, you know from one look at his eyes that the man inside is wearing borrowed flesh.
+Bisset carries the movie and should have been billed first. Alda is likable, but compare him to Andrew Robinson in _Hellraiser_, which tells much the same story: when his daughter finds him in the bedroom near the end, you know from one look at his eyes that the man inside is wearing borrowed flesh.
 
 Jürgens gets one memorable moment, pale and towering in a dream, and he anticipates Angus Scrimm's Tall Man in _Phantasm_ by most of a decade. Barbara Parkins plays Ely's daughter Roxanne, whose devotion to her father goes well past a daughter's. Her scenes with Bisset have a cold edge, two women sizing each other up, and each time the film backs away from them as if worried about the sponsors.
 
