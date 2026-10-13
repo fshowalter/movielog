@@ -3,7 +3,7 @@ date: 2026-10-09
 imdb_id: tt0093177
 grade: A
 slug: hellraiser-1987
-synopsis: A woman kills to feed her lover, her husband’s half-resurrected brother, while the creatures he escaped from close in.
+synopsis: A woman kills to feed her lover, her husband's half-resurrected brother, while the creatures he escaped from close in.
 ---
 
 Early in _Hellraiser_, Larry Cotton and two movers are wrestling the marital mattress up a narrow staircase. Larry is at the top, walking backward, and his hand is headed for an exposed nail. Clive Barker cuts between this and Larry's wife, Julia, remembering an afternoon tryst with Larry's brother, Frank, until the lovers and the movers are grunting and heaving to the same rhythm. Then the nail does its work. Larry wanders in, the color of paste, holding out his bleeding hand like a waiter presenting a bad bottle of wine, and announces he is about to faint. Julia regards him the way you would regard a muddy dog on the good carpet.
