@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 from collections import defaultdict
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
@@ -25,7 +25,7 @@ _EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 
 
 class _JsonMostWatchedPersonViewing(TypedDict):
-    date: datetime.date
+    date: dt.date
     medium: str | None
     venue: str | None
     releaseYear: str

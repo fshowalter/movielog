@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import html
 import re
 from collections.abc import Callable
@@ -32,12 +32,12 @@ Stages = Literal[
 class State:
     stage: Stages = "ask_for_title"
     title: select_title.SearchResult | None = None
-    date: datetime.date | None = None
+    date: dt.date | None = None
     medium: str | None = None
     medium_notes: str | None = None
     venue: str | None = None
     grade: str | None = None
-    default_date: datetime.date = field(default_factory=datetime.date.today)
+    default_date: dt.date = field(default_factory=dt.date.today)
     existing_review: repository_api.Review | None = None
 
 
@@ -111,8 +111,8 @@ def is_date(text: str) -> bool:
         return False
 
 
-def string_to_date(date_string: str) -> datetime.date:
-    return datetime.datetime.strptime(date_string, "%Y-%m-%d").date()
+def string_to_date(date_string: str) -> dt.date:
+    return dt.datetime.strptime(date_string, "%Y-%m-%d").date()
 
 
 def ask_for_date(state: State) -> State:

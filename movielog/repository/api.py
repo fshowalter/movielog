@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 from collections.abc import Generator, Iterable
 from dataclasses import dataclass
 from typing import get_args
@@ -73,7 +73,7 @@ class Title:
 class Viewing:
     imdb_id: str
     sequence: str
-    date: datetime.date
+    date: dt.date
     medium: str | None
     venue: str | None
     medium_notes: str | None
@@ -85,7 +85,7 @@ class Review:
     imdb_id: str
     slug: str
     grade: str
-    date: datetime.date
+    date: dt.date
 
     @property
     def grade_value(self) -> int:
@@ -327,7 +327,7 @@ def imdb_ratings() -> ImdbRatings:
 def create_viewing(
     imdb_id: str,
     full_title: str,
-    date: datetime.date,
+    date: dt.date,
     medium: str | None,
     venue: str | None,
     medium_notes: str | None,
@@ -344,9 +344,7 @@ def create_viewing(
     )
 
 
-def create_or_update_review(
-    imdb_id: str, full_title: str, date: datetime.date, grade: str
-) -> Review:
+def create_or_update_review(imdb_id: str, full_title: str, date: dt.date, grade: str) -> Review:
     return _hydrate_markdown_review(
         markdown_reviews.create_or_update(
             imdb_id=imdb_id, full_title=full_title, date=date, grade=grade

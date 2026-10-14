@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import datetime
+import datetime as dt
 import re
 from collections.abc import Iterable
 from dataclasses import dataclass
@@ -29,7 +29,7 @@ class MarkdownReview:
 
 
 class ReviewYaml(TypedDict):
-    date: datetime.date
+    date: dt.date
     imdb_id: str
     title: str
     grade: str
@@ -40,7 +40,7 @@ def create_or_update(
     imdb_id: str,
     grade: str,
     full_title: str,
-    date: datetime.date,
+    date: dt.date,
 ) -> MarkdownReview:
     markdown_review = next(
         (
