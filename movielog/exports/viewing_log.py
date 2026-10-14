@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 from typing import TypedDict
 
 from movielog.exports import exporter
@@ -15,7 +15,7 @@ class _JsonViewingLogEntry(TypedDict):
     releaseDate: str
     genres: list[str]
     reviewSlug: str | None
-    date: datetime.date
+    date: dt.date
     sequence: str
     medium: str | None
     venue: str | None

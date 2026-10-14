@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import re
 from collections.abc import Iterable
 from pathlib import Path
@@ -18,7 +18,7 @@ FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
 class MarkdownViewing(TypedDict):
     sequence: int
-    date: datetime.date
+    date: dt.date
     imdbId: str
     slug: str
     venue: str | None
@@ -33,7 +33,7 @@ def _represent_none(self: Any, _: Any) -> Any:
 
 def create(
     imdb_id: str,
-    date: datetime.date,
+    date: dt.date,
     full_title: str,
     medium: str | None,
     venue: str | None,
@@ -99,7 +99,7 @@ def read_all() -> Iterable[MarkdownViewing]:
             yield cast(MarkdownViewing, yaml.safe_load(frontmatter))
 
 
-def _next_sequence_for_date(date: datetime.date) -> int:
+def _next_sequence_for_date(date: dt.date) -> int:
     existing_instances = sorted(
         read_all(),
         key=lambda viewing: "{}-{}".format(viewing["date"], viewing["sequence"]),
