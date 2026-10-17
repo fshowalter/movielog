@@ -1,0 +1,21 @@
+---
+imdb_id: tt0064188
+slug: crescendo-1970
+grade: D
+date: 2026-10-11
+synopsis: An American music student researching a late composer falls for his son at the family's French estate, learns she is the image of the girl he lost, and begins to suspect she was invited for sinister reasons.
+---
+
+Late one night in _Crescendo_, Stefanie Powers reaches for the cup of hot chocolate on her nightstand and manages to send both the cup and the saucer to the floor, as if her arm belonged to someone else. She does this because the plot needs her out of bed and down the stairs, where someone is playing a dead composer's unfinished concerto on a piano that will be empty by the time she arrives. I have seen heroines lured downstairs by screams, footsteps and doors creaking in the wind. This is the first one I can remember being sent there by a beverage.
+
+Powers plays Susan, an American music student invited to the South of France by Danielle, widow of the composer Henry Ryman. Susan's suitcase disappears somewhere between the train station and the estate, and when she reaches her room she finds a closet full of clothes in exactly her size. A reasonable person would ask who took her measurements. Susan tries them on. She also meets Ryman's son Georges, who uses a wheelchair and broods in good light. Before long, Susan learns she is the image of the girl he lost. You will be ahead of Susan by this point, and she never catches up.
+
+The real French exteriors are lovely, and the film wakes up whenever it goes outside. Most of it, though, takes place on an elaborate multi-level set, and you can hear it. Early on there's a cut from outdoors, looking through the gates at Danielle beside the pool, to the courtyard itself, where the sky has turned to paint and every voice bounces off plaster. Hammer made its name reusing the same corridors at Bray. I can't imagine what they paid for this one, or why.
+
+The screenplay is credited to Jimmy Sangster "from a screenplay by Alfred Shaughnessy," the sort of credit that tells you the script had problems. Sangster wrote <span data-imdb-id="tt0055505">_Scream of Fear_</span> and <span data-imdb-id="tt0058405">_Nightmare_</span> for Hammer, and he knew this territory: a young woman alone in a foreign house, a wheelchair, a double, and the creeping sense that she can't trust what she sees. All of it is here. What's missing is his usual speed. _Crescendo_ spends its first hour arranging the furniture, and the most exciting discovery in that hour is a smashed mannequin. Sangster later titled his memoir _Do You Want It Good or Tuesday?_ Hammer took Tuesday.
+
+Susan's personality shifts to suit the scene. She is brisk and self-possessed until the script runs out of ideas, and then she stammers. When a killer finally comes for her with an axe, she stands and watches him chop through the door, in a house where loaded shotguns appear to come standard in every room. Georges begs her to run, and two scenes later grabs her to keep her from running. In the closing moments, a character walks off the studio set at night and onto a French road in broad daylight. By that point, I could sympathize with director Alan Gibson's hope that we wouldn't notice.
+
+James Olson, who plays Georges, is a capable character actor, but he and Powers generate no warmth. Christopher Lee had been attached to the role since Shaughnessy's first draft in 1966; Warner Bros., which co-financed, insisted on an American. Lee couldn't have saved the picture, but he would have given us something to look at during that first hour. Hammer also tried for Joan Crawford as the widow. She made <span data-imdb-id="tt0066492">_Trog_</span> instead, which tells you how her luck was running that year.
+
+Hammer completists will want to see it, and Sangster's admirers may find it instructive to watch his formula run with the engine off. Others can stay in bed with the hot chocolate. When _Crescendo_ finally reached American theaters in 1972, thirteen minutes of nudity and violence had been removed to earn a PG. Someone had the right idea about cutting the picture. They just removed the parts that kept people awake.
