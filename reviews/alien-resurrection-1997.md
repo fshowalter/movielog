@@ -1,0 +1,27 @@
+---
+imdb_id: tt0118583
+slug: alien-resurrection-1997
+grade: C
+date: 2026-10-17
+synopsis: Military scientists clone Ellen Ripley from a blood sample to harvest the alien queen she was carrying, but the new Ripley isn't entirely human, which comes in handy when the aliens break loose.
+---
+
+Late in _Alien Resurrection_, as a crippled pirate ship plunges into Earth's atmosphere, the survivors scream like riders on the last drop of a roller coaster. Then they pause to check a gauge, and then they go back to screaming. It's a tiny gag, but it made me laugh and confirmed my suspicion that director Jean-Pierre Jeunet was in on the joke.
+
+The story picks up two hundred years after Ripley's swan dive into the furnace at the end of <span data-imdb-id="tt0103644">_Alien 3_</span>. Military scientists on a station far outside regulated space have grown a new Ripley from a blood sample, because they want the queen she was carrying. They cut it out of her, and to their surprise the patient lives, so they keep her around the way a lab keeps an animal that shows promise. But something went sideways in the cloning. Her DNA got tangled with the alien's. This Ripley has dark fingernails, unusual strength and the instincts of a predator, and when she sniffs the air you believe she is getting information from it. Sigourney Weaver, who is six feet tall, finally has a role that puts her height to work. She looks Ron Perlman straight in the eye, and he seems to know he is outranked.
+
+The queen matures quickly and lays eggs. A ship of space pirates arrives to sell the station's general a cargo of humans in cryosleep, the humans wake up to face-huggers, and by the forty-five-minute mark the station belongs to the aliens. That would be a whole movie for most directors, but Jeunet still has more than an hour to fill, and he spends it on a <span data-imdb-id="tt0069113">_Poseidon Adventure_</span> crawl toward the pirate ship. The best sequence has the survivors swimming through a flooded kitchen with two aliens behind them, undulating through the water like eels with grudges.
+
+Then the aliens carry Ripley to their nest, and we learn the DNA traded in both directions. The queen has acquired a womb. She lies on her back, little legs pedaling, belly heaving, and gives birth to a pale hybrid with mournful eyes and a long red tongue, like Pumpkinhead after a bad night. It's less frightening than any ordinary alien because it's too much like us. The creatures of Ridley Scott and James Cameron were entirely other. When Cameron's queen wanted Ripley, she tore loose from her nest and went after her. A queen in labor is something you feel sorry for.
+
+Joss Whedon wrote the screenplay and later said everything about the execution was wrong. Most of his dialogue reached the screen, so I take him to mean the tone. He wrote a gothic space western about playing God. Jeunet, who started the shoot speaking no English, saw the silliness and played it up. Dan Hedaya's general is cartoonishly corrupt. Brad Dourif's mad scientist coos at the creatures through the glass like a man at a pet store. Gary Dourdan's space pirate banks bullets off walls like a pool hustler. Winona Ryder plays a young mechanic with a secret and brings to it the sincerity Whedon likely intended.
+
+Everything else is pulp, including the violence. One character, struck from behind, reaches back, pulls out a piece of his own brain, studies it like misdelivered mail and falls over. Later a doomed man uses the chest-burster inside him as a weapon. Even the aliens have a creature-feature sheen, glistening as if freshly unwrapped and drooling ropes of slime.
+
+Jeunet's instinct was right, because Whedon's script can't survive being taken seriously. A clone made from blood somehow inherits Ripley's memories. When the aliens escape, Dourif doesn't sound an alarm; he strolls into the cell to investigate. The station can reach Earth in three hours, which makes you wonder why anyone in this future would need cryosleep. The finale empties a compartment through a hole the size of a fist, taking the hybrid with it, while Ripley stands nearby apparently having made her peace with vacuum. 
+
+As for the two-century time jump, the only acknowledgment is a line about Weyland-Yutani being bought by Wal-Mart. Surgeons still operate by hand, the monitors are grainy, and a paraplegic pirate rolls around in a wheelchair your grandfather would recognize. On the DVD commentary, concept artist Sylvain Despretz recalls asking Jeunet whether the sets should reflect the passage of time. Jeunet wasn't concerned.
+
+Anyone expecting a proper fourth chapter will be disappointed. Go in expecting a Brian Yuzna picture with effects by Screaming Mad George and you'll be in the right frame of mind. It's better than _Alien 3_, which remade the original with duller people in a duller place. David Fincher's film looks better, all smoke and mist, but this one delivers more action and superior effects.
+
+I suspect Jeunet did his job a little too well. Had he tipped fully into camp, the film would have been a disaster, and disasters find devoted defenders. Consider the _Batman_ films of Joel Schumacher. Instead Jeunet kept enough of Whedon's earnestness to land it in the middle, where a movie is merely okay and nobody writes essays about it. It will never stand beside the first two films, but on its own slimy terms it's a fun time.
