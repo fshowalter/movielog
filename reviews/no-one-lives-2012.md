@@ -2,8 +2,10 @@
 imdb_id: tt1763264
 slug: no-one-lives-2012
 grade: B
-date: 2026-05-02
-synopsis: A ruthless gang of thieves waylays a couple driving cross-country only to learn ruthless is a relative term.
+date: 2026-10-24
+synopsis: A ruthless gang of thieves waylays a couple driving cross-country only to
+  learn ruthless is a relative term.
+title: No One Lives (2012)
 ---
 
 We've all done it. Sitting through some lesser horror picture, we stop rooting for the victims and start pulling for the guy with the machete. Sometimes it's because the villain is delicious. More often it's because the heroes are morons. They run upstairs. They hide in closets. They split up. We lose patience, then sympathy, and finally interest.
@@ -27,4 +29,3 @@ Sure, some of the dialogue is stilted, and a few speeches try too hard to sound 
 I can imagine this film sharing a universe with <span data-imdb-id="tt0844479">_The Collector_</span>, another underrated exploitation picture that clocks in under ninety minutes and longs to thrill its audience rather than punish it. Both films understand something important: you can be violent without being about violence. You can show terrible things and still be about the ride. 
 
 _No One Lives_ is a hell of a ride.
-
