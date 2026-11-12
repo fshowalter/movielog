@@ -1,0 +1,21 @@
+---
+imdb_id: tt0099743
+slug: the-haunting-of-morella-1990
+grade: C-
+date: 2026-10-31
+synopsis: In colonial New England, a witch burned alive returns to possess her teenage daughter, with secret help from the girl's buxom governess.
+---
+
+Roger Corman has made Poe's "Morella" twice. The first time was in 1962, as a segment of <span data-imdb-id="tt0056552">_Tales of Terror_</span>, with Vincent Price brooding in a cobwebbed mansion and blaming his daughter, Lenora, for her mother's death. The second time, in 1990, Corman produced and Jim Wynorski directed, and the cobwebs gave way to bathwater.
+
+The new version opens at a witch trial in colonial New England, or in a New England with the brown hills and scrub oak of greater Los Angeles. The townsfolk blind a witch named Morella (Nicole Eggert), crucify her, and burn her alive, which seems like more steps than the job requires. She leaves behind a husband, Gideon (David McCallum), and an infant daughter. Seventeen years later Gideon is blind himself and well into madness. He has kept the girl, Lenora (Eggert again), shut away with the help of a governess, Coel (Lana Clarkson), who was Morella's disciple and lover and has been counting the days until Lenora is old enough for Morella to move in. Now Lenora is about to come into her inheritance, and sparks fly with the young attorney who brings the papers. 
+
+I can report that every woman in the cast removes her clothes at least once, and that this household, which predates indoor plumbing, bathes more than any other in the thirteen colonies. Eggert's nude scenes are left to a body double, and the editing makes little effort to hide the swap. The whole enterprise feels like something you would have found on Cinemax at 1 a.m., which for some readers is a recommendation and for the rest is fair warning. There is a throat-slitting, and it leads, as everything here does, to another bath. The running time is 82 minutes, and Wynorski wastes very few of them.
+
+The movie looks better than it has any right to. Wynorski reused sets from <span data-imdb-id="tt0100811">_Transylvania Twist_</span>, his horror spoof of the year before, and lit them with so many red candles he must have bought them by the gross. On his commentary track he says the candles are a tribute to the Corman-Price pictures, and that his real inspiration was Hammer's <span data-imdb-id="tt0067367">_Lust for a Vampire_</span>, which I would have guessed by the second bodice. The matte paintings are crude, but the interiors have real atmosphere. Shot in England, in actual fog, this could pass for late Hammer.
+
+Wynorski is a devoted fan of _The Man from U.N.C.L.E._, and he had cast Robert Vaughn in _Transylvania Twist_. Now he gives Vaughn's old partner the same hallways. McCallum plays Gideon as if he'd been loaned out from Hammer for the week, with a seriousness the material doesn't ask for and is lucky to get. Clarkson has the opposite gift. She knows exactly what kind of movie she's in and plays the governess as Mrs. Danvers with a lower neckline. 
+
+That leaves Eggert, who was commuting to the set from _Charles in Charge_. I like to picture her wrapping a scene as the teenage daughter in a sitcom household and driving across town to be possessed by her dead mother; given Los Angeles traffic, the drive may have been the scarier part. She isn't bad. When Morella takes over, Eggert holds herself stiller, moves more deliberately, and lets something cold into her eyes. In a contemporary possession thriller she would have been fine. But the period dialogue defeats her. Every line comes out sounding like 1989, and when she addresses McCallum as "Father," you half expect her to ask for the car keys. McCallum and Clarkson handle the same language without strain, which makes the gap harder to ignore.
+
+I can't call _The Haunting of Morella_ a good movie with a straight face, and I doubt Wynorski would ask me to. It is entertaining, though, and if nothing in this review has put you off, nothing in the movie will.
