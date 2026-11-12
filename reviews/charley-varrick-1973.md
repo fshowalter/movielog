@@ -2,8 +2,11 @@
 imdb_id: tt0069865
 slug: charley-varrick-1973
 grade: B+
-date: 2026-07-14
-synopsis: Small-time crook Walter Matthau knocks over a podunk New Mexico bank for what should be a few thousand dollars, comes away with three-quarters of a million, and knows exactly whose money he's taken.
+date: 2026-11-05
+synopsis: Small-time crook Walter Matthau knocks over a podunk New Mexico bank for
+  what should be a few thousand dollars, comes away with three-quarters of a million,
+  and knows exactly whose money he's taken.
+title: Charley Varrick (1973)
 ---
 
 Walter Matthau has the face of a man who's been losing slowly for a long time and has gotten very good at it. It hangs in folds, it apologizes in advance, and Hollywood spent fifteen years using it to get laughs. In _Charley Varrick_, Don Siegel uses it and never once asks it to be funny. What comes back is the portrait of a man who could have been somebody if two or three things had broken his way. But they didn't. 
