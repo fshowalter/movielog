@@ -2,9 +2,12 @@
 imdb_id: tt0083313
 slug: killer-constable-1980
 grade: B+
-date: 2026-06-09
-synopsis: A merciless Qing dynasty constable leads a dwindling squad to recover stolen gold and discovers, too late, that he has been descending into hell.
+date: 2026-11-19
+synopsis: A merciless Qing dynasty constable leads a dwindling squad to recover stolen
+  gold and discovers, too late, that he has been descending into hell.
+title: Killer Constable (1980)
 ---
+
 You must endure the first ten minutes. 
 
 Trust me, it's worth it. 

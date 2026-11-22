@@ -1,9 +1,11 @@
 ---
 imdb_id: tt0049743
 slug: 7-men-from-now-1956
-grade: B+
-date: 2026-06-30
-synopsis: In old Arizona, former lawman Randolph Scott hunts the seven men responsible for his wife's death and crosses paths with a couple heading to California.
+grade: A-
+date: 2026-11-19
+synopsis: In old Arizona, former lawman Randolph Scott hunts the seven men responsible
+  for his wife's death and crosses paths with a couple heading to California.
+title: 7 Men from Now (1956)
 ---
 
 Most revenge westerns begin with the crime. They give you the happy marriage, the robbery, the gunshot, the funeral, the hero strapping on his irons. 
