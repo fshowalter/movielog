@@ -1,0 +1,21 @@
+---
+imdb_id: tt0290329
+slug: visitor-q-2001
+grade: B-
+date: 2026-11-13
+synopsis: A stranger uses rocks to the head and bodily fluids to reshape a dysfunctional Japanese family.
+---
+
+The first scene of _Visitor Q_ shows a father paying his daughter for sex. A title card has already asked whether we have ever done it with our own daughters, so no one can say they weren't warned. He finishes quickly. She calls him an early bird and doubles her price. Takashi Miike means this as the opening of a comedy.
+
+Japanese cinema has watched families drift apart for most of a century, and in Ozu the drifting happens over tea. Miike, working from a script by Itaru Era, keeps the outline of that kind of melodrama and replaces the tea with bodily fluids. Kiyoshi (Kenichi Endo) is a television reporter whose career stalled after a gang of kids humiliated him on camera, and the interview with his daughter is meant for a segment on teenage prostitution. She no longer lives at home. The son who does (Jun Muto) is bullied at school and takes it out on his mother with a rug beater. She accepts the beating without a word, goes to her room and injects heroin, which she pays for by turning tricks. Shungiku Uchida, better known in Japan as a manga artist, plays her and gives the bravest performance in the movie.
+
+Then the visitor (Kazushi Watanabe) arrives. Kiyoshi is waiting at a train station when a man in a red shirt, smoking outside the window behind him, opens it and hits him on the head with a rock. Later the man hits him again on the street, and in the next scene Kiyoshi brings him home and announces that his new friend will be staying awhile. The visitor watches the beatings and the needle with mild interest. Pasolini's <span data-imdb-id="tt0063678">_Teorema_</span> had a stranger who moved into a household and slept with everyone in it. Miike's stranger has a more particular effect on the mother, one involving milk, and I will leave it there.
+
+Miike shot the movie on digital video in about a week, for 7 million yen, roughly $60,000. It looks like video. In the opening scene he cuts among his own camera, the camcorder Kiyoshi holds for the interview and another in the daughter's hands, so we see the act in grades of murk, and the effect is close to homemade pornography. That is deliberate, I think, and the grainier footage also flatters his own. 
+
+Still, he composes like a man with a real camera. The frame is nearly square, and he uses all of it. In one shot the mother shuffles back and forth on the right while, through a doorway on the left, Kiyoshi and the visitor eat in the kitchen, half out of frame and oblivious to her. When she leaves, Miike pans over and keeps the two men framed in the doorway. Most shot-on-video features look as if whoever held the camera directed them. Miike seems to have known where every actor should stand before he arrived on the set, which, given the schedule, he must have. Even so, boom mikes dip into a few shots nobody had time to redo.
+
+Like Miike's <span data-imdb-id="tt0235198">_Audition_</span>, _Visitor Q_ is about a Japanese man who doesn't see the women closest to him. _Audition_ punished him for it. _Visitor Q_ makes fun of him, which may be worse. When anything happens to his family, Kiyoshi's instinct is to point a camera at it. The movie raises the degradation scene by scene until the audience runs out of ways to be shocked and starts to laugh. That happened to me during the scene in which a man has sex with a corpse and makes a discovery about her. I laughed until tears ran down my face, and then I wondered what kind of person laughs at that, which may be what Miike wanted me to wonder. Horror and comedy both depend on catching us unprepared, and Miike goes so far into the first that he comes out in the second.
+
+The opening scene is a fair test. If it is too much for you, stop there, because the movie gets much darker. If you have a taste for black comedy and the stomach to go where Miike leads, you will find the darkness ends, of all places, in a happy home.
